@@ -4,7 +4,7 @@
 
 [Complete Program Syllabus](./schedule/syllabus.md)
 
-## Detailed Schedule per Week
+## Detailed Schedule
 
 - [Week 1](./schedule/week-1.md)
 - [Week 2](./schedule/week-2.md)

@@ -1,4 +1,4 @@
-# Impact Byte 8-Week Program Syllabus
+# Impact Byte 8-Week Education Program Syllabus
 
 Make Impact with Your Code
 
@@ -176,5 +176,4 @@ In here, participants with various backgrounds will be discussing every day, que
 
 --------------------------------------------------------------------------------
 
-Sign up for free now: <impactbyte.com/signup>
-
+Sign up for free now: [impactbyte.com/signup](https://impactbyte.com/signup)
