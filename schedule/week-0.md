@@ -47,27 +47,6 @@ The very recommended OS for coding and programming is UNIX OS-based, such as App
 - Apple macOS: [Terminal](http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line) or [iTerm2](https://iterm2.com)
 - Windows: [PowerShell](https://msdn.microsoft.com/en-us/powershell/scripting/setup/installing-windows-powershell)
 
-### Know about version control
-
-- [Git](https://git-scm.com)
-- [GitHub](https://github.com)
-- [Learn Git](https://codecademy.com/learn/learn-git)
-
---------------------------------------------------------------------------------
-
-## Read some basic materials
-
-Here we provide some links to free coding and programming books. Feel free to explore them.
-
-### HTML and CSS
-
-- [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css)
-- [Learn to Code Advanced HTML & CSS](http://learn.shayhowe.com/advanced-html-css)
-
-### JavaScript
-
-...
-
 --------------------------------------------------------------------------------
 
 ## Explore and practice with online tutorials
@@ -97,3 +76,22 @@ Here we provide some links to free coding and programming books. Feel free to ex
 - [Learn the Command Line](https://codecademy.com/learn/learn-the-command-line)
 - [Command Line Power User](https://commandlinepoweruser.com)
 - [Try Git and GitHub](https://try.github.io)
+- [Learn Git](https://codecademy.com/learn/learn-git)
+- [Git](https://git-scm.com)
+- [GitHub](https://github.com)
+
+--------------------------------------------------------------------------------
+
+## Read some more free basic materials
+
+Here we provide some links to free coding and programming books. Feel free to explore them.
+
+### HTML and CSS
+
+- [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css)
+- [Learn to Code Advanced HTML & CSS](http://learn.shayhowe.com/advanced-html-css)
+
+### JavaScript
+
+- [What You Need to Know about JavaScript](https://packtpub.com/packt/free-ebook/what-you-need-know-about-javascript)
+- [Thinking in JavaScript](https://packtpub.com/packt/free-ebook/thinking-in-javascript)
