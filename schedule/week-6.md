@@ -1,12 +1,16 @@
-## Week 6: Build a Startup Product
+## Week 6: Build a Startup Product Clone
 
 ### Day 26
 
 - Pair programming
+  - codeburst.io/pair-programming-is-hard-a5da3449b67a
 - Build a startup product clone from scratch in 5 days
   - Choose one of many products like Twitter, Facebook, Airbnb, Product Hunt, Google, Stack Overflow, etc
 - Choose and plan the product
 - Build the wireframe and mockup
+  - Design Thinking
+  - Design Sprint
+  - Rapid Prototyping
 - Build the initial data model
 - Build the initial UI and routes
   - Use UI framework to fasten development
@@ -23,15 +27,18 @@
 
 ### Day 28
 
-- Build the authentication
+- Build the authentication: basic and OAuth
 - Build the account confirmation system
 - Build the forgot password system
 
 ### Day 29
 
-- Add OAuth
-- Add payment system
+- Add other systems: analytics, logging, payment, etc
 - Optimize for responsive design
+- Accelerated Mobile Pages (AMP)
+- Progressive Web Apps (PWA)
+  - Offline support
+  - Service workers
 
 ### Day 30
 

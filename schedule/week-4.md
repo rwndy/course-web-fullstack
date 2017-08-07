@@ -6,88 +6,80 @@
 
 - Application architecture and system analysis
   - If you want to build a social network, a market-place, a car-rental system, a restaurant booking platform, then you need to organize your code with a smart architecture
-- Design patterns and procedures
-  - MVC design pattern
-  - Redux design pattern
-- Classic algorithms
-  - Big-O notation for complexity
-  - Counter
-  - Sort: simple, dictionary
-  - Search: linear, binary
-- Classic data structures
-  - Stack
-  - Queue
-  - List
-  - Linked List
-  - Graph
-  - Tree and Binary Tree
+- React.js basics
+  - vs Preact, Vue, Angular, Web Components, Elm, etc
+  - Component and virtual DOM
+    - Creating Components and writing HTML with JSX
+      - DSL (domain specific language) over JavaScript
+    - Parent and child
+  - React Conventions
+    - Stateless Functional Components
+  - Passing data between components with with Props
+    - Props, PropTypes, and defaultProps
+  - Understanding State and holding data
+  - Constructors and State
+  - Event handling
+  - vs Preact
+  - Fetching data from an AJAX endpoint
+  - Persisting data with LocalStorage
+  - Working with Forms, retrieving data from DOM inputs
+  - React Deployment
+- UI Components Library
+- Build system
+  - Webpack
+- References
+  - https://github.com/petehunt/react-howto
 
-### Daily Work
+### Project
 
+- Number Conversion
+- Restaurant Simulation
 - Counter Puzzle
-- Sorting
-  - Quick sort
-- Searching
-  - Linear search
-  - Binary search 
-- Number conversion
 
 --------------------------------------------------------------------------------
 
 ## Day 17
 
-- React.js basics
-  - Component and Virtual DOM
-  - JSX
-    - DSL (domain specific language) over JavaScript
-  - React Conventions
-  - Props, PropTypes, and defaultProps
-  - Constructors and State
-  - Event handling
-  - React Router
-  - vs Preact
-- UI Components
-- Build system
-  - Webpack
-
-### Daily Work
-
-- 
-
---------------------------------------------------------------------------------
-
-## Day 18
-
 - React optimized
-  - CSS-in-JS
+  - Routing with React Router
+  - CSS in JS
   - Server side rendering (SSR) with Next.js
   - Static site
 - D3.js for diagramming
 
-### Daily Work
+### Project
 
 - Content Management System (CMS)
 
 --------------------------------------------------------------------------------
 
-## Day 19
+## Day 18
 
 - Flow static type checker
 - Frontend testing libraries
   - Jest, Enzyme
   - Snapshot testing
 
-### Daily Work
+### Project
+
+--------------------------------------------------------------------------------
+
+## Day 19
+
+- Better state management
+  - Flux
+  - Redux
+  - MobX
+
+### Project
+
+- Job Board
 
 --------------------------------------------------------------------------------
 
 ## Day 20
 
-- Redux concept and implementation
-  - Know there is Flux and MobX
 - Team work
-
-### Daily Work
 
 --------------------------------------------------------------------------------
 

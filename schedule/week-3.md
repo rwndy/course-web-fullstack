@@ -9,6 +9,8 @@
   - Tables, relations, connections
   - Entity Relationship Diagram (ERD)
   - Data Flow Diagram (DFD)
+  - Extract, Transform, Load (ETL)
+  - Indexing
 - SQL
   - SQLite, MySQL, PostgreSQL
     - MySQL Workbench
@@ -18,7 +20,7 @@
   - Sequelize, Knex.js
   - Migration
 
-### Daily Work
+### Project
 
 - Schema Design
 - URL Shortener
@@ -29,16 +31,18 @@
 ## Day 12
 
 - NoSQL/Schemaless
-  - Firebase
   - MongoDB
     - Robomongo
     - mLab
     - MongoDB Atlas
+  - Firebase
   - Redis
 - ODM
   - Mongoose, Mongorito
+- API based CMS backend
+  - Contentful
 
-### Daily Work
+### Project
 
 - Todo app
 - Blog system
@@ -47,10 +51,18 @@
 
 ## Day 13
 
+- Testing methodologies
+  - Unit
+  - Functional
+  - Integration/API
+  - E2E
+- JavaScript testing tools
+  - Mocha, Chai, Jasmine, Karma, Selenium, Nightmare, CucumberJS
+    - Chai HTTP
 - Test-Driven Development (TDD)
 - Continuous Integration and Deployment (CI/CD)
 
-### Daily Work
+### Project
 
 - Contact book
 
@@ -59,6 +71,7 @@
 ## Day 14
 
 - Programming Paradigms
+  - Imperative vs declarative
   - Discover object-oriented programming (OOP)
     - Characteristics
     - public, private interface
@@ -67,7 +80,7 @@
     - Quick overview of UML
   - Discover functional programming (FP)
 
-### Daily Work
+### Project
 
 - E-Commerce with shopping cart
 
@@ -75,6 +88,7 @@
 
 ## Day 15
 
+- Tech dichotomy
 - Team work
 
 --------------------------------------------------------------------------------
