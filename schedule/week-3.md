@@ -89,6 +89,10 @@
 ## Day 15
 
 - Tech dichotomy
+- Database configuration
+  - Backup dump
+  - Master slave
+  - Replica set
 - Team work
 
 --------------------------------------------------------------------------------

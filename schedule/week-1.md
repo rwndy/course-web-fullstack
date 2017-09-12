@@ -20,12 +20,13 @@
   - Get into the flow
   - English all the way
   - Growth mindset
+  - Read Read Read Work Work Work
   - Have fun while doing it!
 - HTML basics
   - What is the difference between a website and a web app
   - Hello World
   - HTML core syntax tags: `doctype`, `html`, `head`, `body`, `meta`, `title`, `charset`, etc
-  - HTML basic tags: `h1`-`h7`, `p`, `a`, `span`, `div`, `article`, `section`, `aside`, `header`, `footer`, `span`, `img`, `button`, `ul, ol, dl, li`, `table`, etc
+  - HTML basic tags: `h1`-`h7`, `p`, `a`, `span`, `div`, `article`, `section`, `aside`, `header`, `footer`, `span`, `img`, `button`, `ul, ol, dl, li`, `table`, `iframe`, etc
   - Internationalization (i18n), Localization (l10n), Globalization (g11n), Localizability (l12y), Accessibility (a11y)
     - Accessible Rich Internet Applications (ARIA)
   - Add content, icons, and special characters
@@ -48,6 +49,7 @@
   - Encourage to explore GitHub and learning with other's code
 - Simple deployment of your website to the Internet
   - GitHub Pages, Netlify, Surge, Firebase Hosting
+  - vs FTP with Filezilla/CyberDuck
 - Plan your work efficiently
   - Manage your time better with timer and calendar
   - Sketch your idea down on a paper or white board
@@ -60,15 +62,14 @@
   - Install Linux Ubuntu for Windows users
     - Quickly learn APT and Homebrew to install apps
   - Features in code editors
-    - Command Pallette, split view, multiline editing, 
+    - Command palette, split view, multiline editing, git integration, plugins
+  - Time tracking
+    - RescueTime
 
 ### Project
 
 - hello-world
-  - README
-  - Good Commit Message
 - website-personal
-  - blog
 - social-media
 - employee-system
 
@@ -103,7 +104,7 @@
   - `selector`, `id`, `class`, descendant selector
   - Best practices and naming
   - Encapsulating content in `div`
-  - class composition, selector specificity
+  - Class composition, selector specificity
   - Page structure and layout with `div`
   - Box model: content, padding, border, margin
   - Positioning techniques: `inline`, `block`, `float`, `absolute`, `relative`, `fixed`
@@ -122,13 +123,13 @@
 
 ## Day 3
 
+- Semantic Web
+  - Browser's User Agent
+  - Modernizr
 - Search Engine Optimization (SEO)
   - Meta data/tags: Facebook OpenGraph, Twitter, Google Structured Data
   - Google Webmaster Tools
     - Webmaster Academy
-- Semantic Web
-  - Browser's User Agent
-  - Modernizr
 - UI framework: Bootstrap, a useful library to prototype web applications
   - Useful boilerplate
   - Various components: basic, buttons, images, navbar, labels, etc
@@ -142,6 +143,7 @@
  - CSS preprocessing and templating
   - Sass, Less, Stylus
   - variables, nesting, chaining
+- UX vs UI vs IA vs IxD
 - Files/assets compression
   - Cloudinary, JPEGmini
 - Site performance and optimization
@@ -152,7 +154,6 @@
 ### Project
 
 - website-personal
-
 - social-media
 - employee-system
 
@@ -215,7 +216,6 @@
 - address-book
 - todo
 - website-personal
-
 - social-media
 - employee-system
 
@@ -256,11 +256,12 @@
 
 ### Project
 
+- calculator-shape
 - website-personal
   - contact-form
   - slide-gallery
   - style-event
-- calculator-shape
+- social-media
 - employee-system
 - game-on
 
@@ -288,11 +289,17 @@
   - LinkedIn
   - Facebook
 - Simple project/product management basics
-  - Key steps: wireframe/mockup, data modeling, list of backlog or user stories
+  - Key steps: ideation, wireframe/mockup, data modeling, list of backlog or user stories
+  - Product hunt
   - Software licensing
 - Developer Roadmap 2017
 - Public speaking
   - Vocal warmups
+  - Slide deck and pitch deck
+- Process management
+  - `top`, `htop`
+  - process id, uptime
+  - CPU, RAM, Network, Disk
 - Team work
 
 ### Ideas
@@ -302,10 +309,14 @@
 - website-cafe
 - website-fashion
 - website-retail
+- website-commerce
 
 --------------------------------------------------------------------------------
 
 ## Weekend
 
-- Portfolio Work
+- Portfolio
+  - Polish up your current projects
+  - Create your own application
+  - Create a blog post
 - Exercises with [Codewars](https://codewars.com)

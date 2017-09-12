@@ -33,9 +33,13 @@
 
 - Monday to Friday
   - Weekday daily learning
+  - English day every Wednesday
   - Team work every Friday
+  - Guest mentorship on Friday if available
 - Saturday and Sunday
   - Weekend community activity
+    - Dine out
+    - Office tour
   - Continue to work on tasks anywhere
   - Build your career portfolio
 - If there is a national holiday on weekdays, we can shift it to Saturday

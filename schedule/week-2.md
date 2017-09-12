@@ -28,14 +28,17 @@
   - data validation
   - lazy loading
   - css-tricks.com/now-ever-might-not-need-jquery
+- Modernizr
+  - Polyfill
 
 ### Project
 
-- Chessboard
-- Interactive Page
-- Konami Code
-- Rock Dodger Game
-- Tic Tac Toe with Simple AI
+- website-personal
+- chessboard
+- snake
+- konami-code
+- rock-dodger
+- tictactoe
 
 --------------------------------------------------------------------------------
 
@@ -45,6 +48,7 @@
   - HTTP/HTTPS
   - HTTP request and response
   - AJAX requests
+  - Webhook
 - REST APIs and 3rd party integrations
   - vs SOAP
   - cURL, HTTPie, Postman
@@ -85,6 +89,7 @@
 - Web scraping
   - `fetch`, `axios`, `unirest`, `superagent`, etc
   - `cheerio`
+  - headless browser, phantomjs
   - `nightmare.js`
 - Web app deployment platforms
   - Netlify, Heroku, Now

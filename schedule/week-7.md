@@ -50,6 +50,7 @@
     - Amazon Lambda
   - Email transport system
     - SMTP, POP3, IMAP
+  - Serverless
 
 ### Day 35
 
