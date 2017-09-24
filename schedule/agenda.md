@@ -1,8 +1,8 @@
-# Agenda
+# Typical Agenda
 
 --------------------------------------------------------------------------------
 
-## Typical Schedule for Students
+## For Students
 
 ### Each Day
 
@@ -11,7 +11,7 @@
 - 09:00-10:30
   - Grab a coffee/tea, attend the morning course given by the mentors
 - 10:30-12:00
-  - Work on tasks with your buddy of the day with the help of our mentors
+  - Work on tasks with your friends with the help of our mentors
 - 12:00-13:00
   - Lunch with the provided meal, take a rest, and prayer
 - 13:00-16:30

@@ -1,42 +1,56 @@
 ## Week 8: Final Team Product and Graduation
 
+--------------------------------------------------------------------------------
+
 ### Day 36
 
-- Product development
-- Career preparation
+### Product development
+### Career preparation
   - Create a fit resume/CV, profile, portfolio, and website
   - Complete your professional profile (Website, CV, Resume, LinkedIn)
     - Put education, endorsement, and review
   - Job search guide
   - Networking opportunities
-- Resources
-  - https://medium.com/superhi/how-to-get-a-job-in-the-tech-industry-9b3ca6d5ee88
-  - https://medium.com/superhi/how-to-go-freelance-fe625e5bb1d1
-  - https://medium.com/superhi/how-to-start-a-startup-without-ruining-your-life-af45eec09406
+  - Review our programs
+### Resources
+
+- https://medium.com/superhi/how-to-get-a-job-in-the-tech-industry-9b3ca6d5ee88
+- https://medium.com/superhi/how-to-go-freelance-fe625e5bb1d1
+- https://medium.com/superhi/how-to-start-a-startup-without-ruining-your-life-af45eec09406
+
+--------------------------------------------------------------------------------
 
 ### Day 37
 
-- Product development
-- Career preparation
+### Product development
+### Career preparation
   - Mock technical interview and training
+  
+--------------------------------------------------------------------------------
 
 ### Day 38
 
-- Product development
+### Product development
+
+--------------------------------------------------------------------------------
 
 ### Day 39
 
-- Product development
-- Final rehearsal
+### Product development
+### Final rehearsal
+
+--------------------------------------------------------------------------------
 
 ### Day 40
 
-- Last hours of development
-- Final team presentation
+### Last hours of development
+### Final team presentation
   - 5 minutes of opening
   - 10-15 minutes of a demo of the product, no slide needed
   - 5 minutes of closing
-- Celebration
+### Celebration
+
+--------------------------------------------------------------------------------
 
 ### Day 41-45 Graduation
 

@@ -2,11 +2,11 @@
 
 --------------------------------------------------------------------------------
 
-## Day 16
+## Day 16 - Proactive Frontend
 
-- Application architecture and system analysis
+### Application architecture and system analysis
   - If you want to build a social network, a market-place, a car-rental system, a restaurant booking platform, then you need to organize your code with a smart architecture
-- React.js basics
+### React.js basics
   - vs Preact, Vue, Angular, Web Components, Elm, etc
   - Component and virtual DOM
     - Creating Components and writing HTML with JSX
@@ -24,11 +24,10 @@
   - Persisting data with LocalStorage
   - Working with Forms, retrieving data from DOM inputs
   - React Deployment
-- UI Components Library
-- Build system
-  - Webpack
-- References
   - https://github.com/petehunt/react-howto
+### UI Components Library
+### Build system
+  - Webpack, Gulp, Grunt, Rollup, Broccoli
 
 ### Project
 
@@ -38,14 +37,16 @@
 
 --------------------------------------------------------------------------------
 
-## Day 17
+## Day 17 - Sophisticated Activation
 
-- React optimized
+### React optimized
   - Routing with React Router
   - CSS in JS
   - Server side rendering (SSR) with Next.js
   - Static site
-- D3.js for diagramming
+### Diagramming
+
+- D3.js
 
 ### Project
 
@@ -53,10 +54,11 @@
 
 --------------------------------------------------------------------------------
 
-## Day 18
+## Day 18 - Types and Tests
 
+### Static typing
 - Flow static type checker
-- Frontend testing libraries
+### Frontend testing libraries
   - Jest, Enzyme
   - Snapshot testing
 
@@ -64,12 +66,13 @@
 
 --------------------------------------------------------------------------------
 
-## Day 19
+## Day 19 - Power Control
 
-- Better state management
-  - Flux
-  - Redux
-  - MobX
+### Better state management
+
+- Flux
+- Redux
+- MobX
 
 ### Project
 

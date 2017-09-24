@@ -2,98 +2,117 @@
 
 --------------------------------------------------------------------------------
 
-## Day 11
+## Day 11 - Structured Collection
 
-- Database
-  - Data modeling
-  - Tables, relations, connections
-  - Entity Relationship Diagram (ERD)
-  - Data Flow Diagram (DFD)
-  - Extract, Transform, Load (ETL)
-  - Indexing
-- SQL
-  - SQLite, MySQL, PostgreSQL
-    - MySQL Workbench
-    - Schema
-    - Read/write data and make  queries to the database
-- ORM
-  - Sequelize, Knex.js
-  - Migration
+### Database
 
-### Project
+- Data modeling
+- Tables, relations, connections
+- Entity Relationship Diagram (ERD)
+- Data Flow Diagram (DFD)
+- Extract, Transform, Load (ETL)
+- Indexing
 
-- Schema Design
-- URL Shortener
-- Student Information System
+### SQL
 
---------------------------------------------------------------------------------
+- SQLite, MySQL, PostgreSQL
+  - MySQL Workbench
+  - Schema
+  - Read/write data and make  queries to the database
+  
+### ORM
 
-## Day 12
+- Sequelize, Knex.js
+- Migration
 
-- NoSQL/Schemaless
-  - MongoDB
-    - Robomongo
-    - mLab
-    - MongoDB Atlas
-  - Firebase
-  - Redis
-- ODM
-  - Mongoose, Mongorito
-- API based CMS backend
-  - Contentful
+### Database configuration
+
+- Backup dump
+- Master slave
+- Replica set
 
 ### Project
 
-- Todo app
-- Blog system
+- database-schema-design
+- todo
+- url-shortener
+- people-management-system
 
 --------------------------------------------------------------------------------
 
-## Day 13
+## Day 12 - Unstructured Collection
 
-- Testing methodologies
-  - Unit
-  - Functional
-  - Integration/API
-  - E2E
-- JavaScript testing tools
-  - Mocha, Chai, Jasmine, Karma, Selenium, Nightmare, CucumberJS
-    - Chai HTTP
-- Test-Driven Development (TDD)
-- Continuous Integration and Deployment (CI/CD)
+### NoSQL/Schemaless
+
+- MongoDB
+  - Robomongo
+  - mLab
+  - MongoDB Atlas
+- Firebase
+- Redis
+
+### ODM
+
+- Mongoose, Mongorito
+
+### API based CMS backend
+
+- Contentful
 
 ### Project
 
-- Contact book
+- todo
+- blog
 
 --------------------------------------------------------------------------------
 
-## Day 14
+## Day 13 - Pyramid of Experiments
 
-- Programming Paradigms
-  - Imperative vs declarative
-  - Discover object-oriented programming (OOP)
-    - Characteristics
-    - public, private interface
-    - Structuring your programs into different objects
-    - `class`, `extends`, `constructor`
-    - Quick overview of UML
-  - Discover functional programming (FP)
+### Testing methodologies
+
+- Unit
+- Functional
+- Integration/API
+- E2E
+
+### JavaScript testing tools
+
+- Mocha, Chai, Jasmine, Karma, Selenium, Nightmare, CucumberJS
+  - Chai HTTP
+
+### Test-Driven Development (TDD)
+
+### Continuous Integration and Deployment (CI/CD)
 
 ### Project
 
-- E-Commerce with shopping cart
+- contact-book
 
 --------------------------------------------------------------------------------
 
-## Day 15
+## Day 14 - Different View of Solving
 
-- Tech dichotomy
-- Database configuration
-  - Backup dump
-  - Master slave
-  - Replica set
-- Team work
+### Programming Paradigms
+
+- Imperative vs declarative
+- Discover object-oriented programming (OOP)
+  - Characteristics
+  - public, private interface
+  - Structuring your programs into different objects
+  - `class`, `extends`, `constructor`
+  - Quick overview of UML
+- Discover functional programming (FP)
+
+### Project
+
+- ecommerce
+  - shopping-cart
+
+--------------------------------------------------------------------------------
+
+## Day 15 - Tech Dichotomy
+
+### Team work
 
 --------------------------------------------------------------------------------
 

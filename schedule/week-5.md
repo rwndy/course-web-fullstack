@@ -2,13 +2,11 @@
 
 ## Day 21
 
-- Review Redux
-- Authentication and authorization
+### Review Redux
+### Authentication and authorization
   - Password
   - JSON Web Token (JWT)
   - Passport and Auth0
-- Server
-  - Deploy your apps on Heroku, using the same workflow as successful startups
 
 ### Project
 
@@ -16,26 +14,26 @@
 
 ## Day 22
 
-- Auth
+### Auth
   - OAuth: Facebook, Twitter, Google, GitHub
   - Passwordless: Email, SMS, or voice
-- Promotional and transactional email
+### Promotional and transactional email
   - MailChimp, MailerLite
   - Postmark, SendGrid, Mailgun
-- File upload
+### File upload
 - Webhook
 
 ### Project
 
-- Auth with social media
+- social-media-auth
 
 --------------------------------------------------------------------------------
 
 ## Day 23
 
-- Web Server Platform
+### Web Server Platform
   - Nginx, Apache, IIS
-- Internet and cloud computing
+### Internet and cloud computing
   - TCP/IP and OSI layer
     - Address
   - More web protocols
@@ -50,7 +48,8 @@
     - Cloudflare
   - SSL/TLS
     - Let's Encrypt
-- Other web technologies
+### Other web technologies
+  - Geolocation
   - Notifications
   - Payment processing
   - HTML5 Canvas
@@ -64,13 +63,13 @@
 
 ## Day 24
 
-- Classic algorithms
+### Classic algorithms
   - Search: linear, binary tree
   - Sort: simple, dictionary
   - Computational complexity
   - Big-O notation
   - Counter
-- Classic data structures
+### Classic data structures
   - Stack
   - Queue
   - List
@@ -99,14 +98,14 @@
 
 ## Day 25
 
-- DevOps culture
+### DevOps culture
   - What is DevOps: https://blog.stormid.com/2017/08/what-is-devops
   - DevSecNetOps
-- Security
+### Security
   - Server protection: https://digitalocean.com/community/tutorials/7-security-measures-to-protect-your-servers
-- Automation
+### Automation
   - cronjob
-- Team work
+### Team work
 
 --------------------------------------------------------------------------------
 
