@@ -2,7 +2,7 @@
 
 --------------------------------------------------------------------------------
 
-## [Day 1 - The Web Development Ecosystem](https://drive.google.com/open?id=17UUV57zGiWvlHf297pDB1ynQ9YZD1Z4nXQlleiavy6w)
+## [Day 1](https://drive.google.com/open?id=17UUV57zGiWvlHf297pDB1ynQ9YZD1Z4nXQlleiavy6w)
 
 ### Shape your developer mindset
 
@@ -37,7 +37,7 @@
 
 ### Code, workflow, and installation
 
-- Writing clean code and readable code
+- Writing readable code
 - Debug your code with developer tools
 - Enhance your code editor with variety of plugins: Emmet and Beautify
 - OS features and package manager
@@ -82,7 +82,7 @@
 
 --------------------------------------------------------------------------------
 
-## [Day 2 - Towards the Better Web and Design](https://drive.google.com/open?id=1u_k_GFZSKEiWx89VoQ4IYU6nFE7FOke2yye9YcakCkI)
+## [Day 2](https://drive.google.com/open?id=1u_k_GFZSKEiWx89VoQ4IYU6nFE7FOke2yye9YcakCkI)
 
 ### Terminal and editor
 
@@ -162,6 +162,7 @@
 - UI/UX Design
 - High quality images: Unsplash, Pexels
 - Experience flow
+- A/B testing
 - [Forgotten Things to Design](https://medium.com/ux-power-tools/50-things-you-probably-forgot-to-design-7a288b0ef914)
 
 ### Site performance and optimization
@@ -173,7 +174,7 @@
 
 --------------------------------------------------------------------------------
 
-## [Day 3 - Geting Logical for Programming](https://drive.google.com/open?id=1ioVJq0ibfg-mVEzaLkqY_hGb-DnT_4RC_r8FsoIUAp0)
+## [Day 3](https://drive.google.com/open?id=1ioVJq0ibfg-mVEzaLkqY_hGb-DnT_4RC_r8FsoIUAp0)
 
 ### The field of software development and engineering
 
@@ -225,6 +226,7 @@
 - Clean Code
 - Don't Repeat Yourself (DRY)
 - Single Responsibility Principle (SRP)
+- [JavaScript Clean Coding Best Practices](https://blog.risingstack.com/javascript-clean-coding-best-practices-node-js-at-scale)
 
 ### Using online code testing and sharing
 
@@ -232,7 +234,7 @@
 
 --------------------------------------------------------------------------------
 
-## [Day 4 - Tricks of Logics](https://drive.google.com/open?id=14NFCP65nISjeQ4P2Ezv-wpuHjqBqVMPBtIOlA_eoYzc)
+## [Day 4](https://drive.google.com/open?id=14NFCP65nISjeQ4P2Ezv-wpuHjqBqVMPBtIOlA_eoYzc)
 
 ### JavaScript intermediate
 
@@ -288,7 +290,7 @@
 
 --------------------------------------------------------------------------------
 
-## [Day 5 - Professional Developer World](https://drive.google.com/open?id=1B2pNrsy7oav7e1mDhUUSZgB7PCq4SuU28fLsDa1tDoo)
+## [Day 5](https://drive.google.com/open?id=1B2pNrsy7oav7e1mDhUUSZgB7PCq4SuU28fLsDa1tDoo)
 
 ### Professional Principles
 
@@ -307,6 +309,8 @@
 - Hard skills: Are a specific, teachable abilities that can be defined and measured, such as typing, writing, math, problem-solving and the ability to use software programs
 - Soft skills: Are less tangible and harder to quantify, such as etiquette, getting along with others, empathy, listening and engaging in small talk
 - Developer Roadmap 2017
+  - https://github.com/kamranahmedse/developer-roadmap
+  - https://github.com/ManzDev/roadmap-web-developer-2017
 
 ### Profiles
 

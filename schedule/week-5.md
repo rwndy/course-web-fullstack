@@ -103,6 +103,8 @@
   - DevSecNetOps
 ### Security
   - Server protection: https://digitalocean.com/community/tutorials/7-security-measures-to-protect-your-servers
+  - Prevent XSS, CSRF
+  - SQL Injection
 ### Automation
   - cronjob
 ### Team work

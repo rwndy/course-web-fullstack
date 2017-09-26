@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # ------------------------------------------------------------------------------
 # Automate repo checkout for all branches
 # ------------------------------------------------------------------------------
@@ -18,7 +20,7 @@ export SOURCE="${ROOT}/education/projects/${WEEK}"
 export TARGET="${ROOT}/${ORG}"
 export REPOS=($(<${ROOT}/education/projects/${WEEK}/${DAY}.txt))
 
-function checkout() {
+checkout() {
   echo ">>> CHECKOUT"
   cd ${1}
 
@@ -30,7 +32,7 @@ function checkout() {
   for branch in `git branch -r | cut -d '/' -f2`; do git checkout $branch && git pull origin $branch; done && git checkout master
 }
 
-function main() {
+main() {
   echo "Checking out all repos for ${WEEK} ${DAY}"
 
   for REPO in "${REPOS[@]}"

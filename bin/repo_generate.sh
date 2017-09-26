@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # ------------------------------------------------------------------------------
 # Automate repo template generation
 # ------------------------------------------------------------------------------
@@ -18,39 +20,68 @@ export TOKEN=${2}
 export ROOT=${3}
 export ORG=${4}
 export WEEK=${5}
-export DAY=${7}
-export SOURCE="${ROOT}/repo/education/projects/${WEEK}"
-export TARGET="${ROOT}/repo-class/${ORG}"
-export REPOS=($(<${ROOT}/education/projects/${WEEK}/${DAY}.txt))
+export DAY=${6}
 
-# Logging
-echo ${REPOS}
+export SOURCE="${ROOT}/repo/education/projects/${WEEK}"
+export REPOS=($(<${ROOT}/repo/education/projects/${WEEK}/${DAY}.sh))
+export TARGET="${ROOT}/repo-class/${ORG}"
+
+# echo $USERNAME
+# echo $TOKEN
+# echo $ROOT
+# echo $ORG
+# echo $WEEK
+# echo $DAY
+# echo $SOURCE
+# echo $REPOS
+# echo $TARGET
 
 # Generate single repo with master branch protection
-function generate() {
+generate() {
   echo ">>> GENERATE"
   echo "... create-github-repo"
-  echo "${USERNAME} ${ORG} ${1}"
+  echo "username=${USERNAME} org=${ORG} ${1}"
   curl -u "${USERNAME}:${TOKEN}" \
     -X POST https://api.github.com/orgs/${ORG}/repos \
     --data '{
       "name":"'${1}'",
       "public":"true",
       "auto_init":"true",
-      "license_template":"mit",
-      "gitignore_template":"node"
+      "license_template":"mit"
     }'
+
+  echo "... clone-repo"
+  git clone git@github.com:${ORG}/${1}.git
+  
+  echo "... change-dir"
+  cd $1
+
+  echo "... copy-content"
+  eval "cp -R ${SOURCE}/${1}/. ."
+  ls
+
+  echo "... add-commit-remote-push"
+  git add -A
+  git commit -m "Create initial repo"
+  git push -u origin master
+  cd ..
 
   echo "... protect-master-branch"
   curl -u "${USERNAME}:${TOKEN}" \
-    -H "Accept: application/vnd.github.loki-preview+json" \
+    -H "Accept: application/vnd.github.mercy-preview+json" \
     -X PUT https://api.github.com/repos/${ORG}/${1}/branches/master/protection \
     --data '{
       "required_status_checks": {
         "include_admins": true,
-        "strict": true,
+        "strict": false,
         "contexts": []
       },
+      "required_pull_request_reviews": {
+         "dismissal_restrictions": {},
+         "dismiss_stale_reviews": true,
+         "require_code_owner_reviews": false
+       },
+      "enforce_admins": true,
       "restrictions": {
         "users": [],
         "teams": [
@@ -58,33 +89,18 @@ function generate() {
         ]
       }
     }'
-
-  echo "... clone-repo"
-  git clone git@github.com:${ORG}/${1}.git
-
-  echo "... copy-content"
-  cd $1
-  eval "cp -R ${SOURCE}/${1}/source/. ."
-  ls
-
-  echo "... add-commit-remote-push"
-  git add -A
-  git commit -m "Create template"
-  git push -u origin master
-  cd ..
 }
 
-function clean() {
+clean() {
   echo ">>> CLEAN"
   echo "... delete-local-repo"
   rm -rf $1
   echo "... delete-github-repo"
-  echo "${USERNAME} ${ORG} ${1}"
   curl -u "${USERNAME}:${TOKEN}" \
     -X DELETE https://api.github.com/repos/${ORG}/${1}
 }
 
-function check() {
+check() {
   echo ">>> CHECK"
   cd ${1}
   pwd
@@ -92,34 +108,37 @@ function check() {
   cd ..
 }
 
-function test() {
+test() {
   echo ">>> TEST"
   echo "... create-github-repo"
-  echo "${USERNAME} ${ORG} ${1}"
+  echo "${USERNAME}@${ORG}/${1}"
 
   echo "... clone-repo"
   echo "https://github.com/${ORG}/${1}.git"
 
   echo "... copy-content"
-  echo "cp -R ${SOURCE}/${1}/source/. ${1}/."
+  echo "cp -R ${SOURCE}/${1}/. ${1}/."
 
   echo "... add-commit-remote-push"
+  echo "...committed..."
 }
 
-function main() {
-  echo "Generating challenge repos for ${WEEK} ${DAY}"
+main() {
+  echo ">>> GENERATING REPOS FOR : ${WEEK} : ${DAY}"
+  echo
 
   for REPO in "${REPOS[@]}"
   do
     eval "cd ${TARGET}"
+    echo "=== REPO : ${REPO} : START ==="
     echo
-    echo "=== ${REPO} ==="
-    echo
-    # clean $REPO
+    # test $REPO
+    clean $REPO
     generate $REPO
-    check $REPO
+    # check $REPO
     echo
-    echo "=== ${REPO} ==="
+    echo "=== REPO : ${REPO} : FINISH ==="
+    echo
     echo
   done
 }

@@ -1,13 +1,31 @@
 # Hello World
 
+--------------------------------------------------------------------------------
+
 ## Requirements
 
-Start our first project, Hello World! To practice our very basic skills on software development.
+Start our first project, Hello World! To practice our very basic skills on modern web development.
 
-### Level 0
+### Input
+
+N/A
+
+### Process
+
+- Use Git and GitHub
+- Use Markdown
+- Use HTML
+
+### Output
+
+N/A
+
+--------------------------------------------------------------------------------
+
+## Level 0
 
 - Relax your mind
-- Open your terminal based on your OS
+- Open your terminal/shell based on your OS
 - Install Git with your OS package manager or setup installation
 - Configure Git with your name and email
 
@@ -22,25 +40,74 @@ git config --global user.email "yourname@website.com"
 cd ~/documents
 ```
 
-- Open your browser to GitHub and create an account. Make sure to create your best username easy to read
+- Create a new repository based on a new created folder
 
-- Fork the provided repository from our class repo
+```sh
+mkdir my-new-repo
+cd my-new-repo
+git init
+```
 
-Go to <https://github.com/impactbyte-avalon/hello-world> then click `Fork`.
+- Create a blank file, create some text, then save it
 
-- Clone the forked GitHub repo from your own repo to your local computer
+```sh
+touch myfile.txt
+# edit with any editor
+```
+
+- Commit those changes
+
+```sh
+git add myfile.txt
+git commit -m "Create myfile.txt"
+```
+
+- Congrats! You just created a new Git repo
+- Explore with various Git commands you know, or use `man git` to learn more
+
+--------------------------------------------------------------------------------
+
+## Level 1
+
+- Open your browser to [GitHub](https://github.com) and create an account
+  - Make sure to create your username easy to read
+  - For example: `nikolatesla`, `thomasedison`
+- Fork and clone the provided repository from our class repo
+  - Go to your class' repo: <https://github.com/impactbyte-character/hello-world> then click `Fork`.
+  - Clone the forked GitHub repo from your own repo to your local computer
 
 ```sh
 git clone https://github.com/yourname/hello-world
 ```
 
-- 
+- Navigate to the cloned repo
 
-### Level 1
+```sh
+cd hello-world
+```
 
-- Create a
-- Create README with Markdown file format in your code editor
+- Make some changes with `README.md` file
+- Commit and push those changes
+
+```sh
+git add -A
+git commit -m "Change some texts"
+```
+
+--------------------------------------------------------------------------------
+
+## Level 2
+
+- Update the README with Markdown file format in your code editor
+  - Tell about your HTML file
+- Create an initial HTML file
+  - Fill it up with proper HTML tags
+  - Create a header,
 - Create some good Git commit messages
 - Push your changes to GitHub
 
-### Level 2
+--------------------------------------------------------------------------------
+
+## Level 3
+
+-

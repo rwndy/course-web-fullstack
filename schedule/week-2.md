@@ -43,8 +43,9 @@
 
 - HTTP/HTTPS
 - HTTP request and response
-- AJAX requests
+- AJAX/Fetch requests
 - Webhook
+- <https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data>
 
 ### REST APIs, web services, and 3rd party integrations
 

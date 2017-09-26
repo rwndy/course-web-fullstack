@@ -24,8 +24,18 @@
 
 ### Product development
 ### Career preparation
-  - Mock technical interview and training
-  
+- Mock technical interview and training
+- Interview Tips: Dos and Don'ts
+- How to start your preparation & self-assessment
+- Big-O analysis
+- Arrays
+- Strings
+- Linked Lists
+- Stacks & Queues
+- Trees
+- Graphs
+- Dynamic 
+
 --------------------------------------------------------------------------------
 
 ### Day 38

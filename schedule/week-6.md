@@ -10,7 +10,7 @@
 
 ### Build a startup product clone from scratch in 5 days
 
-- Choose one of many products like Twitter, Facebook, Airbnb, Product Hunt, Google, Stack Overflow, etc
+- Choose one of many products like Bit.ly, Twitter, Facebook, Airbnb, Product Hunt, Google, Quora, Stack Overflow, etc
 - Ideate, choose, plan, and validate the product
   - Business Model Canvas
   - Value Proposition Canvas
