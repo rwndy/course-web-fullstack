@@ -5,29 +5,36 @@
 ## Day 16 - Proactive Frontend
 
 ### Application architecture and system analysis
-  - If you want to build a social network, a market-place, a car-rental system, a restaurant booking platform, then you need to organize your code with a smart architecture
+
+- If you want to build a social network, a marketplace, a car-rental system, a restaurant booking platform, then you need to organize your code with a smart architecture
+
 ### React.js basics
-  - vs Preact, Vue, Angular, Web Components, Elm, etc
-  - Component and virtual DOM
-    - Creating Components and writing HTML with JSX
-      - DSL (domain specific language) over JavaScript
-    - Parent and child
-  - React Conventions
-    - Stateless Functional Components
-  - Passing data between components with with Props
-    - Props, PropTypes, and defaultProps
-  - Understanding State and holding data
-  - Constructors and State
-  - Event handling
-  - vs Preact
-  - Fetching data from an AJAX endpoint
-  - Persisting data with LocalStorage
-  - Working with Forms, retrieving data from DOM inputs
-  - React Deployment
-  - https://github.com/petehunt/react-howto
+
+- vs Preact, Vue, Angular, Web Components, Elm, etc
+- Component and virtual DOM
+- Creating Components and writing HTML with JSX
+- DSL (domain specific language) over JavaScript
+- Parent and child relationship
+- React conventions
+- Stateless Functional Components
+- Passing data between components with with Props, PropTypes, and defaultProps
+- Understanding State and holding data
+- Constructors and State
+- Event handling
+- vs Preact
+- Fetching data from an AJAX endpoint
+- Persisting data with LocalStorage
+- Working with Forms, retrieving data from DOM inputs
+- React Deployment
+- https://github.com/petehunt/react-howto
+
 ### UI Components Library
+
+- Reactstratp, Material UI
+
 ### Build system
-  - Webpack, Gulp, Grunt, Rollup, Broccoli
+
+- Webpack, Gulp, Grunt, Rollup, Broccoli
 
 ### Project
 
@@ -40,10 +47,12 @@
 ## Day 17 - Sophisticated Activation
 
 ### React optimized
-  - Routing with React Router
-  - CSS in JS
-  - Server side rendering (SSR) with Next.js
-  - Static site
+
+- Routing with React Router
+- CSS in JS
+- Server side rendering (SSR) with Next.js
+- Static site
+
 ### Diagramming
 
 - D3.js
@@ -57,12 +66,13 @@
 ## Day 18 - Types and Tests
 
 ### Static typing
-- Flow static type checker
-### Frontend testing libraries
-  - Jest, Enzyme
-  - Snapshot testing
 
-### Project
+- Flow static type checker
+
+### Frontend testing libraries
+
+- Jest, Enzyme
+- Snapshot testing
 
 --------------------------------------------------------------------------------
 

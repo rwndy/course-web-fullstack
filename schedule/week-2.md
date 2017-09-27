@@ -2,13 +2,12 @@
 
 --------------------------------------------------------------------------------
 
-## [Day 6 - Techniques and Libraries]()
+## [Day 6](https://drive.google.com/open?id=1Cz-rKGl5KdwEM6PgqxHvmfx84u3ZTFEpPgl_6TuaueU)
 
 ### More JavaScript
 
 - vs CoffeeScript & TypeScript
 - Prevent regression
-- `setTimeout`
 - Abstraction
 - Decomposition
 - Method chaining
@@ -17,9 +16,7 @@
 - Data parsing: JSON and YAML
 - Immediately Invoked Function Expression (IIFE)
 - Data parsing and serialization
-- Hoisting, Closures, Prototypes
-  - Function inside function
-  - Return object with function
+- Hoisting, Closures, Prototypes: Function inside function, return object with function
 - Binding `bind`
 - https://dev.to/arnavaggarwal/10-javascript-concepts-you-need-to-know-for-interviews
 
@@ -37,7 +34,7 @@
 
 --------------------------------------------------------------------------------
 
-## Day 7 - Communication Between Services
+## [Day 7]()
 
 ### HTTP API and protocol essentials
 
@@ -62,52 +59,47 @@
 
 --------------------------------------------------------------------------------
 
-## Day 8 - Universal Code
+## [Day 8]()
 
 ### Node.js basics
 
 - Install with `nvm`
 - node REPL
 - package manager: `npm`, `yarn`, `pnpm`
-  - Semantic Versioning
+- Semantic Versioning
 - nodemon
 - Babel for ES6/ES7/ES8, `babelrc`
-- File input/output (I/O)
-  - `readline`, `readfile`
-  - Discover how you can read and write in files
-- Asynchrounous programming
-  - callback
-  - promise
-    - https://kosamari.com/notes/the-promise-of-a-burger-party
-  - async/await
-- Data collecting
-  - Collect interesting data by scraping a website or by calling a public API
-  - Send email with Nodemailer or Mailgun
+- File input/output (I/O): `readline`, `readfile`
+- Asynchrounous programming: callback, promise, async/await
+- Collect interesting data by scraping a website or by calling a public API
+- Send email: Nodemailer, SendGrid, MailerLite
+- Desktop app: Electron
+- https://kosamari.com/notes/the-promise-of-a-burger-party
 
 ### Web scraping
 
-- `fetch`, `axios`, `unirest`, `superagent`, etc
+- `fetch`, `axios`, `unirest`, `superagent`
 - `cheerio`
-- headless browser, phantomjs
+- Headless browser: puppeteer, phantomjs
 - `nightmare.js`
 
 ### Web app deployment platforms
 
-- Heroku, Now
-- VPS
-- to Heroku
+- PaaS: Heroku, Now
+- VPS: Digital Ocean
 
 --------------------------------------------------------------------------------
 
-## Day 9 - Web Service
+## [Day 9]()
 
 ### Express
 
 - Alternatives: hapi, loopback
 - Most of its elementary blocks with Node.js
 - IP address and port
-- Templating engine with EJS/Pug
 - Routing
+- Templating engine with EJS/Pug
+- Build your own REST API service
 - CRUD: Create, Read, Update, Delete
 - params, query
 - Middleware
@@ -118,7 +110,7 @@
 ### Simple application architecture
 
 - MVC design pattern and procedures
-  - sitepoint.com/mvc-design-pattern-javascript
+- http://sitepoint.com/mvc-design-pattern-javascript
 
 ### Aware of the competition
 
@@ -127,17 +119,13 @@
 - PHP + Laravel/CodeIgniter
 - Java + Spring
 
-### Build your own REST API service
-
-- Response in JSON
-
 ### API documentaion/generators
 
 - Tools: Swagger, API Blueprint, Stoplight
 
 --------------------------------------------------------------------------------
 
-## Day 10
+## [Day 10]
 
 ### Better project/product management techniques
 
@@ -145,11 +133,10 @@
 - Iterative and always improved development
 - Work assignment with issues/tickets
 
-### Team work
-
 --------------------------------------------------------------------------------
 
 ## Weekend
 
 - Portfolio Work
-
+- Watch a bit about [Making Badass Developers](https://www.youtube.com/watch?v=FKTxC9pl-WM)
+- Have a lot of time? Watch these Stanford University's lectures about [Programming Methodology](https://www.youtube.com/view_play_list?p=84A56BC7F4A1F852)

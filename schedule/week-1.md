@@ -71,14 +71,10 @@
 
 ### Perfect developer setup
 
-- Install Linux Ubuntu for Windows users
-  - Quickly learn APT and Homebrew to install apps
-- Features in code editors
-  - Command palette, split view, multiline editing, git integration, plugins
-- Time tracking
-  - RescueTime
-- https://github.com/impactbyte/setup
-- https://github.com/impactbyte/dotfiles
+- Install Linux Ubuntu for Windows users, then quickly use APT or Homebrew to install apps
+- Use features in code editors: Command palette, split view, multiline editing, git integration, plugins
+- Refine your workflow across terminal, editor, and browser
+- Time tracking: Pomodoro, RescueTime
 
 --------------------------------------------------------------------------------
 
@@ -108,6 +104,7 @@
 - Meta data/tags: Facebook OpenGraph, Twitter, Google Structured Data
 - Google Webmaster Tools
 - Google Webmaster Academy
+- http://katemats.com/what-every-programmer-should-know-about-seo
 
 ### Design a basic User Interface (UI)
 
@@ -183,8 +180,7 @@
 ### JavaScript basics
 
 - Why?
-  - Levels of programming languages
-  - High level, dynamic typing, supported by all browsers
+- Levels of programming languages: high level, dynamic typing, supported by all browsers
 - Hello World
 - Visualizing and explaining your program flow first
 - ECMASCript versions (ES5/ES6/ES7/ES8)
@@ -193,30 +189,19 @@
 - Semicolon?
 - How to read error
 - Data types: `number`, `string`, `boolean`, `array`, `Object`, `{}`, `JSON`
-  - integer, float
-  - null, undefined
-  - Index start from 0
-  - Nested data
-  - Truthy/falsy
-  - Reference types
-  - Template literals
+- Data traits: integer, float, null, undefined, template literals, index start from 0, nested data, truthy/falsy, reference types
 - Data storage in memory with variables: `var`, `let`, `const`
 - Case sensitivity, comments, and reserved words
 - Pass by value and reference
 - Simple program structure: algorithm and pseudocode
 - Logic flow block statements
-  - Conditional/branching: `if`, `else`, `if else`, `switch case`
-  - Loop: `for`, `for in`, `for of`, `do while`, `foreach`, `map`, `filter`, `find`
-  - Recursion
+- Logic with Conditional/branching: `if`, `else`, `if else`, `switch case`
+- Logic with Loop: `for`, `for in`, `for of`, `do while`, `foreach`, `map`, `filter`, `find`
+- Logic with recursion: function inside function
 - Function/method, named and anonymous: `function`, arrow `() => {}`
-  - Procedural
-  - Arguments and default parameters
-  - Scope
-  - `this`
+- Function traits: Procedural, arguments and default parameters, scope, `this` keyword
 - Operators: math, assignment, relational, logical, unary, ternary, bitwise
-  - `+`, `-`, `*`, `/`, `%`
-  - `!`, `? =`
-  - `eval`, postfix, prefix
+- Operator symbols: `+`, `-`, `*`, `/`, `%`, `!`, `? =`, `eval`, postfix, prefix
 - Prototype object
 - Exception and error handling
 - Debugging, testing, refactoring
@@ -226,11 +211,12 @@
 - Clean Code
 - Don't Repeat Yourself (DRY)
 - Single Responsibility Principle (SRP)
+- [6 Simple Tips on How to Start Writing Clean Code](https://hackernoon.com/6-simple-tips-on-how-to-start-writing-clean-code-d66c241aa268)
 - [JavaScript Clean Coding Best Practices](https://blog.risingstack.com/javascript-clean-coding-best-practices-node-js-at-scale)
 
 ### Using online code testing and sharing
 
-- JSBin or Codepen
+- JSBin, JSFiddle, Codepen, Plunker, Liveweave
 
 --------------------------------------------------------------------------------
 
@@ -238,24 +224,17 @@
 
 ### JavaScript intermediate
 
-- Error handling
-  - `try catch`
+- Imperative vs Declarative
+- Error handling: `try catch`
 - Built-in objects: `Object`, `Math`, `Array`, etc
-  - String method: `charAt`, `charCodeAt`, `toUpperCase`, `toLowerCase`, `split`, `replace`, `substr`
-  - Math method: `random`, `ceil`, `floor`, etc
-  - Array method:
-    - `length`, `indexOf`, `push`, `pop`, `join`, `split`, `slice`, `splice`, `sort`, `shift`, `unshift`, `reverse`
-    - `forEach`, `map`, `filter`, `find`, `every`, `some`, `reduce`, etc
-  - Object method: `assign`, `copy`
-- Browser Object Model (BOM)
-  - `window` object, `onLoad`, `onDOMReady`
-- Document Object Model (DOM)
-  - Node selection, traversing, and manipulation
-    - `getElementById`, `getElementsByClass`
-  - Events: click, mouseover, keystroke
-    - `addEventListener`, `event`, `target`, `value`, `innerHTML`
-- Timing
-  - `setTimeout`, `setInterval`
+- String method: `charAt`, `charCodeAt`, `toUpperCase`, `toLowerCase`, `split`, `replace`, `substr`
+- Math method: `random`, `ceil`, `floor`, etc
+- Array method: `length`, `indexOf`, `push`, `pop`, `join`, `split`, `slice`, `splice`, `sort`, `shift`, `unshift`, `reverse`, `forEach`, `map`, `filter`, `find`, `every`, `some`, `reduce`, etc
+- Object method: `assign`, `copy`
+- Browser Object Model (BOM): `window` object, `onLoad`, `onDOMReady`
+- Document Object Model (DOM): node selection, traversing, and manipulation, `getElementById`, `getElementsByClass`
+- DOM events: click, mouseover, keystroke: `addEventListener`, `event`, `target`, `value`, `innerHTML`
+- Timing: `setTimeout`, `setInterval`
 
 ### Style guide
 
@@ -271,6 +250,7 @@
  
 - pattern, `replace`, `match`, `search`
 - Pattern matching/recognition in a text (phone, email, zip code, etc)
+- https://github.com/zeeshanu/learn-regex
 
 ### Web Storage
 
@@ -308,9 +288,8 @@
 
 - Hard skills: Are a specific, teachable abilities that can be defined and measured, such as typing, writing, math, problem-solving and the ability to use software programs
 - Soft skills: Are less tangible and harder to quantify, such as etiquette, getting along with others, empathy, listening and engaging in small talk
-- Developer Roadmap 2017
-  - https://github.com/kamranahmedse/developer-roadmap
-  - https://github.com/ManzDev/roadmap-web-developer-2017
+- Developer Roadmap: https://github.com/kamranahmedse/developer-roadmap
+- Roadmap Web Developer 2017: https://github.com/ManzDev/roadmap-web-developer-2017
 
 ### Profiles
 
@@ -325,6 +304,7 @@
 - Key steps: ideation, wireframe/mockup, data modeling, list of backlog or user stories
 - Product Hunt, WhatRuns and Wappalyzer 
 - Software licensing
+- https://github.com/mr-mig/going-to-production
 
 ### Public speaking
 
@@ -340,8 +320,11 @@
 
 ## Weekend
 
-- Portfolio
-  - Polish up your current projects
-  - Create your own application
-  - Create a blog post
-- Exercises with [Codewars](https://codewars.com)
+- Polish up your current projects
+- Create your own applications as portfolio
+- Writing on your own blog: Facebook, Twitter, LinkedIn, Medium, Dev.to, WordPress, etc
+- Review your understanding starting from the [Preparation Guide](https://bit.ly/impactbyte-preparation-guide)
+- Read [some readings for junior developers](https://www.samjarman.co.nz/diaries)
+- Check out [freeCodeCamp Guide](https://guide.freecodecamp.org) if you need some explanation about technical terms and reasonings
+- Take a glimpse about the [Software Engineer Evolution Plan](http://www.metadevelopment.io/growing-as-software-engineer)
+- Get the big idea of ["Every Programmer Should Know"](https://github.com/mr-mig/every-programmer-should-know)

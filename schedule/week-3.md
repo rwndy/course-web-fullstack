@@ -16,9 +16,9 @@
 ### SQL
 
 - SQLite, MySQL, PostgreSQL
-  - MySQL Workbench
-  - Schema
-  - Read/write data and make  queries to the database
+- MySQL Workbench
+- Data schema
+- Read/write data and make queries
   
 ### ORM
 
@@ -44,10 +44,7 @@
 
 ### NoSQL/Schemaless
 
-- MongoDB
-  - Robomongo
-  - mLab
-  - MongoDB Atlas
+- MongoDB: Robomongo, mLab, MongoDB Atlas
 - Firebase
 - Redis
 
@@ -62,7 +59,7 @@
 ### Project
 
 - todo
-- blog
+- blog-platform
 
 --------------------------------------------------------------------------------
 
@@ -78,7 +75,6 @@
 ### JavaScript testing tools
 
 - Mocha, Chai, Jasmine, Karma, Selenium, Nightmare, CucumberJS
-  - Chai HTTP
 
 ### Test-Driven Development (TDD)
 
@@ -95,18 +91,22 @@
 ### Programming Paradigms
 
 - Imperative vs declarative
-- Discover object-oriented programming (OOP)
-  - Characteristics
-  - public, private interface
-  - Structuring your programs into different objects
-  - `class`, `extends`, `constructor`
-  - Quick overview of UML
-- Discover functional programming (FP)
+
+### Object-oriented programming (OOP)
+
+- Characteristics
+- public, private interface
+- Structuring your programs into different objects
+- `class`, `extends`, `constructor`
+- Quick overview of UML
+
+### Functional programming (FP)
+
+...
 
 ### Project
 
-- ecommerce
-  - shopping-cart
+- ecommerce: shopping-cart
 
 --------------------------------------------------------------------------------
 

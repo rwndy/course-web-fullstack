@@ -12,15 +12,15 @@
 
 - Choose one of many products like Bit.ly, Twitter, Facebook, Airbnb, Product Hunt, Google, Quora, Stack Overflow, etc
 - Ideate, choose, plan, and validate the product
-  - Business Model Canvas
-  - Value Proposition Canvas
+- Business Model Canvas (BMC)
+- Value Proposition Canvas (VPC)
 - Build the wireframe and mockup
-  - Design Thinking
-  - Design Sprint
-  - Rapid Prototyping
+- Design Thinking
+- Design Sprint
+- Rapid Prototyping
 - Build the initial data model
 - Build the initial UI and routes
-  - Use UI framework to fasten development
+- Use UI framework to fasten development
 - Deploy as early as possible
 - Always remember to write a documentation
 - Initial deployment
@@ -29,8 +29,7 @@
 
 ### Day 27
 
-- Build the initial API
-  - Basic CRUD/BREAD functionalities
+- Build the initial API: CRUD/BREAD functionalities
 - Integrate the API gradually with the UI
 - Add data input validation
 
@@ -49,9 +48,7 @@
 - Add other systems: analytics, logging, payment, etc
 - Optimize for responsive design
 - Accelerated Mobile Pages (AMP)
-- Progressive Web Apps (PWA)
-  - Offline support
-  - Service workers
+- Progressive Web Apps (PWA): offline support, service workers
 
 --------------------------------------------------------------------------------
 
@@ -67,5 +64,6 @@
 ### Weekend
 
 - Prepare to start the product development
-  - Estimate that it should take less than 8 days to build
+- Estimate that it should take less than 8 days to build
 - You can start to ideate, sketch, wireframe, and mockup the product
+- [How to pick a co-founder?](http://venturehacks.wpengine.com/wp-content/uploads/2009/11/How-to-pick-a-co-founder-Mini.pdf)
