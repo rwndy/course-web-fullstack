@@ -46,8 +46,7 @@ generate() {
     --data '{
       "name":"'${1}'",
       "public":"true",
-      "auto_init":"true",
-      "license_template":"mit"
+      "auto_init":"true"
     }'
 
   echo "... clone-repo"

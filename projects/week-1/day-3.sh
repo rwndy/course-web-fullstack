@@ -3,8 +3,4 @@ factorial
 number-comparison
 calculator-time
 calculator-math
-address-book
-todo
-website-personal
-social-media
-employee-system
+calculator-shape

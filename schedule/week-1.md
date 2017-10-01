@@ -45,13 +45,13 @@
 ### Using terminal
 
 - Terminal, cmdr
-- Basic commands: `cd`, `cp`, `mv`, `mkdir`, `touch`, etc
+- Basic commands: `man`, `ls`, `clear`, `cd`, `pwd`, `cp`, `mv`, `rm`, `mkdir`, `touch`, `which`, etc
 
 ### Collaboration with Git
 
 - Source Code Management (SCM) or Version Control System (VCS)
-- Basic commands: `init`, `clone`, `config`, `status`, `add`, `commit`, `amend`, `log`, `remote`, `push`, `pull`
-- Config commit editor with `nano` instead of `vim`
+- Basic flows and commands: `init`, `clone`, `config`, `status`, `add`, `commit`, `amend`, `log`, `remote`, `push`, `pull`
+- Config commit editor with either `nano` or `vim`
 - Create a GitHub account and customize it
 - Learn how to submit your work via GitHub
 - Encourage to explore GitHub and learning with other's code
@@ -105,6 +105,7 @@
 - Google Webmaster Tools
 - Google Webmaster Academy
 - http://katemats.com/what-every-programmer-should-know-about-seo
+- https://ahrefs.com/blog/seo-tips
 
 ### Design a basic User Interface (UI)
 
@@ -218,6 +219,13 @@
 
 - JSBin, JSFiddle, Codepen, Plunker, Liveweave
 
+### Process management
+
+- `top`, `htop`
+- process id, uptime
+- CPU, RAM, Network, Disk
+- https://en.wikipedia.org/wiki/Unit_prefix
+
 --------------------------------------------------------------------------------
 
 ## [Day 4](https://drive.google.com/open?id=14NFCP65nISjeQ4P2Ezv-wpuHjqBqVMPBtIOlA_eoYzc)
@@ -252,17 +260,10 @@
 - Pattern matching/recognition in a text (phone, email, zip code, etc)
 - https://github.com/zeeshanu/learn-regex
 
-### Web Storage
+### Web Browser Storage
 
 - `Storage`, `sessionStorage`, `localStorage`, `setItem`, `getItem`
 - `cookie`
-
-### Process management
-
-- `top`, `htop`
-- process id, uptime
-- CPU, RAM, Network, Disk
-- https://en.wikipedia.org/wiki/Unit_prefix
 
 ### Resources
 
@@ -324,7 +325,9 @@
 - Create your own applications as portfolio
 - Writing on your own blog: Facebook, Twitter, LinkedIn, Medium, Dev.to, WordPress, etc
 - Review your understanding starting from the [Preparation Guide](https://bit.ly/impactbyte-preparation-guide)
+- Get some tips to know [how to think like a programmer](https://medium.freecodecamp.org/how-to-think-like-a-programmer-3ae955d414cd)
 - Read [some readings for junior developers](https://www.samjarman.co.nz/diaries)
 - Check out [freeCodeCamp Guide](https://guide.freecodecamp.org) if you need some explanation about technical terms and reasonings
 - Take a glimpse about the [Software Engineer Evolution Plan](http://www.metadevelopment.io/growing-as-software-engineer)
 - Get the big idea of ["Every Programmer Should Know"](https://github.com/mr-mig/every-programmer-should-know)
+- Learn [why is it so hard to find a good front end developer?](https://medium.com/creative-business/why-is-it-so-hard-to-find-a-front-end-developer-cb92848a7c6f)

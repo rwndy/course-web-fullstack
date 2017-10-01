@@ -4,7 +4,7 @@
 
 ### Review Redux
 
-### Authentication and authorization
+### Authentication (AuthN) and Authorization (AuthR)
 
 - Password
 - JSON Web Token (JWT)

@@ -1,14 +1,22 @@
-# TITLE
+# String Manipulation
 
 --------------------------------------------------------------------------------
 
 ## Requirements
 
+Play around with various kind of string manipulation capabilities in JavaScript.
+
 ### Input
+
+- Mostly texts
 
 ### Process
 
+-
+
 ### Output
+
+- Transformed texts
 
 --------------------------------------------------------------------------------
 

@@ -1,8 +1,3 @@
-calculator-shape
-website-personal
-  contact-form
-  slide-gallery
-  style-event
-social-media
-employee-system
+address-book
+todo
 game-on
