@@ -34,6 +34,6 @@ Let's create an address book simulation.
 
 --------------------------------------------------------------------------------
 
-## Level 1
+## Level 2
 
 - Store and retrieve multiple types of information in several objects that stored in an array
