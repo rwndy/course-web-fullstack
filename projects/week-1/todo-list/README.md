@@ -1,14 +1,14 @@
-# Address Book
+# Todo List
 
 --------------------------------------------------------------------------------
 
 ## Requirements
 
-Let's create an address book simulation.
+Let's create a simple todo list program.
 
 ### Input
 
-- People's contact information
+- Our todo list
 
 ### Process
 
@@ -16,15 +16,15 @@ Let's create an address book simulation.
 
 ### Output
 
-- Retrieved information
+- Our todo list ;)
 
 --------------------------------------------------------------------------------
 
 ## Level 0
 
-- Research a bit what you're going to model the address book after
+- Research a bit what you're going to model the todo list after
 - Sketch out your plan, try to type a simple pseudocode, then get some experiment going!
-- Have fun of creating an address book simulation. :)
+- Have fun of creating a todo list program. :)
 
 --------------------------------------------------------------------------------
 

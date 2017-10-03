@@ -1,6 +1,9 @@
-string-manipulation
-factorial
-number-comparison
-calculator-time
+manipulation-string
+manipulation-number
+comparison-number
 calculator-math
 calculator-shape
+calculator-time
+address-book
+todo-list
+game-on

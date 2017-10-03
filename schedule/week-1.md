@@ -1,5 +1,7 @@
 # Week 1 - Coding Basics with HTML, CSS, JavaScript
 
+[Preparation Guide](http://bit.ly/impactbyte-preparation-guide)
+
 --------------------------------------------------------------------------------
 
 ## [Day 1](https://drive.google.com/open?id=17UUV57zGiWvlHf297pDB1ynQ9YZD1Z4nXQlleiavy6w)
@@ -183,18 +185,24 @@
 - Why?
 - Levels of programming languages: high level, dynamic typing, supported by all browsers
 - Hello World
-- Visualizing and explaining your program flow first
+- Via `script` file or browser's developer tools `console`
+- [JavaScript 101](https://docs.google.com/presentation/u/1/d/11JaEc0l4LTIO69BzTzmvhCQ6-yv4bSi5GBv3oXs0iz8)
+- Visualizing and explaining your program flow first with chart and pseudocode
 - ECMASCript versions (ES5/ES6/ES7/ES8)
-- Via browser's developer tools `console` or `script` file
 - Statements, declarations, vs expressions
 - Semicolon?
 - How to read error
 - Data types: `number`, `string`, `boolean`, `array`, `Object`, `{}`, `JSON`
 - Data traits: integer, float, null, undefined, template literals, index start from 0, nested data, truthy/falsy, reference types
 - Data storage in memory with variables: `var`, `let`, `const`
+- Built-in objects: `Object`, `Math`, `Date`, `Array`, etc
+- String method: `charAt`, `charCodeAt`, `toUpperCase`, `toLowerCase`, `split`, `replace`, `substr`
+- Array method: `length`, `indexOf`, `push`, `pop`, `join`, `split`, `slice`, `splice`, `sort`, `shift`, `unshift`, `reverse`, `forEach`, `map`, `filter`, `find`, `every`, `some`, `reduce`, etc
+- Math method: `random`, `ceil`, `floor`, etc
 - Case sensitivity, comments, and reserved words
-- Pass by value and reference
 - Simple program structure: algorithm and pseudocode
+- Operator symbols: `+`, `-`, `*`, `/`, `%`, `!`, `? =`, `eval`, postfix, prefix
+- Comparison operators: `==`, `===`, `!`, `!=`, `!==`, `>`, `>=`, `<`, `<=`, `&&`, `||`
 - Logic flow block statements
 - Logic with Conditional/branching: `if`, `else`, `if else`, `switch case`
 - Logic with Loop: `for`, `for in`, `for of`, `do while`, `foreach`, `map`, `filter`, `find`
@@ -202,9 +210,6 @@
 - Function/method, named and anonymous: `function`, arrow `() => {}`
 - Function traits: Procedural, arguments and default parameters, scope, `this` keyword
 - Operators: math, assignment, relational, logical, unary, ternary, bitwise
-- Operator symbols: `+`, `-`, `*`, `/`, `%`, `!`, `? =`, `eval`, postfix, prefix
-- Prototype object
-- Exception and error handling
 - Debugging, testing, refactoring
 
 ### Software engineering principles
@@ -233,11 +238,9 @@
 ### JavaScript intermediate
 
 - Imperative vs Declarative
-- Error handling: `try catch`
-- Built-in objects: `Object`, `Math`, `Array`, etc
-- String method: `charAt`, `charCodeAt`, `toUpperCase`, `toLowerCase`, `split`, `replace`, `substr`
-- Math method: `random`, `ceil`, `floor`, etc
-- Array method: `length`, `indexOf`, `push`, `pop`, `join`, `split`, `slice`, `splice`, `sort`, `shift`, `unshift`, `reverse`, `forEach`, `map`, `filter`, `find`, `every`, `some`, `reduce`, etc
+- Pass by value and reference
+- Prototype object
+- Exception and error handling: `try catch`
 - Object method: `assign`, `copy`
 - Browser Object Model (BOM): `window` object, `onLoad`, `onDOMReady`
 - Document Object Model (DOM): node selection, traversing, and manipulation, `getElementById`, `getElementsByClass`
