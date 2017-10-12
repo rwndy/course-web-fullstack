@@ -25,18 +25,12 @@
 - Sequelize, Knex.js
 - Migration
 
-### Database configuration
+### Database Configuration
 
 - Backup dump
 - Master slave
 - Replica set
-
-### Project
-
-- database-schema-design
-- todo
-- url-shortener
-- people-management-system
+- Clustering
 
 --------------------------------------------------------------------------------
 
@@ -56,11 +50,6 @@
 
 - Contentful
 
-### Project
-
-- todo
-- blog-platform
-
 --------------------------------------------------------------------------------
 
 ## Day 13 - Pyramid of Experiments
@@ -78,11 +67,11 @@
 
 ### Test-Driven Development (TDD)
 
+- TDD/BDD/ATDD
+
 ### Continuous Integration and Deployment (CI/CD)
 
-### Project
-
-- contact-book
+- Jenkins, Travis, etc
 
 --------------------------------------------------------------------------------
 
@@ -102,17 +91,13 @@
 
 ### Functional programming (FP)
 
-...
-
-### Project
-
-- ecommerce: shopping-cart
+- Immutability
 
 --------------------------------------------------------------------------------
 
 ## Day 15 - Tech Dichotomy
 
-### Team work
+- War between technologies
 
 --------------------------------------------------------------------------------
 

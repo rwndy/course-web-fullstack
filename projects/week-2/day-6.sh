@@ -1,4 +1,3 @@
-website-personal
 chessboard
 snake
 konami-code
