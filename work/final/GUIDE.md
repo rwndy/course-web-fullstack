@@ -33,3 +33,4 @@ What we want to provide.
 - Support for team leads (and team members!) to help keep interpersonal conflict and friction at a minimum.
 - Tips in constructing and advancing your debugging process.
 - We will be available to consult with your team. Have questions ready for us. If you don't we will use those as free time to explore, mangle, or flog yourcode. Friday and Tuesday will be consultation days.
+

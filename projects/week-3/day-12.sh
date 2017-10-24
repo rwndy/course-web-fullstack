@@ -1,2 +1,1 @@
-todo
-blog-platform
+hello-nosql

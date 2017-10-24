@@ -6,7 +6,8 @@
 
 ### Pair programming
 
-- https://codeburst.io/pair-programming-is-hard-a5da3449b67a
+- [Stop Wasting Time: Pair Programming Rocks](https://medium.com/javascript-scene/stop-wasting-time-pair-programming-rocks-4a99604cb09d)
+- [Pair programming is hard – codeburst](https://codeburst.io/pair-programming-is-hard-a5da3449b67a)
 
 ### Build a startup product clone from scratch in 5 days
 

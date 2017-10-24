@@ -10,48 +10,77 @@
 
 ### React.js basics
 
-- vs Preact, Vue, Angular, Web Components, Elm, etc
+- Why React?
+- The main reasons and philosophy
+- Installation and usage
+- Building blocks of React, `react`, `reactDOM`
 - Component and virtual DOM
-- Creating Components and writing HTML with JSX
-- DSL (domain specific language) over JavaScript
-- Parent and child relationship
-- React conventions
-- Stateless Functional Components
-- Passing data between components with with Props, PropTypes, and defaultProps
-- Understanding State and holding data
-- Constructors and State
-- Event handling
-- vs Preact
+- It's just JavaScript!
+- vs jQuery, Vue, Angular, Preact, Web Components, Elm, etc
+- Preparing your code editor (Atom, VS Code, Sublime, Vim, etc) with React plugins
+
+### Component-based development
+
+- Design planning with wireframe/mockup
+- Parent and child relationship between components
+
+### Rendering user interface (UI)
+
+- Quickly create a new app with `create-react-app` CLI
+- Creating components and writing HTML with `class` in JSX
+- JSX is a DSL (Domain Specific Language) over JavaScript
+- React DevTools for debugging
+
+### React conventions
+
+- Element naming
+- Class-based components
+- Stateless functional components
+
+### Understanding state management and holding data
+
+- Managing state in applications with `this`, `state`, `setState`, `getState`
+- Passing data between components with with `props`, `propTypes`, and `defaultProps`
+- Controlled components
+
+### Event and bind handling
+
+- Methods in component
 - Fetching data from an AJAX endpoint
-- Persisting data with LocalStorage
-- Working with Forms, retrieving data from DOM inputs
-- React Deployment
-- https://github.com/petehunt/react-howto
+- Working with forms, retrieving data from DOM inputs
 
-### UI Components Library
+### Rendering with external data
 
-- Reactstratp, Material UI
+- Complete lifecycle of a component
+- Explore various lifecycle hooks
+- Persisting data with `localStorage`/`sessionStorage` Virtual DOM
 
-### Build system
+### Frontend deployment
 
-- Webpack, Gulp, Grunt, Rollup, Broccoli
-
-### Project
-
-- Number Conversion
-- Restaurant Simulation
-- Counter Puzzle
+- VPS or PaaS: Heroku, Now.sh, etc
+- Process management with pm2
 
 --------------------------------------------------------------------------------
 
 ## Day 17 - Sophisticated Activation
 
-### React optimized
+### Routing with React Router
 
-- Routing with React Router
-- CSS in JS
-- Server side rendering (SSR) with Next.js
-- Static site
+- Route and Link component
+- Creating different routes/paths
+- Use state to dynamically render different pages
+
+### Asynchronous Programming
+
+- Callback
+- `Promise`
+- `async`, `await`
+
+### Functional Programming (FP)
+
+- Data immutability
+- Pure function/component
+- Higher Order Component (HOC)
 
 ### Diagramming
 
@@ -61,13 +90,31 @@
 
 - Content Management System (CMS)
 
+### UI Components Library
+
+- Reactstrap, Material UI
+
+### Build system
+
+- Webpack, Gulp, Grunt, Rollup, Broccoli
+- `webpack-dev-server` for hot reloading
+- ES+ with Babel
+
 --------------------------------------------------------------------------------
 
 ## Day 18 - Types and Tests
 
+### Styling techniques
+
+- Regular CSS, Flexbox, Stylus/LESS/SASS
+- Inline styling, CSS in JS
+- CSS modules
+- BEM (Block, Element, Modifier)
+
 ### Static typing
 
 - Flow static type checker
+- vs PropTypes, TypeScript
 
 ### Frontend testing libraries
 
@@ -80,13 +127,40 @@
 
 ### Better state management
 
-- Flux
-- Redux
-- MobX
+- Flux vs Redux vs MobX
+- Component state vs Redux state
+- Intuition to determine when to use them
+- It can be used with any other library than just React
 
-### Project
+### React + Redux
 
-- Job Board
+- Reducers
+- Actions and Action Creators
+- `createStore` to create a Redux store
+- `react-redux` to connect React & Redux
+- Data architecture normalization
+- Better Redux store with combineReducers 
+- Middleware
+- Authentication when needed
+
+### Additionals (if necessary)
+
+- Redux architecture best practices and rules
+- Redux + React Router
+- `redux-saga`
+
+### Advanced techniques
+
+- Server side rendering (SSR), universal/isomorphic React
+- Static site
+- Optimize for SEO
+- Next.js, Gatsby.js, etc
+
+### Frontend testing
+
+- Jest, Enzyme, etc
+- Snapshot testing
+- Continuous Integration (CI)
 
 --------------------------------------------------------------------------------
 
