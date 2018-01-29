@@ -15,12 +15,12 @@
 - [Week 7](./schedule/week-7.md)
 - [Week 8](./schedule/week-8.md)
 
-## Work Guide
+## Guides
 
-- [Daily Work](./work/daily/README.md)
-- [Team Work](./work/team/README.md)
-- [Portfolio Work](./work/portfolio/README.md)
-- [Final Work](./work/final/README.md)
+- [Daily Project](./guides/daily/README.md)
+- [Team Project](./guides/team/README.md)
+- [Portfolio Project](./guides/portfolio/README.md)
+- [Final Project](./guides/final/README.md)
 
 ## References
 

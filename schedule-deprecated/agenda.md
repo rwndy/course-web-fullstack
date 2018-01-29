@@ -8,39 +8,33 @@
 
 - Morning
   - Breakfast, commuting, healthy exercise, all of your morning routines
-- 09:00-10:30
-  - Grab a coffee/tea, attend the morning course given by the mentors
-- 10:30-12:00
-  - Work on tasks with your friends with the help of our mentors
+- 09:00-12:00
+  - Grab a water/coffee/tea, attend the morning discussion
+  - Work on projects with your friends with the help of our mentors
 - 12:00-13:00
   - Lunch with the provided meal, take a rest, and prayer
 - 13:00-16:30
-  - Continue to work on tasks
+  - Continue to work on projects
 - 16:30-17:00
   - Mindfulness, time to relax and get some head space, and prayer
-  - or continue to work if you want
-- 17:00-17:30
-  - Result presentation and review tasks of the day altogether
-- 17:30-19:00
-   - Continue to work if you need
-- 19:00-21:00
-  - If available, join master class from developers, entrepreneurs, community meetups, or technical workshops, provided via Impact Hub Jakarta
-  - or continue to work if you want
+- 17:00-18:00
+  - Result presentation and review
+- 18:00-21:00
+  - If available, join events from developers, entrepreneurs, community, or technical workshops
 - Night
   - Time to go home and rest
 
 ### Each Week
 
 - Monday to Friday
-  - Weekday daily learning
-  - English day every Wednesday
-  - Team work every Friday
-  - Guest mentorship on Friday if available
+  - Daily project from Monday to Thursday
+  - Team project every Friday
+  - Mentorship on weekend
 - Saturday and Sunday
-  - Weekend community activity
+  - Community activity
     - Dine out
     - Office tour
-  - Continue to work on tasks anywhere
+  - Continue to work on projects anywhere
   - Build your career portfolio
 - If there is a national holiday on weekdays, we can shift it to Saturday
 
@@ -49,13 +43,15 @@
 - 09:00-12:00
   - Last hours preparation
 - 14:00-17:00
-  - Final product presentation
+  - Final project presentation
 - 17:00-21:00
   - Celebration
   - Have a vacation together
 
-### Special for Day 41-45 (A week after graduation)
+### Special after graduation
 
-- 09:00-17:00
+- 09:00-20:00
   - Career support, job applicants, entrepreneurship support, etc
+  - Connect with alumni, network, or current participants
+  - Various events by many communities
   - Product development consultation
