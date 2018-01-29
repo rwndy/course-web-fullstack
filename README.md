@@ -1,27 +1,77 @@
-# Impact Byte Education Program
+# Data Schema Design
 
-## Syllabus
+---
 
-[Complete Program Syllabus](./schedule/syllabus.md)
+## Requirements
 
-## Detailed Schedule
+Visualize your data design with schema before you use a database.
 
-- [Week 1](./schedule/week-1.md)
-- [Week 2](./schedule/week-2.md)
-- [Week 3](./schedule/week-3.md)
-- [Week 4](./schedule/week-4.md)
-- [Week 5](./schedule/week-5.md)
-- [Week 6](./schedule/week-6.md)
-- [Week 7](./schedule/week-7.md)
-- [Week 8](./schedule/week-8.md)
+### Input
 
-## Guides
+* Your desired data source you want to build and use
 
-- [Daily Project](./guides/daily/README.md)
-- [Team Project](./guides/team/README.md)
-- [Portfolio Project](./guides/portfolio/README.md)
-- [Final Project](./guides/final/README.md)
+### Process
 
-## References
+* Designing the schema of your data source
 
-- [Good Full Stack Web Developer: Mastery Path on Airtable](https://airtable.com/tblzyXe3TM01vf2BL)
+### Output
+
+* Prepared data schema design
+
+--------------------------------------------------------------------------------
+
+## Level 0
+
+* Think about a data source you want to build
+* For example: list of foods, drinks, users, players, animals, places, etc
+* Sketch about the important properties for a schema about that data source
+* Type in your plan in a documentation like README
+
+### Example
+
+```markdown
+list of animals
+
+* name: Affen / Vark / Hound
+* race: Cat / Dog / Mouse / Bird
+* color: Black / White / Gray / Brown
+* diet: Carnivore / Herbivore / Omnivore
+* legs: 2 / 4
+```
+
+--------------------------------------------------------------------------------
+
+## Level 1
+
+* Transform that schema into an actual data sample
+
+### Example
+
+```js
+[
+  {
+    name: "Hound",
+    race: "Dog",
+    color: "Black",
+    diet: "Carnivore",
+    legs: 4
+  },
+  ...
+]
+```
+
+--------------------------------------------------------------------------------
+
+## Level 2
+
+* Standardize that data sample into a schema with data types
+
+```js
+AnimalSchema = {
+  name: String,
+  race: String,
+  color: String,
+  diet: String,
+  legs: Number
+}
+```
