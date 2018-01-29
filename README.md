@@ -1,77 +1,27 @@
-# Data Schema Design
+# Impact Byte Education Program
 
----
+## Syllabus
 
-## Requirements
+[Complete Program Syllabus](./schedule/syllabus.md)
 
-Visualize your data design with schema before you use a database.
+## Detailed Schedule
 
-### Input
+- [Week 1](./schedule/week-1.md)
+- [Week 2](./schedule/week-2.md)
+- [Week 3](./schedule/week-3.md)
+- [Week 4](./schedule/week-4.md)
+- [Week 5](./schedule/week-5.md)
+- [Week 6](./schedule/week-6.md)
+- [Week 7](./schedule/week-7.md)
+- [Week 8](./schedule/week-8.md)
 
-* Your desired data source you want to build and use
+## Work Guide
 
-### Process
+- [Daily Work](./work/daily/README.md)
+- [Team Work](./work/team/README.md)
+- [Portfolio Work](./work/portfolio/README.md)
+- [Final Work](./work/final/README.md)
 
-* Designing the schema of your data source
+## References
 
-### Output
-
-* Prepared data schema design
-
---------------------------------------------------------------------------------
-
-## Level 0
-
-* Think about a data source you want to build
-* For example: list of foods, drinks, users, players, animals, places, etc
-* Sketch about the important properties for a schema about that data source
-* Type in your plan in a documentation like README
-
-### Example
-
-```markdown
-list of animals
-
-* name: Affen / Vark / Hound
-* race: Cat / Dog / Mouse / Bird
-* color: Black / White / Gray / Brown
-* diet: Carnivore / Herbivore / Omnivore
-* legs: 2 / 4
-```
-
---------------------------------------------------------------------------------
-
-## Level 1
-
-* Transform that schema into an actual data sample
-
-### Example
-
-```js
-[
-  {
-    name: "Hound",
-    race: "Dog",
-    color: "Black",
-    diet: "Carnivore",
-    legs: 4
-  },
-  ...
-]
-```
-
---------------------------------------------------------------------------------
-
-## Level 2
-
-* Standardize that data sample into a schema with data types
-
-```js
-AnimalSchema = {
-  name: String,
-  race: String,
-  color: String,
-  diet: String,
-  legs: Number
-}
-```
+- [Good Full Stack Web Developer: Mastery Path on Airtable](https://airtable.com/tblzyXe3TM01vf2BL)
