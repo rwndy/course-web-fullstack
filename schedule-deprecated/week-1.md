@@ -192,6 +192,9 @@
 - Statements, declarations, vs expressions
 - Semicolon?
 - How to read error
+
+### JavaScript programs
+
 - Data types: `number`, `string`, `boolean`, `array`, `Object`, `{}`, `JSON`
 - Data traits: integer, float, null, undefined, template literals, index start from 0, nested data, truthy/falsy, reference types
 - Data storage in memory with variables: `var`, `let`, `const`
@@ -208,6 +211,9 @@
 - Logic with Loop: `for`, `for in`, `for of`, `do while`, `foreach`, `map`, `filter`, `find`
 - Logic with recursion: function inside function
 - Function/method, named and anonymous: `function`, arrow `() => {}`
+
+### Techniques
+
 - Function traits: Procedural, arguments and default parameters, scope, `this` keyword
 - Operators: math, assignment, relational, logical, unary, ternary, bitwise
 - Debugging, testing, refactoring

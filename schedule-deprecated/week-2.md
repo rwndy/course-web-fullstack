@@ -83,10 +83,25 @@
 - Headless browser: puppeteer, phantomjs
 - `nightmare.js`
 
-### Web app deployment platforms
+### Resources
 
-- PaaS: Heroku, Now
-- VPS: Digital Ocean
+- https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70
+- https://nodejs.org
+- https://npmjs.com
+- https://yarnpkg.com
+- https://semver.org
+- https://github.com/github/gitignore
+- https://nodemon.io
+- https://babeljs.io
+- https://electronjs.org
+- http://phantomjs.org
+- https://ariya.io/about
+- https://web.facebook.com/photo.php?fbid=10215027579230762&set=a.10215027572310589.1073741870.1468415484&type=3&theater
+- https://node.university
+- https://nodeuniversity.simplecast.fm
+- https://www.youtube.com/channel/UCYi3LIu-4VtN856M_rOqRAw
+- https://github.com/azat-co/practicalnode
+- [Learn You The Node.js For Much Win! An intro to Node.js via a set of self-guided workshops.](https://github.com/workshopper/learnyounode)
 
 --------------------------------------------------------------------------------
 
@@ -119,9 +134,24 @@
 - PHP + Laravel/CodeIgniter
 - Java + Spring
 
+### Web app deployment platforms
+
+- PaaS: Heroku, Now
+- VPS: Digital Ocean
+
 ### API documentaion/generators
 
 - Tools: Swagger, API Blueprint, Stoplight
+
+### References
+
+- https://expressjs.com
+- https://expressjs.com/en/resources/books-blogs.html
+- https://github.com/azat-co/cheatsheets/tree/master/express4
+- https://devhints.io/express
+- https://heroku.com
+- https://zeit.co/now
+- https://packtpub.com/packt/offers/free-learning
 
 --------------------------------------------------------------------------------
 

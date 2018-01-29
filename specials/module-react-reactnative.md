@@ -1,14 +1,17 @@
-# 1-Week React & React Native Lesson Plan
+# React & React Native Lesson Plan
+
+What you need to learn about React & React Native in a short amount of time.
 
 --------------------------------------------------------------------------------
 
 ## Author
 
-- M Haidar Hanif: Program Lead of Impact Byte
+- [M Haidar Hanif](https://mhaidarhanif.com): Co-Founder, Program Lead, Tech Mentor of [Impact Byte](http://impactbyte.com)
 
 ## Recommended Trainers
 
 - [Simon Sturmer](https://github.com/sstur)
+- [Ega Wachid Radiegtya](https://github.com/radiegtya) [<DumbWays.id>](https://dumbways.id)
 - [Adityo Pratomo](https://github.com/lunchboxav)
 
 ## Knowledge Gain
@@ -40,12 +43,13 @@
 
 ## Notes
 
-All the materials are very comprehensive, therefore, it's okay to readjust the materials according to progress and feedbacks from the participants along the way.
-So it's possible to shift React Native materials earlier in day 2 or 3 if it's convenient. That also cuts out some of the web-related materials that doesn't directly tied into React Native.
+All the materials by level are very comprehensive, therefore, it's okay to readjust the materials according to progress and feedbacks from the learners along the way.
+
+It's possible to shift React Native materials earlier if it's convenient. That also cuts out some of the web-related materials that doesn't directly tied into React Native.
 
 --------------------------------------------------------------------------------
 
-## Day 1
+## Level 1
 
 ### Materials
 
@@ -97,7 +101,7 @@ So it's possible to shift React Native materials earlier in day 2 or 3 if it's c
 
 --------------------------------------------------------------------------------
 
-## Day 2
+## Level 2
 
 ### Materials
 
@@ -141,7 +145,7 @@ So it's possible to shift React Native materials earlier in day 2 or 3 if it's c
 
 --------------------------------------------------------------------------------
 
-## Day 3
+## Level 3
 
 ### Materials
 
@@ -183,7 +187,7 @@ So it's possible to shift React Native materials earlier in day 2 or 3 if it's c
 
 --------------------------------------------------------------------------------
 
-## Day 4
+## Level 4
 
 ### Materials
 
@@ -218,7 +222,7 @@ So it's possible to shift React Native materials earlier in day 2 or 3 if it's c
 
 --------------------------------------------------------------------------------
 
-## Day 5
+## Level 5
 
 ### Materials
 
@@ -255,6 +259,7 @@ So it's possible to shift React Native materials earlier in day 2 or 3 if it's c
 - [ECMAScript 6: New Features: Overview and Comparison](http://es6-features.org)
 - [Babel | The transpiler for writing next generation JavaScript](https://babeljs.io)
 - [Exploring ES6](http://exploringjs.com/es6)
+- [Project Guidelines - A set of best practices for JavaScript projects](https://github.com/wearehive/project-guidelines)
 
 ### React
 
@@ -264,7 +269,7 @@ So it's possible to shift React Native materials earlier in day 2 or 3 if it's c
 - [React Nanodegree by Udacity](https://udacity.com/degrees/react-nanodegree--nd019)
 - [React Armory - The simplest way to learn React](https://reactarmory.com/)
   - [Lifecycle Simulators](https://reactarmory.com/guides/lifecycle-simulators)
-- [Fullstack React: 30 Days of React](https://fullstackreact.com/30-days-of-react)
+- [Fullstack React: 30 Levels of React](https://fullstackreact.com/30-days-of-react)
 - [Pure React](https://daveceddia.com/pure-react)
   - [Your Timeline for Learning React](https://daveceddia.com/timeline-for-learning-react)
   - [How To Learn React (and what to build along the way)](https://daveceddia.com/how-to-learn-react)
@@ -282,6 +287,9 @@ So it's possible to shift React Native materials earlier in day 2 or 3 if it's c
 - [React For Beginners - Learn with Video Tutorials](https://reactforbeginners.com)
 - [React Untuk Pemula](https://kandar.id/20-reactjs-untuk-pemula)
 - [Stop Using React for EVERYTHING!](https://medium.com/@zackargyle/stop-using-react-for-everything-c8297ac1a644)
+- [React Tinkerer Manual](https://github.com/adhywiranata/react-tinkering-manual)
+- [Video Tutorial: React untuk Pemula | DumbWays.id - Screencast](https://dumbways.id/p/react-untuk-pemula)
+- [React Dasar](https://www.idrails.com/series/react-dasar)
 
 ### React Native
 
@@ -291,5 +299,9 @@ So it's possible to shift React Native materials earlier in day 2 or 3 if it's c
 - [React Navigation](https://reactnavigation.org/)
 - [Building a Simple ToDo App With React Native and Firebase](https://youtube.com/watch?v=3ab0K6viEp0)
 - [An iOS Developer on React Native](https://medium.com/ios-os-x-development/an-ios-developer-on-react-native-1f24786c29f0)
-- [NativeBase - Essential cross-platform UI components for React Native](https://nativebase.io/)
-- [NativeScript - Cross-Platform Native Development with JavaScript](https://nativescript.org/)
+- [NativeBase - Essential cross-platform UI components for React Native](https://nativebase.io)
+- [NativeScript - Cross-Platform Native Development with JavaScript](https://nativescript.org)
+
+### Full Stack Software Development
+
+- [Super Full Stack Web Developer in Modern Expectation](https://mhaidarhanif.com/expectation)

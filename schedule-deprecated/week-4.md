@@ -60,6 +60,10 @@
 - VPS or PaaS: Heroku, Now.sh, etc
 - Process management with pm2
 
+### References
+
+- [React Learning Journey](https://github.com/adhywiranata/react-tinkering-manual)
+
 --------------------------------------------------------------------------------
 
 ## Day 17 - Sophisticated Activation

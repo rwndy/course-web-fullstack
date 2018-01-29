@@ -1,5 +1,4 @@
-database-schema-design
+data-schema-design
+hello-relational-database
+hello-nonrelational-database
 url-shortener
-todo
-social-media
-people-management-system
