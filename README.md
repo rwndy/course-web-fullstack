@@ -1,27 +1,36 @@
-# Impact Byte Education Program
+# Hello React
 
-## Syllabus
+--------------------------------------------------------------------------------
 
-[Complete Program Syllabus](./schedule/syllabus.md)
+## Requirements
 
-## Detailed Schedule
+Let's experiment with React and reactify some of our frontend apps.
 
-- [Week 1](./schedule/week-1.md)
-- [Week 2](./schedule/week-2.md)
-- [Week 3](./schedule/week-3.md)
-- [Week 4](./schedule/week-4.md)
-- [Week 5](./schedule/week-5.md)
-- [Week 6](./schedule/week-6.md)
-- [Week 7](./schedule/week-7.md)
-- [Week 8](./schedule/week-8.md)
+### Input
 
-## Work Guide
+- New frontend project
+- Existing frontend project
 
-- [Daily Work](./work/daily/README.md)
-- [Team Work](./work/team/README.md)
-- [Portfolio Work](./work/portfolio/README.md)
-- [Final Work](./work/final/README.md)
+### Process
 
-## References
+- Break down your apps into components
+- Code and program with React features
 
-- [Good Full Stack Web Developer: Mastery Path on Airtable](https://airtable.com/tblzyXe3TM01vf2BL)
+### Output
+
+- React application with various components
+
+--------------------------------------------------------------------------------
+
+## Level 0
+
+- Install React in your project
+- Plan and build a simple website or web app with components-based design
+
+--------------------------------------------------------------------------------
+
+## Level 1
+
+- Pick up existing apps
+- Break it down into components
+- Combine those components together

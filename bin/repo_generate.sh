@@ -22,8 +22,8 @@ export ORG=${4}
 export WEEK=${5}
 export DAY=${6}
 
-export SOURCE="${ROOT}/repo/education/projects/${WEEK}"
-export REPOS=($(<${ROOT}/repo/education/projects/${WEEK}/${DAY}.sh))
+export SOURCE="${ROOT}/repo-course/web-full-stack/weeks/${WEEK}"
+export REPOS=($(<${ROOT}/repo-course/web-full-stack/weeks/${WEEK}/${DAY}.sh))
 export TARGET="${ROOT}/repo-class/${ORG}"
 
 # echo $USERNAME
