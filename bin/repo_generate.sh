@@ -24,7 +24,7 @@ export DAY=${6}
 
 export SOURCE="${ROOT}/repo-course/web-full-stack/weeks/${WEEK}"
 export REPOS=($(<${ROOT}/repo-course/web-full-stack/weeks/${WEEK}/${DAY}.sh))
-export TARGET="${ROOT}/repo-class/${ORG}"
+export TARGET="${ROOT}/repo-batch/${ORG}"
 
 # echo $USERNAME
 # echo $TOKEN
