@@ -1,10 +1,10 @@
-# Startup
+# Digital Product
 
 --------------------------------------------------------------------------------
 
 ## Requirements
 
-It's time to clone a startup product, the simple version!
+It's time to clone a startup digital product, the simple version!
 
 --------------------------------------------------------------------------------
 

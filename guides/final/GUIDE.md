@@ -1,10 +1,12 @@
-# Final Team Work
+# Final Full Stack
 
 ## Pitching
 
-Pitches are 1-3 minutes. You may use your voice and your flare. You may not use a computer, whiteboard, etc.
+The shorter and concise you pitch, the beter.
+You may use your voice and your flare.
+You may not use a computer, whiteboard, etc to break it down simply.
 
-**What should you pitch? See Product Guidelines Below**
+**What should you pitch?**
 
 - Pitch something you would want to spend the remaining 2 weeks building.
 - Pitch something you are willing to see evolve, because your original idea is usually not where the final product ends up. If the idea is more important than the process, don't pitch it.
@@ -22,9 +24,9 @@ When thinking about what you will build, consider the following:
 
 ## Product Workflow
 
-We recommend that you use Agile engineering practices.
+We recommend that you use good engineering practices.
 
-- Build features in vertical slices (from test to css).
+- Build features in vertical slices (from design to implementation).
 - Re-evaluate your user stories and product goal regularly. Don't be afraid to pivot from the original idea (though don't pivot too often).
 - Develop team workflow agreements around git, deployment, testing, conflict resolution, breaks, and other important items.
 
@@ -33,4 +35,3 @@ What we want to provide.
 - Support for team leads (and team members!) to help keep interpersonal conflict and friction at a minimum.
 - Tips in constructing and advancing your debugging process.
 - We will be available to consult with your team. Have questions ready for us. If you don't we will use those as free time to explore, mangle, or flog yourcode. Friday and Tuesday will be consultation days.
-
