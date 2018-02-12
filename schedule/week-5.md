@@ -1,5 +1,7 @@
 # Week 5: Full Stack Web and Computer Science Essentials
 
+--------------------------------------------------------------------------------
+
 ## Day 21
 
 ### Review all the 1st month materials

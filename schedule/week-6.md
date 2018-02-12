@@ -1,8 +1,8 @@
-## Week 6: Build a Startup Product Clone
+# Week 6: Build a Startup Product Clone
 
 --------------------------------------------------------------------------------
 
-### Day 26
+## Day 26
 
 ### Pair programming
 
@@ -28,7 +28,7 @@
 
 --------------------------------------------------------------------------------
 
-### Day 27
+## Day 27
 
 - Build the initial API: CRUD/BREAD functionalities
 - Integrate the API gradually with the UI
@@ -36,7 +36,7 @@
 
 --------------------------------------------------------------------------------
 
-### Day 28
+## Day 28
 
 - Build the authentication: basic or OAuth
 - Build the account confirmation system
@@ -44,7 +44,7 @@
 
 --------------------------------------------------------------------------------
 
-### Day 29
+## Day 29
 
 - Add other systems: analytics, logging, payment, etc
 - Optimize for responsive design
@@ -53,7 +53,7 @@
 
 --------------------------------------------------------------------------------
 
-### Day 30
+## Day 30
 
 - Finalization
 - Presentation

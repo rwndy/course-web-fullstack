@@ -1,8 +1,8 @@
-## Week 8: Final Team Product and Graduation
+# Week 8: Final Team Product and Graduation
 
 --------------------------------------------------------------------------------
 
-### Day 36
+## Day 36
 
 ### Career preparation
 
@@ -23,7 +23,7 @@
 
 --------------------------------------------------------------------------------
 
-### Day 37
+## Day 37
 
 ### Career preparation
 
@@ -34,13 +34,13 @@
 
 --------------------------------------------------------------------------------
 
-### Day 38
+## Day 38
 
 ### Product development
 
 --------------------------------------------------------------------------------
 
-### Day 39
+## Day 39
 
 ### Product development
 
@@ -50,7 +50,7 @@
 
 --------------------------------------------------------------------------------
 
-### Day 40
+## Day 40
 
 ### Product development
 
@@ -69,7 +69,7 @@
 
 --------------------------------------------------------------------------------
 
-### Day 41-45 Graduation
+## Day 41-45 Graduation
 
 - Launch your digital product to the world, submit to Product Hunt and various site/media
 - Work as a junior developer for various companies. We will help you find your dream job, either as a junior dev, product manager, or growth hacker. Discuss with any of our team and alumni!
