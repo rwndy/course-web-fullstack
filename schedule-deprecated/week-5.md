@@ -4,10 +4,6 @@
 
 ## Day 21
 
-### Review all the 1st month materials
-
-- Follow along to build a full stack app
-
 ### Authentication (AuthN) and Authorization (AuthR)
 
 - Password
