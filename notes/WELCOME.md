@@ -1,7 +1,5 @@
 Hello [NAME] and good [MORNING/AFTERNOON/EVENING],
 
-
-
 I'm Haidar, the Program Lead of Impact Byte, an adventurous full stack developer and mentor. Yes, adventurous is a legitimate title. :)
 
 [SHORT STORY]

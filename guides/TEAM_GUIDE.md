@@ -54,4 +54,5 @@ By following these objectives. That's how.
 - Must divide the tasks/roles to each member in clear definition.
 - Must arrange targets to super ultimate very mini small sprint per 1 hour.
 - Must use artifact like backlog and story point. Even better, burndown chart.
-- Must use board to visualize the progress better. We can use sticky notes, GitHub Products, ZenHub, Trello, or other if needed.
+- Must use board to visualize the progress better. We can use sticky notes, GitHub Projects, Trello, or other if needed.
+
