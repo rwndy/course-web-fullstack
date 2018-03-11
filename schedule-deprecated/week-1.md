@@ -264,7 +264,7 @@
 - Validation
 
 ### Regular expression (regex)
- 
+
 - pattern, `replace`, `match`, `search`
 - Pattern matching/recognition in a text (phone, email, zip code, etc)
 - https://github.com/zeeshanu/learn-regex
