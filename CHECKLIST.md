@@ -319,7 +319,7 @@ Even the participant is not attending the class, they can still follow the modul
 
 # Chapter 3
 
-## 11: 
+## 11:
 
 - [ ] CSS Preprocessing/Templating
   - Sass, Less, Stylus
@@ -373,7 +373,7 @@ Even the participant is not attending the class, they can still follow the modul
 - [ ] JavaScript Library
   - jQuery
 
-## 14: 
+## 14:
 
 - [ ] Programming Paradigms
   - Imperative vs declarative
@@ -382,7 +382,7 @@ Even the participant is not attending the class, they can still follow the modul
 - [ ] Object-Oriented Programming (OOP)
   - `class`, `extends`, `constructor`
 
-## 15: 
+## 15:
 
 - [ ] Project/Product Management
   - Key Steps: ideation, wireframe/mockup, data modeling, list of backlog or user stories
@@ -406,7 +406,7 @@ Even the participant is not attending the class, they can still follow the modul
 
 # Chapter 4
 
-## 16: 
+## 16:
 
 - [ ] HTTP API & Protocol
   - HTTP/HTTPS
@@ -429,7 +429,7 @@ Even the participant is not attending the class, they can still follow the modul
   - FTP, telnet
   - Real-time protocols: WebSocket, WebRTC, Socket.io
 
-## 17: 
+## 17:
 
 - [ ] Node.js
   - Installation: `nvm`
@@ -440,7 +440,7 @@ Even the participant is not attending the class, they can still follow the modul
   - `nodemon`, `node-dev`
   - Environment: `process.env`, `development`, `production`
 
-## 18: 
+## 18:
 
 - [ ] Node.js + Browser + REST API
   - `fetch`, `axios`
@@ -451,7 +451,7 @@ Even the participant is not attending the class, they can still follow the modul
   - File Input/Output (I/O): `readline`, `readfile`
   - Desktop app: Electron
 
-## 19: 
+## 19:
 
 - [ ] Node.js Library/Framework
   - Express.js
@@ -469,7 +469,7 @@ Even the participant is not attending the class, they can still follow the modul
   - `body`, `params`, `query`
 - [ ] Plugin/Middleware
 
-## 20: 
+## 20:
 
 - [ ] JavaScript + REST API
   - CORS (Cross-Origin Resource Sharing (CORS)
@@ -511,7 +511,7 @@ Even the participant is not attending the class, they can still follow the modul
 
 # Chapter 5
 
-## 21: 
+## 21:
 
 - [ ] Database SQL (Structured Query Language)
   - Relational
@@ -533,13 +533,13 @@ Even the participant is not attending the class, they can still follow the modul
 - [ ] SQL Hosted
   - Heroku Postres
 
-## 22: 
+## 22:
 
 - [ ] Database SQL + ORM (Object Relational Mapper)
   - Knex.js, Sequelize
   - Migration
 
-## 23: 
+## 23:
 
 - [ ] Database NoSQL
   - MongoDB
@@ -550,12 +550,12 @@ Even the participant is not attending the class, they can still follow the modul
 - [ ] NoSQL Hosted
   - mLab, MongoDB Atlas
 
-## 24: 
+## 24:
 
 - [ ] Database NoSQL + ODM (Object Document Mapper)
   - Mongoose, Mongorito
 
-## 25: 
+## 25:
 
 - [ ] Classic Algorithms
   - Search
@@ -643,7 +643,7 @@ Even the participant is not attending the class, they can still follow the modul
   - Browser Extensions: Redux DevTools
 - [ ] React + Redux
 
-## 29: 
+## 29:
 
 - [ ] Static Typing
   - Flow static type checker
@@ -651,7 +651,7 @@ Even the participant is not attending the class, they can still follow the modul
 - [ ] React Testing
   - Jest, Enzyme
 
-## 30: 
+## 30:
 
 - [ ] React Native
   - Mobile App Development
@@ -694,22 +694,22 @@ Even the participant is not attending the class, they can still follow the modul
 - [ ] List of Features
 - [ ] Assign Roles and Responsibilities
 
-## 32: 
+## 32:
 
 - [ ] Create UI Design
 - [ ] Create Data Structure
 
-## 33: 
+## 33:
 
 - [ ] Implement Frontend
 - [ ] Implement Backend
 
-## 34: 
+## 34:
 
 - [ ] Implement Frontend
 - [ ] Implement Backend
 
-## 35: 
+## 35:
 
 - [ ] Early Deployment
 - [ ] Progress Evaluation
@@ -728,20 +728,20 @@ Even the participant is not attending the class, they can still follow the modul
 
 # Chapter 8
 
-## 36: 
+## 36:
 
 - [ ] Public Deployment
 - [ ] Integration
 
-## 37: 
+## 37:
 
 - [ ] Integration
 
-## 38: 
+## 38:
 
 - [ ] Integration
 
-## 39: 
+## 39:
 
 - [ ] Progress Evaluation
 - [ ] Presentation Rehearsal
@@ -756,3 +756,28 @@ Even the participant is not attending the class, they can still follow the modul
 
 - [ ] Other Programming Languages
   - Python, Ruby, PHP, Java, Perl, Go, PHP, hyperpolyglot.org
+
+## Haekal checklist
+- React
+  - React component
+  - React stateless component vs react component
+  - Component className Vs HTML tag name
+  - initial state, set state
+  - passing state to child component
+  - get props from parent component
+  - display state/props/var inside render function
+  - handle undefined var (?)
+  - Bind(this) function
+  - Variable inside render function
+  - Form handling
+  - create-react-app file structure
+  - Conditional Rendering
+  - Import modules
+  - Import another components
+  - Looping Inside JSX
+  - React Redux boilerplate
+  - React lifecycle(componenet willmout, didmount, render)
+  - .env create-react-app
+  - CRUDS using api from react
+- React Router
+  - Use react link to change url
