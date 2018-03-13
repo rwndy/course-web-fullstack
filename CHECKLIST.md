@@ -113,7 +113,7 @@ Participate in Impact Byte Network.
 
 - [ ] Markdown
   - `.md`, `.markdown`
-  - `#`, `*`, `_`, `-`, ````
+  - `#`, `*`, `_`, `-`, `>`
 - [ ] Laptop Setup
   - Browser: Chrome
   - Editor: Codepen, Atom
