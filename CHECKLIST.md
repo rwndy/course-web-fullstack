@@ -109,7 +109,7 @@ Participate in Impact Byte Network.
 - [ ] Access to Data
   - Airtable: Participants + Network
 
-## 2: `markdown`, `website`, `html`, `dom`, `editor`, `style-guide`
+## 2: `markdown`, `website`, `html`, `dom`, `editor`, `html-style-guide`
 
 - [ ] Markdown
   - `.md`, `.markdown`
@@ -164,7 +164,7 @@ Participate in Impact Byte Network.
   - GitHub Pages
   - Netlify
 
-## 4: css
+## 4: `css`, `html+css`, `css-box-model`, `css-style-guide`
 
 - [ ] HTML + CSS
   - `style`, `link`, `@import`
@@ -181,7 +181,7 @@ Participate in Impact Byte Network.
 - [ ] CSS Style Guide
   - `csslint`
 
-## 5: bootstrap
+## 5: `rwd`, `amp`, `pwa`, `bootstrap`, `css-flexbox`, `css-grid`, `css-animation`
 
 - [ ] Responsive/Adaptive Web Design
   - Accelerated Mobile Pages (AMP)
@@ -199,7 +199,7 @@ Participate in Impact Byte Network.
 - [ ] CSS Animation
   - Animate.css
 
-## 5+
+## 5+: `mindset`, `professional`, `profile`, `cv`, `resume`, `domain`, `dns`
 
 - [ ] Developer Mindset
 - [ ] Professional Principles
@@ -218,7 +218,7 @@ Participate in Impact Byte Network.
 
 # Chapter 2
 
-## 6: `logic`, `design`, `flowchart`, `pseudocode`, `algorithm`, `tools`, `feature`
+## 6: `logic`, `design`, `flowchart`, `pseudocode`, `algorithm`, `terminal`, `tools`, `feature`
 
 - [ ] Logic Flow
   - How would you do things?
@@ -244,7 +244,7 @@ Participate in Impact Byte Network.
   - Don't Repeat Yourself (DRY)
   - Single Responsibility Principle (SRP)
 
-## 7: `javascript`
+## 7: `javascript`, `html+js`, `js-data`, `js-variable`, `js-symbols`, `js-trivia`
 
 - [ ] JavaScript Intro
   - Chrome Developer Tools
@@ -252,7 +252,7 @@ Participate in Impact Byte Network.
   - Traits: supported by all browsers, script/intrepreted vs compiled, high level, dynamic typing
 - [ ] HTML + JavaScript
   - `script`, `script src`
-- [ ] JavaScript Intro
+- [ ] JavaScript Intro & Data Types
   - `String`
   - `Number`
   - `Boolean`
@@ -273,8 +273,8 @@ Participate in Impact Byte Network.
 - [ ] JavaScript Trivia
   - Case sensitivity
   - Reserved words
-  - Semicolon
-  - Error
+  - Semicolon is optional
+  - How to read error
   - Statements, Declarations, Expressions
   - ECMASCript versions (ES5/ES6/ES7/ES8)
   - CoffeeScript & TypeScript & Dart
@@ -301,10 +301,13 @@ Participate in Impact Byte Network.
   - Math method: `random`, `ceil`, `floor`
   - Object method: `assign`, `copy`
 - [ ] JavaScript Functions
-  - `function`
-  - `var x = function() {}`
-  - `var x = () => {}`
+  - `function name() {}`
+  - `const x = function() {}`
+  - `const x = () => {}`
+  - Function arguments and default parameters
+    - `function (input = "default") {}`
 - [ ] Recursion
+  - `function name() { name() }`
 - [ ] Timing
   - `setTimeout`, `setInterval`
 
@@ -354,12 +357,12 @@ Participate in Impact Byte Network.
   - `Storage`, `sessionStorage`, `localStorage`, `setItem`, `getItem`
   - `IndexedDB`
   - `cookie`
-- [ ] JavaScript Techniques
-  - Procedural, arguments and default parameters, scope, `this` keyword
+- [ ] JavaScript Trivia Techniques
+  - Procedural, scope, `this` keyword
   - Imperative vs Declarative
   - Pass by value and reference
   - Prototype object
-  - Exception and error handling: `try catch`
+  - Exception and error handling: `try catch`, `.then`/`.catch`
 
 ## 13:
 
