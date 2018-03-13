@@ -2,17 +2,11 @@
 
 This checklist is also available online on [GitBook](https://impactbyte-course-web-full-stack.gitbooks.io).
 
-## App
+## Application Idea
 
 Todo app with social interaction.
 
-## Process
-
-The learning process is very dictated.
-
-Best to use analogy when explaining a new concept.
-
-## Features:
+## Application Features:
 
 Basic:
 
@@ -49,15 +43,21 @@ Super:
 - Process payment
 - Analyze data
 
-## Success
+## Learning Process
+
+Very dictated and best to use analogy when explaining a new concept.
+
+## Success Criteria
 
 Participant can build the proposed app.
 
 Even the participant is not attending the class, they can still follow the modules.
 
-## Career:
+## Career Support
 
-- Refine CV, Resume, online profiles (GitHub, LinkedIn, Facebook)
+Refine CV, Resume, and online profiles (GitHub, LinkedIn, Facebook).
+
+Participate in Impact Byte Network.
 
 --------------------------------------------------------------------------------
 
@@ -109,14 +109,16 @@ Even the participant is not attending the class, they can still follow the modul
 - [ ] Access to Data
   - Airtable: Participants + Network
 
-## 2: `markdown`, `website`, `html`, `dom`, `editor`
+## 2: `markdown`, `website`, `html`, `dom`, `editor`, `style-guide`
 
 - [ ] Markdown
+  - `.md`, `.markdown`
+  - `#`, `*`, `_`, `-`, ````
 - [ ] Laptop Setup
   - Browser: Chrome
   - Editor: Codepen, Atom
   - Editor Features: command palette, split view
-  - Editor Packages: beautify, emmet
+  - Editor Packages: prettier, emmet
   - Browser Extensions: adblock pro, markdown preview
 - [ ] Website Structure
   - Navigation
@@ -134,17 +136,20 @@ Even the participant is not attending the class, they can still follow the modul
   - Multimedia: `video`, `audio`, `iframe`
   - Form: `form`, `label`, `input`, `fieldset`, `textarea`, `required`, `autofocus`, `contenteditable`
 - [ ] HTML Style Guide
+  - indentation, capitalization, white space
+  - `google.github.io/styleguide/htmlcssguide.html`
 
-## 3: `terminal`, `cli`, `git`, `github`, `deploy`
+## 3: `terminal`, `cli`, `git`, `github`, `hosting`, `deploy`
 
 - [ ] Terminal/CLI (Command Line Interface)
   - name, directory, file, extension, home
   - Directory navigation: `ls`, `clear`, `ctrl+l`, `mkdir`, `cd`, `pwd`
   - File manipulation: `cp`, `mv`, `rm`, `touch`
   - Other: `echo`, `which`, `man`,
-  - Installation: `apt`, `brew`
-- [ ] CLI Editor
-  - `nano`, `vim`
+  - Installation: `apt`, `brew`, `apm`
+- [ ] Laptop Setup
+  - CLI Editors: `nano`, `vim`
+  - OS Packages: `iterm2`, `git`, `tig`
 - [ ] Git
   - Source Code Management (SCM) or Version Control System (VCS)
   - `config`, `init`, `clone`, `status`, `add`, `commit`, `log`, `checkout`, `remote`, `push`, `pull`
@@ -155,11 +160,9 @@ Even the participant is not attending the class, they can still follow the modul
   - README & License
   - Invited to batch organization
   - Open Source
-- [ ] Web Hosting
+- [ ] Web Hosting & Deployment
   - GitHub Pages
   - Netlify
-- [ ] Laptop Setup
-  - OS Packages: git, tig
 
 ## 4: css
 
@@ -176,6 +179,7 @@ Even the participant is not attending the class, they can still follow the modul
   - `content`, `padding`, `border`, `margin`
   - `inline`, `block`, `float`, `absolute`, `relative`, `fixed`, `float`
 - [ ] CSS Style Guide
+  - `csslint`
 
 ## 5: bootstrap
 
@@ -598,16 +602,30 @@ Even the participant is not attending the class, they can still follow the modul
   - Who uses React?
   - The main reasons and philosophy
   - vs jQuery, Vue, Angular, Preact, Web Components, Elm, etc
-  - Installation: `create-react-app`
   - Creating components and writing HTML with `class` in JSX
   - JSX is a DSL (Domain Specific Language) over JavaScript
-- [ ] React Component
+  - React lifecycle (`componentWillMount`, `render`, `componentDidMount`)
+- [ ] React Installation
+  - `npm install -g create-react-app`
+  - `create-react-app` project structure
+- [ ] React Component `class` vs stateless component
   - Building blocks of React, `react`, `react-dom`
+  - Import modules or another components
+  - JSX `className` vs HTML `class`
   - `state`, `setState`, `getState`
+    - initial state vs changed state
   - `props`, `propTypes`, and `defaultProps`
-- [ ] React Styling
-  - Inline styling, CSS in JS
-  - `styled-components`
+- [ ] React State
+  - Passing state to child component
+- [ ] React Props
+  - Get props from parent component
+- [ ] React Render
+  - Display `state`/`props`/`variable` inside `render` function
+  - Handle `undefined` or unstructured variable with condtional `if`/`||`
+  - Conditional rendering
+  - Looped rendering using `map`/`filter`
+- [ ] React Method
+  - `.bind(this)` in constructor
 - [ ] React Toolkit
   - Component and virtual DOM
   - Editor Packages: `react`, `jsx`
@@ -624,12 +642,26 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## 27: `react-router`
 
+- [ ] React Styling
+  - Inline styling, CSS in JS
+  - `styled-components`
 - [ ] React Router
   - `Router`, `Route`, `Link`
+  - Use `Link` to change URL
 - [ ] React UI Library
   - Reactstrap
 
-## 28: `react-redux`, `redux`
+## 28: `react-data`, `react-form`
+
+- [ ] React Environment
+  - `.env` via `REACT_APP_VARIABLE` and `process.env.REACT_APP_VARIABLE`
+- [ ] React Form
+  - Get value from form inputs
+  - Send data from state to API
+- [ ] React + REST API
+  - CRUDSF via `axios` & API
+
+## 29: `react-redux`, `redux`
 
 - [ ] React + REST API
   - Methods in component
@@ -642,9 +674,8 @@ Even the participant is not attending the class, they can still follow the modul
   - vs Flux vs Redux vs MobX
   - Browser Extensions: Redux DevTools
 - [ ] React + Redux
-
-## 29:
-
+  - Integrate Redux into React
+  - React Redux boilerplate
 - [ ] Static Typing
   - Flow static type checker
   - vs PropTypes, TypeScript
@@ -751,33 +782,9 @@ Even the participant is not attending the class, they can still follow the modul
 - [ ] Product Launch
 - [ ] Presentation
 - [ ] Graduation
+- [ ] Final Review, Feedback, and Evaluation
 
 ## 41+
 
 - [ ] Other Programming Languages
   - Python, Ruby, PHP, Java, Perl, Go, PHP, hyperpolyglot.org
-
-## Haekal checklist
-- React
-  - React component
-  - React stateless component vs react component
-  - Component className Vs HTML tag name
-  - initial state, set state
-  - passing state to child component
-  - get props from parent component
-  - display state/props/var inside render function
-  - handle undefined var (?)
-  - Bind(this) function
-  - Variable inside render function
-  - Form handling
-  - create-react-app file structure
-  - Conditional Rendering
-  - Import modules
-  - Import another components
-  - Looping Inside JSX
-  - React Redux boilerplate
-  - React lifecycle(componenet willmout, didmount, render)
-  - .env create-react-app
-  - CRUDS using api from react
-- React Router
-  - Use react link to change url
