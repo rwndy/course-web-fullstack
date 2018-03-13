@@ -118,7 +118,7 @@ Participate in Impact Byte Network.
   - Browser: Chrome
   - Editor: Codepen, Atom
   - Editor Features: command palette, split view
-  - Editor Packages: prettier, emmet
+  - Editor Packages: atom-beautify, atom ternjs, intent-guide-improved, color-picker, emmet, file-icons, floobits,merge-conflicts
   - Browser Extensions: adblock pro, markdown preview
 - [ ] Website Structure
   - Navigation
