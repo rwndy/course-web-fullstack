@@ -789,5 +789,11 @@ Participate in Impact Byte Network.
 
 ## 41+
 
+- [ ] Career Support
+  - Connect with alumni, network, or current participants
+  - Apply for a job or opportunity
+  - Start entrepreneurship journey
+  - Join various events by many communities
+  - Product development consultation
 - [ ] Other Programming Languages
   - Python, Ruby, PHP, Java, Perl, Go, PHP, hyperpolyglot.org
