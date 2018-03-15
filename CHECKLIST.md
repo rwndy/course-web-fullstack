@@ -68,7 +68,7 @@ Refine CV, Resume, and online profiles (Website, GitHub, LinkedIn, Facebook).
 Example:
 
 - [Haidar's Website](https://mhaidarhanif.com)
-- [Haidar's GitHub](https://github.com/mhaidarhanif)
+- [Haidar's GitHub](https://github.com/mhaidarh)
 - [Haidar's LinkedIn](https://linkedin.com/in/mhaidarhanif)
 - [Haidar's Facebook](https://facebook.com/mhaidarhanif)
 
@@ -229,6 +229,14 @@ Grant access to all partners.
   - GitHub
   - LinkedIn
   - Facebook
+- [ ] Soft Skills
+  - Thinking ~ Thinker
+  - Designing ~ Architect
+  - Coding ~ Engineer
+  - Testing ~ Vandal
+  - Debugging ~ Detective
+  - Deploying ~ Operator
+  - Maintaining ~ Manager
 - [ ] Domain Registration
   - Uniregistry
 - [ ] DNS Management
