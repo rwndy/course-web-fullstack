@@ -12,6 +12,8 @@ Todo app with social interaction.
 
 Inspiration: [TodoMVC](http://todomvc.com).
 
+Result: [impactodo](https://impactodo.firebaseapp.com)
+
 ## Application Features:
 
 Basic:
@@ -61,9 +63,18 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Career Support
 
-Refine CV, Resume, and online profiles (GitHub, LinkedIn, Facebook).
+Refine CV, Resume, and online profiles (Website, GitHub, LinkedIn, Facebook).
+
+Example:
+
+- [Haidar's Website](https://mhaidarhanif.com)
+- [Haidar's GitHub](https://github.com/mhaidarhanif)
+- [Haidar's LinkedIn](https://linkedin.com/in/mhaidarhanif)
+- [Haidar's Facebook](https://facebook.com/mhaidarhanif)
 
 Participate in Impact Byte Network.
+
+Grant access to all partners.
 
 --------------------------------------------------------------------------------
 
@@ -166,6 +177,9 @@ Participate in Impact Byte Network.
   - README & License
   - Invited to batch organization
   - Open Source
+  - [Android App](https://play.google.com/store/apps/details?id=com.gitpoint)
+- [ ] GitLab
+  - [Android App](https://play.google.com/store/apps/details?id=com.commit451.gitlab)
 - [ ] Web Hosting & Deployment
   - GitHub Pages
   - Netlify
