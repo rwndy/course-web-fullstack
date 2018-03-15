@@ -2,9 +2,15 @@
 
 This checklist is also available online on [GitBook](https://impactbyte-course-web-full-stack.gitbooks.io).
 
+Participants will build the ideated application in 6 weeks total (around 30 days), guided by the mentors.
+
+Then will build the final project with the team (about 4-5 people) in 2 weeks total (around 10 days), advised by the mentors.
+
 ## Application Idea
 
 Todo app with social interaction.
+
+Inspiration: [TodoMVC](http://todomvc.com).
 
 ## Application Features:
 
@@ -118,7 +124,7 @@ Participate in Impact Byte Network.
   - Browser: Chrome
   - Editor: Codepen, Atom
   - Editor Features: command palette, split view
-  - Editor Packages: atom-beautify, atom ternjs, intent-guide-improved, color-picker, emmet, file-icons, floobits,merge-conflicts
+  - Editor Packages: `beautify`, `emmet`, `ternjs`, `indent-guide-improved`, `color-picker`, `file-icons`, `floobits`, `merge-conflicts`
   - Browser Extensions: adblock pro, markdown preview
 - [ ] Website Structure
   - Navigation
@@ -281,9 +287,10 @@ Participate in Impact Byte Network.
 - [ ] Laptop Setup
   - Browser Extensions: JSON viewer
 
-## 8: `logic`
+## 8: `logic`, `block`, `conditional`, `loop`
 
 - [ ] Block
+  - `( )`
   - `{ }`
 - [ ] Conditional
   - `if`, `else`, `if else`, `switch case`
@@ -293,7 +300,7 @@ Participate in Impact Byte Network.
   - `do while`
   - `map`, `filter`, `find`
 
-## 9: `function`
+## 9: `function`, `recursion`, `timing`
 
 - [ ] JavaScript Built-In Functions
   - String method: `charAt`, `charCodeAt`, `toUpperCase`, `toLowerCase`, `split`, `replace`, `substr`
@@ -311,7 +318,7 @@ Participate in Impact Byte Network.
 - [ ] Timing
   - `setTimeout`, `setInterval`
 
-## 10: `javascript-dom`
+## 10: `bom`, `dom`, `javascript-dom`, `dom-events`
 
 - [ ] Browser Object Model (BOM):
   - `window` object, `onLoad`, `onDOMReady`
@@ -326,7 +333,7 @@ Participate in Impact Byte Network.
 
 # Chapter 3
 
-## 11:
+## 11: `css-preprocessing`, `process`, `performance`, `regex`
 
 - [ ] CSS Preprocessing/Templating
   - Sass, Less, Stylus
@@ -347,12 +354,12 @@ Participate in Impact Byte Network.
   - Regular Expression (regex)
   - Pattern matching/recognition in a text (phone, email, zip code, etc)
   - `replace`, `match`, `search`
+
+## 12: `form`, `storage`
+
 - [ ] Form Processing
   - Validation
   - Save data
-
-## 12:
-
 - [ ] Web Browser Storage
   - `Storage`, `sessionStorage`, `localStorage`, `setItem`, `getItem`
   - `IndexedDB`
@@ -364,7 +371,7 @@ Participate in Impact Byte Network.
   - Prototype object
   - Exception and error handling: `try catch`, `.then`/`.catch`
 
-## 13:
+## 13: `js-library`
 
 - [ ] JavaScript Trivia
   - Immediately Invoked Function Expression (IIFE)
@@ -379,8 +386,9 @@ Participate in Impact Byte Network.
   - Binding `bind`
 - [ ] JavaScript Library
   - jQuery
+  - `$` keyword
 
-## 14:
+## 14: `paradigm`, `architecture`, `mvc`, `oop`
 
 - [ ] Programming Paradigms
   - Imperative vs declarative
@@ -389,7 +397,7 @@ Participate in Impact Byte Network.
 - [ ] Object-Oriented Programming (OOP)
   - `class`, `extends`, `constructor`
 
-## 15:
+## 15: `project-management`, `functional`
 
 - [ ] Project/Product Management
   - Key Steps: ideation, wireframe/mockup, data modeling, list of backlog or user stories
@@ -413,7 +421,7 @@ Participate in Impact Byte Network.
 
 # Chapter 4
 
-## 16:
+## 16: `http-api`, `rest-api`, `web-services`, `internet`
 
 - [ ] HTTP API & Protocol
   - HTTP/HTTPS
@@ -436,7 +444,7 @@ Participate in Impact Byte Network.
   - FTP, telnet
   - Real-time protocols: WebSocket, WebRTC, Socket.io
 
-## 17:
+## 17: `nodejs`, `package-manager`
 
 - [ ] Node.js
   - Installation: `nvm`
@@ -447,7 +455,7 @@ Participate in Impact Byte Network.
   - `nodemon`, `node-dev`
   - Environment: `process.env`, `development`, `production`
 
-## 18:
+## 18: `nodejs-api`, `transpilation`, `babeljs`
 
 - [ ] Node.js + Browser + REST API
   - `fetch`, `axios`
@@ -458,7 +466,7 @@ Participate in Impact Byte Network.
   - File Input/Output (I/O): `readline`, `readfile`
   - Desktop app: Electron
 
-## 19:
+## 19: `nodejs-library`, `expressjs`
 
 - [ ] Node.js Library/Framework
   - Express.js
@@ -467,16 +475,16 @@ Participate in Impact Byte Network.
   - vs Ruby + Rails
   - vs PHP + Laravel/CodeIgniter
   - vs Java + Spring
-- [ ] Express.js
+- [ ] Express Essentials
   - IP address and port
   - Ignore templating engine
-- [ ] Routing
+- [ ] Express Routing
   - `.get`, `.post`, `.delete`, `.put`
-- [ ] Data
+- [ ] Express Data
   - `body`, `params`, `query`
-- [ ] Plugin/Middleware
+- [ ] Express Plugin/Middleware
 
-## 20:
+## 20: `js-rest-api`, `auth`, `nodejs-deployment`
 
 - [ ] JavaScript + REST API
   - CORS (Cross-Origin Resource Sharing (CORS)
@@ -494,7 +502,7 @@ Participate in Impact Byte Network.
 - [ ] Node.js Trivia
   - Documentaion/Generators: Swagger, API Blueprint, Stoplight
 
-## 20:
+## 20: `testing`, `tdd`, `bdd`, `atdd`
 
 - [ ] Testing methodologies
   - Unit
@@ -504,7 +512,10 @@ Participate in Impact Byte Network.
 - [ ] Testing Tools
   - Mocha, Chai, Jasmine, Karma, Selenium, Nightmare, CucumberJS
 - [ ] Testing Techniques
-  - TDD, BDD, ATDD
+  - TDD (Test Driven Development)
+  - BDD (Behavior Driven Development)
+  - ATDD (Automated Test Driven Development)
+  - HDD (Hypothesis Driven Development)
   - Continuous Integration (CI): Jenkins, Travis
   - Continuous Deployment (CD)
 
@@ -518,7 +529,7 @@ Participate in Impact Byte Network.
 
 # Chapter 5
 
-## 21:
+## 21: `database-sql`, `dbms`
 
 - [ ] Database SQL (Structured Query Language)
   - Relational
@@ -530,23 +541,26 @@ Participate in Impact Byte Network.
   - Extract, Transform, Load (ETL)
   - Indexing
 - [ ] DBMS (Database Management System)
-  - SQLite, MySQL, PostgreSQL
-- [ ] Table Relationship
+  - SQLite
+  - MySQL
+  - PostgreSQL
+- [ ] Table Essentials
+  - Table relationship
   - 1 to 1, 1 to many, many to many
-- [ ] Table Join
-  - full, inner, outer, left, right
 - [ ] SQL Tools
   - MySQL Workbench
 - [ ] SQL Hosted
   - Heroku Postres
+- [ ] Table Join
+  - full, inner, outer, left, right
 
-## 22:
+## 22: `database-orm`
 
 - [ ] Database SQL + ORM (Object Relational Mapper)
   - Knex.js, Sequelize
   - Migration
 
-## 23:
+## 23: `database-nosql`
 
 - [ ] Database NoSQL
   - MongoDB
@@ -557,12 +571,12 @@ Participate in Impact Byte Network.
 - [ ] NoSQL Hosted
   - mLab, MongoDB Atlas
 
-## 24:
+## 24: `database-odm`
 
 - [ ] Database NoSQL + ODM (Object Document Mapper)
   - Mongoose, Mongorito
 
-## 25:
+## 25: `classic-algorithm`, `classic-data-structure`
 
 - [ ] Classic Algorithms
   - Search
@@ -580,13 +594,13 @@ Participate in Impact Byte Network.
 
 ## 25+
 
+- [ ] API Database
+  - Contentful, Prismic
 - [ ] Database Trivia
   - Backup as dump
   - Master slave
   - Replica set
   - Clustering
-- [ ] API Database
-  - Contentful, Prismic
 - [ ] SEO (Search Engine Optimization)
   - SEO, crawling, indexing, page rank
   - Metadata with Facebook OpenGraph, Twitter
@@ -685,7 +699,7 @@ Participate in Impact Byte Network.
 - [ ] React Testing
   - Jest, Enzyme
 
-## 30:
+## 30: `react-native`
 
 - [ ] React Native
   - Mobile App Development
@@ -722,28 +736,28 @@ Participate in Impact Byte Network.
 
 # Chapter 7
 
-## 31: `final-idea`
+## 31: `final-app`
 
 - [ ] Ideation
 - [ ] List of Features
 - [ ] Assign Roles and Responsibilities
 
-## 32:
+## 32: `final-app`
 
 - [ ] Create UI Design
 - [ ] Create Data Structure
 
-## 33:
+## 33: `final-app`
 
 - [ ] Implement Frontend
 - [ ] Implement Backend
 
-## 34:
+## 34: `final-app`
 
 - [ ] Implement Frontend
 - [ ] Implement Backend
 
-## 35:
+## 35: `final-app`
 
 - [ ] Early Deployment
 - [ ] Progress Evaluation
@@ -762,25 +776,25 @@ Participate in Impact Byte Network.
 
 # Chapter 8
 
-## 36:
+## 36: `final-app`
 
 - [ ] Public Deployment
 - [ ] Integration
 
-## 37:
+## 37: `final-app`
 
 - [ ] Integration
 
-## 38:
+## 38: `final-app`
 
 - [ ] Integration
 
-## 39:
+## 39: `final-app`
 
 - [ ] Progress Evaluation
 - [ ] Presentation Rehearsal
 
-## 40: final-presentation
+## 40: `final-presentation`
 
 - [ ] Product Launch
 - [ ] Presentation
