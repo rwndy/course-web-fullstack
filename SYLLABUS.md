@@ -1,8 +1,8 @@
-# Compact Syllabus
+# Compact Syllabus (2018 Edition)
 
-Participants will build the ideated application in 6 weeks total (around 30 days), guided by the mentors.
+Participants will build the ideated application in 6 weeks total (around 30 days), guided by the mentors
 
-Then will build the final project with the team (about 4-5 people) in 2 weeks total (around 10 days), advised by the mentors.
+Then will build the final project with the team (about 4-5 people) in 2 weeks total (around 10 days), advised by the mentors
 
 The main web application idea is to build todo app with social interaction, that features to:
 
@@ -20,19 +20,20 @@ The main web application idea is to build todo app with social interaction, that
 - Logout account
 - Comment on todo
 
-...and many more.
+...and many more
 
 --------------------------------------------------------------------------------
 
 ## Chapter 0
 
-Preparation for learning full stack web development.
+Preparation for learning full stack web development
 
 keyword: `preparation`
 
 --------------------------------------------------------------------------------
 
 ## Chapter 1
+
 
 
 --------------------------------------------------------------------------------
@@ -82,3 +83,4 @@ Career support to refine:
 - Online profiles (Website, GitHub, LinkedIn, Facebook)
 - Participate in Impact Byte Network with various partners
 - Apply and get a job as a professional
+- Build or join to your own tech startup

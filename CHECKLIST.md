@@ -1,4 +1,4 @@
-# Compact Checklist
+# Compact Checklist (2018 Edition)
 
 This checklist is also available online on [GitBook](https://impactbyte-course-web-full-stack.gitbooks.io).
 
@@ -77,6 +77,8 @@ Participate in Impact Byte Network.
 Grant access to various partners.
 
 Apply and get a job as a professional.
+
+Build or join to your own tech startup.
 
 --------------------------------------------------------------------------------
 
