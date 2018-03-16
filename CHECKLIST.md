@@ -12,7 +12,7 @@ Todo app with social interaction.
 
 Inspiration: [TodoMVC](http://todomvc.com).
 
-Result: [impactodo](https://impactodo.firebaseapp.com)
+Result: [Impact Todo](https://impactodo.firebaseapp.com)
 
 ## Application Features:
 
@@ -74,7 +74,9 @@ Example:
 
 Participate in Impact Byte Network.
 
-Grant access to all partners.
+Grant access to various partners.
+
+Apply and get a job as a professional.
 
 --------------------------------------------------------------------------------
 
