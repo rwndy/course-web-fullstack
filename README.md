@@ -6,9 +6,9 @@
 
 Welcome to the main course of Impact Byte, full stack web development.
 
-## List of Contents
+---
 
-Globally, we have some segmented contents:
+## Getting Started
 
 ### [Compact Syllabus](./syllabus/README.md)
 
@@ -22,7 +22,9 @@ The compact checklist contains list of materials that must be covered in 8 weeks
 
 Typical agenda that will run through in our onsite class.
 
-### Learning Chapters
+---
+
+## Learning Chapters
 
 * [Chapter 0](chapter-0/README.md)
 * [Chapter 1](chapter-1/README.md)
@@ -34,6 +36,8 @@ Typical agenda that will run through in our onsite class.
 * [Chapter 7](chapter-7/README.md)
 * [Chapter 8](chapter-8/README.md)
 
-### [Career Support](./career/README.md)
+---
+
+## [Career Support](./career/README.md)
 
 Career support guidance for getting or creating a new job.

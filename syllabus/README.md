@@ -79,10 +79,6 @@ Refine our logic and design sense, start to program in JavaScript
 Approach better styling and programming techniques
 
 * CSS Preprocessing
-* Process and Data Management
-* Pattern Matching
-* Form Processing
-* Web Browser Storage
 * JavaScript Library such jQuery
 * Programming Paradigms
 * Application Architecture
