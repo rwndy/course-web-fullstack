@@ -109,6 +109,7 @@ Build or join to your own tech startup.
   * Impact Byte Network + Partners
   * Impact Byte World
   * Venue Tour
+  * Photo Shoot
 * [ ] Personality and Mindset
   * What is your profile?
   * Goal and expectation? Expert or Regular or Nothing
