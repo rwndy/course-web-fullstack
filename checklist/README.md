@@ -6,50 +6,9 @@ Participants will build the ideated application in 6 weeks total (around 30 days
 
 Then will build the final project with the team (about 4-5 people) in 2 weeks total (around 10 days), advised by the mentors.
 
-## Application Idea
+## Main Application Idea
 
-Todo app with social interaction.
-
-Inspiration: [TodoMVC](http://todomvc.com).
-
-Result: [Impact Todo](https://impactodo.firebaseapp.com)
-
-## Application Features:
-
-Basic:
-
-* Create todo
-* Read one or all todos
-* Update todo (edit text, complete todo)
-* Delete one or all todo
-
-Intermediate:
-
-* Search todos
-* Filter todos
-* Paginate todos
-* Bookmark todo
-* Print todos
-
-Advanced:
-
-* Register account
-* Login account
-* Logout account
-* Comment on todo
-
-Master:
-
-* Verify email
-* Forgot password
-* Manage profile
-
-Super:
-
-* Sell and buy todo
-* Shopping cart
-* Process payment
-* Analyze data
+[Impact Todo](http://impactbyte-learn.gitbooks.io/code-impactodo): Simple todo app with social interaction.
 
 ## Learning Process
 
