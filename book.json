@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    "code",
+    "coolimages",
+    "checklist"
+  ],
+  "pluginsConfig": {
+    "code": {
+      "copyButtons": false
+    }
+  }
+}
