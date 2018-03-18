@@ -1,9 +1,9 @@
 {
-  "plugins": [
-    "code",
-    "coolimages",
-    "checklist"
-  ],
+  "title": "Impact Byte - Full Stack Web",
+  "description": "Impact Byte full stack web learning course",
+  "author": "Impact Byte Tech",
+  "language": "en",
+  "plugins": ["code", "coolimages", "checklist"],
   "pluginsConfig": {
     "code": {
       "copyButtons": false
