@@ -2,6 +2,8 @@
 
 ---
 
+![](./assets/internet.png)
+
 ## Terminologies
 
 We should know the main difference between Internet vs The Web vs The Cloud. Basically, Internet is the main network that connect a lot of computers in the world. While the Web is intended to publish the website on the Internet. Then the Cloud? Well, it's just a fancy name for the Internet or application service provided by various companies.
@@ -11,6 +13,8 @@ Then it's important to know why website and web application are aiming for two d
 What are your favorite website or web app? That you use everyday, you can't live without. Take some inspiration!
 
 ---
+
+![](./assets/fullstack.png)
 
 ## Full Stack Web
 
@@ -22,6 +26,8 @@ Backend is the hidden engine that most users don't know, mostly interacted with 
 
 ---
 
+![](./assets/mvp.jpg)
+
 ## MVP (Minimum Viable Product)
 
 While building a project or product, we tend to view the complete huge application we want to have. But realistically when building it, we should start small even though we want to think big.
@@ -32,7 +38,9 @@ By thinking in MVP, we build something first as small as possible. So we can lau
 
 ## UI (User Interface) Design
 
-## Wireframe vs Mockup vs Prototype
+![](./assets/wireframe-mockup.png)
+
+### Wireframe vs Mockup vs Prototype
 
 Commonly when designing a website or application, we are recommended to visualize it first.
 
@@ -42,6 +50,8 @@ Mockup is the bare minimum of the design. We can see better layout, colors, typo
 
 Prototype is often the advanced one where we can make the mockup interactively used. Without having to code it.
 
-## Design Tool
+![](./assets/figma.png)
+
+### Design Tool
 
 Nowadays, we can just use online design tool to create a mockup or graphic design. Let's use [Figma](https://figma.com) for a start, and follow along with the predefined design wireframe/mockup for our app.
