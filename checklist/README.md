@@ -1,7 +1,5 @@
 # Compact Checklist (2018 Edition)
 
-This checklist is also available online on [GitBook](https://impactbyte-course-web-full-stack.gitbooks.io).
-
 Participants will build the ideated application in 6 weeks total (around 30 days), guided by the mentors.
 
 Then will build the final project with the team (about 4-5 people) in 2 weeks total (around 10 days), advised by the mentors.
@@ -19,25 +17,6 @@ Very dictated and best to use analogy when explaining a new concept.
 Participant can build the proposed app.
 
 Even the participant is not attending the class, they can still follow the modules.
-
-## Career Support
-
-Refine CV, Resume, and online profiles (Website, GitHub, LinkedIn, Facebook).
-
-Example:
-
-* [Haidar's Website](https://mhaidarhanif.com)
-* [Haidar's GitHub](https://github.com/mhaidarh)
-* [Haidar's LinkedIn](https://linkedin.com/in/mhaidarhanif)
-* [Haidar's Facebook](https://facebook.com/mhaidarhanif)
-
-Participate in Impact Byte Network.
-
-Grant access to various partners.
-
-Apply and get a job as a professional.
-
-Build or join to your own tech startup.
 
 ---
 
@@ -100,7 +79,7 @@ Build or join to your own tech startup.
   * Editor: Codepen, Atom
   * Editor Features: command palette, split view
   * Editor Packages: `beautify`, `emmet`, `ternjs`, `indent-guide-improved`, `color-picker`, `file-icons`, `floobits`, `merge-conflicts`
-  * Browser Extensions: adblock pro, markdown preview
+  * Browser Extensions: adblock pro, markdown preview plus
 * [ ] Website Structure
   * Navigation
   * Header
