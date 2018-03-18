@@ -43,3 +43,7 @@ Typical agenda that will run through in our onsite class.
 * [Chapter 6](chapter-6/README.md)
 * [Chapter 7](chapter-7/README.md)
 * [Chapter 8](chapter-8/README.md)
+
+### [Career Support](./career/README.md)
+
+Career support guidance for getting or creating a new job.
