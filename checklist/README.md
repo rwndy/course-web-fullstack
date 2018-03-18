@@ -233,8 +233,6 @@ Build or join to your own tech startup.
   * Testing
   * Refactoring
   * Clean Code
-  * Don't Repeat Yourself (DRY)
-  * Single Responsibility Principle (SRP)
 
 ## 7: `javascript`, `html+js`, `js-data`, `js-variable`, `js-symbols`, `js-trivia`
 
@@ -275,16 +273,19 @@ Build or join to your own tech startup.
 
 ## 8: `logic`, `block`, `conditional`, `loop`
 
-* [ ] Block
+* [ ] JavaScript Block
   * `( )`
   * `{ }`
-* [ ] Conditional
+* [ ] JavaScript Conditional
   * `if`, `else`, `if else`, `switch case`
   * `switch case`
-* [ ] Repetition/Loop
+* [ ] JavaScript Repetition/Loop
   * `for`, `for in`, `for of`, `foreach`
   * `do while`
   * `map`, `filter`, `find`
+* [ ] JavaScript Trivia
+  * Don't Repeat Yourself (DRY)
+  * Single Responsibility Principle (SRP)
 
 ## 9: `function`, `recursion`, `timing`
 
@@ -490,7 +491,7 @@ Build or join to your own tech startup.
 
 ## 20: `testing`, `tdd`, `bdd`, `atdd`
 
-* [ ] Testing methodologies
+* [ ] Testing Methodologies
   * Unit
   * Functional
   * Integration/API
