@@ -72,13 +72,15 @@ like so:
 
 ---
 
-## Complete README
+## Hello Markdown
 
 All of these learning materials are built using Markdown format.
 
 Let's see what's a complete README looks like.
 
-Markdown input:
+To create a Markdown page, create an `index.md` or `hello.md` file in your editor. Then input the Markdown syntax.
+
+**Code:**
 
 ```md
 # Impact Todo
@@ -98,7 +100,7 @@ You can [access it here live](https://impactodo.netlify.com).
 See [LICENSE](./LICENSE.md)
 ```
 
-Result example:
+**Result:**
 
 # Impact Todo
 
