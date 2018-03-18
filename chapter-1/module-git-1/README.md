@@ -1,9 +1,17 @@
 # Git 1
 
+---
+
 ## Git
 
-* Source Code Management (SCM) or Version Control System (VCS)
-* `config`, `init`, `clone`, `status`, `add`, `commit`, `log`, `checkout`, `remote`, `push`, `pull`
+### Installation
+
+* OS Packages: `iterm2`, `git`, `tig`
+
+- Source Code Management (SCM) or Version Control System (VCS)
+- `config`, `init`, `clone`, `status`, `add`, `commit`, `log`, `checkout`, `remote`, `push`, `pull`
+
+---
 
 ## GitHub
 
@@ -15,9 +23,13 @@
 * Open Source
 * [Android App](https://play.google.com/store/apps/details?id=com.gitpoint)
 
+---
+
 ## GitLab
 
 * GitLab
 * [Android App](https://play.google.com/store/apps/details?id=com.commit451.gitlab)
+
+---
 
 ## GitBook

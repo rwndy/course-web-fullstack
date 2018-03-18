@@ -2,5 +2,10 @@
 
 ---
 
-* CLI Editors: `nano`, `vim`
-* OS Packages: `iterm2`, `git`, `tig`
+![](./assets/vim.png)
+
+![](./assets/vim-window.jpg)
+
+## CLI editors
+
+There are some editors that lives in terminal, like `nano` and `vim`. Sometimes you need them if there's no GUI editor available.
