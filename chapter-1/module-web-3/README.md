@@ -2,7 +2,12 @@
 
 ---
 
-## Responsive/Adaptive Web Design
+## Web Design
 
-* Accelerated Mobile Pages (AMP)
-* Progressive Web AppS (PWA)
+Responsive Web Design (RWD)
+
+While Adaptive Web Design (AWD)
+
+Accelerated Mobile Pages (AMP)
+
+Progressive Web AppS (PWA)

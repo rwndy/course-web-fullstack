@@ -1,8 +1,14 @@
 # Professional 1
 
+---
+
 ## Developer Mindset
 
+---
+
 ## Professional Principles
+
+---
 
 ## Online Profiles
 
@@ -11,6 +17,8 @@
 * GitHub
 * LinkedIn
 * Facebook
+
+---
 
 ## Soft Skills
 

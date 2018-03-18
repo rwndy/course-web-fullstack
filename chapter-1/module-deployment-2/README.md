@@ -2,8 +2,8 @@
 
 ## Domain Registration
 
-* Uniregistry
+Register and manage our domains on Uniregistry
 
 ## DNS Management
 
-* Cloudflare
+Connect our domain and hosted website via Cloudflare
