@@ -30,5 +30,5 @@ Atom features helpful actions like:
 
 There are even some helpful packages too:
 
-* `beautify`: automatically beautify our code syntax
-* `file-icons`: give the sidebar cooler icons
+* [`atom-beautify`](https://atom.io/packages/atom-beautify): automatically beautify our code syntax
+* [`file-icons`](https://atom.io/packages/file-icons): give the sidebar cooler icons

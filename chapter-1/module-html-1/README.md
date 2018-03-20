@@ -67,7 +67,7 @@ To create an HTML page, create an `index.html` or `hello.html` file in your edit
 </html>
 ```
 
-Bear in mind of the plaement of each elements after elements.
+Bear in mind of the placement of each elements after elements.
 
 **Result:**
 
@@ -80,3 +80,33 @@ Bear in mind of the plaement of each elements after elements.
 Keep in mind your usage of indentation, capitalization, white space; as they will help your code to be readable.
 
 Visi [this Google's style guide](https://google.github.io/styleguide/htmlcssguide.html) as a reference.
+
+---
+
+## ID and Class in HTML Tags
+
+Each HTML tag can be assigned with `id` or `class` like so:
+
+`id` only:
+
+```
+<h1 id="title">
+  Website Title
+</h1>
+```
+
+`class` only:
+
+```
+<h1 class="black">
+  Website Title
+</h1>
+```
+
+combined:
+
+```
+<h1 id="title" class="black">
+  Website Title
+</h1>
+```
