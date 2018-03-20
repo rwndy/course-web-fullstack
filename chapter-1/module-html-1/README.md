@@ -12,6 +12,16 @@ It structures the content, but not the style or functionality.
 
 That's why later we will need CSS and JavaScript.
 
+### Tag
+
+An HTML tag is declared like:
+
+```
+<tag>text</tag>
+```
+
+With the opening tag and closing tag, containing the text content.
+
 ### Elements
 
 There are various HTML elements based on our intention or usage on the web page:
@@ -25,6 +35,7 @@ There are various HTML elements based on our intention or usage on the web page:
 * For creating a table: `table`, `thead`, `tbody`, `tr`, `td`
 * For multimedia: `video`, `audio`, `iframe`
 * For form inputs: `form`, `label`, `input`, `fieldset`, `textarea`, `required`, `autofocus`, `contenteditable`
+* For commenting: `<!-- comment -->`
 
 You don't need to remember them all. Just use when you need it.
 
@@ -50,14 +61,17 @@ To create an HTML page, create an `index.html` or `hello.html` file in your edit
 
 <body>
   <div>
+    <!-- Header part -->
     <header>
       <h1>Hello HTML</h1>
     </header>
 
+    <!-- Main content -->
     <main>
       <p>Hi, I'm coding with HTML.</p>
     </main>
 
+    <!-- Footer part -->
     <footer>
       <small>Copyright 2018</small>
     </footer>
