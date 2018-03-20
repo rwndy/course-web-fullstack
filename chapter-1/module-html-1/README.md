@@ -138,3 +138,23 @@ combined:
   Website Title
 </h1>
 ```
+
+---
+
+## Complete Example
+
+**Source Code:**
+
+[`index.html`](./code/app/index.html)
+
+**Screenshot:**
+
+![](./assets/screenshot-index.png)
+
+**Source Code:**
+
+[`app.html`](./code/app/app.html)
+
+**Screenshot:**
+
+![](./assets/screenshot-app.png)
