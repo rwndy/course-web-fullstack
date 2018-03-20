@@ -99,7 +99,11 @@ Visi [this Google's style guide](https://google.github.io/styleguide/htmlcssguid
 
 ## ID and Class in HTML Tags
 
-Each HTML tag can be assigned with `id` or `class` like so:
+Each HTML tag can be assigned with `id` or `class`.
+
+`id` is unique, only use one `id` in a single tag.
+
+`class` can be more than one, will be used for styling purpose.
 
 `id` only:
 
@@ -112,7 +116,15 @@ Each HTML tag can be assigned with `id` or `class` like so:
 `class` only:
 
 ```
-<h1 class="black">
+<h1 class="blue">
+  Website Title
+</h1>
+```
+
+multiple `class`:
+
+```
+<h1 class="cool blue">
   Website Title
 </h1>
 ```
@@ -120,7 +132,7 @@ Each HTML tag can be assigned with `id` or `class` like so:
 combined:
 
 ```
-<h1 id="title" class="black">
+<h1 id="title" class="cool blue">
   Website Title
 </h1>
 ```
