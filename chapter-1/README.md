@@ -19,25 +19,25 @@
 
 ---
 
-## 3: `terminal`, `cli`, `git`, `github`, `hosting`, `deploy`
-
-* [Terminal 1](./module-terminal-1/README.md)
-* [Setup 3](./module-setup-3/README.md)
-* [Git 1](./module-git-1/README.md)
-* [Deployment 1](./module-deployment-1/README.md)
-
----
-
-## 4: `css`, `html+css`, `css-box-model`, `css-style-guide`
+## 3: `css`, `html+css`, `css-box-model`, `css-style-guide`
 
 * [CSS 1](./module-css-1/README.md)
 
 ---
 
-## 5: `rwd`, `amp`, `pwa`, `bootstrap`, `css-flexbox`, `css-grid`, `css-animation`
+## 4: `rwd`, `amp`, `pwa`, `bootstrap`, `css-flexbox`, `css-grid`, `css-animation`
 
 * [Web 3](./module-web-1/README.md)
 * [CSS 2](./module-css-2/README.md)
+
+---
+
+## 5: `terminal`, `cli`, `git`, `github`, `hosting`, `deploy`
+
+* [Terminal 1](./module-terminal-1/README.md)
+* [Setup 3](./module-setup-3/README.md)
+* [Git 1](./module-git-1/README.md)
+* [Deployment 1](./module-deployment-1/README.md)
 
 ---
 
