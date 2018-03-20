@@ -52,13 +52,15 @@ To create an HTML page, create an `index.html` or `hello.html` file in your edit
 **Code:**
 
 ```html
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html> <!-- define the HTML version -->
+<html> <!-- the actual HTML page -->
 
+<!-- the head part, mostly containing metadata -->
 <head>
   <title>Hello HTML</title>
-</head>
+</head> <!-- close the head part -->
 
+<!-- the body part, containing the content -->
 <body>
   <div>
     <!-- Header part -->
@@ -76,9 +78,9 @@ To create an HTML page, create an `index.html` or `hello.html` file in your edit
       <small>Copyright 2018</small>
     </footer>
   </div>
-</body>
+</body> <!-- close the body part -->
 
-</html>
+</html> <!-- close the html page -->
 ```
 
 Bear in mind of the placement of each elements after elements.
