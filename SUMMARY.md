@@ -23,7 +23,7 @@
   * Part 3
     * [CSS 1](./chapter-1/module-css-1/README.md)
   * Part 4
-    * [Web 3](./chapter-1/module-web-1/README.md)
+    * [Web 3](./chapter-1/module-web-3/README.md)
     * [CSS 2](./chapter-1/module-css-2/README.md)
   * Part 5
     * [Terminal 1](./chapter-1/module-terminal-1/README.md)
