@@ -158,3 +158,10 @@ combined:
 **Screenshot:**
 
 ![](./assets/screenshot-app.png)
+
+---
+
+## References
+
+* https://marksheet.io/html-basics.html
+* https://learn.shayhowe.com/html-css/getting-to-know-htm
