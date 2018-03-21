@@ -27,7 +27,7 @@
 
 ## 4: `rwd`, `amp`, `pwa`, `bootstrap`, `css-flexbox`, `css-grid`, `css-animation`
 
-* [Web 3](./module-web-1/README.md)
+* [Web 3](./module-web-3/README.md)
 * [CSS 2](./module-css-2/README.md)
 
 ---
