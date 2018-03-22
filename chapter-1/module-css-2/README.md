@@ -112,36 +112,35 @@ Here's a starter template to start with.
 
 Result:
 
-![](./assets/boostrap-start.png)
+![](./assets/bootstrap-start.png)
 
 With Bootstrap, there are several premade design ready for us to use.
 
 ### [Layout](https://getbootstrap.com/docs/4.0/layout/overview)
 
-The grid layout system in Boostrap is using `container`, `row`, and `col` classes to layout and align content.
+The grid layout system in Bootstrap is using `container`, `row`, and `col` classes to layout and align content.
+
+How it actually works is by using a combination of flexbox and CSS [`@media` query](https://www.w3schools.com/css/css_rwd_mediaqueries.asp), also fully responsive.
 
 ![](./assets/bootstrap-layout-container.png)
-
-How it actually works is by using a combination of flexbox and CSS [`@media` query](https://www.w3schools.com/css/css_rwd_mediaqueries.asp), also fully
-responsive.
 
 ![](./assets/bootstrap-layout-grid.png)
 
 ### [Content](https://getbootstrap.com/docs/4.0/components)
 
-Buttons:
+[Buttons](https://getbootstrap.com/docs/4.0/components/buttons):
 
 ![](./assets/bootstrap-buttons.png)
 
-Card:
+[Card](https://getbootstrap.com/docs/4.0/components/card):
 
 ![](./assets/bootstrap-card.png)
 
-Forms:
+[Forms](https://getbootstrap.com/docs/4.0/components/forms):
 
 ![](./assets/bootstrap-forms.png)
 
-### Examples
+### [Examples](https://getbootstrap.com/docs/4.0/examples)
 
 There are even various examples we can use.
 
@@ -152,6 +151,8 @@ There are even various examples we can use.
 ## CSS Animation
 
 There's a simple animation library with just only CSS called [Animate.css](https://daneden.github.io/animate.css).
+
+![](./assets/animatecss.png)
 
 ---
 
