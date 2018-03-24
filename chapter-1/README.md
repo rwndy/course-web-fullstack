@@ -2,7 +2,7 @@
 
 ---
 
-## 1: `personality`, `design`, `ui`, `mockup`, `setup`
+## Part 1: `personality`, `design`, `ui`, `mockup`, `setup`
 
 * [Introduction](./module-introduction/README.md)
 * [Web 1](./module-web-1/README.md)
@@ -11,7 +11,7 @@
 
 ---
 
-## 2: `markdown`, `website`, `html`, `dom`, `editor`, `html-style-guide`
+## Part 2: `markdown`, `website`, `html`, `dom`, `editor`, `html-style-guide`
 
 * [Markdown](./module-markdown/README.md)
 * [Setup 2](./module-setup-2/README.md)
@@ -20,20 +20,20 @@
 
 ---
 
-## 3: `css`, `html+css`, `css-box-model`, `css-style-guide`
+## Part 3: `css`, `html+css`, `css-box-model`, `css-style-guide`
 
 * [CSS 1](./module-css-1/README.md)
 
 ---
 
-## 4: `rwd`, `amp`, `pwa`, `bootstrap`, `css-flexbox`, `css-grid`, `css-animation`
+## Part 4: `rwd`, `amp`, `pwa`, `bootstrap`, `css-flexbox`, `css-grid`, `css-animation`
 
 * [Web 3](./module-web-3/README.md)
 * [CSS 2](./module-css-2/README.md)
 
 ---
 
-## 5: `terminal`, `cli`, `git`, `github`, `hosting`, `deploy`
+## Part 5: `terminal`, `cli`, `git`, `github`, `hosting`, `deploy`
 
 * [Terminal 1](./module-terminal-1/README.md)
 * [Setup 3](./module-setup-3/README.md)
@@ -42,7 +42,7 @@
 
 ---
 
-## 5+: `mindset`, `professional`, `profile`, `cv`, `resume`, `domain`, `dns`
+## Part 5+: `mindset`, `professional`, `profile`, `cv`, `resume`, `domain`, `dns`
 
 * [Professional 1](./module-professional-1/README.md)
 * [Deployment 2](./module-deployment-2/README.md)

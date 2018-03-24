@@ -22,7 +22,7 @@ Even the participant is not attending the class, they can still follow the modul
 
 # Chapter 0
 
-## 0: `preparation`
+## Part 0: `preparation`
 
 * [ ] Preparation
   * [ ] Mindset
@@ -34,7 +34,7 @@ Even the participant is not attending the class, they can still follow the modul
 
 # Chapter 1
 
-## 1: `personality`, `design`, `ui`, `mockup`, `setup`
+## Part 1: `personality`, `design`, `ui`, `mockup`, `setup`
 
 * [ ] Introduce Ourselves
   * Who are you?
@@ -69,7 +69,7 @@ Even the participant is not attending the class, they can still follow the modul
 * [ ] Access to Data
   * Airtable: Participants + Network
 
-## 2: `markdown`, `website`, `html`, `dom`, `editor`, `html-style-guide`
+## Part 2: `markdown`, `website`, `html`, `dom`, `editor`, `html-style-guide`
 
 * [ ] Markdown
   * `.md`, `.markdown`
@@ -99,7 +99,7 @@ Even the participant is not attending the class, they can still follow the modul
   * indentation, capitalization, white space
   * `google.github.io/styleguide/htmlcssguide.html`
 
-## 3: `terminal`, `cli`, `git`, `github`, `hosting`, `deploy`
+## Part 3: `terminal`, `cli`, `git`, `github`, `hosting`, `deploy`
 
 * [ ] Terminal/CLI (Command Line Interface)
   * name, directory, file, extension, home
@@ -127,7 +127,7 @@ Even the participant is not attending the class, they can still follow the modul
   * GitHub Pages
   * Netlify
 
-## 4: `css`, `html+css`, `css-box-model`, `css-style-guide`
+## Part 4: `css`, `html+css`, `css-box-model`, `css-style-guide`
 
 * [ ] HTML + CSS
   * `style`, `link`, `@import`
@@ -144,7 +144,7 @@ Even the participant is not attending the class, they can still follow the modul
 * [ ] CSS Style Guide
   * `csslint`
 
-## 5: `rwd`, `amp`, `pwa`, `bootstrap`, `css-flexbox`, `css-grid`, `css-animation`
+## Part 5: `rwd`, `amp`, `pwa`, `bootstrap`, `css-flexbox`, `css-grid`, `css-animation`
 
 * [ ] Responsive/Adaptive Web Design
   * Accelerated Mobile Pages (AMP)
@@ -162,7 +162,7 @@ Even the participant is not attending the class, they can still follow the modul
 * [ ] CSS Animation
   * Animate.css
 
-## 5+: `mindset`, `professional`, `profile`, `cv`, `resume`, `domain`, `dns`
+## Part 5+: `mindset`, `professional`, `profile`, `cv`, `resume`, `domain`, `dns`
 
 * [ ] Developer Mindset
 * [ ] Professional Principles
@@ -189,7 +189,7 @@ Even the participant is not attending the class, they can still follow the modul
 
 # Chapter 2
 
-## 6: `logic`, `design`, `flowchart`, `pseudocode`, `algorithm`, `terminal`, `tools`, `feature`
+## Part 6: `logic`, `design`, `flowchart`, `pseudocode`, `algorithm`, `terminal`, `tools`, `feature`
 
 * [ ] Logic Flow
   * How would you do things?
@@ -205,15 +205,13 @@ Even the participant is not attending the class, they can still follow the modul
   * `ssh`
 * [ ] Git Commands
   * `ignore`, `branch`, `merge`, `rebase`, `reset`, `revert`
-* [ ] GitHub
-  * Collaboration: pull/merge request
 * [ ] Best Practice Workflow
   * Debugging
   * Testing
   * Refactoring
   * Clean Code
 
-## 7: `javascript`, `html+js`, `js-data`, `js-variable`, `js-symbols`, `js-trivia`
+## Part 7: `javascript`, `html+js`, `js-data`, `js-variable`, `js-symbols`, `js-trivia`
 
 * [ ] JavaScript Intro
   * Chrome Developer Tools
@@ -250,7 +248,7 @@ Even the participant is not attending the class, they can still follow the modul
 * [ ] Laptop Setup
   * Browser Extensions: JSON viewer
 
-## 8: `logic`, `block`, `conditional`, `loop`
+## Part 8: `logic`, `block`, `conditional`, `loop`
 
 * [ ] JavaScript Block
   * `( )`
@@ -266,7 +264,7 @@ Even the participant is not attending the class, they can still follow the modul
   * Don't Repeat Yourself (DRY)
   * Single Responsibility Principle (SRP)
 
-## 9: `function`, `recursion`, `timing`
+## Part 9: `function`, `recursion`, `timing`
 
 * [ ] JavaScript Built-In Functions
   * String method: `charAt`, `charCodeAt`, `toUpperCase`, `toLowerCase`, `split`, `replace`, `substr`
@@ -284,7 +282,7 @@ Even the participant is not attending the class, they can still follow the modul
 * [ ] Timing
   * `setTimeout`, `setInterval`
 
-## 10: `bom`, `dom`, `javascript-dom`, `dom-events`
+## Part 10: `bom`, `dom`, `javascript-dom`, `dom-events`
 
 * [ ] Browser Object Model (BOM):
   * `window` object, `onLoad`, `onDOMReady`
@@ -294,12 +292,14 @@ Even the participant is not attending the class, they can still follow the modul
 * [ ] DOM events
   * `click`, `mouseover`, `keystroke`
   * `addEventListener`, `event`, `target`, `value`, `innerHTML`
+* [ ] GitHub
+  * Collaboration: pull/merge request
 
 ---
 
 # Chapter 3
 
-## 11: `css-preprocessing`, `process`, `performance`, `regex`
+## Part 11: `css-preprocessing`, `process`, `performance`, `regex`
 
 * [ ] CSS Preprocessing/Templating
   * Sass, Less, Stylus
@@ -321,7 +321,7 @@ Even the participant is not attending the class, they can still follow the modul
   * Pattern matching/recognition in a text (phone, email, zip code, etc)
   * `replace`, `match`, `search`
 
-## 12: `form`, `storage`
+## Part 12: `form`, `storage`
 
 * [ ] Form Processing
   * Validation
@@ -337,7 +337,7 @@ Even the participant is not attending the class, they can still follow the modul
   * Prototype object
   * Exception and error handling: `try catch`, `.then`/`.catch`
 
-## 13: `js-library`
+## Part 13: `js-library`
 
 * [ ] JavaScript Trivia
   * Immediately Invoked Function Expression (IIFE)
@@ -354,7 +354,7 @@ Even the participant is not attending the class, they can still follow the modul
   * jQuery
   * `$` keyword
 
-## 14: `paradigm`, `architecture`, `mvc`, `oop`
+## Part 14: `paradigm`, `architecture`, `mvc`, `oop`
 
 * [ ] Programming Paradigms
   * Imperative vs declarative
@@ -363,7 +363,7 @@ Even the participant is not attending the class, they can still follow the modul
 * [ ] Object-Oriented Programming (OOP)
   * `class`, `extends`, `constructor`
 
-## 15: `project-management`, `functional`
+## Part 15: `project-management`, `functional`
 
 * [ ] Project/Product Management
   * Key Steps: ideation, wireframe/mockup, data modeling, list of backlog or user stories
@@ -377,7 +377,7 @@ Even the participant is not attending the class, they can still follow the modul
   * Closures
   * Higher Order Component (HOC)
 
-## 15+: `apps`
+## Part 15+: `apps`
 
 * [ ] Apps Inspiration
   * Product Hunt
@@ -387,7 +387,7 @@ Even the participant is not attending the class, they can still follow the modul
 
 # Chapter 4
 
-## 16: `http-api`, `rest-api`, `web-services`, `internet`
+## Part 16: `http-api`, `rest-api`, `web-services`, `internet`
 
 * [ ] HTTP API & Protocol
   * HTTP/HTTPS
@@ -410,7 +410,7 @@ Even the participant is not attending the class, they can still follow the modul
   * FTP, telnet
   * Real-time protocols: WebSocket, WebRTC, Socket.io
 
-## 17: `nodejs`, `package-manager`
+## Part 17: `nodejs`, `package-manager`
 
 * [ ] Node.js
   * Installation: `nvm`
@@ -421,7 +421,7 @@ Even the participant is not attending the class, they can still follow the modul
   * `nodemon`, `node-dev`
   * Environment: `process.env`, `development`, `production`
 
-## 18: `nodejs-api`, `transpilation`, `babeljs`
+## Part 18: `nodejs-api`, `transpilation`, `babeljs`
 
 * [ ] Node.js + Browser + REST API
   * `fetch`, `axios`
@@ -432,7 +432,7 @@ Even the participant is not attending the class, they can still follow the modul
   * File Input/Output (I/O): `readline`, `readfile`
   * Desktop app: Electron
 
-## 19: `nodejs-library`, `expressjs`
+## Part 19: `nodejs-library`, `expressjs`
 
 * [ ] Node.js Library/Framework
   * Express.js
@@ -450,7 +450,7 @@ Even the participant is not attending the class, they can still follow the modul
   * `body`, `params`, `query`
 * [ ] Express Plugin/Middleware
 
-## 20: `js-rest-api`, `auth`, `nodejs-deployment`
+## Part 20: `js-rest-api`, `auth`, `nodejs-deployment`
 
 * [ ] JavaScript + REST API
   * CORS (Cross-Origin Resource Sharing (CORS)
@@ -468,7 +468,7 @@ Even the participant is not attending the class, they can still follow the modul
 * [ ] Node.js Trivia
   * Documentaion/Generators: Swagger, API Blueprint, Stoplight
 
-## 20: `testing`, `tdd`, `bdd`, `atdd`
+## Part 20: `testing`, `tdd`, `bdd`, `atdd`
 
 * [ ] Testing Methodologies
   * Unit
@@ -485,7 +485,7 @@ Even the participant is not attending the class, they can still follow the modul
   * Continuous Integration (CI): Jenkins, Travis
   * Continuous Deployment (CD)
 
-## 20+
+## Part 20+
 
 * [ ] Content Management System (CMS)
 * [ ] Automation
@@ -495,7 +495,7 @@ Even the participant is not attending the class, they can still follow the modul
 
 # Chapter 5
 
-## 21: `database-sql`, `dbms`
+## Part 21: `database-sql`, `dbms`
 
 * [ ] Database SQL (Structured Query Language)
   * Relational
@@ -520,13 +520,13 @@ Even the participant is not attending the class, they can still follow the modul
 * [ ] Table Join
   * full, inner, outer, left, right
 
-## 22: `database-orm`
+## Part 22: `database-orm`
 
 * [ ] Database SQL + ORM (Object Relational Mapper)
   * Knex.js, Sequelize
   * Migration
 
-## 23: `database-nosql`
+## Part 23: `database-nosql`
 
 * [ ] Database NoSQL
   * MongoDB
@@ -537,12 +537,12 @@ Even the participant is not attending the class, they can still follow the modul
 * [ ] NoSQL Hosted
   * mLab, MongoDB Atlas
 
-## 24: `database-odm`
+## Part 24: `database-odm`
 
 * [ ] Database NoSQL + ODM (Object Document Mapper)
   * Mongoose, Mongorito
 
-## 25: `classic-algorithm`, `classic-data-structure`
+## Part 25: `classic-algorithm`, `classic-data-structure`
 
 * [ ] Classic Algorithms
   * Search
@@ -558,7 +558,7 @@ Even the participant is not attending the class, they can still follow the modul
   * Graph
   * Tree and Binary Tree
 
-## 25+
+## Part 25+
 
 * [ ] API Database
   * Contentful, Prismic
@@ -579,7 +579,7 @@ Even the participant is not attending the class, they can still follow the modul
 
 # Chapter 6
 
-## 26: `react`
+## Part 26: `react`
 
 * [ ] React
   * Who uses React?
@@ -623,7 +623,7 @@ Even the participant is not attending the class, they can still follow the modul
   * Build system with Webpack
   * Transpilation with Babel
 
-## 27: `react-router`
+## Part 27: `react-router`
 
 * [ ] React Styling
   * Inline styling, CSS in JS
@@ -634,7 +634,7 @@ Even the participant is not attending the class, they can still follow the modul
 * [ ] React UI Library
   * Reactstrap
 
-## 28: `react-data`, `react-form`
+## Part 28: `react-data`, `react-form`
 
 * [ ] React Environment
   * `.env` via `REACT_APP_VARIABLE` and `process.env.REACT_APP_VARIABLE`
@@ -644,7 +644,7 @@ Even the participant is not attending the class, they can still follow the modul
 * [ ] React + REST API
   * CRUDSF via `axios` & API
 
-## 29: `react-redux`, `redux`
+## Part 29: `react-redux`, `redux`
 
 * [ ] React + REST API
   * Methods in component
@@ -665,13 +665,13 @@ Even the participant is not attending the class, they can still follow the modul
 * [ ] React Testing
   * Jest, Enzyme
 
-## 30: `react-native`
+## Part 30: `react-native`
 
 * [ ] React Native
   * Mobile App Development
   * vs Ionic, PhoneGap, Cordova
 
-## 30+: `final-team`
+## Part 30+: `final-team`
 
 * [ ] Create Final Team
 * [ ] React Trivia
@@ -702,33 +702,33 @@ Even the participant is not attending the class, they can still follow the modul
 
 # Chapter 7
 
-## 31: `final-app`
+## Part 31: `final-app`
 
 * [ ] Ideation
 * [ ] List of Features
 * [ ] Assign Roles and Responsibilities
 
-## 32: `final-app`
+## Part 32: `final-app`
 
 * [ ] Create UI Design
 * [ ] Create Data Structure
 
-## 33: `final-app`
+## Part 33: `final-app`
 
 * [ ] Implement Frontend
 * [ ] Implement Backend
 
-## 34: `final-app`
+## Part 34: `final-app`
 
 * [ ] Implement Frontend
 * [ ] Implement Backend
 
-## 35: `final-app`
+## Part 35: `final-app`
 
 * [ ] Early Deployment
 * [ ] Progress Evaluation
 
-## 35+
+## Part 35+
 
 * [ ] Profile
   * Create a fit resume/CV, profile, portfolio, and website
@@ -742,32 +742,32 @@ Even the participant is not attending the class, they can still follow the modul
 
 # Chapter 8
 
-## 36: `final-app`
+## Part 36: `final-app`
 
 * [ ] Public Deployment
 * [ ] Integration
 
-## 37: `final-app`
+## Part 37: `final-app`
 
 * [ ] Integration
 
-## 38: `final-app`
+## Part 38: `final-app`
 
 * [ ] Integration
 
-## 39: `final-app`
+## Part 39: `final-app`
 
 * [ ] Progress Evaluation
 * [ ] Presentation Rehearsal
 
-## 40: `final-presentation`
+## Part 40: `final-presentation`
 
 * [ ] Product Launch
 * [ ] Presentation
 * [ ] Graduation
 * [ ] Final Review, Feedback, and Evaluation
 
-## 41+
+## Part 41+
 
 * [ ] Career Support
   * Connect with alumni, network, or current participants
