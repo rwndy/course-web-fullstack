@@ -14,6 +14,7 @@
   * Part 1
     * [Introduction](./chapter-1/module-introduction/README.md)
     * [Web 1](./chapter-1/module-web-1/README.md)
+    * [Design 1](./chapter-1/module-design-1/README.md)
     * [Setup 1](./chapter-1/module-setup-1/README.md)
   * Part 2
     * [Markdown](./chapter-1/module-markdown/README.md)
