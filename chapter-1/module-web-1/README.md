@@ -33,25 +33,3 @@ Backend is the hidden engine that most users don't know, mostly interacted with 
 While building a project or product, we tend to view the complete huge application we want to have. But realistically when building it, we should start small even though we want to think big.
 
 By thinking in MVP, we build something first as small as possible. So we can launch faster or earlier, with only the most imporant features.
-
----
-
-## UI (User Interface) Design
-
-![](./assets/wireframe-mockup.png)
-
-### Wireframe vs Mockup vs Prototype
-
-Commonly when designing a website or application, we are recommended to visualize it first.
-
-Wireframing is the easiest design method to create just the essentials. Plan out the content, positioning, and more.
-
-Mockup is the bare minimum of the design. We can see better layout, colors, typography, images, and more.
-
-Prototype is often the advanced one where we can make the mockup interactively used. Without having to code it.
-
-![](./assets/figma.png)
-
-### Design Tool
-
-Nowadays, we can just use online design tool to create a mockup or graphic design. Let's use [Figma](https://figma.com) for a start, and follow along with the predefined design wireframe/mockup for our app.
