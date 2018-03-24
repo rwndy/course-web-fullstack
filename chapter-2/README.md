@@ -6,19 +6,9 @@
 
 * [Logic 1](./module-logic-1/README.md)
 * [UI UX 1](./module-uiux-1/README.md)
-  * Animations: modal, smooth scroll, appearance effects
-  * Loading: lazy loading
-* [Terminal 2](./module-terminal-2/README.md)
-  * `tmux`
-  * `zsh`
-  * `ssh`
 * [Git 2](./module-git-2/README.md)
-  * `ignore`, `branch`, `merge`, `rebase`, `reset`, `revert`
+* [Terminal 2](./module-terminal-2/README.md)
 * [Workflow 1](./module-workflow-1/README.md)
-  * Debugging
-  * Testing
-  * Refactoring
-  * Clean Code
 
 ## Part 7: `javascript`, `html+js`, `js-data`, `js-variable`, `js-symbols`, `js-trivia`
 

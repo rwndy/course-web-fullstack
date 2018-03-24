@@ -35,6 +35,12 @@
     * [Professional 1](./chapter-1/module-professional-1/README.md)
     * [Deployment 2](./chapter-1/module-deployment-2/README.md)
 * [Chapter 2](chapter-2/README.md)
+  * Part 6
+    * [Logic 1](./module-logic-1/README.md)
+    * [UI UX 1](./module-uiux-1/README.md)
+    * [Git 2](./module-git-2/README.md)
+    * [Terminal 2](./module-terminal-2/README.md)
+    * [Workflow 1](./module-workflow-1/README.md)
 * [Chapter 3](chapter-3/README.md)
 * [Chapter 4](chapter-4/README.md)
 * [Chapter 5](chapter-5/README.md)
