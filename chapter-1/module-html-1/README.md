@@ -140,7 +140,119 @@ combined:
 ```
 
 ---
+## Block Vs Inline Elements
 
+* Block Elements: `<p>`, `<ul>`, `<ol>`, `<h1> - <h6>`, `<div>`, `<article>`
+* Inline Elements:  `<1>`, `<em>`, `<strong>`
+
+Block elements are meant to structure the main parts of your page, by dividing your content in coherent blocks.
+
+Inline elements are meant to differentiate part of a text, to give it a particular function or meaning. Inline elements usually comprise a single or few words.
+
+```
+<article>
+  <h1>Famous football quotes</h1>
+  <p>
+    Sir <strong>Alex Ferguson</strong> once said about Filipo Inzaghi:<q>That lad must have been born offside</q>.
+  </p>
+  <p>
+    When criticized by John Carew, <strong>Zlatan Ibrahimovic</strong> replied: <q>What Carew does with a football, I can do with an orange</q>.
+  </p>
+  <p>
+    <strong>George Best</strong> said <q>"I spent a lot of money on booze, birds and fast cars. The rest I just squandered."</q> when asked about his lifestyle.
+  </p>
+</article>
+```
+---
+## HTML table
+
+* Start with `<table>`
+* Add rows with `<tr>`
+* Add regular cells with `<td>` or heading cells with `<th>`
+
+```
+<table>
+  <tr>
+    <td>Row 1 - Col 1</td>
+    <td>Row 1 - Col 2</td>
+  </tr>
+  <tr>
+    <td>Row 2 - Col 1</td>
+    <td>Row 2 - Col 2</td>
+  </tr>
+  <tr>
+    <td>Row 3 - Col 1</td>
+    <td>Row 3 - Col 2</td>
+  </tr>
+</table>
+```
+
+* Using `<thead>`, `<tfoot>` and `<tbody>`
+
+```
+<table>
+  <thead>
+    <tr>
+      <th>thead1</th>
+      <th>thead2</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <th>tfoot1</th>
+      <th>tfoot2</th>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <td>Row1-Col1</td>
+      <td>Row1-Col2</td>
+    </tr>
+    <tr>
+      <td>Row2-Col1</td>
+      <td>Row2-Col2</td>
+    </tr>
+    <tr>
+      <td>Row3-Col1</td>
+      <td>Row3-Col2</td>
+    </tr>
+  </tbody>
+</table>
+```
+---
+## HTML forms
+
+* Start with `<form>`
+* Put all form controls tag inside `<form>` tag : `<input>`, `<label>`, `<button>`, `<option>`, `<select>`, `<textarea>`, etc ..
+
+```
+<form>
+  <label for="email">email</label>
+  <input id="email" type="email">
+
+  <label for="password">Password</label>
+  <input id="password" type="password" value="password">
+</form>
+```
+
+* `<input>` tag type attributes : `type="text"`, `type="password"`, `type="email"`, `type="file"`, `type="number"`, `type="range"`, `type="url"`, etc ...
+
+```
+<input id="first_name" type="text" >
+```
+---
+## File path
+
+| Path                            | Description                                                                |
+|---------------------------------|-:-:------------------------------------------------------------------------|
+| `<img src="picture.jpg">`         | picture.jpg is located in the same folder as the current page              |
+| `<img src="images/picture.jpg">`  | picture.jpg is located in the images folder in the current folder          |
+| `<img src="/images/picture.jpg">` | picture.jpg is located in the images folder at the root of the current web |
+| `<img src="../picture.jpg">`      | picture.jpg is located in the folder one level up from the current folder  |
+
+
+
+---
 ## Complete Example
 
 **Source Code:**
