@@ -215,8 +215,8 @@ We can change them in CSS like so:
 Commonly the default layout that is owned by an element is either `inline`, `inline-block`, or `block`, or other types.
 
 * `block`: will take up the whole width available
-* `inline`: will act as plain text
-* `inline-block`: a combination of block and inline behavior
+* `inline`: will act as plain text, cant have a width or a height.
+* `inline-block`: a combination of block and inline behavior, like inline elements but they can have a width and a height.
 
 ```css
 selector {
