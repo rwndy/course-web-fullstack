@@ -39,7 +39,7 @@ brew cask install atom
 # Install Atom packages
 
 # Essentials
-apm install atom-beautify emmet ternjs indent-guide-improved color-picker file-icons
+apm install atom-beautify emmet atom-ternjs indent-guide-improved color-picker file-icons
 
 # Git
 # https://github.atom.io
