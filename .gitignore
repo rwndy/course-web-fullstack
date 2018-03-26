@@ -44,7 +44,7 @@ Thumbs.db
 .cache
 .project
 .settings
-.tmproj
+.tmprojs
 *.esproj
 nbproject
 *.sublime-project
