@@ -41,6 +41,20 @@
     * [Git 2](./chapter-2/module-git-2/README.md)
     * [Terminal 2](./chapter-2/module-terminal-2/README.md)
     * [Workflow 1](./chapter-2/module-workflow-1/README.md)
+  * Part 7
+    * [JavaScript 1](./module-javascript-1/README.md)
+    * [JavaScript 2](./module-javascript-2/README.md)
+    * [JavaScript 3](./module-javascript-3/README.md)
+    * [Setup 4](./module-setup-4/README.md)
+  * Part 8
+    * [JavaScript 4](./module-javascript-4/README.md)
+    * [JavaScript 5](./module-javascript-5/README.md)
+  * Part 9
+    * [JavaScript 6](./module-javascript-6/README.md)
+    * [JavaScript 7](./module-javascript-7/README.md)
+  * Part 10
+    * [JavaScript DOM 1](./module-javascript-dom-1/README.md)
+    * [GitHub 2](./module-github-2/README.md)
 * [Chapter 3](chapter-3/README.md)
 * [Chapter 4](chapter-4/README.md)
 * [Chapter 5](chapter-5/README.md)

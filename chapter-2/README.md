@@ -12,90 +12,28 @@
 
 ## Part 7: `javascript`, `html+js`, `js-data`, `js-variable`, `js-symbols`, `js-trivia`
 
-* [ ] JavaScript Intro
-  * Chrome Developer Tools
-  * `console.log`
-  * Traits: supported by all browsers, script/intrepreted vs compiled, high level, dynamic typing
-* [ ] HTML + JavaScript
-  * `script`, `script src`
-* [ ] JavaScript Intro & Data Types
-  * `String`
-  * `Number`
-  * `Boolean`
-  * `Array`
-  * `Object`, `key`, `value`
-  * `JSON`
-  * `Comments`
-* [ ] JavaScript Variable
-  * `var`, `let`, `const`
-* [ ] JavaScript Symbols
-  * Operator: `+`, `-`, `*`, `/`, `%`, `!`, `? =`
-  * Comparison: `==`, `===`, `!`, `!=`, `!==`, `>`, `>=`, `<`, `<=`, `&&`, `||`
-  * `eval`, `postfix`, `prefix`
-* [ ] JavaScript Object
-  * `Object`, `Math`, `Date`, `Array`, etc
-* [ ] JavaScript Style Guide
-  * ESLint, Prettier, Standard
-* [ ] JavaScript Trivia
-  * Case sensitivity
-  * Reserved words
-  * Semicolon is optional
-  * How to read error
-  * Statements, Declarations, Expressions
-  * ECMASCript versions (ES5/ES6/ES7/ES8)
-  * CoffeeScript & TypeScript & Dart
-* [ ] Laptop Setup
-  * Browser Extensions: JSON viewer
+* [JavaScript 1](./module-javascript-1/README.md)
+* [JavaScript 2](./module-javascript-2/README.md)
+* [JavaScript 3](./module-javascript-3/README.md)
+* [Setup 4](./module-setup-4/README.md)
 
 ## Part 8: `logic`, `block`, `conditional`, `loop`
 
-* [ ] JavaScript Block
-  * `( )`
-  * `{ }`
-* [ ] JavaScript Conditional
-  * `if`, `else`, `if else`, `switch case`
-  * `switch case`
-* [ ] JavaScript Repetition/Loop
-  * `for`, `for in`, `for of`, `foreach`
-  * `do while`
-  * `map`, `filter`, `find`
-* [ ] JavaScript Trivia
-  * Don't Repeat Yourself (DRY)
-  * Single Responsibility Principle (SRP)
+* [JavaScript 4](./module-javascript-4/README.md)
+* [JavaScript 5](./module-javascript-5/README.md)
 
 ## Part 9: `function`, `recursion`, `timing`
 
-* [ ] JavaScript Built-In Functions
-  * String method: `charAt`, `charCodeAt`, `toUpperCase`, `toLowerCase`, `split`, `replace`, `substr`
-  * Array method: `length`, `indexOf`, `push`, `pop`, `join`, `split`, `slice`, `splice`, `sort`, `shift`, `unshift`, `reverse`, `forEach`, `map`, `filter`, `find`, `every`, `some`, `reduce`
-  * Math method: `random`, `ceil`, `floor`
-  * Object method: `assign`, `copy`
-* [ ] JavaScript Functions
-  * `function name() {}`
-  * `const x = function() {}`
-  * `const x = () => {}`
-  * Function arguments and default parameters
-    * `function (input = "default") {}`
-* [ ] Recursion
-  * `function name() { name() }`
-* [ ] Timing
-  * `setTimeout`, `setInterval`
+* [JavaScript 6](./module-javascript-6/README.md)
+* [JavaScript 7](./module-javascript-7/README.md)
 
 ## Part 10: `bom`, `dom`, `javascript-dom`, `dom-events`
 
-* [ ] Browser Object Model (BOM):
-  * `window` object, `onLoad`, `onDOMReady`
-* [ ] Document Object Model (DOM):
-  * node selection, traversing, and manipulation
-  * `getElementById`, `getElementsByClass`
-* [ ] DOM events
-  * `click`, `mouseover`, `keystroke`
-  * `addEventListener`, `event`, `target`, `value`, `innerHTML`
+* [JavaScript DOM 1](./module-javascript-dom-1/README.md)
 * [GitHub 2](./module-github-2/README.md)
-  * Collaboration: pull/merge request
 
 ---
 
 ## References
 
-* [reference](url)
+* [JavaScript.com](https://javascript.com)
