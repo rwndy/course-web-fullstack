@@ -1,6 +1,8 @@
 * JavaScript Style Guide
-  * ESLint, Prettier, Standard
+  * Prettier
 * [Example](./code/index.html)
+
+<!-- ESLint, Prettier, Standard -->
 
 <!-- * JavaScript Trivia
   * Case sensitivity
