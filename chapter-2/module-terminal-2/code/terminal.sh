@@ -1,0 +1,1 @@
+echo "Terminal 2"
