@@ -1,71 +1,140 @@
-* HTML + JavaScript
-  * `script`, `script src`
-* JavaScript Intro & Data Types
-  * `String`
-  * `Number`
-  * `Boolean`
-  * `Array`
-  * `Object`, `key`, `value`
-  * `JSON`
-  * `Comments`
-* JavaScript Variable
-  * `var`, `let`, `const`
-* JavaScript Symbols
-  * Operator: `+`, `-`, `*`, `/`, `%`, `!`, `? =`
-  * Comparison: `==`, `===`, `!`, `!=`, `!==`, `>`, `>=`, `<`, `<=`, `&&`, `||`
-  * `eval`, `postfix`, `prefix`
-* JavaScript Object
-  * `Object`, `Math`, `Date`, `Array`, etc
+# JavaScript 2
 
 ---
-## var vs let vs const
 
-* var
+## HTML + JavaScript
 
-variables can be re-declared and updated
+`script` only:
 
-```
-var greeter = "hey hi";
-var greeter = "say Hello instead";
-```
-
-It is available and can be accessed only within that function.
-
-```
-var tester = "hey hi";
-
-   function newFunction() {
-       var hello = "hello";
-   }
-
-console.log(hello); // error: hello is not defined
+```html
+<script type="text/javascript">
+  // JavaScript code here
+  console.log("JavaScript");
+</script>
 ```
 
-Declare on the top, before execution
+with `script src`:
 
-```
-  console.log (greeter);
-  var greeter = "say hello" // error: greater is not defined
-```
-
-* let
-
-Block scoped
-
-```
-  let greeting = "say Hi";
-  let times = 4;
-
-  if (times > 3) {
-       let hello = "say Hello instead";
-       console.log(hello);//"say Hello instead"
-   }
-  console.log(hello) // hello is not defined
+```html
+<script src="./index.js" charset="utf-8"></script>
 ```
 
-Can be updated but not re-declared.
-
+```js
+console.log("JavaScript");
 ```
-   let greeting = "say Hi";
-  greeting = "say Hello instead";
+
+---
+
+## JavaScript Intro & Data Types
+
+In JavaScript, there are several data types:
+
+* `String`: is a text or set of characters
+* `Number`: is a
+* `Boolean`: is a
+* `Array`: is a
+* `Object` with `key` & `value`: is a
+* `JSON`: is a
+* `Comments`: is a
+
+Examples:
+
+```js
+String;
+
+Number;
+
+Boolean;
+
+Array;
+
+object = {
+  key: value
+};
+
+JSON;
+
+// Comments;
+```
+
+---
+
+## JavaScript Variable
+
+Variable is a way to store a value that can be used later.
+
+Examples:
+
+```js
+var x = "";
+
+let y = "";
+
+const z = "";
+```
+
+---
+
+## JavaScript Symbols
+
+### Operator
+
+Examples:
+
+```js
++
+
+-
+
+*
+
+/
+
+%
+
+!
+
+? =
+```
+
+### Comparison
+
+```js
+==
+
+===
+
+!
+
+!=
+
+!==
+
+>
+
+>=
+
+<
+
+<=
+
+&&
+
+||
+```
+
+---
+
+## JavaScript Built-In Objects
+
+Examples:
+
+```js
+Object;
+
+Math;
+
+Date;
+
+Array;
 ```
