@@ -1,1 +1,1 @@
-console.log("JavaScript 3");
+console.log("Inside JavaScript file");
