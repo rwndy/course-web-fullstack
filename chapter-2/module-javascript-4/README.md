@@ -1,20 +1,6 @@
-- JavaScript Block
-
-  - `( )`
-  - `{ }`
-
-- JavaScript Conditional
-
-  - `if`, `else`, `if else`
-  - `switch case`
-
-- JavaScript Repetition/Loop
-
-  - `for`, `for in`, `for of`,
-  - `do while`
-  - `map`, `filter`, `find`, `foreach`
-
 # Javascript 4
+
+---
 
 ## JavaScript Block
 
@@ -37,6 +23,8 @@ const c = 1;
 }
 console.log(c); // logs 1 and does not throw SyntaxError...
 ```
+
+---
 
 ## JavaScript Conditional
 
@@ -117,6 +105,8 @@ switch (Animal) {
     console.log('This animal will not.');
 }
 ```
+
+---
 
 ## JavaScript Repetition/Loop
 
@@ -204,6 +194,8 @@ do {
 while (i < 5);
 //text: 0,1,2,3,4,
 ```
+
+---
 
 ## Javascript array 'looping' methods
 
