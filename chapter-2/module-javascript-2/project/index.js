@@ -11,6 +11,7 @@ function printAll() {
     let order = index + 1;
     let todo = `TODO ${order}: ${todos[index]}<br>`;
 
+    console.log(todo);
     document.write(todo);
   }
 }
