@@ -36,28 +36,27 @@ In JavaScript, there are several data types:
 * `Object` with `key` & `value`: is a data type that used to store a information of multiple values like a real life object
 * `JSON`: is a is a lightweight data-interchange format. Using JavaScript `Object` Notation format
 
-
 Examples:
 
 ```js
-//string
-let a = "this is a string"
-let b = 'another string'
-let c = `${a} and this is ${b}`//result:this is a string and this is another string
+// String
+let a = "this is a string";
+let b = "another string";
+let c = `${a} and this is ${b}`; // result: this is a string and this is another string
 
-//number
-var d = 2
-var d = 2.24
-var d = 2 + 2 //result:4
-var d = 1 + (2 / 4)//result:1.5
+// Number
+var d = 2;
+var d = 2.24;
+var d = 2 + 2; // result: 4
+var d = 1 + 2 / 4; // result: 1.5
 
-//boolean
+// Boolean
 let e = true;
 
-//Array
+// Array
 let o = ["a", 1, true, undefined, null];
 
-//Object
+// Object
 let p = {
   number: 1,
   string: "This is String",
@@ -67,8 +66,7 @@ let p = {
   array: ["a", 1, true, undefined, null]
 };
 
-
-// Comments;
+// Comments
 ```
 
 ---
@@ -77,14 +75,16 @@ let p = {
 
 Variable is a way to store a value that can be used later.
 
+There are three ways to declare a variable.
+
 Examples:
 
 ```js
-var x = "";
+var x = ""; // can be changed later
 
-let y = "";
+let y = ""; // can be changed later
 
-const z = "";
+const z = ""; // cannot be changed later
 ```
 
 ---
@@ -92,23 +92,23 @@ const z = "";
 ## JavaScript Symbols
 
 ### Arithmetic Operator
+
 Arithmetic operators are used to perform arithmetic between variables and/or values.
 
 Examples:
 
 ```js
-let a = 2 + 2
+let a = 2 + 2;
 
-let b = 3 - 2
+let b = 3 - 2;
 
-let c = 3 * 3
+let c = 3 * 3;
 
-let d = 4 / 2
+let d = 4 / 2;
 
-let e = 7 % 2 //result:1
+let e = 7 % 2; // result:1
 
-let f = 3 * 2 + 1 //result:7
-
+let f = 3 * 2 + 1; // result:7
 ```
 
 ### Comparison
@@ -120,41 +120,41 @@ Examples:
 ```js
 var number = 7
 
-var result = (number == 7) //result: true
-var result = (number == 99) //result: false
-var result = (number == "7") //result:t rue
+var result = (number == 7) // result: true
+var result = (number == 99) // result: false
+var result = (number == "7") // result:t rue
 
-var result = (number === 7) //result: true
-var result = (number === "7") //result: false
+var result = (number === 7) // result: true
+var result = (number === "7") // result: false
 
-var result = !true //result: false
+var result = !true // result: false
 
-var result = (number != 7) //result: false
-var result = (number != 99) //result: true
-var result = (number != "7") //result: false
+var result = (number != 7) // result: false
+var result = (number != 99) // result: true
+var result = (number != "7") // result: false
 
-var result = (number !== 7) //result: true
-var result = (number !== "7") //result: false
+var result = (number !== 7) // result: true
+var result = (number !== "7") // result: false
 var
-var result = (number > 7)//result: false
-var result = (number > 6)//result: true
+var result = (number > 7)// result: false
+var result = (number > 6)// result: true
 
-var result = (number >= 7)//result: true
-var result = (number >= 6)//result: true
+var result = (number >= 7)// result: true
+var result = (number >= 6)// result: true
 
-var result = (number < 7)//result: false
-var result = (number < 6)//result: false
+var result = (number < 7)// result: false
+var result = (number < 6)// result: false
 
-var result = (number <= 7)//result: true
-var result = (number <= 6)//result: false
+var result = (number <= 7)// result: true
+var result = (number <= 6)// result: false
 
-var result = (true && false)//result: false
-var result = (true && true)//result: true
+var result = (true && false)// result: false
+var result = (true && true)// result: true
 
-var result = (true || false)//result: true
-var result = (true || true)//result: true
+var result = (true || false)// result: true
+var result = (true || true)// result: true
 
-var result = undefined || "string"//result: String
+var result = undefined || "string"// result: String
 ```
 
 ---
@@ -164,7 +164,7 @@ var result = undefined || "string"//result: String
 Examples:
 
 ```js
-//Object
+// Object
 var o = {
   number: 1,
   string: "This is String",
@@ -174,35 +174,33 @@ var o = {
   array: ["a", 1, true, undefined, null]
 };
 
+// Math
+var result = Math.PI; // result: 3.141592653589793
+var result = Math.round(4.7); // result: 5
+var result = Math.round(4.4); // result: 4
 
-//Math
-var result = Math.PI//result: 3.141592653589793
-var result = Math.round(4.7);//result: 5
-var result = Math.round(4.4);//result: 4
+// Date
+var result = new Date(); // result: [current date]
+var result = new Date("October 13, 2018 11:13:00"); // result: Tue Mar 27 2018 11:13:00 GMT+0700 (WIB)
+var year = result.getFullYear(); //year: 2018
 
-//Date
-var result = new Date();//result: [current date]
-var result = new Date("October 13, 2018 11:13:00");//result: Tue Mar 27 2018 11:13:00 GMT+0700 (WIB)
-var year = result.getFullYear()//year: 2018
-
-//Array
-var alphabet = ["a", "b", "c", "d"]
-var result = alphabet.toString()//result: a,b,c,d
-var result = alphabet.join("_")//result: a_b_c_d
-var result = alphabet.length()//result: 5
-
+// Array
+var alphabet = ["a", "b", "c", "d"];
+var result = alphabet.toString(); // result: a,b,c,d
+var result = alphabet.join("_"); // result: a_b_c_d
+var result = alphabet.length(); // result: 5
 ```
 
 ## JavaScript Date Methods
 
-| Method                            | Description                                                                |
-|---------------------------------|-:-:------------------------------------------------------------------------|
-| getDate()         | Get the day as a number (1-31)              |
-| getDay()  | 	Get the weekday as a number (0-6)         |
-| getFullYear() | Get the four digit year (yyyy) |
-| getHours() | Get the hour (0-23) |
-| getMilliseconds()     | Get the milliseconds (0-999)  |
-| getMinutes()     | Get the minutes (0-59)  |
-| getMonth()     | Get the month (0-11)  |
-| getSeconds()     | Get the seconds (0-59)  |
-| getTime()     | Get the time (milliseconds since January 1, 1970)  |
+| Method            | Description                                       |
+| ----------------- | :------------------------------------------------ |
+| getDate()         | Get the day as a number (1-31)                    |
+| getDay()          | Get the weekday as a number (0-6)                 |
+| getFullYear()     | Get the four digit year (yyyy)                    |
+| getHours()        | Get the hour (0-23)                               |
+| getMilliseconds() | Get the milliseconds (0-999)                      |
+| getMinutes()      | Get the minutes (0-59)                            |
+| getMonth()        | Get the month (0-11)                              |
+| getSeconds()      | Get the seconds (0-59)                            |
+| getTime()         | Get the time (milliseconds since January 1, 1970) |

@@ -1,6 +1,6 @@
-* JavaScript Style Guide
-  * Prettier
-* [Example](./code/index.html)
+## JavaScript Style Guide
+
+[Prettier](https://prettier.io)
 
 <!-- ESLint, Prettier, Standard -->
 

@@ -1,2 +1,5 @@
-* Laptop Setup
-  * Browser Extensions: JSON viewer
+# Setup 4
+
+## Browser Extensions
+
+[JSON viewer](https://chrome.google.com/webstore/detail/json-viewer/aimiinbnnkboelefkjlenlgimcabobli)
