@@ -129,6 +129,7 @@ Loops offer a quick and easy way to do something repeatedly
 | for/in   | loops through the properties of an object                              |
 | while    | loops through a block of code while a specified condition is true      |
 | do/while | also loops through a block of code while a specified condition is true |
+
 * `for`
 
 ```js
@@ -208,13 +209,14 @@ while (i < 5);
 
 Some of javascript array methods to do array operation or manipulation
 
-| Array Method    | Description                                                            |
-|----------|-:----------------------------------------------------------------------|
-| filter()      | Creates a new array with every element in an array that pass a test                        |
-| map()   | Creates a new array with the result of calling a function for each array element                             |
-| find()    | Returns the value of the first element in an array that pass a test      |
-| forEach() | Calls a function for each array element |
-| and many more ... | https://goo.gl/cZL2ra |
+| Array Method      | Description                                                                      |
+|-------------------|--:-------------------------------------------------------------------------------|
+| filter()          | Creates a new array with every element in an array that pass a test              |
+| map()             | Creates a new array with the result of calling a function for each array element |
+| find()            | Returns the value of the first element in an array that pass a test              |
+| forEach()         | Calls a function for each array element                                          |
+| and many more ... | https://goo.gl/cZL2ra                                                            |
+
 
 * `filter()` method
 
