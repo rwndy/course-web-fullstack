@@ -2,7 +2,7 @@
 
 ---
 
-# Manipulation: Number
+# 💻 Manipulation: Number
 
 ---
 
@@ -71,7 +71,9 @@ const numberC = 0.02;
 * Combine, push, or pop different kind of data types like a string and boolean to that array variable
 * Loop through the numbers or items in the array, then log them to the console
 
-# Manipulation: String
+---
+
+# 💻 Manipulation: String
 
 ---
 
@@ -179,7 +181,9 @@ Output example:
 
 * You are free to change the value of your variables
 
-# Comparison: Number
+---
+
+# 💻 Comparison: Number
 
 ---
 
@@ -271,7 +275,9 @@ process();
 
 * Create a random number generator
 
-# Calculator: Math
+---
+
+# 💻 Calculator: Math
 
 ---
 
@@ -321,7 +327,9 @@ function modulo(...) { ... }
 add(substract(...), divide(...))
 ```
 
-# Calculator: Shape
+---
+
+# 💻 Calculator: Shape
 
 ---
 
@@ -376,7 +384,9 @@ calculateSquareArea(add(...))
 calculateTubeVolumeWithCircle(calculateCircleArea())
 ```
 
-# Calculator: Time
+---
+
+# 💻 Calculator: Time
 
 ---
 
@@ -424,7 +434,9 @@ Build a simple calculator to calculate time.
 
 * Experiment to create variation and call some chain of different functions in other functions
 
-# Address Book
+---
+
+# 💻 Address Book
 
 ---
 
@@ -464,7 +476,9 @@ Let's create an address book simulation.
 
 * Store and retrieve multiple types of information in several objects that stored in an array
 
-# Todo List
+---
+
+# 💻 Todo List
 
 ---
 
