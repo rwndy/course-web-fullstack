@@ -9,18 +9,22 @@ let todos = [
 function printAll() {
   for (var index = 0; index < todos.length; index++) {
     let order = index + 1;
-    let todo = `TODO ${order}: ${todos[index]}<br>`;
+    let todo = `TODO ${order}: ${todos[index]}`;
 
     console.log(todo);
+
+    todo += "<br>";
     document.write(todo);
   }
 }
 
 // Get a new todo then add it to the list
-function addTodo() {
-  let input = prompt("What do you want to do?");
+function add(text) {
+  let input = text;
 
   todos.push(input);
+
+  clear();
 
   printAll();
 }
