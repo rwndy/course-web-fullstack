@@ -26,15 +26,15 @@ Typical agenda that will run through in our onsite class.
 
 ## Learning Chapters
 
-* [Chapter 0](chapter-0/README.md)
-* [Chapter 1](chapter-1/README.md)
-* [Chapter 2](chapter-2/README.md)
-* [Chapter 3](chapter-3/README.md)
-* [Chapter 4](chapter-4/README.md)
-* [Chapter 5](chapter-5/README.md)
-* [Chapter 6](chapter-6/README.md)
-* [Chapter 7](chapter-7/README.md)
-* [Chapter 8](chapter-8/README.md)
+* [Chapter 0](chapter-0/README.md): Preparation
+* [Chapter 1](chapter-1/README.md): Introduction, Design, HTML, CSS
+* [Chapter 2](chapter-2/README.md): Logic, JavaScript
+* [Chapter 3](chapter-3/README.md): jQuery, Paradigms, Architecture
+* [Chapter 4](chapter-4/README.md): REST API, Node.js, Express.js, Auth, Testing
+* [Chapter 5](chapter-5/README.md): Database, SQL, NoSQL, Algorithms
+* [Chapter 6](chapter-6/README.md): React.js, Redux, React Native
+* [Chapter 7](chapter-7/README.md): Final Team Project
+* [Chapter 8](chapter-8/README.md): Final Team Project
 
 ---
 
