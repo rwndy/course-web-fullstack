@@ -6,21 +6,21 @@
 
 A block statement (or compound statement in other languages) is used to group zero or more statements.
 
-* sytax
-
-```javascript
+```js
 {
-  StatementList
+  // statement
 }
 ```
 
-- example
+Example:
 
-```javascript
+```js
 const c = 1;
+
 {
   const c = 2;
 }
+
 console.log(c); // logs 1 and does not throw SyntaxError...
 ```
 
@@ -28,34 +28,35 @@ console.log(c); // logs 1 and does not throw SyntaxError...
 
 ## JavaScript Conditional
 
-* `if`, `else` , `else if`
+### `if`, `else` , `else if`
 
 The if statement specifies a block of code to be executed if a condition is true, the else statement specifies a block of code to be executed if the condition is false, the else if statement specifies a new condition if the first condition is false.
 
-```javascript
-//if
+```js
+// if
+
 if (condition) {
-    block of code to be executed if the condition is true
+  // block of code to be executed if the condition is true
 }
 
 //if, else
 if (condition) {
-    block of code to be executed if the condition is true
+  // block of code to be executed if the condition is true
 } else {
-    block of code to be executed if the condition is false
+  // block of code to be executed if the condition is false
 }
 
 //if, else if, else
 if (condition1) {
-    block of code to be executed if condition1 is true
+  // block of code to be executed if condition1 is true
 } else if (condition2) {
-    block of code to be executed if the condition1 is false and condition2 is true
+  // block of code to be executed if the condition1 is false and condition2 is true
 } else {
-    block of code to be executed if the conJavaScript Repetition/Loopdition1 is false and condition2 is false
+  // block of code to be executed if the repetition/loop condition 1 is false and condition2 is false
 }
 ```
 
-```javascript
+```js
 // Set the current grade of the student
 let grade = 87;
 
@@ -73,11 +74,11 @@ if (grade >= 90) {
 }
 ```
 
-* `switch case`
+### `switch case`
 
 Use the switch statement to select one of many blocks of code to be executed
 
-```javascript
+```js
 switch(expression) {
     case n:
         code block
@@ -90,19 +91,19 @@ switch(expression) {
 }
 ```
 
-```javascript
+```js
 // example
-var Animal = 'Giraffe';
+var Animal = "Giraffe";
 switch (Animal) {
-  case 'Cow':
-  case 'Giraffe':
-  case 'Dog':
-  case 'Pig':
-    console.log('This animal will go on Noah\'s Ark.');
+  case "Cow":
+  case "Giraffe":
+  case "Dog":
+  case "Pig":
+    console.log("This animal will go on Noah's Ark.");
     break;
-  case 'Dinosaur':
+  case "Dinosaur":
   default:
-    console.log('This animal will not.');
+    console.log("This animal will not.");
 }
 ```
 
@@ -111,20 +112,21 @@ switch (Animal) {
 ## JavaScript Repetition/Loop
 
 Loops offer a quick and easy way to do something repeatedly
-* Kinds of loops
 
-| Loops    | Description                                                            |
-|----------|-:----------------------------------------------------------------------|
-| for      | loops through a block of code a number of times                        |
-| for/in   | loops through the properties of an object                              |
-| while    | loops through a block of code while a specified condition is true      |
-| do/while | also loops through a block of code while a specified condition is true |
+### Variety of loops
 
-* `for`
+| Loops      | Description                                                      |
+| ---------- | ---------------------------------------------------------------- |
+| `for`      | loop through a block of code a number of times                   |
+| `for in`   | loop through the properties of an object                         |
+| `while`    | loop through a block of code while a specified condition is true |
+| `do while` | loop through a block of code while a specified condition is true |
+
+### `for`
 
 ```js
-for ([initialExpression]; [condition]; [incrementExpression]){
-  statement
+for ([initialExpression]; [condition]; [incrementExpression]) {
+  statement;
 }
 ```
 
@@ -133,31 +135,31 @@ for ([initialExpression]; [condition]; [incrementExpression]){
 var text = "";
 
 for (i = 0; i < 5; i++) {
-    text +=  i + ",";
+  text += i + ",";
 }
 //text: 0,1,2,3,4,
 ```
 
-* `for/in`
+### `for in`
 
 ```js
 for (variable in object) {
-  statements
+  statements;
 }
 ```
 
 ```js
-//example
-var person = {fname:"John", lname:"Doe", age:25};
+var person = { first_name: "John", last_name: "Doe", age: 25 };
 
 var text = "";
 for (var x in person) {
-    text += person[x] + " ";
+  text += person[x] + " ";
 }
-//text: John Doe 25
+
+// John Doe 25
 ```
 
-* `while`
+### `while`
 
 ```js
 while (condition) {
@@ -166,15 +168,15 @@ while (condition) {
 ```
 
 ```js
-//example
 while (i < 5) {
-    text += i + ",";
-    i++;
+  text += i + ",";
+  i++;
 }
-//text: 0,1,2,3,4,
+
+// 0,1,2,3,4,
 ```
 
-* `do/while`
+### `do while`
 
 ```js
 do {
@@ -184,15 +186,14 @@ while (condition);
 ```
 
 ```js
-var text = ""
+var text = "";
 var i = 0;
 
 do {
-    text += i + ",";
-    i++;
-}
-while (i < 5);
-//text: 0,1,2,3,4,
+  text += i + ",";
+  i++;
+} while (i < 5);
+// 0,1,2,3,4,
 ```
 
 ---
@@ -202,35 +203,43 @@ while (i < 5);
 Some of javascript array methods to do array operation or manipulation
 
 | Array Method      | Description                                                                      |
-|-------------------|--:-------------------------------------------------------------------------------|
-| filter()          | Creates a new array with every element in an array that pass a test              |
-| map()             | Creates a new array with the result of calling a function for each array element |
-| find()            | Returns the value of the first element in an array that pass a test              |
-| forEach()         | Calls a function for each array element                                          |
-| and many more ... | https://goo.gl/cZL2ra                                                            |
+| ----------------- | -------------------------------------------------------------------------------- |
+| `filter`          | Creates a new array with every element in an array that pass a test              |
+| `map`             | Creates a new array with the result of calling a function for each array element |
+| `find`            | Returns the value of the first element in an array that pass a test              |
+| `forEach`         | Calls a function for each array element                                          |
+| and many more ... | <https://goo.gl/cZL2ra>                                                          |
 
-
-* `filter()` method
+### `filter`
 
 ```js
-const words = ["spray", "limit", "elite", "exuberant", "destruction", "present", "happy"];
+const words = [
+  "spray",
+  "limit",
+  "elite",
+  "exuberant",
+  "destruction",
+  "present",
+  "happy"
+];
 
 let longWords = words.filter(word => word.length > 6);
-//longWords:["exuberant", "destruction", "present"]
 
+// longWords: ["exuberant", "destruction", "present"]
 ```
 
-* `map()` method
+### `map`
 
 ```js
 var array1 = [1, 4, 9, 16];
 
 // pass a function to map
 const map1 = array1.map(x => x * 2);
-//map1: Array [2, 8, 18, 32]
+
+// map1: Array [2, 8, 18, 32]
 ```
 
-* `find()` method
+### `find`
 
 ```js
 var array1 = [5, 12, 8, 130, 44];
@@ -238,17 +247,19 @@ var array1 = [5, 12, 8, 130, 44];
 var found = array1.find(function(element) {
   return element > 10;
 });
-//found: 12
+
+// found: 12
 ```
 
-* `forEach()`
+### `forEach`
 
 ```js
-var array1 = ['a', 'b', 'c'];
+var array1 = ["a", "b", "c"];
 var text = "";
 
 array1.forEach(function(element) {
-  text += element + ","
+  text += element + ",";
 });
-//text: a,b,c,
+
+// text: a,b,c,
 ```
