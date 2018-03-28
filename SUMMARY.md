@@ -56,8 +56,9 @@
     * [JavaScript 7](./chapter-2/module-javascript-7/README.md)
   * Part 10
     * [JavaScript DOM 1](./chapter-2/module-javascript-dom-1/README.md)
-    * [GitHub 2](./chapter-2/module-github-2/README.md)
 * [Chapter 3](chapter-3/README.md)
+  * Part 11
+    * [GitHub 2](./chapter-2/module-github-2/README.md)
 * [Chapter 4](chapter-4/README.md)
 * [Chapter 5](chapter-5/README.md)
 * [Chapter 6](chapter-6/README.md)
