@@ -13,14 +13,14 @@
 
 **var**
 
-Variables can be re-declared and updated
+* Variables can be re-declared and updated
 
 ```js
 var greeter = "hey hi";
 var greeter = "say Hello instead";
 ```
 
-It is available and can be accessed only within that function.
+* It is available and can be accessed only within that function.
 
 ```js
 var tester = "hey hi";
@@ -32,7 +32,7 @@ function newFunction() {
 console.log(hello); // error: hello is not defined
 ```
 
-Declare on the top, before execution.
+* Declare on the top, before execution.
 
 ```js
 console.log(greeter);
@@ -41,7 +41,14 @@ var greeter = "say hello"; // error: greater is not defined
 
 **let**
 
-Block scoped.
+* Can be updated but not redeclared.
+
+```js
+let greeting = "say Hi";
+greeting = "say Hello instead";
+```
+
+* Block scoped.
 
 ```js
 let greeting = "say Hi";
@@ -54,9 +61,24 @@ if (times > 3) {
 console.log(hello); // hello is not defined
 ```
 
-Can be updated but not redeclared.
+**const**
+
+* const declarations are block scoped
+* const cannot be updated or re-declared
 
 ```js
-let greeting = "say Hi";
-greeting = "say Hello instead";
+const greeting = "say Hi";
+const greeting = "say Hello instead"; //error : Identifier 'greeting' has already been declared
+```
+
+* summary
+
+```
+1.var declarations are globally scoped or function scoped while let and const are block scoped.
+
+2.var variables can be updated and re-declared within its scope; let variables can be updated but not re-declared; const variables can neither be updated nor re-declared.
+
+3.They are all hoisted to the top of their scope but while varvariables are initialized with undefined, let and const variables are not initialized.
+
+4.While var and let can be declared without being initialized, const must be initialized during declaration.
 ```
