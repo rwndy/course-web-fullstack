@@ -50,6 +50,7 @@
   * Part 8
     * [JavaScript 4](./chapter-2/module-javascript-4/README.md)
     * [JavaScript 5](./chapter-2/module-javascript-5/README.md)
+    * [JavaScript Project 2](./chapter-2/module-javascript-project-2/README.md)
   * Part 9
     * [JavaScript 6](./chapter-2/module-javascript-6/README.md)
     * [JavaScript 7](./chapter-2/module-javascript-7/README.md)
