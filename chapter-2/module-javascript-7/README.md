@@ -1,11 +1,56 @@
 * JavaScript Functions
+
   * `function name() {}`
-  * `const x = function() {}`
-  * `const x = () => {}`
-  * Function arguments and default parameters
-    * `function (input = "default") {}`
+
+```js
+function myFunction(total_price, name) {
+  total_tax = total_price * 0.1;
+
+  detail_tax = `name: ${name}, tax:${name}`;
+  return detail_tax; // The function returns the product of p1 and p2
+}
+```
+
+* `const x = function() {}`
+* `const x = () => {}`
+
+```js
+//example 1
+var names = ["Budi", "Joni", "Tono", "Jaka"];
+
+var modified_name = names.map(name => "Mr." + name);
+
+// with function inside var
+var funct = name => "Mr." + name;
+
+var modified_name = names.map(funct);
+```
+
+* Function arguments and default parameters
+
+  * `function (input = "default") {}`
+
+```js
+function myFunction(total_price, name) {
+  total_tax = total_price * 0.1;
+
+  detail_tax = `name: ${name}, tax:${name}`;
+  return detail_tax; // The function returns the product of p1 and p2
+}
+```
+
 * Recursion
   * `function name() { name() }`
+
+```js
+function factorial(n, accumulator) {
+  if (n === 0) {
+    return accumulator
+  }
+  return factorial(n — 1, n * accumulator)
+}
+factorial(5, 1)
+```
 
 ---
 
