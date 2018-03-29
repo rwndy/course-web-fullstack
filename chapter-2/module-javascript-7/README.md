@@ -6,8 +6,8 @@
 function myFunction(total_price, name) {
   total_tax = total_price * 0.1;
 
-  detail_tax = `name: ${name}, tax:${name}`;
-  return detail_tax; // The function returns the product of p1 and p2
+  detail_tax = `name: ${name}, tax:${total_tax}`;
+  return detail_tax;
 }
 ```
 
