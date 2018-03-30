@@ -32,7 +32,7 @@ var result = string.toUpperCase(); //result:IMPACT BYTE`random`,
 var string = "Impact Byte";
 var result = string.toLowerCase(); //result:impactbyte
 
-//toLowerCase example
+//split example
 var split = "Impact Byte Charizard";
 var result = string.split(" "); //result:["Impact", "Byte", "Charizard"]
 var result = string.split(" ", 2); //result:["Impact", "Byte"]
@@ -73,18 +73,18 @@ var result = array.pop(); //result:["Impact", "Byte"]
 var array = ["Impact", "Byte", "Charizard"];
 var result = array.join("--"); //result:Impact--Byte--Charizard
 
-//split Example
+//slice Example
 var array = ["Impact", "Byte", "Charizard"];
 var result = array.slice(1); //result:["Byte", "Charizard"]
 var result = array.slice(1, 2); //result:["Impact", "Byte"]
 
 //sort Example
 var array = ["Impact", "Byte", "Charizard"];
-var result = array.slice(1); //result:["Byte", "Charizard", "Impact"]
+var result = array.sort(); //result:["Byte", "Charizard", "Impact"]
 
 //reverse Example
 var array = ["Impact", "Byte", "Charizard"];
-var result = array.slice(1); //result:["Charizard", "Byte", "Impact"]
+var result = array.reverse(); //result:["Charizard", "Byte", "Impact"]
 ```
 
 ## Math Methods
