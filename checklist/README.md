@@ -1,5 +1,7 @@
 # Compact Checklist (2018 Edition)
 
+---
+
 Participants will build the ideated application in 6 weeks total (around 30 days), guided by the mentors.
 
 Then will build the final project with the team (about 4-5 people) in 2 weeks total (around 10 days), advised by the mentors.

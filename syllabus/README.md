@@ -1,5 +1,7 @@
 # Compact Syllabus (2018 Edition)
 
+---
+
 The visual version is also [available here](https://bit.ly/impactbyte-syllabus).
 
 Participants will build the ideated application in 6 weeks total (around 30 days), from absolute zero to usable app, guided by the mentors

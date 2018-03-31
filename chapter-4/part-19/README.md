@@ -1,5 +1,7 @@
 # Part 19
 
+---
+
 * ▢ JavaScript & REST API
   * CORS (Cross-Origin Resource Sharing (CORS)
 * ▢ Authentication/Authorization

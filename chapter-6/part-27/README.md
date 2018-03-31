@@ -1,5 +1,7 @@
 # Part 27
 
+---
+
 * ▢ React Styling
   * Inline styling, CSS in JS
   * `styled-components`

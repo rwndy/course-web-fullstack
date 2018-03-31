@@ -1,5 +1,7 @@
 # Part 26
 
+---
+
 * ▢ Website Structure
   * Think in component
 * ▢ React

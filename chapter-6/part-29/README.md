@@ -1,5 +1,7 @@
 # Part 29
 
+---
+
 * ▢ React & REST API
   * Methods in component
   * Fetching data from an AJAX endpoint

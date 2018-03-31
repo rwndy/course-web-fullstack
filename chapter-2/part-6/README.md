@@ -1,5 +1,7 @@
 # Part 6
 
+---
+
 * [Logic 1](../../modules/logic-1/README.md)
 * [UI UX 1](../../modules/uiux-1/README.md)
 * [Git 2](../../modules/git-2/README.md)

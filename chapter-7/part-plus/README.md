@@ -1,5 +1,7 @@
 # Part +
 
+---
+
 * ▢ Profile
   * Create a fit resume/CV, profile, portfolio, and website
   * Complete your professional profile (Website, CV, Resume, LinkedIn): education, endorsement, and review

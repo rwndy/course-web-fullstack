@@ -1,5 +1,7 @@
 # Part 25
 
+---
+
 * ▢ Classic Algorithms
   * Search
     * linear, binary tree

@@ -1,5 +1,7 @@
 # Part 14
 
+---
+
 * ▢ Programming Paradigms
   * Imperative vs declarative
 * ▢ Application Architecture

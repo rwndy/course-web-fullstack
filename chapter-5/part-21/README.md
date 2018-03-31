@@ -1,5 +1,7 @@
 # Part 21
 
+---
+
 * ▢ Database SQL (Structured Query Language)
   * Relational
   * Data modeling

@@ -1,5 +1,7 @@
 # Part 15
 
+---
+
 * ▢ Project/Product Management
   * Key Steps: ideation, wireframe/mockup, data modeling, list of backlog or user stories
   * Methodology: Waterfall, Agile, Lean, Scrum, Kanban
