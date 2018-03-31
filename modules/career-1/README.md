@@ -21,15 +21,6 @@ Build or join to your own tech startup.
 
 ---
 
-## Airtable Data
-
-For your reference, you can access our data of participants and partners network:
-
-* [Impact Byte Participants](https://airtable.com/shrO1kjqx7fJFyIja)
-* [Impact Byte Network](https://airtable.com/shrlDLf6d8leCcXg4)
-
----
-
 ## References
 
 * [Unconventional Ways To Get Hired](https://blog.stormid.com/2018/03/unusual-ways-to-get-hired)
