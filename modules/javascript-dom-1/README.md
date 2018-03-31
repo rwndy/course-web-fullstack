@@ -39,3 +39,10 @@
 `target`
 
 `value`
+
+---
+
+## References
+
+- http://devdocs.io/dom
+- http://devdocs.io/dom_events
