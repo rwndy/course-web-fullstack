@@ -6,7 +6,9 @@
 
 ![](./assets/wireframe-mockup.png)
 
-### Wireframe vs Mockup vs Prototype
+---
+
+## Wireframe vs Mockup vs Prototype
 
 Commonly when designing a website or application, we are recommended to visualize it first.
 
@@ -18,6 +20,12 @@ Prototype is often the advanced one where we can make the mockup interactively u
 
 ![](./assets/figma.png)
 
-### Design Tool
+Now [here's an example](https://www.figma.com/proto/ID5EGTB6c4ARMn2CwfRe3AL1/Mockup-v1) of an interactive prototype of the app we're building. You can play around by clicking the highlighted areas: input box, add button, and delete button.
+
+[![](./assets/impactodo.png)](https://www.figma.com/proto/ID5EGTB6c4ARMn2CwfRe3AL1/Mockup-v1)
+
+---
+
+## Design Tool
 
 Nowadays, we can just use online design tool to create a mockup or graphic design. Let's use [Figma](https://figma.com) for a start, and follow along with the predefined design wireframe/mockup for our app.
