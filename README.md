@@ -50,4 +50,5 @@ Career support guidance for getting or creating a new job.
 * [Front-End Developer Handbook 2017](https://frontendmasters.com/books/front-end-handbook/2017)
 * [Front-End Developer Handbook 2016](https://www.frontendhandbook.com)
 * [The Modern Javascript Tutorial on JavaScript.info](https://javascript.info)
+* [freeCodeCamp](https://www.freecodecamp.org)
 * [Hard Coding Concepts Explained with Simple Real-life Analogies](https://medium.freecodecamp.org/hard-coding-concepts-explained-with-simple-real-life-analogies-280635e98e37)

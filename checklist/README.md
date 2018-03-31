@@ -69,7 +69,7 @@ Even the participant is not attending the class, they can still follow the modul
 * ▢ Access to Data
   * Airtable: Participants & Network
 
-## Part 2: `markdown`, `website`, `html`, `dom`, `editor`, `html-style-guide`
+## Part 2: `markdown`, `website`, `html`, `editor`, `html-style-guide`
 
 * ▢ Markdown
   * `.md`, `.markdown`
@@ -285,7 +285,7 @@ Even the participant is not attending the class, they can still follow the modul
 ## Part 10: `bom`, `dom`, `javascript-dom`, `dom-events`
 
 * ▢ Browser Object Model (BOM):
-  * `window` object, `onLoad`, `onDOMReady`
+  * `window` & `document` object
 * ▢ Document Object Model (DOM):
   * node selection, traversing, and manipulation
   * `getElementById`, `getElementsByClass`
@@ -330,7 +330,8 @@ Even the participant is not attending the class, they can still follow the modul
   * `Storage`, `sessionStorage`, `localStorage`, `setItem`, `getItem`
   * `IndexedDB`
   * `cookie`
-* ▢ JavaScript Trivia Techniques
+* ▢ JavaScript Trivia
+  * `use strict`
   * Procedural, scope, `this` keyword
   * Imperative vs Declarative
   * Pass by value and reference

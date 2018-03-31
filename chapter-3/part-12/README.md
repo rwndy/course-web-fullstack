@@ -8,6 +8,7 @@
   * `IndexedDB`
   * `cookie`
 * ▢ JavaScript Trivia
+  * `use strict`
   * scope & `this` keyword
   * Procedural
   * Imperative vs Declarative
