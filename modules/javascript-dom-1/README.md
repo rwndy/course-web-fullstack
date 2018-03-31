@@ -14,7 +14,11 @@ The DOM represents the document as _nodes_ and _objects_. That way, programming 
 
 The nodes of every document are organized in a tree structure, called the DOM tree. Objects in the DOM tree may be addressed and manipulated by using methods on the objects. The public interface of a DOM is specified in its application programming interface (API).
 
-### Representation
+---
+
+## Representation
+
+For example, these are the representation of the HTML:
 
 ```html
 <!doctype html>
@@ -31,27 +35,65 @@ The nodes of every document are organized in a tree structure, called the DOM tr
 </html>
 ```
 
+The page structure:
+
+![](./assets/html-boxes.svg)
+
+The DOM tree:
+
+![](./assets/html-tree.svg)
+
+While the relationship or links between those nodes:
+
+![](./assets/html-links.svg)
+
+---
+
+## DOM objects
+
+There are various objects that already provided by default in the DOM.
+
 ### `window` object
 
 ### `document` object
 
-### `onLoad`
+---
 
-### `onDOMReady`
+## DOM functions
 
-### node selection, traversing, and manipulation
+`onLoad`
 
-### `getElementById`
+`onDOMReady`
 
-### `getElementsByClass`
+---
 
-### `innerHTML`
+## DOM node selection
+
+`getElementById`
+
+`getElementsByClass`
+
+---
+
+## DOM node traversing
+
+---
+
+## DOM node manipulation
+
+`innerHTML`
+
+`value`
 
 ---
 
 ## Browser Object Model (BOM)
 
 The BOM is a browser-specific convention referring to all the objects exposed by the web browser. Unlike the Document Object Model, there is no standard for implementation and no strict definition, so browser vendors are free to implement the BOM in any way they wish.
+
+BOM consists of the objects like `navigator`, `history`, `screen`, `location`, etc which are children of `window`. BOM features actually overlaps with DOM. Because BOM doesn't have any standard, any browser can implement it as they like.
+
+Sometimes called [Browser API](https://developer.mozilla.org/en-US/docs/Web/API/Using_the_Browser_API).
 
 ---
 
