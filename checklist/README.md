@@ -24,11 +24,11 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part 0: `preparation`
 
-* [ ] Preparation
-  * [ ] Mindset
-  * [ ] Web
-  * [ ] HTML
-  * [ ] CSS
+* ▢ Preparation
+  * ▢ Mindset
+  * ▢ Web
+  * ▢ HTML
+  * ▢ CSS
 
 ---
 
@@ -36,56 +36,56 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part 1: `personality`, `design`, `ui`, `mockup`, `setup`
 
-* [ ] Introduce Ourselves
+* ▢ Introduce Ourselves
   * Who are you?
   * Name and age
   * Previous or current career/job
   * Hobby and goal
   * Why Impact Byte?
-* [ ] Introduce the Ecosystem
+* ▢ Introduce the Ecosystem
   * Impact Byte Team
   * Impact Byte Network + Partners
   * Impact Byte World
   * Venue Tour
   * Photo Shoot
-* [ ] Personality and Mindset
+* ▢ Personality and Mindset
   * What is your profile?
   * Goal and expectation? Expert or Regular or Nothing
   * 16 Personalities
   * Right or Left Brain
-* [ ] Terminologies
+* ▢ Terminologies
   * Internet vs The Web vs The Cloud
   * Website vs Web Application
   * Your favorite website?
-* [ ] UI (User Interface) Design
+* ▢ UI (User Interface) Design
   * Frontend vs Backend
   * MVP (Minimum Viable Product)
   * Follow along with the predefined design wireframe/mockup
   * Figma
-* [ ] Laptop Setup
+* ▢ Laptop Setup
   * OS (Operating System): Linux Ubuntu or Apple Macintosh
-* [ ] Personal Evaluation
+* ▢ Personal Evaluation
   * 1-on-1 Conversation
-* [ ] Access to Data
+* ▢ Access to Data
   * Airtable: Participants + Network
 
 ## Part 2: `markdown`, `website`, `html`, `dom`, `editor`, `html-style-guide`
 
-* [ ] Markdown
+* ▢ Markdown
   * `.md`, `.markdown`
   * `#`, `*`, `_`, `-`, `>`
-* [ ] Laptop Setup
+* ▢ Laptop Setup
   * Browser: Chrome
   * Editor: Codepen, Atom
   * Editor Features: command palette, split view
   * Editor Packages: `beautify`, `emmet`, `ternjs`, `indent-guide-improved`, `color-picker`, `file-icons`, `floobits`, `merge-conflicts`
   * Browser Extensions: adblock pro, markdown preview plus
-* [ ] Website Structure
+* ▢ Website Structure
   * Navigation
   * Header
   * Content
   * Footer
-* [ ] HTML (HyperText Markup Language)
+* ▢ HTML (HyperText Markup Language)
   * Segment: `doctype`, `html`, `head`, `body`
   * Meta: `title`, `meta`
   * Text: `h1`-`h7`, `p`, `a`, `span`, `b`, `i`, `strong`, `em`
@@ -95,25 +95,25 @@ Even the participant is not attending the class, they can still follow the modul
   * Table: `table thead tbody tr td`
   * Multimedia: `video`, `audio`, `iframe`
   * Form: `form`, `label`, `input`, `fieldset`, `textarea`, `required`, `autofocus`, `contenteditable`
-* [ ] HTML Style Guide
+* ▢ HTML Style Guide
   * indentation, capitalization, white space
   * `google.github.io/styleguide/htmlcssguide.html`
 
 ## Part 3: `terminal`, `cli`, `git`, `github`, `hosting`, `deploy`
 
-* [ ] Terminal/CLI (Command Line Interface)
+* ▢ Terminal/CLI (Command Line Interface)
   * name, directory, file, extension, home
   * Directory navigation: `ls`, `clear`, `ctrl+l`, `mkdir`, `cd`, `pwd`
   * File manipulation: `cp`, `mv`, `rm`, `touch`
   * Other: `echo`, `which`, `man`,
   * Installation: `apt`, `brew`, `apm`
-* [ ] Laptop Setup
+* ▢ Laptop Setup
   * CLI Editors: `nano`, `vim`
   * OS Packages: `iterm2`, `git`, `tig`
-* [ ] Git
+* ▢ Git
   * Source Code Management (SCM) or Version Control System (VCS)
   * `config`, `init`, `clone`, `status`, `add`, `commit`, `log`, `checkout`, `remote`, `push`, `pull`
-* [ ] GitHub
+* ▢ GitHub
   * Registration
   * Edit profile
   * Create and manage repository
@@ -121,58 +121,58 @@ Even the participant is not attending the class, they can still follow the modul
   * Invited to batch organization
   * Open Source
   * [Android App](https://play.google.com/store/apps/details?id=com.gitpoint)
-* [ ] GitLab
+* ▢ GitLab
   * [Android App](https://play.google.com/store/apps/details?id=com.commit451.gitlab)
-* [ ] Web Hosting & Deployment
+* ▢ Web Hosting & Deployment
   * GitHub Pages
   * Netlify
 
 ## Part 4: `css`, `html+css`, `css-box-model`, `css-style-guide`
 
-* [ ] HTML + CSS
+* ▢ HTML + CSS
   * `style`, `link`, `@import`
-* [ ] CSS Basic
+* ▢ CSS Basic
   * `color`, `background`, `name`/`hex`/`rgb`/`hsl`
   * `width`, `height`
-* [ ] CSS Identification/Class
+* ▢ CSS Identification/Class
   * `selector`, `property`, `value`
   * `#id`, `.class`
   * `:hover`, `:focus`
-* [ ] CSS Box Model
+* ▢ CSS Box Model
   * `content`, `padding`, `border`, `margin`
   * `inline`, `block`, `float`, `absolute`, `relative`, `fixed`, `float`
-* [ ] CSS Style Guide
+* ▢ CSS Style Guide
   * `csslint`
 
 ## Part 5: `rwd`, `amp`, `pwa`, `bootstrap`, `css-flexbox`, `css-grid`, `css-animation`
 
-* [ ] Responsive/Adaptive Web Design
+* ▢ Responsive/Adaptive Web Design
   * Accelerated Mobile Pages (AMP)
   * Progressive Web AppS (PWA)
-* [ ] CSS Flexbox
+* ▢ CSS Flexbox
   * `container`, `items`
   * `flex-direction`: `flex-start`, `flex-end`, `center`, `space-between`, `space-around`, `space-evenly`
   * `align-items`: `flex-start`, `flex-end`, `center`
-* [ ] CSS Grid
-* [ ] CSS Library/Framework
+* ▢ CSS Grid
+* ▢ CSS Library/Framework
   * Bootstrap
   * `buttons`, `images`, `navbar`, `labels`
   * `grid`, `row`, `column`
   * `@media` query
-* [ ] CSS Animation
+* ▢ CSS Animation
   * Animate.css
 
 ## Part 5+: `mindset`, `professional`, `profile`, `cv`, `resume`, `domain`, `dns`
 
-* [ ] Developer Mindset
-* [ ] Professional Principles
-* [ ] Online Profiles
+* ▢ Developer Mindset
+* ▢ Professional Principles
+* ▢ Online Profiles
   * Website
   * CV/Resume
   * GitHub
   * LinkedIn
   * Facebook
-* [ ] Soft Skills
+* ▢ Soft Skills
   * Thinking ~ Thinker
   * Designing ~ Architect
   * Coding ~ Engineer
@@ -180,9 +180,9 @@ Even the participant is not attending the class, they can still follow the modul
   * Debugging ~ Detective
   * Deploying ~ Operator
   * Maintaining ~ Manager
-* [ ] Domain Registration
+* ▢ Domain Registration
   * Uniregistry
-* [ ] DNS Management
+* ▢ DNS Management
   * Cloudflare
 
 ---
@@ -191,21 +191,21 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part 6: `logic`, `design`, `flowchart`, `pseudocode`, `algorithm`, `terminal`, `tools`, `feature`
 
-* [ ] Logic Flow
+* ▢ Logic Flow
   * How would you do things?
   * Flowchart
   * Pseudocode
   * Algorithm
-* [ ] UI vs UX vs IA vs IxD
+* ▢ UI vs UX vs IA vs IxD
   * Animations: modal, smooth scroll, appearance effects
   * Loading: lazy loading
-* [ ] Terminal Tools
+* ▢ Terminal Tools
   * `tmux`
   * `zsh`
   * `ssh`
-* [ ] Git Commands
+* ▢ Git Commands
   * `ignore`, `branch`, `merge`, `rebase`, `reset`, `revert`
-* [ ] Best Practice Workflow
+* ▢ Best Practice Workflow
   * Debugging
   * Testing
   * Refactoring
@@ -213,13 +213,13 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part 7: `javascript`, `html+js`, `js-data`, `js-variable`, `js-symbols`, `js-trivia`
 
-* [ ] JavaScript Intro
+* ▢ JavaScript Intro
   * Chrome Developer Tools
   * `console.log`
   * Traits: supported by all browsers, script/intrepreted vs compiled, high level, dynamic typing
-* [ ] HTML + JavaScript
+* ▢ HTML + JavaScript
   * `script`, `script src`
-* [ ] JavaScript Intro & Data Types
+* ▢ JavaScript Intro & Data Types
   * `String`
   * `Number`
   * `Boolean`
@@ -227,17 +227,17 @@ Even the participant is not attending the class, they can still follow the modul
   * `Object`, `key`, `value`
   * `JSON`
   * `Comments`
-* [ ] JavaScript Variable
+* ▢ JavaScript Variable
   * `var`, `let`, `const`
-* [ ] JavaScript Symbols
+* ▢ JavaScript Symbols
   * Operator: `+`, `-`, `*`, `/`, `%`, `!`, `? =`
   * Comparison: `==`, `===`, `!`, `!=`, `!==`, `>`, `>=`, `<`, `<=`, `&&`, `||`
   * `eval`, `postfix`, `prefix`
-* [ ] JavaScript Object
+* ▢ JavaScript Object
   * `Object`, `Math`, `Date`, `Array`, etc
-* [ ] JavaScript Style Guide
+* ▢ JavaScript Style Guide
   * ESLint, Prettier, Standard
-* [ ] JavaScript Trivia
+* ▢ JavaScript Trivia
   * Case sensitivity
   * Reserved words
   * Semicolon is optional
@@ -245,54 +245,54 @@ Even the participant is not attending the class, they can still follow the modul
   * Statements, Declarations, Expressions
   * ECMASCript versions (ES5/ES6/ES7/ES8)
   * CoffeeScript & TypeScript & Dart
-* [ ] Laptop Setup
+* ▢ Laptop Setup
   * Browser Extensions: JSON viewer
 
 ## Part 8: `logic`, `block`, `conditional`, `loop`
 
-* [ ] JavaScript Block
+* ▢ JavaScript Block
   * `( )`
   * `{ }`
-* [ ] JavaScript Conditional
+* ▢ JavaScript Conditional
   * `if`, `else`, `if else`, `switch case`
   * `switch case`
-* [ ] JavaScript Repetition/Loop
+* ▢ JavaScript Repetition/Loop
   * `for`, `for in`, `for of`, `foreach`
   * `do while`
   * `map`, `filter`, `find`
-* [ ] JavaScript Trivia
+* ▢ JavaScript Trivia
   * Don't Repeat Yourself (DRY)
   * Single Responsibility Principle (SRP)
 
 ## Part 9: `function`, `recursion`, `timing`
 
-* [ ] JavaScript Built-In Functions
+* ▢ JavaScript Built-In Functions
   * String method: `charAt`, `charCodeAt`, `toUpperCase`, `toLowerCase`, `split`, `replace`, `substr`
   * Array method: `length`, `indexOf`, `push`, `pop`, `join`, `split`, `slice`, `splice`, `sort`, `shift`, `unshift`, `reverse`, `forEach`, `map`, `filter`, `find`, `every`, `some`, `reduce`
   * Math method: `random`, `ceil`, `floor`
   * Object method: `assign`, `copy`
-* [ ] JavaScript Functions
+* ▢ JavaScript Functions
   * `function name() {}`
   * `const x = function() {}`
   * `const x = () => {}`
   * Function arguments and default parameters
     * `function (input = "default") {}`
-* [ ] Recursion
+* ▢ Recursion
   * `function name() { name() }`
-* [ ] Timing
+* ▢ Timing
   * `setTimeout`, `setInterval`
 
 ## Part 10: `bom`, `dom`, `javascript-dom`, `dom-events`
 
-* [ ] Browser Object Model (BOM):
+* ▢ Browser Object Model (BOM):
   * `window` object, `onLoad`, `onDOMReady`
-* [ ] Document Object Model (DOM):
+* ▢ Document Object Model (DOM):
   * node selection, traversing, and manipulation
   * `getElementById`, `getElementsByClass`
-* [ ] DOM events
+* ▢ DOM events
   * `click`, `mouseover`, `keystroke`
   * `addEventListener`, `event`, `target`, `value`, `innerHTML`
-* [ ] GitHub
+* ▢ GitHub
   * Collaboration: pull/merge request
 
 ---
@@ -301,36 +301,36 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part 11: `css-preprocessing`, `process`, `performance`, `regex`
 
-* [ ] CSS Preprocessing/Templating
+* ▢ CSS Preprocessing/Templating
   * Sass, Less, Stylus
   * Variables, nesting, chaining
-* [ ] Process Management
+* ▢ Process Management
   * `top`, `htop`
   * process id, uptime
   * CPU, RAM, Network, Disk
-* [ ] Data Size
+* ▢ Data Size
   * bit, byte
-* [ ] Numeral system
+* ▢ Numeral system
   * unicode, ascii
   * binary, base 8, base 10, base 16
-* [ ] Performance Test
+* ▢ Performance Test
   * PageSpeed, WebPageTest, WebSpeedTest
   * Compression: JPEGmini, tinypng
-* [ ] Pattern Matching
+* ▢ Pattern Matching
   * Regular Expression (regex)
   * Pattern matching/recognition in a text (phone, email, zip code, etc)
   * `replace`, `match`, `search`
 
 ## Part 12: `form`, `storage`
 
-* [ ] Form Processing
+* ▢ Form Processing
   * Validation
   * Save data
-* [ ] Web Browser Storage
+* ▢ Web Browser Storage
   * `Storage`, `sessionStorage`, `localStorage`, `setItem`, `getItem`
   * `IndexedDB`
   * `cookie`
-* [ ] JavaScript Trivia Techniques
+* ▢ JavaScript Trivia Techniques
   * Procedural, scope, `this` keyword
   * Imperative vs Declarative
   * Pass by value and reference
@@ -339,7 +339,7 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part 13: `js-library`
 
-* [ ] JavaScript Trivia
+* ▢ JavaScript Trivia
   * Immediately Invoked Function Expression (IIFE)
   * Prevent regression
   * Abstraction
@@ -350,26 +350,26 @@ Even the participant is not attending the class, they can still follow the modul
   * Hoisting, Closures, Prototypes
     * Function inside function, return object with function
   * Binding `bind`
-* [ ] JavaScript Library
+* ▢ JavaScript Library
   * jQuery
   * `$` keyword
 
 ## Part 14: `paradigm`, `architecture`, `mvc`, `oop`
 
-* [ ] Programming Paradigms
+* ▢ Programming Paradigms
   * Imperative vs declarative
-* [ ] Application Architecture
+* ▢ Application Architecture
   * MVC (Model View Controller)
-* [ ] Object-Oriented Programming (OOP)
+* ▢ Object-Oriented Programming (OOP)
   * `class`, `extends`, `constructor`
 
 ## Part 15: `project-management`, `functional`
 
-* [ ] Project/Product Management
+* ▢ Project/Product Management
   * Key Steps: ideation, wireframe/mockup, data modeling, list of backlog or user stories
   * Methodology: Waterfall, Agile, Lean, Scrum, Kanban
   * Tools: GitHub Projects, Trello, Airtable
-* [ ] Functional Programming (FP)
+* ▢ Functional Programming (FP)
   * Pure first-class functions
   * Data immutability, no dynamic variables, but constants
   * No manual loop, recursion is preferred
@@ -379,7 +379,7 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part 15+: `apps`
 
-* [ ] Apps Inspiration
+* ▢ Apps Inspiration
   * Product Hunt
   * Webappalyzer
 
@@ -389,95 +389,95 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part 16: `http-api`, `rest-api`, `web-services`, `internet`
 
-* [ ] HTTP API & Protocol
+* ▢ HTTP API & Protocol
   * HTTP/HTTPS
   * HTTP Request and Response
   * TCP/IP, OSI layer, network address
   * SSL/TLS: Let's Encrypt
-* [ ] REST APIs
+* ▢ REST APIs
   * `GET`, `POST`, `PUT`, `DELETE`
   * AJAX/Fetch requests
   * REST vs SOAP vs GraphQL vs gRPC
-* [ ] Web Services
+* ▢ Web Services
   * Mailchimp, Google Forms
   * Twitter, Facebook, Instagram, Wikipedia
   * Google Maps
   * Trello, Slack
-* [ ] REST API Client
+* ▢ REST API Client
   * cURL or HTTPie
   * Postman or Insomnia
-* [ ] Internet Trivia
+* ▢ Internet Trivia
   * FTP, telnet
   * Real-time protocols: WebSocket, WebRTC, Socket.io
 
 ## Part 17: `nodejs`, `package-manager`
 
-* [ ] Node.js
+* ▢ Node.js
   * Installation: `nvm`
   * `node` REPL
   * package manager: `npm`, `yarn`, `pnpm`
   * Semantic Versioning
-* [ ] Node.js Development
+* ▢ Node.js Development
   * `nodemon`, `node-dev`
   * Environment: `process.env`, `development`, `production`
 
 ## Part 18: `nodejs-api`, `transpilation`, `babeljs`
 
-* [ ] Node.js + Browser + REST API
+* ▢ Node.js + Browser + REST API
   * `fetch`, `axios`
   * `phantomjs`, `puppeteer`
-* [ ] Transpilation
+* ▢ Transpilation
   * Babel, `babelrc`
-* [ ] Node.js Trivia
+* ▢ Node.js Trivia
   * File Input/Output (I/O): `readline`, `readfile`
   * Desktop app: Electron
 
 ## Part 19: `nodejs-library`, `expressjs`
 
-* [ ] Node.js Library/Framework
+* ▢ Node.js Library/Framework
   * Express.js
   * vs Hapi, Loopback
   * vs Python + Django
   * vs Ruby + Rails
   * vs PHP + Laravel/CodeIgniter
   * vs Java + Spring
-* [ ] Express Essentials
+* ▢ Express Essentials
   * IP address and port
   * Ignore templating engine
-* [ ] Express Routing
+* ▢ Express Routing
   * `.get`, `.post`, `.delete`, `.put`
-* [ ] Express Data
+* ▢ Express Data
   * `body`, `params`, `query`
-* [ ] Express Plugin/Middleware
+* ▢ Express Plugin/Middleware
 
 ## Part 20: `js-rest-api`, `auth`, `nodejs-deployment`
 
-* [ ] JavaScript + REST API
+* ▢ JavaScript + REST API
   * CORS (Cross-Origin Resource Sharing (CORS)
-* [ ] Authentication/Authorization
+* ▢ Authentication/Authorization
   * Basic password
   * JSON Web Token (JWT)
   * Auth0, Passport
   * Social OAuth: GitHub, Facebook, Twitter, Google
   * Passwordless: Email, SMS, voice
-* [ ] Node.js Deployment
+* ▢ Node.js Deployment
   * PaaS: Heroku, Now.sh
   * IaaS/VPS: Digital Ocean, Amazon Lightsail, Linode
   * Server: Nginx, Apache
   * Process management: `pm2`
-* [ ] Node.js Trivia
+* ▢ Node.js Trivia
   * Documentaion/Generators: Swagger, API Blueprint, Stoplight
 
 ## Part 20: `testing`, `tdd`, `bdd`, `atdd`
 
-* [ ] Testing Methodologies
+* ▢ Testing Methodologies
   * Unit
   * Functional
   * Integration/API
   * E2E
-* [ ] Testing Tools
+* ▢ Testing Tools
   * Mocha, Chai, Jasmine, Karma, Selenium, Nightmare, CucumberJS
-* [ ] Testing Techniques
+* ▢ Testing Techniques
   * TDD (Test Driven Development)
   * BDD (Behavior Driven Development)
   * ATDD (Automated Test Driven Development)
@@ -487,8 +487,8 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part 20+
 
-* [ ] Content Management System (CMS)
-* [ ] Automation
+* ▢ Content Management System (CMS)
+* ▢ Automation
   * IFTTT, Zapier, cronjob
 
 ---
@@ -497,7 +497,7 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part 21: `database-sql`, `dbms`
 
-* [ ] Database SQL (Structured Query Language)
+* ▢ Database SQL (Structured Query Language)
   * Relational
   * Data modeling
   * Data schema
@@ -506,51 +506,51 @@ Even the participant is not attending the class, they can still follow the modul
   * Data Flow Diagram (DFD)
   * Extract, Transform, Load (ETL)
   * Indexing
-* [ ] DBMS (Database Management System)
+* ▢ DBMS (Database Management System)
   * SQLite
   * MySQL
   * PostgreSQL
-* [ ] Table Essentials
+* ▢ Table Essentials
   * Table relationship
   * 1 to 1, 1 to many, many to many
-* [ ] SQL Tools
+* ▢ SQL Tools
   * MySQL Workbench
-* [ ] SQL Hosted
+* ▢ SQL Hosted
   * Heroku Postres
-* [ ] Table Join
+* ▢ Table Join
   * full, inner, outer, left, right
 
 ## Part 22: `database-orm`
 
-* [ ] Database SQL + ORM (Object Relational Mapper)
+* ▢ Database SQL + ORM (Object Relational Mapper)
   * Knex.js, Sequelize
   * Migration
 
 ## Part 23: `database-nosql`
 
-* [ ] Database NoSQL
+* ▢ Database NoSQL
   * MongoDB
   * Firebase
   * Redis
-* [ ] NoSQL Tools
+* ▢ NoSQL Tools
   * Robomongo
-* [ ] NoSQL Hosted
+* ▢ NoSQL Hosted
   * mLab, MongoDB Atlas
 
 ## Part 24: `database-odm`
 
-* [ ] Database NoSQL + ODM (Object Document Mapper)
+* ▢ Database NoSQL + ODM (Object Document Mapper)
   * Mongoose, Mongorito
 
 ## Part 25: `classic-algorithm`, `classic-data-structure`
 
-* [ ] Classic Algorithms
+* ▢ Classic Algorithms
   * Search
     * linear, binary tree
   * Sort
     * simple, dictionary
   * Computational complexity, Big-O notation
-* [ ] Classic Data Structures
+* ▢ Classic Data Structures
   * Stack
   * Queue
   * List
@@ -560,18 +560,18 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part 25+
 
-* [ ] API Database
+* ▢ API Database
   * Contentful, Prismic
-* [ ] Database Trivia
+* ▢ Database Trivia
   * Backup as dump
   * Master slave
   * Replica set
   * Clustering
-* [ ] SEO (Search Engine Optimization)
+* ▢ SEO (Search Engine Optimization)
   * SEO, crawling, indexing, page rank
   * Metadata with Facebook OpenGraph, Twitter
   * Google Analytics, Segment, Hotjar
-* [ ] Public Speaking
+* ▢ Public Speaking
   * Vocal warmups
   * Slide or pitch deck
 
@@ -581,39 +581,39 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part 26: `react`
 
-* [ ] React
+* ▢ React
   * Who uses React?
   * The main reasons and philosophy
   * vs jQuery, Vue, Angular, Preact, Web Components, Elm, etc
   * Creating components and writing HTML with `class` in JSX
   * JSX is a DSL (Domain Specific Language) over JavaScript
   * React lifecycle (`componentWillMount`, `render`, `componentDidMount`)
-* [ ] React Installation
+* ▢ React Installation
   * `npm install -g create-react-app`
   * `create-react-app` project structure
-* [ ] React Component `class` vs stateless component
+* ▢ React Component `class` vs stateless component
   * Building blocks of React, `react`, `react-dom`
   * Import modules or another components
   * JSX `className` vs HTML `class`
   * `state`, `setState`, `getState`
     * initial state vs changed state
   * `props`, `propTypes`, and `defaultProps`
-* [ ] React State
+* ▢ React State
   * Passing state to child component
-* [ ] React Props
+* ▢ React Props
   * Get props from parent component
-* [ ] React Render
+* ▢ React Render
   * Display `state`/`props`/`variable` inside `render` function
   * Handle `undefined` or unstructured variable with condtional `if`/`||`
   * Conditional rendering
   * Looped rendering using `map`/`filter`
-* [ ] React Method
+* ▢ React Method
   * `.bind(this)` in constructor
-* [ ] React Toolkit
+* ▢ React Toolkit
   * Component and virtual DOM
   * Editor Packages: `react`, `jsx`
   * Browser Extensions: React DevTools
-* [ ] React Trivia
+* ▢ React Trivia
   * Complete lifecycle of a component
   * Element naming
   * Class-based components
@@ -625,71 +625,71 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part 27: `react-router`
 
-* [ ] React Styling
+* ▢ React Styling
   * Inline styling, CSS in JS
   * `styled-components`
-* [ ] React Router
+* ▢ React Router
   * `Router`, `Route`, `Link`
   * Use `Link` to change URL
-* [ ] React UI Library
+* ▢ React UI Library
   * Reactstrap
 
 ## Part 28: `react-data`, `react-form`
 
-* [ ] React Environment
+* ▢ React Environment
   * `.env` via `REACT_APP_VARIABLE` and `process.env.REACT_APP_VARIABLE`
-* [ ] React Form
+* ▢ React Form
   * Get value from form inputs
   * Send data from state to API
-* [ ] React + REST API
+* ▢ React + REST API
   * CRUDSF via `axios` & API
 
 ## Part 29: `react-redux`, `redux`
 
-* [ ] React + REST API
+* ▢ React + REST API
   * Methods in component
   * Fetching data from an AJAX endpoint
   * Working with forms, retrieving data from DOM inputs
   * Persisting data with `localStorage`/`sessionStorage` Virtual DOM
-* [ ] Redux
+* ▢ Redux
   * Better state management
   * Component state vs Redux state
   * vs Flux vs Redux vs MobX
   * Browser Extensions: Redux DevTools
-* [ ] React + Redux
+* ▢ React + Redux
   * Integrate Redux into React
   * React Redux boilerplate
-* [ ] Static Typing
+* ▢ Static Typing
   * Flow static type checker
   * vs PropTypes, TypeScript
-* [ ] React Testing
+* ▢ React Testing
   * Jest, Enzyme
 
 ## Part 30: `react-native`
 
-* [ ] React Native
+* ▢ React Native
   * Mobile App Development
   * vs Ionic, PhoneGap, Cordova
 
 ## Part 30+: `final-team`
 
-* [ ] Create Final Team
-* [ ] React Trivia
+* ▢ Create Final Team
+* ▢ React Trivia
   * Server side rendering (SSR), universal/isomorphic React
   * Next.js, Gatsby.js
-* [ ] DevOps Trivia
+* ▢ DevOps Trivia
   * DevSecNetOps
   * Virtualization: VirtualBox
   * Containerization: Docker
   * Performance/Load/Stress Test
   * Logging
-* [ ] Cloud Service
+* ▢ Cloud Service
   * Google Cloud Platform (GCP)
   * Amazon Web Services (AWS): EC2, S3, EBS, CLI, SDK, IAM, RDS, Lambda
   * Serverless
-* [ ] Email Transport
+* ▢ Email Transport
   * SMTP, POP3, IMAP
-* [ ] Web Technologies Trivia
+* ▢ Web Technologies Trivia
   * Geolocation
   * Notifications
   * Payment processing
@@ -704,38 +704,38 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part 31: `final-app`
 
-* [ ] Ideation
-* [ ] List of Features
-* [ ] Assign Roles and Responsibilities
+* ▢ Ideation
+* ▢ List of Features
+* ▢ Assign Roles and Responsibilities
 
 ## Part 32: `final-app`
 
-* [ ] Create UI Design
-* [ ] Create Data Structure
+* ▢ Create UI Design
+* ▢ Create Data Structure
 
 ## Part 33: `final-app`
 
-* [ ] Implement Frontend
-* [ ] Implement Backend
+* ▢ Implement Frontend
+* ▢ Implement Backend
 
 ## Part 34: `final-app`
 
-* [ ] Implement Frontend
-* [ ] Implement Backend
+* ▢ Implement Frontend
+* ▢ Implement Backend
 
 ## Part 35: `final-app`
 
-* [ ] Early Deployment
-* [ ] Progress Evaluation
+* ▢ Early Deployment
+* ▢ Progress Evaluation
 
 ## Part 35+
 
-* [ ] Profile
+* ▢ Profile
   * Create a fit resume/CV, profile, portfolio, and website
   * Complete your professional profile (Website, CV, Resume, LinkedIn): education, endorsement, and review
   * Search and apply for a job or startup co-founder position
   * Networking
-* [ ] Evaluation
+* ▢ Evaluation
   * Mock Interview
 
 ---
@@ -744,36 +744,36 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part 36: `final-app`
 
-* [ ] Public Deployment
-* [ ] Integration
+* ▢ Public Deployment
+* ▢ Integration
 
 ## Part 37: `final-app`
 
-* [ ] Integration
+* ▢ Integration
 
 ## Part 38: `final-app`
 
-* [ ] Integration
+* ▢ Integration
 
 ## Part 39: `final-app`
 
-* [ ] Progress Evaluation
-* [ ] Presentation Rehearsal
+* ▢ Progress Evaluation
+* ▢ Presentation Rehearsal
 
 ## Part 40: `final-presentation`
 
-* [ ] Product Launch
-* [ ] Presentation
-* [ ] Graduation
-* [ ] Final Review, Feedback, and Evaluation
+* ▢ Product Launch
+* ▢ Presentation
+* ▢ Graduation
+* ▢ Final Review, Feedback, and Evaluation
 
 ## Part 41+
 
-* [ ] Career Support
+* ▢ Career Support
   * Connect with alumni, network, or current participants
   * Apply for a job or opportunity
   * Start entrepreneurship journey
   * Join various events by many communities
   * Product development consultation
-* [ ] Other Programming Languages
+* ▢ Other Programming Languages
   * Python, Ruby, PHP, Java, Perl, Go, PHP, hyperpolyglot.org
