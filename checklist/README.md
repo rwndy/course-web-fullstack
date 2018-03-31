@@ -341,15 +341,7 @@ Even the participant is not attending the class, they can still follow the modul
 
 * ▢ JavaScript Trivia
   * Immediately Invoked Function Expression (IIFE)
-  * Prevent regression
-  * Abstraction
-  * Decomposition
-  * Method chaining
   * Callback, Promise, Async/Await
-  * Data parsing and serialization
-  * Hoisting, Closures, Prototypes
-    * Function inside function, return object with function
-  * Binding `bind`
 * ▢ JavaScript Library
   * jQuery
   * `$` keyword
@@ -421,7 +413,7 @@ Even the participant is not attending the class, they can still follow the modul
   * `nodemon`, `node-dev`
   * Environment: `process.env`, `development`, `production`
 
-## Part 18: `nodejs-api`, `transpilation`, `babeljs`
+## Part 18: `nodejs-api`, `transpilation`, `babeljs`, `nodejs-library`, `expressjs`
 
 * ▢ Node.js, Browser, & REST API
   * `fetch`, `axios`
@@ -431,9 +423,6 @@ Even the participant is not attending the class, they can still follow the modul
 * ▢ Node.js Trivia
   * File Input/Output (I/O): `readline`, `readfile`
   * Desktop app: Electron
-
-## Part 19: `nodejs-library`, `expressjs`
-
 * ▢ Node.js Library/Framework
   * Express.js
   * vs Hapi, Loopback
@@ -450,7 +439,7 @@ Even the participant is not attending the class, they can still follow the modul
   * `body`, `params`, `query`
 * ▢ Express Plugin/Middleware
 
-## Part 20: `js-rest-api`, `auth`, `nodejs-deployment`
+## Part 19: `js-rest-api`, `auth`, `nodejs-deployment`
 
 * ▢ JavaScript & REST API
   * CORS (Cross-Origin Resource Sharing (CORS)
@@ -490,6 +479,12 @@ Even the participant is not attending the class, they can still follow the modul
 * ▢ Content Management System (CMS)
 * ▢ Automation
   * IFTTT, Zapier, cronjob
+* ▢ Other Sub JavaScript Languages
+  * TypeScript
+  * Dart
+  * NativeScript
+* ▢ Other Programming Languages
+  * Python, Ruby, PHP, Java, Kotlin, Swift, Perl, Go, PHP, hyperpolyglot.org
 
 ---
 
@@ -501,24 +496,27 @@ Even the participant is not attending the class, they can still follow the modul
   * Relational
   * Data modeling
   * Data schema
-  * Tables, relations, connections
-  * Entity Relationship Diagram (ERD)
-  * Data Flow Diagram (DFD)
-  * Extract, Transform, Load (ETL)
-  * Indexing
 * ▢ DBMS (Database Management System)
   * SQLite
   * MySQL
   * PostgreSQL
 * ▢ Table Essentials
+  * Tables, relations, connections
   * Table relationship
   * 1 to 1, 1 to many, many to many
+* ▢ SQL query
+  * `CREATE`, `SELECT`, `INSERT`
 * ▢ SQL Tools
   * MySQL Workbench
 * ▢ SQL Hosted
   * Heroku Postres
 * ▢ Table Join
-  * full, inner, outer, left, right
+  * `FULL`, `INNER`, `OUTER`, `LEFT`, `RIGHT`
+* ▢ Database Trivia
+  * Entity Relationship Diagram (ERD)
+  * Data Flow Diagram (DFD)
+  * Extract, Transform, Load (ETL)
+  * Indexing
 
 ## Part 22: `database-orm`
 
@@ -567,25 +565,20 @@ Even the participant is not attending the class, they can still follow the modul
   * Master slave
   * Replica set
   * Clustering
-* ▢ SEO (Search Engine Optimization)
-  * SEO, crawling, indexing, page rank
-  * Metadata with Facebook OpenGraph, Twitter
-  * Google Analytics, Segment, Hotjar
-* ▢ Public Speaking
-  * Vocal warmups
-  * Slide or pitch deck
 
 ---
 
 # Chapter 6
 
-## Part 26: `react`
+## Part 26: `component`, `react`, `react-dom`, `render`, `state`, `props`
 
+* ▢ Website Structure
+  * Think in component
 * ▢ React
   * Who uses React?
   * The main reasons and philosophy
   * vs jQuery, Vue, Angular, Preact, Web Components, Elm, etc
-  * Creating components and writing HTML with `class` in JSX
+  * Creating components and writing HTML with `class` in JSX (JavaScript Extension)
   * JSX is a DSL (Domain Specific Language) over JavaScript
   * React lifecycle (`componentWillMount`, `render`, `componentDidMount`)
 * ▢ React Installation
@@ -673,22 +666,14 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part +: `final-team`
 
-* ▢ Create Final Team
+* ▢ Final Team
+  * Assemble your team members
+* ▢ Public Speaking
+  * Vocal warmups
+  * Slide or pitch deck
 * ▢ React Trivia
   * Server side rendering (SSR), universal/isomorphic React
   * Next.js, Gatsby.js
-* ▢ DevOps Trivia
-  * DevSecNetOps
-  * Virtualization: VirtualBox
-  * Containerization: Docker
-  * Performance/Load/Stress Test
-  * Logging
-* ▢ Cloud Service
-  * Google Cloud Platform (GCP)
-  * Amazon Web Services (AWS): EC2, S3, EBS, CLI, SDK, IAM, RDS, Lambda
-  * Serverless
-* ▢ Email Transport
-  * SMTP, POP3, IMAP
 * ▢ Web Technologies Trivia
   * Geolocation
   * Notifications
@@ -702,30 +687,21 @@ Even the participant is not attending the class, they can still follow the modul
 
 # Chapter 7
 
-## Part 31: `final-app`
+## Part 31-35: `final-app`
 
-* ▢ Ideation
-* ▢ List of Features
-* ▢ Assign Roles and Responsibilities
-
-## Part 32: `final-app`
-
-* ▢ Create UI Design
-* ▢ Create Data Structure
-
-## Part 33: `final-app`
-
-* ▢ Implement Frontend
-* ▢ Implement Backend
-
-## Part 34: `final-app`
-
-* ▢ Implement Frontend
-* ▢ Implement Backend
-
-## Part 35: `final-app`
-
-* ▢ Early Deployment
+* ▢ Preparation
+  * Ideation
+  * List of Features
+  * Assign Roles and Responsibilities
+* ▢ Visualization
+  * Create UI Design
+  * Create Data Structure
+* ▢ Implementation
+  * Implement Frontend
+  * Implement Backend
+* ▢ Deployment
+  * Early Deployment
+  * Connect server, DNS, and domain
 * ▢ Progress Evaluation
 
 ## Part +
@@ -735,28 +711,30 @@ Even the participant is not attending the class, they can still follow the modul
   * Complete your professional profile (Website, CV, Resume, LinkedIn): education, endorsement, and review
   * Search and apply for a job or startup co-founder position
   * Networking
-* ▢ Evaluation
+  * Evaluation
   * Mock Interview
+* ▢ DevOps Trivia
+  * DevSecNetOps
+  * Virtualization: VirtualBox
+  * Containerization: Docker
+  * Performance/Load/Stress Test
+  * Logging
+* ▢ Cloud Service
+  * Google Cloud Platform (GCP)
+  * Amazon Web Services (AWS): EC2, S3, EBS, CLI, SDK, IAM, RDS, Lambda
+  * Serverless
+* ▢ Email Transport
+  * SMTP, POP3, IMAP
 
 ---
 
 # Chapter 8
 
-## Part 36: `final-app`
+## Part 36-39: `final-app`
 
-* ▢ Public Deployment
-* ▢ Integration
-
-## Part 37: `final-app`
-
-* ▢ Integration
-
-## Part 38: `final-app`
-
-* ▢ Integration
-
-## Part 39: `final-app`
-
+* ▢ Continuation
+  * Public Deployment
+  * Integration
 * ▢ Progress Evaluation
 * ▢ Presentation Rehearsal
 
@@ -775,5 +753,3 @@ Even the participant is not attending the class, they can still follow the modul
   * Start entrepreneurship journey
   * Join various events by many communities
   * Product development consultation
-* ▢ Other Programming Languages
-  * Python, Ruby, PHP, Java, Perl, Go, PHP, hyperpolyglot.org
