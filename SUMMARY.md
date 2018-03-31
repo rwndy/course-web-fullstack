@@ -35,7 +35,7 @@
     * [Professional 1](./chapter-1/module-professional-1/README.md)
     * [Deployment 2](./chapter-1/module-deployment-2/README.md)
 * [Chapter 2](./chapter-2/README.md)
-  * [Part 6](./chapter-2/part-/README.md)
+  * [Part 6](./chapter-2/part-6/README.md)
     * [Logic 1](./chapter-2/module-logic-1/README.md)
     * [UI UX 1](./chapter-2/module-uiux-1/README.md)
     * [Git 2](./chapter-2/module-git-2/README.md)

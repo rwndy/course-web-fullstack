@@ -44,7 +44,7 @@ Even the participant is not attending the class, they can still follow the modul
   * Why Impact Byte?
 * ▢ Introduce the Ecosystem
   * Impact Byte Team
-  * Impact Byte Network + Partners
+  * Impact Byte Network & Partners
   * Impact Byte World
   * Venue Tour
   * Photo Shoot
@@ -67,7 +67,7 @@ Even the participant is not attending the class, they can still follow the modul
 * ▢ Personal Evaluation
   * 1-on-1 Conversation
 * ▢ Access to Data
-  * Airtable: Participants + Network
+  * Airtable: Participants & Network
 
 ## Part 2: `markdown`, `website`, `html`, `dom`, `editor`, `html-style-guide`
 
@@ -103,7 +103,7 @@ Even the participant is not attending the class, they can still follow the modul
 
 * ▢ Terminal/CLI (Command Line Interface)
   * name, directory, file, extension, home
-  * Directory navigation: `ls`, `clear`, `ctrl+l`, `mkdir`, `cd`, `pwd`
+  * Directory navigation: `ls`, `clear`, `ctrl&l`, `mkdir`, `cd`, `pwd`
   * File manipulation: `cp`, `mv`, `rm`, `touch`
   * Other: `echo`, `which`, `man`,
   * Installation: `apt`, `brew`, `apm`
@@ -127,9 +127,9 @@ Even the participant is not attending the class, they can still follow the modul
   * GitHub Pages
   * Netlify
 
-## Part 4: `css`, `html+css`, `css-box-model`, `css-style-guide`
+## Part 4: `css`, `html-css`, `css-box-model`, `css-style-guide`
 
-* ▢ HTML + CSS
+* ▢ HTML & CSS
   * `style`, `link`, `@import`
 * ▢ CSS Basic
   * `color`, `background`, `name`/`hex`/`rgb`/`hsl`
@@ -162,7 +162,7 @@ Even the participant is not attending the class, they can still follow the modul
 * ▢ CSS Animation
   * Animate.css
 
-## Part 5+: `mindset`, `professional`, `profile`, `cv`, `resume`, `domain`, `dns`
+## Part +: `mindset`, `professional`, `profile`, `cv`, `resume`, `domain`, `dns`
 
 * ▢ Developer Mindset
 * ▢ Professional Principles
@@ -211,13 +211,13 @@ Even the participant is not attending the class, they can still follow the modul
   * Refactoring
   * Clean Code
 
-## Part 7: `javascript`, `html+js`, `js-data`, `js-variable`, `js-symbols`, `js-trivia`
+## Part 7: `javascript`, `html-js`, `js-data`, `js-variable`, `js-symbols`, `js-trivia`
 
 * ▢ JavaScript Intro
   * Chrome Developer Tools
   * `console.log`
   * Traits: supported by all browsers, script/intrepreted vs compiled, high level, dynamic typing
-* ▢ HTML + JavaScript
+* ▢ HTML & JavaScript
   * `script`, `script src`
 * ▢ JavaScript Intro & Data Types
   * `String`
@@ -377,7 +377,7 @@ Even the participant is not attending the class, they can still follow the modul
   * Closures
   * Higher Order Component (HOC)
 
-## Part 15+: `apps`
+## Part +: `apps`
 
 * ▢ Apps Inspiration
   * Product Hunt
@@ -423,7 +423,7 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part 18: `nodejs-api`, `transpilation`, `babeljs`
 
-* ▢ Node.js + Browser + REST API
+* ▢ Node.js, Browser, & REST API
   * `fetch`, `axios`
   * `phantomjs`, `puppeteer`
 * ▢ Transpilation
@@ -437,10 +437,10 @@ Even the participant is not attending the class, they can still follow the modul
 * ▢ Node.js Library/Framework
   * Express.js
   * vs Hapi, Loopback
-  * vs Python + Django
-  * vs Ruby + Rails
-  * vs PHP + Laravel/CodeIgniter
-  * vs Java + Spring
+  * vs Python & Django
+  * vs Ruby & Rails
+  * vs PHP & Laravel/CodeIgniter
+  * vs Java & Spring
 * ▢ Express Essentials
   * IP address and port
   * Ignore templating engine
@@ -452,7 +452,7 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part 20: `js-rest-api`, `auth`, `nodejs-deployment`
 
-* ▢ JavaScript + REST API
+* ▢ JavaScript & REST API
   * CORS (Cross-Origin Resource Sharing (CORS)
 * ▢ Authentication/Authorization
   * Basic password
@@ -485,7 +485,7 @@ Even the participant is not attending the class, they can still follow the modul
   * Continuous Integration (CI): Jenkins, Travis
   * Continuous Deployment (CD)
 
-## Part 20+
+## Part +
 
 * ▢ Content Management System (CMS)
 * ▢ Automation
@@ -522,7 +522,7 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part 22: `database-orm`
 
-* ▢ Database SQL + ORM (Object Relational Mapper)
+* ▢ Database SQL & ORM (Object Relational Mapper)
   * Knex.js, Sequelize
   * Migration
 
@@ -539,7 +539,7 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part 24: `database-odm`
 
-* ▢ Database NoSQL + ODM (Object Document Mapper)
+* ▢ Database NoSQL & ODM (Object Document Mapper)
   * Mongoose, Mongorito
 
 ## Part 25: `classic-algorithm`, `classic-data-structure`
@@ -558,7 +558,7 @@ Even the participant is not attending the class, they can still follow the modul
   * Graph
   * Tree and Binary Tree
 
-## Part 25+
+## Part +
 
 * ▢ API Database
   * Contentful, Prismic
@@ -641,12 +641,12 @@ Even the participant is not attending the class, they can still follow the modul
 * ▢ React Form
   * Get value from form inputs
   * Send data from state to API
-* ▢ React + REST API
-  * CRUDSF via `axios` & API
+* ▢ React & REST API
+  * HTTP request via `axios` & REST API
 
 ## Part 29: `react-redux`, `redux`
 
-* ▢ React + REST API
+* ▢ React & REST API
   * Methods in component
   * Fetching data from an AJAX endpoint
   * Working with forms, retrieving data from DOM inputs
@@ -656,7 +656,7 @@ Even the participant is not attending the class, they can still follow the modul
   * Component state vs Redux state
   * vs Flux vs Redux vs MobX
   * Browser Extensions: Redux DevTools
-* ▢ React + Redux
+* ▢ React & Redux
   * Integrate Redux into React
   * React Redux boilerplate
 * ▢ Static Typing
@@ -671,7 +671,7 @@ Even the participant is not attending the class, they can still follow the modul
   * Mobile App Development
   * vs Ionic, PhoneGap, Cordova
 
-## Part 30+: `final-team`
+## Part +: `final-team`
 
 * ▢ Create Final Team
 * ▢ React Trivia
@@ -728,7 +728,7 @@ Even the participant is not attending the class, they can still follow the modul
 * ▢ Early Deployment
 * ▢ Progress Evaluation
 
-## Part 35+
+## Part +
 
 * ▢ Profile
   * Create a fit resume/CV, profile, portfolio, and website
@@ -767,7 +767,7 @@ Even the participant is not attending the class, they can still follow the modul
 * ▢ Graduation
 * ▢ Final Review, Feedback, and Evaluation
 
-## Part 41+
+## Part +
 
 * ▢ Career Support
   * Connect with alumni, network, or current participants
