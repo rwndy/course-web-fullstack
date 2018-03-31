@@ -3,7 +3,7 @@
   "description": "Impact Byte full stack web learning course",
   "author": "Impact Byte Tech",
   "language": "en",
-  "plugins": ["code", "coolimages", "checklist"],
+  "plugins": ["code", "coolimages", "checklist", "toggle-chapters"],
   "pluginsConfig": {
     "code": {
       "copyButtons": false
