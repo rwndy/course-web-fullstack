@@ -292,8 +292,6 @@ Even the participant is not attending the class, they can still follow the modul
 * ▢ DOM events
   * `click`, `mouseover`, `keystroke`
   * `addEventListener`, `event`, `target`, `value`, `innerHTML`
-* ▢ GitHub
-  * Collaboration: pull/merge request
 
 ---
 
@@ -301,6 +299,8 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part 11: `css-preprocessing`, `process`, `performance`, `regex`
 
+* ▢ GitHub
+  * Collaboration: pull/merge request
 * ▢ CSS Preprocessing/Templating
   * Sass, Less, Stylus
   * Variables, nesting, chaining
