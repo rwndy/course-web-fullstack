@@ -28,7 +28,7 @@ Typical agenda that will run through in our onsite class.
 
 * [Chapter 0](chapter-0/README.md): Preparation
 * [Chapter 1](chapter-1/README.md): Introduction, Design, HTML, CSS
-* [Chapter 2](chapter-2/README.md): Logic, JavaScript
+* [Chapter 2](chapter-2/README.md): Logic, JavaScript, DOM
 * [Chapter 3](chapter-3/README.md): jQuery, Paradigms, Architecture
 * [Chapter 4](chapter-4/README.md): REST API, Node.js, Express.js, Auth, Testing
 * [Chapter 5](chapter-5/README.md): Database, SQL, NoSQL, Algorithms
