@@ -6,6 +6,7 @@
 
 ## References
 
+* [The Modern Javascript Tutorial on JavaScript.info](https://javascript.info)
 * [JavaScript documentation on DevDocs](http://devdocs.io/javascript)
 * [JavaScript on MDN](https://developer.mozilla.org/bm/docs/Web/JavaScript)
 * [Javascript Tutorial on TutorialsPoint](https://www.tutorialspoint.com/javascript/index.htm)

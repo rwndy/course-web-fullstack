@@ -8,9 +8,3 @@
 * [Part 4](./part-4/README.md)
 * [Part 5](./part-5/README.md)
 * [Part +](./part-plus/README.md)
-
----
-
-## References
-
-* [Front-End Developer Handbook 2017](https://frontendmasters.com/books/front-end-handbook/2017)

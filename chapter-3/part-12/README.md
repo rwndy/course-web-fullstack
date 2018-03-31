@@ -7,8 +7,9 @@
   * `Storage`, `sessionStorage`, `localStorage`, `setItem`, `getItem`
   * `IndexedDB`
   * `cookie`
-* ▢ JavaScript Trivia Techniques
-  * Procedural, scope, `this` keyword
+* ▢ JavaScript Trivia
+  * scope & `this` keyword
+  * Procedural
   * Imperative vs Declarative
   * Pass by value and reference
   * Prototype object
