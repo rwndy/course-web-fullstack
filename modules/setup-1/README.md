@@ -10,13 +10,13 @@ This kind of UNIX or POSIX-compliant OS is really the best platform for professi
 
 If you already have Apple Macintosh (Macbook), you can just use it right away.
 
-Get some help by our mentors.
-
 ---
 
 ## Installation Script
 
 Use this [INSTALL.sh](./INSTALL.sh) script as a help for installing various softwares and tools into your computer.
+
+Get some help by our mentors, because using this script needs some experience.
 
 ---
 
