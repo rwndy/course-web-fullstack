@@ -9,32 +9,32 @@
 
 ## Learning Chapters
 
-* [Chapter 0](chapter-0/README.md)
-* [Chapter 1](chapter-1/README.md)
-  * Part 1
+* [Chapter 0](./chapter-0/README.md)
+* [Chapter 1](./chapter-1/README.md)
+  * [Part 1](./chapter-1/part-1/README.md)
     * [Introduction](./chapter-1/module-introduction/README.md)
     * [Web 1](./chapter-1/module-web-1/README.md)
     * [Design 1](./chapter-1/module-design-1/README.md)
     * [Setup 1](./chapter-1/module-setup-1/README.md)
-  * Part 2
+  * [Part 2](./chapter-1/part-2/README.md)
     * [Markdown](./chapter-1/module-markdown/README.md)
     * [Setup 2](./chapter-1/module-setup-2/README.md)
     * [Web 2](./chapter-1/module-web-2/README.md)
     * [HTML 1](./chapter-1/module-html-1/README.md)
-  * Part 3
+  * [Part 3](./chapter-1/part-3/README.md)
     * [CSS 1](./chapter-1/module-css-1/README.md)
-  * Part 4
+  * [Part 4](./chapter-1/part-4/README.md)
     * [Web 3](./chapter-1/module-web-3/README.md)
     * [CSS 2](./chapter-1/module-css-2/README.md)
-  * Part 5
+  * [Part 5](./chapter-1/part-5/README.md)
     * [Terminal 1](./chapter-1/module-terminal-1/README.md)
     * [Setup 3](./chapter-1/module-setup-3/README.md)
     * [Git 1](./chapter-1/module-git-1/README.md)
     * [Deployment 1](./chapter-1/module-deployment-1/README.md)
-  * Part 5+
+  * [Part +](./chapter-1/part-plus/README.md)
     * [Professional 1](./chapter-1/module-professional-1/README.md)
     * [Deployment 2](./chapter-1/module-deployment-2/README.md)
-* [Chapter 2](chapter-2/README.md)
+* [Chapter 2](./chapter-2/README.md)
   * Part 6
     * [Logic 1](./chapter-2/module-logic-1/README.md)
     * [UI UX 1](./chapter-2/module-uiux-1/README.md)
@@ -56,14 +56,14 @@
     * [JavaScript 7](./chapter-2/module-javascript-7/README.md)
   * Part 10
     * [JavaScript DOM 1](./chapter-2/module-javascript-dom-1/README.md)
-* [Chapter 3](chapter-3/README.md)
+* [Chapter 3](./chapter-3/README.md)
   * Part 11
     * [GitHub 2](./chapter-2/module-github-2/README.md)
-* [Chapter 4](chapter-4/README.md)
-* [Chapter 5](chapter-5/README.md)
-* [Chapter 6](chapter-6/README.md)
-* [Chapter 7](chapter-7/README.md)
-* [Chapter 8](chapter-8/README.md)
+* [Chapter 4](./chapter-4/README.md)
+* [Chapter 5](./chapter-5/README.md)
+* [Chapter 6](./chapter-6/README.md)
+* [Chapter 7](./chapter-7/README.md)
+* [Chapter 8](./chapter-8/README.md)
 
 ---
 
