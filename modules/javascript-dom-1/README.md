@@ -44,5 +44,8 @@
 
 ## References
 
-- http://devdocs.io/dom
-- http://devdocs.io/dom_events
+* Guide
+  * [DOM Enlightenment - Exploring the relationship between JavaScript and the modern HTML DOM](http://domenlightenment.com)
+* Documentation
+  * http://devdocs.io/dom
+  * http://devdocs.io/dom_events
