@@ -4,6 +4,10 @@
 
 ## DOM events
 
+### `onLoad`
+
+### `onDOMReady`
+
 ### `click`
 
 ### `mouseover`

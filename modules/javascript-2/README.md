@@ -66,7 +66,7 @@ let p = {
   array: ["a", 1, true, undefined, null]
 };
 
-// Comments
+// This is a comment line
 ```
 
 ---
@@ -159,48 +159,48 @@ var result = undefined || "string"// result: String
 
 ---
 
-## JavaScript Built-In Objects
+## JavaScript Built-In Objects & Methods
 
 Examples:
 
 ```js
-// Object
-var o = {
-  number: 1,
-  string: "This is String",
-  boolean: true,
-  undefined: undefined,
-  null: null,
-  array: ["a", 1, true, undefined, null]
-};
-
 // Math
 var result = Math.PI; // result: 3.141592653589793
 var result = Math.round(4.7); // result: 5
 var result = Math.round(4.4); // result: 4
+```
 
+```js
 // Date
 var result = new Date(); // result: [current date]
-var result = new Date("October 13, 2018 11:13:00"); // result: Tue Mar 27 2018 11:13:00 GMT+0700 (WIB)
-var year = result.getFullYear(); //year: 2018
 
+var result = new Date("October 13, 2018 11:13:00"); // result: Tue Mar 27 2018 11:13:00 GMT+0700 (WIB)
+
+var year = result.getFullYear(); //year: 2018
+```
+
+```js
 // Array
 var alphabet = ["a", "b", "c", "d"];
+
 var result = alphabet.toString(); // result: a,b,c,d
 var result = alphabet.join("_"); // result: a_b_c_d
 var result = alphabet.length(); // result: 5
+var result = alphabet.includes("a"); // result: true
+var result = alphabet.push("e"); // result: 5, with alphabet being ["a", "b", "c", "d", "e"]
+var result = alphabet.pop(); // result: e, with alphabet being ["a", "b", "c", "d"] again
 ```
 
 ## JavaScript Date Methods
 
 | Method            | Description                                       |
 | ----------------- | :------------------------------------------------ |
-| getDate()         | Get the day as a number (1-31)                    |
-| getDay()          | Get the weekday as a number (0-6)                 |
-| getFullYear()     | Get the four digit year (yyyy)                    |
-| getHours()        | Get the hour (0-23)                               |
-| getMilliseconds() | Get the milliseconds (0-999)                      |
-| getMinutes()      | Get the minutes (0-59)                            |
-| getMonth()        | Get the month (0-11)                              |
-| getSeconds()      | Get the seconds (0-59)                            |
+| getDate()         | Get the day as a number (`1`-`31`)                |
+| getDay()          | Get the weekday as a number (`0`-`6`)             |
+| getFullYear()     | Get the four digit year (`yyyy`)                  |
+| getHours()        | Get the hour (`0`-`23`)                           |
+| getMilliseconds() | Get the milliseconds (`0`-`999`)                  |
+| getMinutes()      | Get the minutes (`0`-`59`)                        |
+| getMonth()        | Get the month (`0`-`11`)                          |
+| getSeconds()      | Get the seconds (`0`-`59`)                        |
 | getTime()         | Get the time (milliseconds since January 1, 1970) |
