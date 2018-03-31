@@ -1,5 +1,6 @@
 # Part 12
 
+* [Computing 1](../../modules/computing-1/README.md)
 * ▢ Form Processing
   * Validation
   * Save data
@@ -8,7 +9,7 @@
   * `IndexedDB`
   * `cookie`
 * ▢ JavaScript Trivia
-  * `use strict`
+  * Strict mode: `use strict`
   * scope & `this` keyword
   * Procedural
   * Imperative vs Declarative
