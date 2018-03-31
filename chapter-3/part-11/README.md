@@ -1,6 +1,6 @@
 # Part 11
 
-* [GitHub 2](../module-github-2/README.md)
+* [GitHub 2](../../modules/github-2/README.md)
 * ▢ CSS Preprocessing/Templating
   * Sass, Less, Stylus
   * Variables, nesting, chaining
