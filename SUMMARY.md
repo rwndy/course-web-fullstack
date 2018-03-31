@@ -100,7 +100,9 @@
   * [Part 39](./chapter-8/part-39/README.md)
   * [Part 40](./chapter-8/part-40/README.md)
   * [Part +](./chapter-8/part-plus/README.md)
+* [Chapter ∞: Career and Beyond](./chapter-infinity/README.md)
+  * [Part Career](./chapter-infinity/part-career/README.md)
+    * [Impact Byte Network](./modules/impactbyte-network/README.md)
+    * [Career 1](./modules/career-1/README.md)
 
 ---
-
-* [Career](./career/README.md)
