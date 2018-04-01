@@ -4,7 +4,7 @@
   <img src="assets/impactbyte-logo.png">
 </p>
 
-Welcome to the main course of Impact Byte, full stack web development.
+Hello World! Welcome to the main course of Impact Byte, full stack web development.
 
 ---
 

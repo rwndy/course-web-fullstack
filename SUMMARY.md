@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-* [Welcome](README.md)
+* [Hello World](README.md)
 * [Syllabus](syllabus/README.md)
 * [Checklist](checklist/README.md)
 * [Agenda](agenda/README.md)
@@ -59,6 +59,11 @@
   * [Part +](./chapter-2/part-plus/README.md)
 * [Chapter 3: jQuery, Paradigms, Architecture](./chapter-3/README.md)
   * [Part 11](./chapter-3/part-11/README.md)
+    * [JavaScript DOM 1](./modules/javascript-dom-1/README.md)
+    * [JavaScript DOM 2](./modules/javascript-dom-2/README.md)
+    * [JavaScript 8](./modules/javascript-8/README.md)
+    * [CSS Preprocessing 1](./modules/css-preprocessing-1/README.md)
+    * [Web 4](./modules/web-4/README.md)
     * [GitHub 2](./modules/github-2/README.md)
   * [Part 12](./chapter-3/part-12/README.md)
   * [Part 13](./chapter-3/part-13/README.md)
