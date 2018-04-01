@@ -8,6 +8,8 @@
 * Callback, Promise, Async/Await
 * `apply`, `call`, `bind`
 
+---
+
 ## JavaScript Library
 
 * jQuery

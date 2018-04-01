@@ -8,6 +8,8 @@
 * Methodology: Waterfall, Agile, Lean, Scrum, Kanban
 * Tools: GitHub Projects, Trello, Airtable
 
+---
+
 ## Functional Programming (FP)
 
 * Pure first-class functions
