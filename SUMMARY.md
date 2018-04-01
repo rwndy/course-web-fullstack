@@ -56,6 +56,7 @@
     * [JavaScript 7](./modules/javascript-7/README.md)
   * [Part 10](./chapter-2/part-10/README.md)
     * [JavaScript DOM 1](./modules/javascript-dom-1/README.md)
+    * [JavaScript DOM 2](./modules/javascript-dom-2/README.md)
   * [Part +](./chapter-2/part-plus/README.md)
 * [Chapter 3: jQuery, Paradigms, Architecture](./chapter-3/README.md)
   * [Part 11](./chapter-3/part-11/README.md)
