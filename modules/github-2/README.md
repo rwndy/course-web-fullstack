@@ -4,7 +4,7 @@
 
 ## Collaboration: pull/merge request
 
-pull requests (GitHub) and merge request (GitLab) or are created in a git management application and ask an assigned person to merge two branches. In GitHub, collaboration is often done by these flows that involve pull request.
+Pull requests (in GitHub) or merge request (in GitLab), created in Git to ask an assigned person to merge two different or same branches. In GitHub, collaboration is often done by these flows that involve pull request.
 
 Pull requests let you tell others about changes you've pushed to a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before the changes are merged into the repository.
 
@@ -19,7 +19,7 @@ There are 2 main workflow when dealing with pull requests:
 
 ---
 
-## Pull request from branch within a repository
+## Pull request from a branch within the same repository
 
 [![](./assets/github-flow.png)](https://guides.github.com/introduction/flow)
 
@@ -70,7 +70,7 @@ Merge the `branch` into `master`.
 
 ---
 
-## Pull request from a forked repository.
+## Pull request from a forked repository
 
 [![](./assets/github-fork.png)](https://guides.github.com/activities/forking)
 
