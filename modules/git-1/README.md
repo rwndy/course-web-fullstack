@@ -119,3 +119,9 @@ There's even the [mobile app](https://play.google.com/store/apps/details?id=com.
 ## GitBook
 
 [GitBook](https://www.gitbook.com) is a free tool to create book or documentation using Git repo.
+
+---
+
+## References
+
+* [Git Handbook · GitHub Guides](https://guides.github.com/introduction/git-handbook)
