@@ -2,7 +2,7 @@
 
 ## Collaboration: pull/merge request
 
-Merge request(GitLab) or pull requests (GitHub) are created in a git management application and ask an assigned person to merge two branches.
+Merge request(GitLab) or pull requests (GitHub) are created in a git management application and ask an assigned person to merge two branches. In GitHub, collaboration is often done by these flows that involve pull request.
 
 Pull requests let you tell others about changes you've pushed to a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before the changes are merged into the repository.
 
@@ -15,113 +15,124 @@ There are 2 main work flows when dealing with pull requests:
 
 ## Pull request from branch within a repository
 
-* Get the latest commit on master.
+[![](./assets/github-flow.png)](https://guides.github.com/introduction/flow)
 
-```
-git pull origin master
-```
+### Step by Step
 
-* Create a new branch from the latest commit on master and checkout to new branch.
+* Clone the repo, then create a `branch`
 
 ```
 git checkout -b pull-request-demo
 ```
 
-* Make change to your new branch. Then, commit and push your chage.
+* Add commits to that created `branch`
 
 ```
 git add
 git commit -m "[commit message]"
+```
+
+* Push the `branch` from `local` to `remote`
+
+```
 git push origin pull-request-demo
 ```
 
-* In the "Branch" menu, choose the branch that contains your commits.
+* Open a pull request, from that `branch` to `master`
 
-  ![](./assets/select-branch.png)
+  * To the right of the Branch menu, click New pull request.
 
-* To the right of the Branch menu, click New pull request.
+    ![](./assets/select-branch.png)
 
-  ![](./assets/pull-request-button.png)
+  * Use the base branch dropdown menu to select the branch you'd like to merge your changes into, then use the compare branch drop-down menu to choose the topic branch you made your changes in.
 
-* Use the base branch dropdown menu to select the branch you'd like to merge your changes into, then use the compare branch drop-down menu to choose the topic branch you made your changes in.
+    ![](./assets/select-branch-2.png)
 
-  ![](./assets/select-branch-2.png)
+  * Type a title and description for your pull request.
 
-* Type a title and description for your pull request.
+    ![](./assets/add-title-and-description.png)
 
-  ![](./assets/add-title-and-description.png)
+  * Click Create pull request.
 
-* Click Create pull request.
+    ![](./assets/create-pull-request-button.png)
 
-  ![](./assets/create-pull-request-button.png)
+* Discuss and review your code with peers
+
+* Deploy the `branch` for testing purpose
+
+* Merge the `branch` into `master`
 
 ## Pull request from a forked repository.
 
-* Fork the project, clone your fork, and configure the remotes.
+[![](./assets/github-fork.png)](https://guides.github.com/activities/forking)
+
+Forking is process where your contribute to someone else’s project or use someone’s project as the starting point for your own. Forking a repository allows you to freely experiment with changes without affecting the original project. The fork itself is a copy of a repository.
+
+Remember that this _fork_ terminology is mostly happen inside Git platforms like GitHub, GitLab, or Bitbucket.
+
+### Step by step
+
+* Fork a repository, then clone the repo
 
 ```
 git clone https://github.com/<your-username>/<repo>.git
-cd pcl
-git remote add upstream https://github.com/<source-username>/<repo>.git
+cd <repo>
+git remote add upstream https://github.com/<source>/<repo>.git
 ```
 
-* Get latest changes from upstream
-
-```
-git checkout master
-git pull upstream master
-```
-
-* Create a new branch from the latest commit on master and checkout to new branch.
-
-```
-git checkout -b pull-request-demo
-```
-
-* Make change to your new branch. Then, commit and push your chage.
+* Add commits to that the `master` branch of forked repository
 
 ```
 git add
 git commit -m "[commit message]"
-git push origin pull-request-demo
 ```
 
-* Go to GitHub original source repo (not forked repo), click New pull request.
+* Push the changes from `local` to `remote`
 
-  ![](./assets/new-pull-request-master.png)
+```
+git push origin master
+```
 
-* Confirm that the base fork is the repository you'd like to merge changes into. Use the base branch drop-down menu to select the branch of the upstream repository you'd like to merge changes into.
+* Open a pull request, from forked `master` to original `master`
 
-* Use the head fork drop-down menu to select your fork, then use the compare branch drop-down menu to select the branch you made your changes in.
+  * Go to GitHub original source repo (not forked repo), click New pull request.
 
-  ![](./assets/select-base-and-head-fork.png)
+    ![](./assets/new-pull-request-master.png)
 
-* Type a title and description for your pull request.
+  * Confirm that the base fork is the repository you'd like to merge changes into. Use the base branch drop-down menu to select the branch of the upstream repository you'd like to merge changes into.
 
-  ![](./assets/add-title-and-description.png)
+  * Use the head fork drop-down menu to select your fork, then use the compare branch drop-down menu to select the branch you made your changes in.
 
-* Click Create pull request.
+    ![](./assets/select-base-and-head-fork.png)
 
-  ![](./assets/create-pull-request-button.png)
+  * Type a title and description for your pull request.
 
-## Merging pull request
+    ![](./assets/add-title-and-description.png)
 
-* Under your repository name, click Pull requests.
+  * Click Create pull request.
 
-  ![](./assets/pull-request-menu.png)
+    ![](./assets/create-pull-request-button.png)
 
-* In the "Pull Requests" list, click the pull request you'd like to merge.
+* Discuss and review your code with peers
+* Deploy the fork for testing purpose
+* Merge the fork into the original repo
 
-* Depending on the merge options enabled for your repository, you can:
+Keep in mind that in this way, you will have at least two remotes. The fork is now the `origin`, and the original is the `upstream`.
 
-  * Merge all of the commits into the base branch
+```sh
+$ git remote -v
 
-    ![](./assets/merge-all-commit.png)
+origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
+origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
+upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (fetch)
+upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
+```
 
-  * Squash the commits into one commit
+---
 
-    ![](./assets/squash-the-commits.png)
+## References
 
-  * Rebase the commits individually onto the base branch
-
-    ![](./assets/rebase-the-commits.png)
+* [Understanding the GitHub Flow - GitHub Guides](https://guides.github.com/introduction/flow)
+* [About pull requests - GitHub User Documentation](https://help.github.com/articles/about-pull-requests)
+* [Forking Projects - GitHub Guides](https://guides.github.com/activities/forking)
+* [Fork A Repo - GitHub User Documentation](https://help.github.com/articles/fork-a-repo)
