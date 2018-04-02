@@ -291,16 +291,14 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part 11: `css-preprocessing`, `performance`
 
-* ▢ CSS Preprocessing/Templating
-  * Sass, Less, Stylus
-  * Variables, nesting, chaining
 * ▢ Performance Test
   * PageSpeed, WebPageTest, WebSpeedTest
   * Compression: JPEGmini, tinypng
-* ▢ GitHub
-  * Collaboration: pull/merge request
+* ▢ CSS Preprocessing/Templating
+  * Sass, Less, Stylus
+  * Variables, nesting, chaining
 
-## Part 12: `form`, `storage`, `regex`
+## Part 12: `computing`, `form`, `storage`, `regex`
 
 * ▢ Data Size
   * bit, byte
@@ -322,13 +320,8 @@ Even the participant is not attending the class, they can still follow the modul
   * Regular Expression (regex)
   * Pattern matching/recognition in a text (phone, email, zip code, etc)
   * `replace`, `match`, `search`
-* ▢ JavaScript Trivia
-  * `use strict`
-  * Procedural, scope, `this` keyword
-  * Imperative vs Declarative
-  * Pass by value and reference
-  * Prototype object
-  * Exception and error handling: `try catch`, `.then`/`.catch`
+* ▢ GitHub
+  * Collaboration: pull/merge request
 
 ## Part 13: `js-library`
 

@@ -9,4 +9,3 @@
 
 * [CSS Preprocessing 1](../../modules/css-preprocessing-1/README.md)
 * [Web 4](../../modules/web-4/README.md)
-* [GitHub 2](../../modules/github-2/README.md)

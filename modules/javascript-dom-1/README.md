@@ -193,7 +193,7 @@ document.getElementById("element");
 // return single element
 ```
 
-`getElementByName`
+`getElementsByName`
 
 ```js
 document.getElementByName("name");
