@@ -2,26 +2,23 @@
 
 ---
 
-* ▢ Form Processing
-  * Validation
-  * Save data
-* ▢ Web Browser Storage
-  * `Storage`, `sessionStorage`, `localStorage`, `setItem`, `getItem`
-  * `IndexedDB`
-  * `cookie`
+## Form Processing
+
+* Validation
+* Save data
 
 ---
 
 ## Web storage
 
-You can store data locally insode user's browser with web storage
+You can store data locally inside user's browser with web storage
 
-## Web storage methods
+### Web storage methods
 
 1.  window.localStorage : store data locally without expiration date
 1.  window.sessionStorage : stores data for one session (data is lost when the browser tab is closed)
 
-## Local storage
+### Local storage
 
 ```js
 //store to local storage
@@ -39,7 +36,7 @@ var result = localStorage.getItem("coding_bootcamp"); //result:null
 localStorage.clear();
 ```
 
-## Session storage
+### Session storage
 
 ```js
 //store to session storage
@@ -56,3 +53,59 @@ var result = sessionStorage.getItem("coding_bootcamp"); //result:null
 //clear all session storage
 sessionStorage.clear();
 ```
+
+---
+
+### Javascript Cookies
+
+Cookies is small text that stored locally inside user's browser.
+
+## Initialize and retrieve cookies
+
+JavaScript can create, read, and delete cookies with the document.cookie property.
+
+```js
+//initialize cookies
+document.cookie = "first_name=Haidar";
+document.cookie = "last_name=Hanif";
+
+//delete cookies
+document.cookie = "first_name=";
+document.cookie = "last_name=";
+
+//update cookies
+document.cookie = "first_name=Hanif";
+document.cookie = "last_name=Haidar";
+
+//retreive all cookie
+var result = document.cookie;
+```
+
+## Read specific cookies
+
+There are many methods to retrieve a specific cookie. We will see an example of how we retrieve specific cookie using regex.
+
+```js
+document.cookie = "first_name=Haidar";
+var cookieValue = document.cookie.replace(
+  /(?:(?:^|.*;\s*)first_name\s*\=\s*([^;]*).*$)|^.*$/,
+  "$1"
+); //cookieValue: Haidar
+```
+
+## Set cookie expiration date
+
+You can specify cookies expiration date in `expires=` with date in GMTString format.
+
+```js
+var d = new Date();
+var exdays = 8;
+d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
+
+document.cookie = "expires=" + d.toGMTString();
+//"expires=Tue, 10 Apr 2018 16:58:30 GMT"
+```
+
+You can delete a cookie by simply updating its expiration time to zero.
+
+## IndexedDB
