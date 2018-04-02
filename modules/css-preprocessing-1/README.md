@@ -2,5 +2,16 @@
 
 ---
 
-* Sass, Less, Stylus
-* Variables, nesting, chaining
+## CSS Preprocessing Variants
+
+* Sass
+* Less
+* Stylus
+
+---
+
+## Techniques
+
+* Variables
+* Nesting
+* Mixin/Chaining

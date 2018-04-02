@@ -301,10 +301,6 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part 11: `css-preprocessing`, `process`, `performance`, `regex`
 
-* ▢ Pattern Matching
-  * Regular Expression (regex)
-  * Pattern matching/recognition in a text (phone, email, zip code, etc)
-  * `replace`, `match`, `search`
 * ▢ CSS Preprocessing/Templating
   * Sass, Less, Stylus
   * Variables, nesting, chaining
@@ -332,6 +328,10 @@ Even the participant is not attending the class, they can still follow the modul
   * `Storage`, `sessionStorage`, `localStorage`, `setItem`, `getItem`
   * `IndexedDB`
   * `cookie`
+* ▢ Pattern Matching
+  * Regular Expression (regex)
+  * Pattern matching/recognition in a text (phone, email, zip code, etc)
+  * `replace`, `match`, `search`
 * ▢ JavaScript Trivia
   * `use strict`
   * Procedural, scope, `this` keyword

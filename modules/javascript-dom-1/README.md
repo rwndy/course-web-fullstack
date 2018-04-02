@@ -234,7 +234,7 @@ document.querySelector("#element");
 document.body.innerHTML;
 // get the content of body
 
-ocument.body.innerHTML += "<h1>Content Replace</h1>";
+document.body.innerHTML += "<h1>Content Replace</h1>";
 // replace or fully overwrite the content of body with new element
 
 document.body.outerHTML;
