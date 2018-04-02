@@ -11,7 +11,7 @@ Write a JavaScript program to modify the items of an array
 ### Initial Variable
 
 ```js
-var names = [
+const names = [
   "Mr. Fahri",
   "Mr. Abdul",
   "Mrs. Josephhine",
@@ -24,15 +24,13 @@ var names = [
 
 ### Process
 
-* Use Array built-in functions to do array manipulation (`map()`,`filter()`,`find()` or `foreach()`)
+Use Array built-in functions to do array manipulation such as `map()`,`filter()`,`find()`
 
-## level 0
+## Level 0
 
-* Display every single name on console log
+Display every single name on `console.log`
 
 ```js
-//Output:
-
 Mr. Fahri
 Mr. Abdul
 Mrs. Josephhine
@@ -40,26 +38,22 @@ Mr. Joseph
 ...
 ```
 
-## level 1
+## Level 1
 
-* Display all names with Mr. title
+Display all names with Mr. title
 
 ```js
-//Output:
-
 Mr. Fahri
 Mr. Abdul
 Mr. Joseph
 ...
 ```
 
-## level 2
+## Level 2
 
 * Identify every name (male/female) based on Mr. / Mrs. title
 
 ```js
-//Output:
-
 1. Mr. Fahri (male)
 2. Mr. Abdul (male)
 3. Mrs. Josephhine (female)
@@ -67,18 +61,19 @@ Mr. Joseph
 ...
 ```
 
-## level 3
+## Level 3
 
-* Build function to search array value
+Build a function to search array value
+
+Input:
 
 ```js
-//input
 console.log(search_name("abdul"));
 ```
 
-```js
-//Output:
+Output:
 
+```js
 Mr.Abdul;
 ```
 
@@ -87,17 +82,15 @@ Mr.Abdul;
 ### Initial Variable
 
 ```js
-var names1 = ["Mr. Fahri", "Mr. Abdul", "Mrs. Josephhine"];
-var names2 = ["Mr. Joseph", "Mr. Paul", "Mrs. Paula", "Mr. Hakim"];
+const names1 = ["Mr. Fahri", "Mr. Abdul", "Mrs. Josephhine"];
+const names2 = ["Mr. Joseph", "Mr. Paul", "Mrs. Paula", "Mr. Hakim"];
 ```
 
-## level 4
+## Level 4
 
-* Merge 2 arrays into 1 array and then display all names.
+Merge 2 arrays into 1 array and then display all names.
 
 ```js
-//Output:
-
 Mr.Fahri, Mr.Abdul, Mrs.Josephhine, Mr.Joseph, Mr.Paul, Mrs.Paula, Mr.Hakim;
 ```
 
@@ -106,7 +99,7 @@ Mr.Fahri, Mr.Abdul, Mrs.Josephhine, Mr.Joseph, Mr.Paul, Mrs.Paula, Mr.Hakim;
 ### Initial Variable
 
 ```js
-var names = [
+const names = [
   "Mr. Fahri",
   null,
   undefined,
@@ -123,12 +116,10 @@ var names = [
 ];
 ```
 
-## level 5
+## Level 5
 
-* Modify names and remove non String array value
+Modify names and remove non String array value
 
 ```
-Output:
-
 Mr. Fahri,Mr. Abdul,Mrs. Josephhine,Mr. Joseph,Mr. Paul,Mrs. Paula,Mr. Hakim
 ```
