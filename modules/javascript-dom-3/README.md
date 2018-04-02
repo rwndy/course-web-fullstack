@@ -20,6 +20,8 @@ You can store data locally inside user's browser with web storage
 
 ### Local storage
 
+You can use `setItem`, `getItem`, `removeItem` or `clear` method to manage local/session storage data.
+
 ```js
 //store to local storage
 localStorage.setItem("coding_bootcamp", "Impact Byte");
