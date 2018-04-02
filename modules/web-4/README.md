@@ -18,6 +18,7 @@
 
 * [JPEGmini](http://www.jpegmini.com)
 * [tinypng](https://tinypng.com)
+* [Cloudinary - Image and Video Upload, Storage, Optimization and CDN](http://cloudinary.com)
 
 ### Local
 
