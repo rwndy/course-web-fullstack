@@ -216,9 +216,10 @@ Even the participant is not attending the class, they can still follow the modul
 ## Part 7: `javascript`, `html-js`, `js-data`, `js-variable`, `js-symbols`, `js-trivia`
 
 * ▢ JavaScript Intro
+  * History
   * Chrome Developer Tools
   * `console.log`
-  * Traits: supported by all browsers, script/intrepreted vs compiled, high level, dynamic typing
+  * Traits
 * ▢ HTML & JavaScript
   * `script`, `script src`
 * ▢ JavaScript Intro & Data Types
@@ -226,7 +227,7 @@ Even the participant is not attending the class, they can still follow the modul
   * `Number`
   * `Boolean`
   * `Array`
-  * `Object`, `key`, `value`
+  * `Object`, `key: value`
   * `JSON`
   * `Comments`
 * ▢ JavaScript Variable
@@ -238,17 +239,9 @@ Even the participant is not attending the class, they can still follow the modul
 * ▢ JavaScript Object
   * `Object`, `Math`, `Date`, `Array`, etc
 * ▢ JavaScript Style Guide
-  * ESLint, Prettier, Standard
-* ▢ JavaScript Trivia
-  * Case sensitivity
-  * Reserved words
-  * Semicolon is optional
-  * How to read error
-  * Statements, Declarations, Expressions
-  * ECMASCript versions (ES5/ES6/ES7/ES8)
-  * CoffeeScript & TypeScript & Dart
+  * Prettier
 * ▢ Laptop Setup
-  * Browser Extensions: JSON viewer
+  * JSON Viewer
 
 ## Part 8: `logic`, `block`, `conditional`, `loop`
 
@@ -286,20 +279,17 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part 10: `bom`, `dom`, `javascript-dom`, `dom-events`
 
-* ▢ Browser Object Model (BOM):
+* ▢ Document Object Model (DOM)
   * `window` & `document` object
-* ▢ Document Object Model (DOM):
   * node selection, traversing, and manipulation
-  * `getElementById`, `getElementsByClass`
+* ▢ Browser Object Model (BOM)
 * ▢ DOM events
-  * `click`, `mouseover`, `keystroke`
-  * `addEventListener`, `event`, `target`, `value`, `innerHTML`
 
 ---
 
 # Chapter 3
 
-## Part 11: `css-preprocessing`, `process`, `performance`, `regex`
+## Part 11: `css-preprocessing`, `performance`
 
 * ▢ CSS Preprocessing/Templating
   * Sass, Less, Stylus
@@ -310,7 +300,7 @@ Even the participant is not attending the class, they can still follow the modul
 * ▢ GitHub
   * Collaboration: pull/merge request
 
-## Part 12: `form`, `storage`
+## Part 12: `form`, `storage`, `regex`
 
 * ▢ Data Size
   * bit, byte
