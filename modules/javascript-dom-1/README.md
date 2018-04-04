@@ -4,6 +4,9 @@
 
 ## Document Object Model (DOM)
 
+> In short, DOM is a way to connect between HTML and JavaScript.
+> So yes, you need DOM in order to access HTML via JavaScript.
+
 The DOM is a programming interface for HTML, XHTML, and XML (Extensible Markup Language) documents.
 
 It is a cross-platform and language-independent convention for representing and interacting with objects in the web page.
@@ -190,7 +193,7 @@ document.getElementById("element");
 // return single element
 ```
 
-`getElementByName`
+`getElementsByName`
 
 ```js
 document.getElementByName("name");
@@ -234,7 +237,7 @@ document.querySelector("#element");
 document.body.innerHTML;
 // get the content of body
 
-ocument.body.innerHTML += "<h1>Content Replace</h1>";
+document.body.innerHTML += "<h1>Content Replace</h1>";
 // replace or fully overwrite the content of body with new element
 
 document.body.outerHTML;

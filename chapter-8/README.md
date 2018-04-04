@@ -8,9 +8,3 @@
 * [Part 39](./part-39/README.md)
 * [Part 40](./part-40/README.md)
 * [Part +](./part-plus/README.md)
-
----
-
-## References
-
-* [reference](url)

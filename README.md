@@ -38,12 +38,6 @@ Typical agenda that will run through in our onsite class.
 
 ---
 
-## [Career Support](./career/README.md)
-
-Career support guidance for getting or creating a new job.
-
----
-
 ## References
 
 * [Front-End Developer Handbook 2018](https://frontendmasters.com/books/front-end-handbook/2018)
