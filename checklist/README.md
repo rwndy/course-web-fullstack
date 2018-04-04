@@ -342,12 +342,14 @@ Even the participant is not attending the class, they can still follow the modul
 
 ## Part 13: `js-library`
 
-* ▢ JavaScript Trivia
-  * Immediately Invoked Function Expression (IIFE)
-  * Callback, Promise, Async/Await
 * ▢ JavaScript Library
   * jQuery
   * `$` keyword
+  * Selector
+  * Events
+  * Effects
+* ▢ JavaScript Trivia
+  * Immediately Invoked Function Expression (IIFE)
 
 ## Part 14: `paradigm`, `architecture`, `mvc`, `oop`
 
