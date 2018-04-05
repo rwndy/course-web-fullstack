@@ -2,23 +2,5 @@
 
 ---
 
-## JavaScript Library
-
-* jQuery
-* `$` keyword
-* Selector
-* Events
-* Effects
-
----
-
-## JavaScript Trivia
-
-* Immediately Invoked Function Expression (IIFE)
-
----
-
-## References
-
-* [jQuery](https://jquery.com)
-* [Learn jQuery](https://learn.jquery.com)
+* [JavaScript 10](../../modules/javascript-10/README.md)
+* [jQuery 1](../../modules/jquery-1/README.md)
