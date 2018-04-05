@@ -11,3 +11,22 @@ There's its competitor named Zepto.
 ---
 
 ## `$` keyword
+
+---
+
+## Selector
+
+---
+
+## Events
+
+---
+
+## Effects
+
+---
+
+## References
+
+* [jQuery](https://jquery.com)
+* [Learn jQuery](https://learn.jquery.com)
