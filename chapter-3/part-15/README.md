@@ -10,6 +10,13 @@
 
 ---
 
+## JavaScript Trivia
+
+* Callback, Promise, Async/Await
+* `apply`, `call`, `bind`
+
+---
+
 ## Functional Programming (FP)
 
 * Pure first-class functions
