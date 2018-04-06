@@ -2,9 +2,15 @@
 
 ---
 
+## Hello World
+
+---
+
 ## History
 
-ECMAScript
+* ECMAScript
+* LiveScript
+* JavaScript
 
 ---
 
@@ -16,8 +22,10 @@ https://developer.chrome.com/devtools
 
 ## Console
 
-* `console.log`
-* `console.assert`
+* `console.log()`
+* `console.assert()`
+* `console.warn()`
+* `console.error()`
 
 ---
 
@@ -38,6 +46,8 @@ https://developer.chrome.com/devtools
   * [JavaScript Enlightenment](http://javascriptenlightenment.com)
   * [Eloquent JavaScript](https://eloquentjavascript.net)
   * [freeCodeCamp](https://www.freecodecamp.org)
+* Cheatsheet
+  * [ES2015+ cheatsheet - DevHints.io](https://devhints.io/es6)
 * Documentation
   * [JavaScript documentation on DevDocs](http://devdocs.io/javascript)
   * [JavaScript on MDN](https://developer.mozilla.org/bm/docs/Web/JavaScript)
