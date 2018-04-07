@@ -97,7 +97,7 @@ fetch("https://api.github.com/users/muhammadhaekal")
 
 ## API Project 1
 
-[ExpectedOutput](./assets/API-project-1.png)
+![ExpectedOutput](./assets/API-project-1.png)
 
 ## References
 
