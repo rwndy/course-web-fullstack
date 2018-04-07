@@ -6,6 +6,10 @@
 
 Hello World! Welcome to the main course of Impact Byte, full stack web development.
 
+This guide can be accessed via:
+
+* [learn.impactbyte.com/course-web-full-stack](https://learn.impactbyte.com/course-web-full-stack)
+
 ---
 
 ## Getting Started
