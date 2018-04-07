@@ -55,7 +55,7 @@ HTTP defines a set of request methods to indicate the desired action to be perfo
 
 HTTP headers allow the client and the server to pass additional information with the request or the response. A request header consists of its case-insensitive name followed by a colon ':', then by its value (without line breaks). You can see it through you browser by using developer tools (Network tab).
 
-![Inspect HTTP Request](./assets/GithubRESTfulExample.png)
+![Inspect HTTP Request](./assets/inspectHTTPRequests.png)
 
 ### Example of RESTful API designs
 
