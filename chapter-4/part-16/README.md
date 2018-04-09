@@ -106,6 +106,11 @@ Use github api to get all info of your follower list, then log the list (in Obje
 ## References
 
 * [Understanding And Using REST APIs — Smashing Magazine](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api)
+* [HTTP Status Codes](https://httpstatuses.com)
 * [Learn REST | A RESTful Tutorial | REST API Tutorial](http://www.restapitutorial.com)
 * https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data
 * https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+* [Best Practices for Designing a Pragmatic RESTful API | Vinay Sahni](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
+* [API Glossary & Acronyms](http://apiglossary.com)
+* [HTTP API Design Guide](https://geemus.gitbooks.io/http-api-design/content/en)
+* [lambda2/rapis: A specification proposal for API's](https://github.com/lambda2/rapis)
