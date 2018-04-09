@@ -105,5 +105,7 @@ Use github api to get all info of your follower list, then log the list (in Obje
 
 ## References
 
-https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data
-https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+* [Understanding And Using REST APIs — Smashing Magazine](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api)
+* [Learn REST | A RESTful Tutorial | REST API Tutorial](http://www.restapitutorial.com)
+* https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data
+* https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
