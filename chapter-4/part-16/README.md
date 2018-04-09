@@ -33,7 +33,7 @@ Application Programming Interface (API) is a term for describing how a programs 
 
 ### What is REST
 
-REpresentational State Transfer (REST) is a one of many archajax javascriptitectural style of an API. A RESTful API is an application program interface (API) that uses HTTP requests (HTTP verbs) to GET, PUT, POST and DELETE data.
+REpresentational State Transfer (REST) is a one of many architectural style of an API. A RESTful API is an application program interface (API) that uses HTTP requests (HTTP verbs) to GET, PUT, POST and DELETE data.
 
 ![Rest API](./assets/restful.png)
 
@@ -96,6 +96,10 @@ fetch("https://api.github.com/users/muhammadhaekal")
 ```
 
 ## API Project 1
+
+Use github api to get all info of your follower list, then log the list (in Object) using console log on browser console
+
+## API Project 2
 
 ![ExpectedOutput](./assets/API-project-1.png)
 
