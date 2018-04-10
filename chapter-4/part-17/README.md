@@ -58,13 +58,12 @@ SemVer is a 3-component system in the format of x.y.z where:
 1.  y stands for a minor version
 1.  z stands for a patch
 
-If you are mostly fixing bugs, then this would be categorized as a patch, in which case you should bump z.
-If you are implementing new features in a backward-compatible way, then you will bump y because this is what’s called a minor version.
-On the other hand, if you implement new stuff that is likely to break the existing API, you need to bump x because it is a major version.
+A change in patch represents a bugfix that doesn’t break anything. A change in minor version represents a new functionality that doesn’t break anything. A change in major version represents a large change that breaks compatibility. If users don’t adapt to a major version change, stuff won’t work.
 
 Always start at 0.1.0 and before 1.0.0 is Only the Development Phase.
 
 references:
 
-https://www.tutorialspoint.com/nodejs/nodejs_repl_terminal.htm
+https://www.tutorialspoint.com/nodejs/nodejs_repl_terminal.html
+
 https://www.sitepoint.com/semantic-versioning-why-you-should-using/
