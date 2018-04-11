@@ -12,6 +12,10 @@
   * `nodemon`, `node-dev`
   * Environment: `process.env`, `development`, `production`
 
+## Modules
+
+* [`module-nodejs`](https://github.com/impactbyte-learn/module-nodejs)
+
 ---
 
 ## Install Node.Js

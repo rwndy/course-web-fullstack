@@ -26,6 +26,11 @@
   * `body`, `params`, `query`
 * ▢ Express Plugin/Middleware
 
+## Modules
+
+* [`module-nodejs`](https://github.com/impactbyte-learn/module-nodejs)
+* [`module-expressjs`](https://github.com/impactbyte-learn/module-expressjs)
+
 ---
 
 # Node.js, Browser, & REST API
