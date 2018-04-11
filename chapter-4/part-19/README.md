@@ -15,5 +15,7 @@
   * IaaS/VPS: Digital Ocean, Amazon Lightsail, Linode
   * Server: Nginx, Apache
   * Process management: `pm2`
+  * Cloud Services: Amazon Web Services, Google Cloud Platform, Microsoft Azure
+  * Container: `docker`
 * ▢ Node.js Trivia
   * Documentaion/Generators: Swagger, API Blueprint, Stoplight
