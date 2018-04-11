@@ -28,6 +28,7 @@
 
 ## Modules
 
+* [JS Node 101](http://bit.ly/js-node-101)
 * [`module-nodejs`](https://github.com/impactbyte-learn/module-nodejs)
 * [`module-expressjs`](https://github.com/impactbyte-learn/module-expressjs)
 
