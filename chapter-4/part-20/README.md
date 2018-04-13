@@ -71,6 +71,14 @@
 * ATDD (Automated Test Driven Development)
 * HDD (Hypothesis Driven Development)
 
+## References
+
+* [Why TDD – Built to Adapt](https://builttoadapt.io/why-tdd-489fdcdda05e)
+* [Introduction to TDD and BDD·Cucumber](https://cucumber.io/blog/2017/05/15/intro-to-bdd-and-tdd)
+* [What is BDD? What is Behavior Driven Development?](https://www.youtube.com/watch?v=VS6EEUVZGLE) (VIDEO)
+* [Hypothesis-Driven Development - The Hacker Chick Blog](https://hackerchick.com/hypothesis-driven-development)
+* [How to Implement Hypothesis-Driven Development | ThoughtWorks](https://www.thoughtworks.com/insights/blog/how-implement-hypothesis-driven-development)
+
 ---
 
 # Continuous Integration (CI) & Continuous Deployment (CD)
