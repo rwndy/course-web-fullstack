@@ -19,6 +19,8 @@
 
 ---
 
+![](./assets/test-pyramid.png)
+
 # Testing Methodologies
 
 * Unit
@@ -27,6 +29,10 @@
 * End-to-End (E2E)
 
 ## References
+
+* [TestPyramid](https://martinfowler.com/bliki/TestPyramid.html)
+* [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
+* [The Testing Pyramid](http://www.agilenutshell.com/episodes/41-testing-pyramid)
 
 ---
 
