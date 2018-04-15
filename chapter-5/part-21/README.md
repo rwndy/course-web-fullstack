@@ -234,21 +234,62 @@ There are different types of joins available in SQL:
 
 ---
 
-# SQL Hosted
+# Database ACID
 
-* Heroku Postres
+Desired transactions in a SQL database is often have ACID (Atomic Consistent Isolated Durable) properties.
+
+**Atomic**
+
+All changes are made (commit) or none (rollback). Atomicity takes individual operations and turns them into an all-or-nothing unit of work, succeeding if and only if all contained operations succeed.
+
+**Consistent**
+
+Transaction won't violate declared system integrity constraints. Consistency means that constraints are enforced for every committed transaction. That implies that all Keys, Data types, Checks and Trigger are successful and no constraint violation is triggered.
+
+**Isolated**
+
+Results independent of concurrent transactions. Isolation brings us the benefit of hiding uncommitted state changes from the outside world, as failing transactions shouldn’t ever corrupt the state of the system
+
+**Durable**
+
+Committed changes survive various classes of hardware failure. A successful transaction must permanently change the state of a system, and before ending it, the state changes are recorded in a persisted transaction log. If our system is suddenly affected by a system crash or a power outage, then all unfinished committed transactions may be replayed.
+
+## References
+
+* [A beginner's guide to ACID and database transactions - Vlad Mihalcea](https://vladmihalcea.com/a-beginners-guide-to-acid-and-database-transactions/)
+* [ACID and database transactions? - Stack Overflow](https://stackoverflow.com/questions/3740280/acid-and-database-transactions)
+* [Atomic Consistent Isolated Durable](http://wiki.c2.com/?AtomicConsistentIsolatedDurable)
 
 ---
 
-# Table Join
+# Database CAP Theorem
 
-* `FULL`, `INNER`, `OUTER`, `LEFT`, `RIGHT`
+**Consistency**
+
+When performing a “read” from one node in the system, you always receive the most recent “write”, even if that “write” occurred on a different node. Different than the “consistency” in ACID.
+
+**Availability**
+
+When a request is made to a node, as long as the node has not failed, it will respond to the request.
+
+**Partition Tolerance**
+
+When a node is removed from the system, the system continues to operate and uphold its other attributes.
 
 ---
 
 # Database Trivia
 
+* Database Indexing
 * Entity Relationship Diagram (ERD)
 * Data Flow Diagram (DFD)
 * Extract, Transform, Load (ETL)
-* Indexing
+
+## References
+
+* [What is a database index?](http://www.vertabelo.com/blog/technical-articles/what-is-a-database-index)
+* [Database Indexes Explained - Essential SQL](https://www.essentialsql.com/what-is-a-database-index)
+* [The Basics of Database Indexes For Relational Databases](https://medium.com/jimmy-farrell/the-basics-of-database-indexes-for-relational-databases-bfc634d6bb37)
+* [Entity Relationship Diagram - Everything You Need to Know About ER Diagrams](https://www.smartdraw.com/entity-relationship-diagram)
+* [What is a Data Flow Diagram | Lucidchart](https://www.lucidchart.com/pages/data-flow-diagram)
+* [ETL Process](http://datawarehouse4u.info/ETL-process.html)
