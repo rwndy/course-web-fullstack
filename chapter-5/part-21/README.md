@@ -22,6 +22,14 @@ Users
 +----+-------+------------------+
 # Column
 
+Todos
++----+--------------+-----------+
+| id | text         | person_id |
++----+--------------+-----------+
+|  1 | Learn coding |  1        |
+|  2 | Apply a job  |  2        |
++----+--------------+-----------+
+
 Addresses
 +----+------------+-----------+
 | id | address    | person_id |
@@ -33,7 +41,7 @@ Addresses
 
 **Schema View**
 
-![](./assets/database-schema.svg)
+![](./assets/table-schema.png)
 
 * Field = Every table is broken up into smaller entities called fields. The fields in the `Users` table consist of `id`, `name`, `email`.
 * Record/Row = A record is also called as a row of data is each individual entry that exists in a table.
