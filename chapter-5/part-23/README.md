@@ -22,6 +22,7 @@ Data manipulation is often done through object-oriented functions or APIs. There
 
 There more than 220 NoSQL databases exist. Some of the populars are:
 
+* NeDB
 * MongoDB
 * Firebase
 * CouchDB
