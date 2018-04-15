@@ -48,8 +48,12 @@ https://developer.chrome.com/devtools
   * [freeCodeCamp](https://www.freecodecamp.org)
 * Cheatsheet
   * [ES2015+ cheatsheet - DevHints.io](https://devhints.io/es6)
+  * [ES6 Syntax and Feature Overview – Tania Rascia](https://www.taniarascia.com/es6-syntax-and-feature-overview)
 * Documentation
   * [JavaScript documentation on DevDocs](http://devdocs.io/javascript)
   * [JavaScript on MDN](https://developer.mozilla.org/bm/docs/Web/JavaScript)
   * [Javascript Tutorial on TutorialsPoint](https://www.tutorialspoint.com/javascript/index.htm)
   * [Javascript Tutorial on W3Schools](https://www.w3schools.com/js/default.asp)
+* Style Guide
+  * [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+  * [13 Noteworthy Points from Google’s JavaScript Style Guide](https://medium.freecodecamp.org/google-publishes-a-javascript-style-guide-here-are-some-key-lessons-1810b8ad050b)
