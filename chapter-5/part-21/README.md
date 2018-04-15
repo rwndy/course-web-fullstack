@@ -113,23 +113,124 @@ There are various hosting solutions for SQL database that available for free. Bu
 
 # Table Essentials
 
-* Tables, relations, connections
-* Table relationship
-* 1 to 1, 1 to many, many to many
+In relational database design, tables are representing the overview of the data.
+
+Tables can have relations or connections between other tables.
+
+The relationship between tables can be as:
+
+* 1 to 1
+  * Example: One person has one salary
+* 1 to many / many to one
+  * Example: One person has many addresses, or many addresses are owned by one person
+* many to many
+  * Example: Many persons has many orders, and many orders have many items
+
+To optimize the design, normalization is done as the process of organizing a database to:
+
+* Reduce redundancy / eliminating redundant data. For example, storing the same data in more than one table.
+* Ensure data dependencies make sense, or improve data integrity.
 
 ## References
 
+* [SQL Tables Explained by Voting in an election](https://medium.com/@kevink/sql-tables-explained-by-voting-in-the-infamous-2016-election-de638dd9db7)
+* [The 3 Types of Relationships in Database Design | Database.Guide](http://database.guide/the-3-types-of-relationships-in-database-design)
+* [SQL for Beginners: Part 3 - Database Relationships](https://code.tutsplus.com/articles/sql-for-beginners-part-3-database-relationships--net-8561)
+* [What is Normalization? | Database.Guide](http://database.guide/what-is-normalization)
+
 ---
 
-# SQL query
+# SQL Query/Syntax/Command
 
-* `CREATE`, `SELECT`, `INSERT`
+These syntaxes can be classified into the following groups based on their nature of statements.
+
+## DDL - Data Definition Language
+
+* `CREATE` = Creates a new table, a view of a table, or other object in the database.
+* `ALTER` = Modifies an existing database object, such as a table.
+* `DROP` = Deletes an entire table, a view of a table or other objects in the database.
+
+## DML - Data Manipulation Language
+
+* `SELECT` = Retrieves certain records from one or more tables.
+* `INSERT` = Creates a record.
+* `UPDATE` = Modifies records.
+* `DELETE` = Deletes records.
+
+## DCL - Data Control Language
+
+* `GRANT` = Gives a privilege to user.
+* `REVOKE` = Takes back privileges granted from user.
+
+## Statement Examples
+
+Show existing databases.
+
+```sql
+SHOW DATABASES;
+```
+
+Create a new database.
+
+```sql
+CREATE DATABASE database_name;
+```
+
+Use a created database.
+
+```sql
+USE database_name;
+```
+
+Create a new table with various fields.
+
+```sql
+CREATE TABLE table_name(
+column1 datatype,
+column2 datatype,
+column3 datatype,
+.....
+columnN datatype,
+PRIMARY KEY( one or more columns )
+);
+```
+
+Get selected fields from selected table.
+
+```sql
+SELECT column1, column2....columnN
+FROM   table_name;
+```
+
+Get selected fields from selected table with a condition.
+
+```sql
+SELECT column1, column2....columnN
+FROM   table_name
+WHERE  CONDITION;
+```
 
 ---
 
-# SQL Tools
+# SQL Table Join
 
-* MySQL Workbench
+The SQL Joins clause is used to combine records from two or more tables in a database. A JOIN is a means for combining fields from two tables by using values common to each.
+
+There are different types of joins available in SQL:
+
+* INNER JOIN − returns rows when there is a match in both tables.
+* OUTER JOIN - returns rows when there is an excluding match in both tables.
+* LEFT JOIN − returns all rows from the left table, even if there are no matches in the right table.
+* RIGHT JOIN − returns all rows from the right table, even if there are no matches in the left table.
+* FULL JOIN − returns rows when there is a match in one of the tables.
+* SELF JOIN − is used to join a table to itself as if the table were two tables, temporarily renaming at least one table in the SQL statement.
+* CARTESIAN JOIN − returns the Cartesian product of the sets of records from the two or more joined tables.
+
+![](./assets/sql-join.png)
+
+## References
+
+* [SQL Using Joins](https://www.tutorialspoint.com/sql/sql-using-joins.htm)
 
 ---
 
