@@ -44,9 +44,11 @@ Typical agenda that will run through in our onsite class.
 
 ## References
 
+* [Roadmap to becoming a web developer in 2018](https://github.com/kamranahmedse/developer-roadmap)
 * [Front-End Developer Handbook 2018](https://frontendmasters.com/books/front-end-handbook/2018)
 * [Front-End Developer Handbook 2017](https://frontendmasters.com/books/front-end-handbook/2017)
 * [Front-End Developer Handbook 2016](https://www.frontendhandbook.com)
 * [The Modern Javascript Tutorial on JavaScript.info](https://javascript.info)
 * [freeCodeCamp](https://www.freecodecamp.org)
 * [Hard Coding Concepts Explained with Simple Real-life Analogies](https://medium.freecodecamp.org/hard-coding-concepts-explained-with-simple-real-life-analogies-280635e98e37)
+* [Super Full Stack Web Developer in Modern Expectation](https://mhaidarhanif.com/expectation)
