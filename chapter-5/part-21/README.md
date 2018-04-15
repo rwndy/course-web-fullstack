@@ -66,11 +66,48 @@ It allows to:
 
 # DBMS (Database Management System)
 
-* SQLite
-* MySQL
-* PostgreSQL
+To actually use a SQL database in our program, we need a DBMS or database server; such as SQLite, MySQL/MariaDB, PostgreSQL, Oracle, Informix, Microsoft SQL Server, etc.
 
 ## References
+
+* [SQLite](https://www.sqlite.org)
+  * [SQLite Tutorial](https://www.tutorialspoint.com/sqlite/index.htm)
+  * [DevDocs — SQLite documentation](http://devdocs.io/sqlite)
+* [MySQL](https://www.mysql.com)
+  * [MySQL Tutorial](https://www.tutorialspoint.com/mysql/index.htm)
+* [MariaDB](https://mariadb.org)
+  * [MariaDB Tutorial](https://www.tutorialspoint.com/mariadb/index.htm)
+* [PostgreSQL](https://www.postgresql.org)
+  * [PostgreSQL Tutorial](https://www.tutorialspoint.com/postgresql/index.htm)
+  * [DevDocs — PostgreSQL 10 documentation](http://devdocs.io/postgresql~10)
+* [Google Cloud SQL - MySQL & PostgreSQL Relational Database Service](https://cloud.google.com/sql)
+* [Amazon Relational Database Service (RDS) – AWS](https://aws.amazon.com/rds)
+* [Microsoft Azure SQL Database – Cloud Database as a Service](https://azure.microsoft.com/en-us/services/sql-database)
+
+---
+
+# SQL Database Tools
+
+Then in order to access and use the installed database, we have to use a CLI or GUI tool.
+
+## References
+
+* [`mysql` — The MySQL Command-Line Tool](https://dev.mysql.com/doc/refman/5.7/en/mysql.html)
+* [`mycli` - A Terminal Client for MySQL with AutoCompletion and Syntax Highlighting](http://www.mycli.net)
+* [MySQL Workbench](https://www.mysql.com/products/workbench)
+* [TeamSQL - Cross-platform SQL Client for MySQL, PostgreSQL, Microsoft SQL Server, Amazon Redshift and Redis](https://teamsql.io)
+
+---
+
+# SQL Database Hosting
+
+There are various hosting solutions for SQL database that available for free. But for customized solution, we still need to install them in our own server or use a cloud service.
+
+## References
+
+* [Heroku Postgres - SQL Database Service on Heroku](https://www.heroku.com/postgres)
+* [A Basic MySQL Tutorial | DigitalOcean](https://www.digitalocean.com/community/tutorials/a-basic-mysql-tutorial)
+* [Caspio - Free Online Database | Create Easy Cloud Applications](https://free.caspio.com)
 
 ---
 
