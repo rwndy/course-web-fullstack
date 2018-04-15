@@ -6,7 +6,7 @@
 
 The most common database structure is build upon relational model.
 
-The data modeling itself contains tables of fields and values, consisted in rows and columns.
+The data modeling itself contains entities/tables of fields and values, consisted in rows and columns.
 
 In each table, data schema can be created to give the requirement of the data.
 
@@ -119,11 +119,11 @@ There are various hosting solutions for SQL database that available for free. Bu
 
 ---
 
-# Table Essentials
+# Entity Relations/Associations
 
-In relational database design, tables are representing the overview of the data.
+In relational database design, entities or tables are representing the overview of the data.
 
-Tables can have relations or connections between other tables.
+Tables can have relations, connections, or associations between other tables.
 
 The relationship between tables can be as:
 
