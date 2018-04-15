@@ -6,6 +6,12 @@
 
 Architecture is the decisions you make about your application.
 
+Whether it's about the ideas, designs, features, functionalities, connections between parts, etc.
+
+![](./assets/spa-crud.png)
+
+![](./assets/web-application.png)
+
 ---
 
 ## Separation of Concerns

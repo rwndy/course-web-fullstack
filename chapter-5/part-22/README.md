@@ -60,8 +60,8 @@ This approach is most often called MVC (Model-View-Controller).
 
 # Database Auth
 
-...
+Encrypt user's password with bcrypt.
 
 ## References
 
-* ...
+* [`bcrypt`](https://www.npmjs.com/package/bcrypt)

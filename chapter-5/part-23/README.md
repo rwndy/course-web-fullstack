@@ -8,6 +8,8 @@ NoSQL (not only SQL) database provides a mechanism for storage and retrieval of 
 
 Data manipulation is often done through object-oriented functions or APIs. There's no specific query language like SQL.
 
+![](./assets/nosql.png)
+
 ## NoSQL Database Types
 
 **Document databases:** pair each key with a complex data structure known as a document. Documents can contain many different key-value pairs, or key-array pairs, or even nested documents.
@@ -17,6 +19,8 @@ Data manipulation is often done through object-oriented functions or APIs. There
 **Key-value stores:** are the simplest NoSQL databases. Every single item in the database is stored as an attribute name (or 'key'), together with its value. Examples of key-value stores are Riak and Berkeley DB. Some key-value stores, such as Redis, allow each value to have a type, such as 'integer', which adds functionality.
 
 **Wide-column stores:** such as Cassandra and HBase are optimized for queries over large datasets, and store columns of data together, instead of rows.
+
+![](./assets/mongodb.png)
 
 ## Examples
 

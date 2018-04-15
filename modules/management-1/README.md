@@ -4,6 +4,10 @@
 
 ## Project/Product Management
 
+Project/Product management in programming is often called Software Development Life Cycle (SDLC).
+
+![](./assets/sdlc.png)
+
 ---
 
 ## Key Steps
