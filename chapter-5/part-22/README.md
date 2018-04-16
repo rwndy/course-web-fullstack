@@ -36,7 +36,7 @@ This way in JavaScript, we can change between table format and object format, ea
 
 ## Libraries
 
-There are various ORM libraries in Node.js ecosystem like waterline, Sequelize, Knex, and Bookshelf.
+There are various ORM libraries in Node.js ecosystem like Sequelize, TypeORM, waterline, Knex, Bookshelf, etc. Some platforms don't require ORM if there's a suitable SDK (Software Development Kit).
 
 ## Architecture
 
@@ -89,5 +89,4 @@ Login or signin for an existing account:
   * [JSON Web Token Introduction - jwt.io](https://jwt.io/introduction)
   * [JWT Inspector - Decode and Debug JSON Web Tokens](https://jwtinspector.io)
   * [JWT Analyzer & Inspector Chrome Extension](https://chrome.google.com/webstore/detail/jwt-analyzer-inspector/henclmbnehmcpbjgipaajbggekefngob?hl=en)
-  * [JWT Debugger
-    Chrome Extension](https://chrome.google.com/webstore/detail/jwt-debugger/ppmmlchacdbknfphdeafcbmklcghghmd?hl=en)
+  * [JWT Debugger Chrome Extension](https://chrome.google.com/webstore/detail/jwt-debugger/ppmmlchacdbknfphdeafcbmklcghghmd?hl=en)
