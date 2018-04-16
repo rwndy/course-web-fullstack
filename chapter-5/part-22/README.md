@@ -60,8 +60,33 @@ This approach is most often called MVC (Model-View-Controller).
 
 # Database Auth
 
-Encrypt user's password with bcrypt.
+Encrypt user's credentials such as password with bcrypt.
+
+## Authentication Flow
+
+Register or signup for a new account:
+
+1.  Encrypt the password body with bcrypt hash
+2.  Create the user in the database
+3.  Create the token with JWT sign
+4.  Response with a token and user data (without password)
+
+Login or signin for an existing account:
+
+1.  Find the requested user email or username
+    * If error, tell user is not found
+2.  Validate the password with bcrypt compare
+    * If error, tell password is invalid
+3.  Create the token with JWT sign
+4.  Response with a token and user data
 
 ## References
 
 * [`bcrypt`](https://www.npmjs.com/package/bcrypt)
+* [`jsonwebtoken`](https://www.npmjs.com/package/jsonwebtoken)
+* [JSON Web Tokens - jwt.io](https://jwt.io)
+  * [JSON Web Token Introduction - jwt.io](https://jwt.io/introduction)
+  * [JWT Inspector - Decode and Debug JSON Web Tokens](https://jwtinspector.io)
+  * [JWT Analyzer & Inspector Chrome Extension](https://chrome.google.com/webstore/detail/jwt-analyzer-inspector/henclmbnehmcpbjgipaajbggekefngob?hl=en)
+  * [JWT Debugger
+    Chrome Extension](https://chrome.google.com/webstore/detail/jwt-debugger/ppmmlchacdbknfphdeafcbmklcghghmd?hl=en)
