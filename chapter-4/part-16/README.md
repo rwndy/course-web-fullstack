@@ -35,21 +35,21 @@ Application Programming Interface (API) is a term for describing how a programs 
 
 REpresentational State Transfer (REST) is a one of many architectural style of an API. A RESTful API is an application program interface (API) that uses HTTP requests (HTTP verbs) to GET, PUT, POST and DELETE data.
 
-![Rest API](./assets/restful.png)
+![REST API](./assets/restful.png)
 
 ### HTTP verbs
 
 HTTP defines a set of request methods to indicate the desired action to be performed for a given resource.
 
-| HTTP Verb | Description                                                                                                                          |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| GET       | The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.                    |
-| POST      | The POST method is used to submit an entity to the specified resource, often causing a change in state or side effects on the server |
-| PUT       | The PUT method replaces all current representations of the target resource with the request payload.                                 |
-| DELETE    | The DELETE method deletes the specified resource.                                                                                    |
-| CONNECT   | The CONNECT method establishes a tunnel to the server identified by the target resource.                                             |
-| OPTIONS   | The OPTIONS method is used to describe the communication options for the target resource.                                            |
-| HEAD      | The HEAD method asks for a response identical to that of a GET request, but without the response body.                               |
+**HTTP Verb & Description**
+
+* `GET` = The GET method requests a representation of the specified resource. Requests using `GET` should only retrieve data.
+* `POST` = The `POST` method is used to submit an entity to the specified resource, often causing a change in state or side effects on the server.
+* `PUT` = The `PUT` method replaces all current representations of the target resource with the request payload.
+* `DELETE` = The `DELETE` method deletes the specified resource.
+* `CONNECT` = The `CONNECT` method establishes a tunnel to the server identified by the target resource.
+* `OPTIONS` = The `OPTIONS` method is used to describe the communication options for the target resource.
+* `HEAD` = The `HEAD` method asks for a response identical to that of a `GET` request, but without the response body.
 
 ### HTTP header
 
@@ -61,21 +61,21 @@ HTTP headers allow the client and the server to pass additional information with
 
 | Route                     | HTTP Verb | Description                  |
 | ------------------------- | --------- | ---------------------------- |
-| example.com/api/items     | GET       | Get all the items            |
-| example.com/api/items/:id | GET       | Get a single item            |
-| example.com/api/items     | POST      | Save an item                 |
-| example.com/api/items     | DELETE    | Remove all the items         |
-| example.com/api/items/:id | DELETE    | Remove an item               |
-| example.com/api/items/:id | PUT       | Update an item with new info |
+| example.com/api/items     | `GET`     | Get all the items            |
+| example.com/api/items/:id | `GET`     | Get a single item            |
+| example.com/api/items     | `POST`    | Save an item                 |
+| example.com/api/items     | `DELETE`  | Remove all the items         |
+| example.com/api/items/:id | `DELETE`  | Remove an item               |
+| example.com/api/items/:id | `PUT`     | Update an item with new info |
 
 ## Example of Github RESTful API
 
-| Route                                                 | HTTP Verb | Description             |
-| ----------------------------------------------------- | --------- | ----------------------- |
-| https://api.github.com/users                          | GET       | Get all users (limited) |
-| https://api.github.com/users/muhammadhaekal           | GET       | Get a single user       |
-| https://api.github.com/users/muhammadhaekal/followers | GET       | Get user followers      |
-| https://api.github.com/users/muhammadhaekal/following | GET       | Get following users     |
+| Route                                         | HTTP Verb | Description             |
+| --------------------------------------------- | --------- | ----------------------- |
+| api.github.com/users                          | `GET`     | Get all users (limited) |
+| api.github.com/users/muhammadhaekal           | `GET`     | Get a single user       |
+| api.github.com/users/muhammadhaekal/followers | `GET`     | Get user followers      |
+| api.github.com/users/muhammadhaekal/following | `GET`     | Get following users     |
 
 ## Fetching data from API
 
@@ -86,7 +86,7 @@ A request to api will return as a javascript response object. We can use `.json(
 example:
 
 ```js
-fetch("https://api.github.com/users/muhammadhaekal")
+fetch("https://api.github.com/users/username")
   .then(response => {
     return response.json();
   })
@@ -97,11 +97,13 @@ fetch("https://api.github.com/users/muhammadhaekal")
 
 ## API Project 1
 
-Use github api to get all info of your follower list, then log the list (in Object) using console log on browser console
+Use GitHub API to get all info of your follower list, then log the list (in Object) using console log on browser console.
 
 ## API Project 2
 
 ![ExpectedOutput](./assets/API-project-1.png)
+
+---
 
 ## References
 
@@ -113,4 +115,5 @@ Use github api to get all info of your follower list, then log the list (in Obje
 * [Best Practices for Designing a Pragmatic RESTful API | Vinay Sahni](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
 * [API Glossary & Acronyms](http://apiglossary.com)
 * [HTTP API Design Guide](https://geemus.gitbooks.io/http-api-design/content/en)
-* [lambda2/rapis: A specification proposal for API's](https://github.com/lambda2/rapis)
+* [`lambda2/rapis`: A specification proposal for API's](https://github.com/lambda2/rapis)
+* [GraphQL vs. REST – Apollo GraphQL](https://dev-blog.apollodata.com/graphql-vs-rest-5d425123e34b)
