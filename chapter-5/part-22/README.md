@@ -50,9 +50,10 @@ This approach is most often called MVC (Model-View-Controller).
 
 ## References
 
-* [waterline - an adapter-based ORM for node.js](http://waterlinejs.org)
 * [Sequelize - The node.js ORM for PostgreSQL, MySQL, SQLite and MSSQL](http://docs.sequelizejs.com)
   * [Migrations](http://docs.sequelizejs.com/manual/tutorial/migrations.html)
+* [TypeORM - Amazing ORM for TypeScript and JavaScript (ES7, ES6, ES5). Supports MySQL, PostgreSQL, MariaDB, SQLite, MS SQL Server, Oracle, WebSQL databases. Works in NodeJS, Browser, Ionic, Cordova, and Electron platforms](http://typeorm.io)
+* [waterline - an adapter-based ORM for node.js](http://waterlinejs.org)
 * [Knex.js - A SQL Query Builder for Javascript](http://knexjs.org)
 * [Bookshelf is a JavaScript ORM for Node.js, built on the Knex SQL query builder](http://bookshelfjs.org)
 

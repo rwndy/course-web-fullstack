@@ -83,6 +83,8 @@ To actually use a SQL database in our program, we need a DBMS or database server
   * [DevDocs — SQLite documentation](http://devdocs.io/sqlite)
 * [MySQL](https://www.mysql.com)
   * [MySQL Tutorial](https://www.tutorialspoint.com/mysql/index.htm)
+  * [MySQL Tutorial - Learn MySQL Fast, Easy and Fun](http://www.mysqltutorial.org)
+    * [MySQL Sample Database](http://www.mysqltutorial.org/mysql-sample-database-aspx)
 * [MariaDB](https://mariadb.org)
   * [MariaDB Tutorial](https://www.tutorialspoint.com/mariadb/index.htm)
 * [PostgreSQL](https://www.postgresql.org)
