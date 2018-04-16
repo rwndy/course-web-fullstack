@@ -24,16 +24,33 @@ Data manipulation is often done through object-oriented functions or APIs. There
 
 ## Examples
 
-There more than 220 NoSQL databases exist. Some of the populars are:
+There more than 220 NoSQL databases exist. Some of the populars based on their categories are:
 
-* NeDB
-* MongoDB
-* Firebase
-* CouchDB
-* PouchDB
-* Redis
-* Cassandra
-* Hadoop
+* Document
+  * MongoDB
+  * Firebase
+  * ArangoDB
+  * CouchDB
+  * PouchDB
+  * NeDB
+* Key/Value
+  * Redis
+  * DynamoDB
+  * Cassandra
+* Search
+  * Elastic Search
+* Big Data
+  * Apache Hadoop
+  * Apache Ignite
+* Graph-based
+  * Neo4j
+  * Dgraph
+  * Neptune
+* Analytical
+  * Druid
+* Time Series
+  * Influx
+  * Timescale
 
 ## Installation and Usage
 
