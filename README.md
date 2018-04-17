@@ -44,6 +44,11 @@ Typical agenda that will run through in our onsite class.
 
 ## References
 
+### Repositories
+
+* Impact Todo Web: https://github.com/impactbyte-network/impactodo-web
+* Impact Todo API: https://github.com/impactbyte-network/impactodo-api
+
 ### Guide
 
 * [Roadmap to becoming a web developer in 2018](https://github.com/kamranahmedse/developer-roadmap)

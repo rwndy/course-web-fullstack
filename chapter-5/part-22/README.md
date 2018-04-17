@@ -81,7 +81,19 @@ Login or signin for an existing account:
 3.  Create the token with JWT sign
 4.  Response with a token and user data
 
+---
+
 ## References
+
+### Repositories
+
+* TypeORM samples: https://github.com/impactbyte-learn/code-typeorm
+* [Official Samples](http://typeorm.io/#/undefined/samples)
+  * [Example how to use TypeORM with TypeScript](https://github.com/typeorm/typescript-example)
+  * [Example how to use TypeORM with JavaScript](https://github.com/typeorm/javascript-example)
+  * [Example how to use Express and TypeORM](https://github.com/typeorm/typescript-express-example)
+
+### Documentations
 
 * [`bcrypt`](https://www.npmjs.com/package/bcrypt)
 * [`jsonwebtoken`](https://www.npmjs.com/package/jsonwebtoken)
