@@ -74,13 +74,41 @@ JSX is a DSL (Domain Specific Language) over JavaScript. So it's not plain progr
 
 Should we always React? Depends. If our application has some complexity, it's recommended. But if it's just a simple website, just use plain HTML, CSS, JavaScript & jQuery like usual.
 
+### References
+
+* [React.js]()
+* [React Learning Journey](https://github.com/adhywiranata/react-tinkering-manual)
+
 ---
 
 ## React Installation
 
-`npm install -g create-react-app`
+To quickly learn React, we can use `create-react-app` installer.
 
-`create-react-app` project structure
+```sh
+npm install -g create-react-app
+```
+
+```sh
+create-react-app app-name
+```
+
+`create-react-app` project structure:
+
+```sh
+package.json
+```
+
+The `react-scripts` actually contains:
+
+* webpack module bundler
+* babel JavaScript transpiler
+
+### References
+
+* [`create-react-app`]()
+* [webpack]()
+* [babel-jsx]()
 
 ---
 
@@ -181,3 +209,9 @@ Parent and child relationship between components.
 Build system with Webpack.
 
 Transpilation with Babel.
+
+---
+
+## References
+
+* [React]()
