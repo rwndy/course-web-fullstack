@@ -18,6 +18,28 @@
 
 ---
 
+## Static Typing
+
+* Flow static type checker
+* vs PropTypes, TypeScript
+
+### References
+
+* []()
+
+---
+
+## React Testing
+
+* Jest
+* Enzyme
+
+### References
+
+* []()
+
+---
+
 ## Redux
 
 * Better state management
@@ -25,23 +47,17 @@
 * vs Flux vs Redux vs MobX
 * Browser Extensions: Redux DevTools
 
+### References
+
+* []()
+
+---
+
 ## React & Redux
 
 * Integrate Redux into React
 * React Redux boilerplate
 
-## Static Typing
-
-* Flow static type checker
-* vs PropTypes, TypeScript
-
-## React Testing
-
-* Jest
-* Enzyme
-
----
-
-## References
+### References
 
 * []()
