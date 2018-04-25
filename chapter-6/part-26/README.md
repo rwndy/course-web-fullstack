@@ -224,6 +224,24 @@ React component can use modern `class` or just a `function` (stateless component
 
 Custom method
 
+```jsx
+class Name extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.customMethod = this.customMethod.bind(this);
+  }
+
+  customMethod() {
+    console.log("Custom Method");
+  }
+
+  render() {
+    return <div onClick={this.customMethod}>Box</div>;
+  }
+}
+```
+
 `.bind(this)` in constructor
 
 ---
@@ -278,17 +296,35 @@ Transpilation with Babel.
 
 ### Component LifeCycle
 
-* componentWillMount — Fired before the component mounted/rendered
-* render - Fired when the actual UI mounted/rendered/changed
-* componentDidMount — Fired after the component mounted
-* componentWillUnmount — Fired before the component will unmount
-* getDerivedStateFromProps - Fired when the component mounts and whenever the props change. Used to update the state of a component when its props change
+* `componentWillMount` — Fired before the component mounted/rendered
+* `render` - Fired when the actual UI mounted/rendered/changed
+* `componentDidMount` — Fired after the component mounted
+* `componentWillUnmount` — Fired before the component will unmount
+* `getDerivedStateFromProps` - Fired when the component mounts and whenever the props change. Used to update the state of a component when its props change
 
-### Events
+### Event Handling with Custom Method
 
-* onClick
-* onSubmit
-* onChange
+* `onClick`
+* `onSubmit`
+* `onChange`
+
+When using onEventHandler like those, keep in mind if you want to use the method with a parameter or not. The usage are a bit different.
+
+Wihout parameter, we don't call the function directly:
+
+```js
+<button onClick={this.actionName} />
+```
+
+With parameter, we call the function directly so we need to wrap it inside a function:
+
+```js
+<button
+  onClick={() => {
+    this.actionName(param);
+  }}
+/>
+```
 
 ---
 
