@@ -51,7 +51,7 @@
 
 * [Mocha - the fun, simple, flexible JavaScript test framework](https://mochajs.org)
 * [Chai is a BDD / TDD assertion library for node and the browser](http://www.chaijs.com)
-* [`chai-http` - Chai HTTP integration testing with Chai assertions](https://www.npmjs.com/package/chai-http)
+* [`chai-http` - Chai HTTP integration testing with Chai assertions](https://npm.im/chai-http)
 * [Jasmine - Behavior-Driven JavaScript](https://jasmine.github.io)
 * [Karma - Spectacular Test Runner for Javascript](https://karma-runner.github.io)
 * [Selenium - Web Browser Automation](https://www.seleniumhq.org)
