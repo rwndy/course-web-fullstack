@@ -34,7 +34,7 @@ const NAME = process.env.REACT_APP_NAME;
 const API_URL = process.env.REACT_APP_API_URL;
 ```
 
-Yes, you need the `REACT_APP_` precedent in order to make it work in `react-scripts`.
+Yes, you need the `REACT_APP_` prefix in order to make it work in `react-scripts`.
 
 If you have a custom build solution, then the `REACT_APP_` naming convention is not needed.
 
@@ -194,4 +194,4 @@ We only need to store some local data like authentication, authorization, or ses
 
 * [Formik - Build forms in React, without the tears](https://npm.im/formik)
 * [`formsy-react` - A form input builder and validator for React.](https://npm.im/formsy-react)
-* [React Form - Extensive, simple, and efficient solution for creating basic to complex forms in reactxtensive, simple, and efficient solution for creating basic to complex forms in React](https://react-form.js.org)
+* [React Form - Extensive, simple, and efficient solution for creating basic to complex forms in React](https://react-form.js.org)
