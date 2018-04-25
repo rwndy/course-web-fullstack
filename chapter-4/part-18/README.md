@@ -43,8 +43,8 @@
 
 ## References
 
-* [`node-fetch`](https://www.npmjs.com/package/node-fetch)
-* [`axios`](https://www.npmjs.com/package/axios)
+* [`node-fetch`](https://npm.im/node-fetch)
+* [`axios`](https://npm.im/axios)
 * [PhantomJS](http://phantomjs.org)
 * [Google Puppeteer](https://developers.google.com/web/tools/puppeteer)
 
@@ -179,10 +179,10 @@ An Express application can use the following types of middleware:
 ## References
 
 * [Using Express middleware](https://expressjs.com/en/guide/using-middleware.html)
-* [`body-parser`](https://www.npmjs.com/package/body-parser)
-* [`cookie-parser`](https://www.npmjs.com/package/cookie-parser)
-* [`helmet`](https://www.npmjs.com/package/helmet)
-* [`cors`](https://www.npmjs.com/package/cors)
+* [`body-parser`](https://npm.im/body-parser)
+* [`cookie-parser`](https://npm.im/cookie-parser)
+* [`helmet`](https://npm.im/helmet)
+* [`cors`](https://npm.im/cors)
 * [Passport.js](http://www.passportjs.org)
 
 ---

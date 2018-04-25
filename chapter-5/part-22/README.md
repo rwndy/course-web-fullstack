@@ -95,8 +95,8 @@ Login or signin for an existing account:
 
 ### Documentations
 
-* [`bcrypt`](https://www.npmjs.com/package/bcrypt)
-* [`jsonwebtoken`](https://www.npmjs.com/package/jsonwebtoken)
+* [`bcrypt`](https://npm.im/bcrypt)
+* [`jsonwebtoken`](https://npm.im/jsonwebtoken)
 * [JSON Web Tokens - jwt.io](https://jwt.io)
   * [JSON Web Token Introduction - jwt.io](https://jwt.io/introduction)
   * [JWT Inspector - Decode and Debug JSON Web Tokens](https://jwtinspector.io)

@@ -38,7 +38,7 @@
 * [Cross-Origin Resource Sharing (CORS) - HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 * [enable cross-origin resource sharing](https://enable-cors.org)
 * [Understanding CORS](https://spring.io/understanding/CORS)
-* [`cors`](https://www.npmjs.com/package/cors)
+* [`cors`](https://npm.im/cors)
 
 ---
 
