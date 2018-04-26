@@ -2,13 +2,36 @@
 
 ---
 
+* ▢ Server Side Rendering
+  * Plain method
+  * Next.js vs GatsbyJS vs Nuxt.js
 * ▢ React Native
   * Mobile App Development
   * vs Ionic, PhoneGap, Cordova
 
 ---
 
-## React Native
+# Server Side Rendering
+
+Server Side Rendering (SSR) is a way to pack up your frontend and served from the backend. Without having the browser render them all initially. So, it can be a huge performance boost.
+
+The easiest way to get started with SSR is to use premade framework for it such as React's Next.js or GatsbyJS, or Vue's Nuxt.js.
+
+## References
+
+* [`zeit/next.js` - Framework for server-rendered or statically-exported React apps](https://github.com/zeit/next.js)
+  * [ZEIT – Next.js](https://zeit.co/blog/next)
+  * [ZEIT – Next.js 5](https://zeit.co/blog/next5)
+  * [Learn Next.js - Create SSR Enabled React Apps Easily](https://learnnextjs.com)
+  * [Build a universal React application with Next.js - YouTube](https://www.youtube.com/playlist?list=PLs2PzMqLzi7Va81SVtvEpGCCx0YQJqoRH)
+* [GatsbyJS - Blazing-fast static site generator for React](https://www.gatsbyjs.org)
+* [Nuxt.js - Universal Vue.js Applications](https://nuxtjs.org)
+* [Client-side vs. server-side rendering: why it’s not all black and white](https://medium.freecodecamp.org/what-exactly-is-client-side-rendering-and-hows-it-different-from-server-side-rendering-bd5c786b340d)
+* [The simple guide to server-side rendering React with styled-components](https://medium.com/styled-components/the-simple-guide-to-server-side-rendering-react-with-styled-components-d31c6b2b8fbf)
+
+---
+
+# React Native
 
 React Native is one of the most popular mobile app development library to build Android or iOS app.
 
@@ -44,7 +67,8 @@ npm run ios
 * [Expo](https://expo.io)
   * [Quick Start - Expo Documentation](https://docs.expo.io)
   * [Expo development tools](https://expo.io/tools)
-* [Learn React Native Today](https://egghead.io/browse/tools/react-native)
+* [Learn React Native with Screencast Video Tutorials - egghead.io](https://egghead.io/browse/libraries/react-native)
+  * [Fundamentals of React Native Video from @browniefed on @eggheadio](https://egghead.io/courses/fundamentals-of-react-native-video)
 * [React Navigation](https://reactnavigation.org)
 * [Building a Simple ToDo App With React Native and Firebase](https://youtube.com/watch?v=3ab0K6viEp0)
 * [An iOS Developer on React Native](https://medium.com/ios-os-x-development/an-ios-developer-on-react-native-1f24786c29f0)
