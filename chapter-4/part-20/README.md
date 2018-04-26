@@ -38,6 +38,7 @@
 
 # Testing Tools
 
+* Jest
 * Mocha
 * Chai
 * Jasmine
@@ -47,8 +48,11 @@
 * CucumberJS
 * PhantomJS
 
+One of the best choice for testing is Jest, a complete JavaScript testing solution. Jest is used by Facebook, Oculus, Instagram, Twitter, Pinterest, The New York Times, and more.
+
 ## References
 
+* [Jest 🃏 Delightful JavaScript Testing](https://facebook.github.io/jest)
 * [Mocha - the fun, simple, flexible JavaScript test framework](https://mochajs.org)
 * [Chai is a BDD / TDD assertion library for node and the browser](http://www.chaijs.com)
 * [`chai-http` - Chai HTTP integration testing with Chai assertions](https://npm.im/chai-http)

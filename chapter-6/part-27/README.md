@@ -233,3 +233,5 @@ export default BasicExample;
   * [React Router Web](https://reacttraining.com/react-router/web)
   * [`react-router-dom`](https://npm.im/react-router-dom)
   * [Quick Start](https://reacttraining.com/react-router/web/guides/quick-start)
+* [Learn React Router with Screencast Video Tutorials - egghead.io](https://egghead.io/browse/libraries/react-router)
+  * [Add routing to React apps using React Router v4 from @joemaddalone on @eggheadio](https://egghead.io/courses/add-routing-to-react-apps-using-react-router-v4)
