@@ -188,6 +188,12 @@ initial state (`this.state`) vs changed state (`this.setState()`)
 
 `props`, `propTypes`, and `defaultProps`
 
+`props` can be accessed in the children component like so:
+
+```jsx
+<div index={props.index}>{props.children}</div>
+```
+
 ## React State
 
 Passing state to child component
@@ -222,27 +228,39 @@ React component can use modern `class` or just a `function` (stateless component
 
 ## React Method
 
-Custom method
+Custom method and `.bind(this)` in constructor.
 
 ```jsx
 class Name extends React.Component {
   constructor(props) {
     super(props);
 
-    this.customMethod = this.customMethod.bind(this);
+    this.actionName = this.actionName.bind(this);
   }
 
-  customMethod() {
-    console.log("Custom Method");
+  actionName() {
+    console.log("Action!");
   }
 
   render() {
-    return <div onClick={this.customMethod}>Box</div>;
+    return <div onClick={this.actionName}>Box</div>;
   }
 }
 ```
 
-`.bind(this)` in constructor
+If we want to use a parameter in the method, don't call it directly.
+
+```jsx
+/* do this */
+<div
+  onClick={() => {
+    this.actionName(param);
+  }}
+/>;
+
+/* not this */
+<div onClick={this.actionName(param)} />;
+```
 
 ---
 

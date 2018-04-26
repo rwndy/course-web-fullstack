@@ -38,6 +38,91 @@ Yes, you need the `REACT_APP_` prefix in order to make it work in `react-scripts
 
 If you have a custom build solution, then the `REACT_APP_` naming convention is not needed.
 
+This will help a lot if you want to deploy the app into production environment like Netlify, Heroku, your own VPS, or cloud solution. Go to respected environment variable configuration settings based on the platforms.
+
+---
+
+## React Eject
+
+When you need to see what makes `react-scripts` work, you can use the `eject` script.
+
+Only do this if you have to. It's not necessary for now.
+
+```sh
+yarn eject
+$ react-scripts eject
+? Are you sure you want to eject? This action is permanent. (y/N)
+
+Ejecting...
+
+Copying files into /home/mhaidarh/all/org/impactbyte/repo-network/impactodo-web-react
+  Adding /config/env.js to the project
+  Adding /config/paths.js to the project
+  Adding /config/polyfills.js to the project
+  Adding /config/webpack.config.dev.js to the project
+  Adding /config/webpack.config.prod.js to the project
+  Adding /config/webpackDevServer.config.js to the project
+  Adding /config/jest/cssTransform.js to the project
+  Adding /config/jest/fileTransform.js to the project
+  Adding /scripts/build.js to the project
+  Adding /scripts/start.js to the project
+  Adding /scripts/test.js to the project
+
+Updating the dependencies
+  Removing react-scripts from dependencies
+  Adding autoprefixer to dependencies
+  Adding babel-core to dependencies
+  Adding babel-eslint to dependencies
+  Adding babel-jest to dependencies
+  Adding babel-loader to dependencies
+  Adding babel-preset-react-app to dependencies
+  Adding babel-runtime to dependencies
+  Adding case-sensitive-paths-webpack-plugin to dependencies
+  Adding chalk to dependencies
+  Adding css-loader to dependencies
+  Adding dotenv to dependencies
+  Adding dotenv-expand to dependencies
+  Adding eslint to dependencies
+  Adding eslint-config-react-app to dependencies
+  Adding eslint-loader to dependencies
+  Adding eslint-plugin-flowtype to dependencies
+  Adding eslint-plugin-import to dependencies
+  Adding eslint-plugin-jsx-a11y to dependencies
+  Adding eslint-plugin-react to dependencies
+  Adding extract-text-webpack-plugin to dependencies
+  Adding file-loader to dependencies
+  Adding fs-extra to dependencies
+  Adding html-webpack-plugin to dependencies
+  Adding jest to dependencies
+  Adding object-assign to dependencies
+  Adding postcss-flexbugs-fixes to dependencies
+  Adding postcss-loader to dependencies
+  Adding promise to dependencies
+  Adding raf to dependencies
+  Adding react-dev-utils to dependencies
+  Adding resolve to dependencies
+  Adding style-loader to dependencies
+  Adding sw-precache-webpack-plugin to dependencies
+  Adding url-loader to dependencies
+  Adding webpack to dependencies
+  Adding webpack-dev-server to dependencies
+  Adding webpack-manifest-plugin to dependencies
+  Adding whatwg-fetch to dependencies
+
+Updating the scripts
+  Replacing "react-scripts dev" with "node scripts/dev.js"
+  Replacing "react-scripts start" with "node scripts/start.js"
+  Replacing "react-scripts build" with "node scripts/build.js"
+  Replacing "react-scripts test" with "node scripts/test.js"
+
+Configuring package.json
+  Adding Jest configuration
+  Adding Babel preset
+  Adding ESLint configuration
+
+Ejected successfully!
+```
+
 ---
 
 ## React Form
@@ -96,6 +181,15 @@ class SimpleForm extends React.Component {
     );
   }
 }
+```
+
+If you want to use more than one button, it's recommended to use `type=button` buttons instead of `type=submit`.
+
+```js
+<form>
+  <input type="button" value="Increase" onClick={this.handleIncrease} />
+  <input type="button" value="Decrease" onClick={this.handleDecrease} />
+</form>
 ```
 
 ### References
