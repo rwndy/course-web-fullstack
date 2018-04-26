@@ -35,6 +35,29 @@ The easiest way to get started with SSR is to use premade framework for it such 
 
 React Native is one of the most popular mobile app development library to build Android or iOS app.
 
+It lets you build mobile apps using only JavaScript. It uses the same design as React, letting you compose a rich mobile UI from declarative components.
+
+React Native is used by Facebook, Instagram, Airbnb, Skype, Tesla, Walmar, and more.
+
+```js
+import React, { Component } from "react";
+import { Text, View } from "react-native";
+
+class WhyReactNativeIsSoGreat extends Component {
+  render() {
+    return (
+      <View>
+        <Text>If you like React on the web, you will like React Native.</Text>
+        <Text>
+          You just use native components like 'View' and 'Text', instead of web
+          components like 'div' and 'span'.
+        </Text>
+      </View>
+    );
+  }
+}
+```
+
 React Native vs NativeScript, Weex, Flutter, Ionic, PhoneGap, Cordova.
 
 To start learning React Native, we can use:
