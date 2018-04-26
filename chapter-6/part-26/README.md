@@ -341,6 +341,13 @@ With parameter, we call the function directly so we need to wrap it inside a fun
 * [`react-howto` - Your guide to the (sometimes overwhelming!) React ecosystem](https://github.com/petehunt/react-howto)
 * [Top 5 Tutorials for Getting Started with React](https://www.javascriptstuff.com/getting-started-tutorials)
 
+### Course
+
+* [Learn React by building an app to help you find the best movie to watch](https://sweetpumpkins.codecamps.com)
+* [Fullstack React: 30 Levels of React](https://fullstackreact.com/30-days-of-react)
+* [Fullstack React 🐬 Book - The Complete Guide to ReactJS and Friends](https://fullstackreact.com)
+* [React Nanodegree by Udacity](https://udacity.com/degrees/react-nanodegree--nd019)
+
 ### Additionals
 
 * [React Armory - The simplest way to learn React](https://reactarmory.com/)
@@ -362,12 +369,6 @@ With parameter, we call the function directly so we need to wrap it inside a fun
 * [Stop Using React for EVERYTHING!](https://medium.com/@zackargyle/stop-using-react-for-everything-c8297ac1a644)
 * [React Tinkerer Manual](https://github.com/adhywiranata/react-tinkering-manual)
 * [React HMR with `create-react-app`](https://daveceddia.com/hot-reloading-create-react-app)
-
-### Course
-
-* [React Nanodegree by Udacity](https://udacity.com/degrees/react-nanodegree--nd019)
-* [Fullstack React: 30 Levels of React](https://fullstackreact.com/30-days-of-react)
-* [Fullstack React 🐬 Book - The Complete Guide to ReactJS and Friends](https://fullstackreact.com)
 
 ### In Bahasa Indonesia
 
