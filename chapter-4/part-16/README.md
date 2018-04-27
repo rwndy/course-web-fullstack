@@ -14,7 +14,7 @@
 * ▢ Web Services
   * Mailchimp, Google Forms
   * Twitter, Facebook, Instagram, Wikipedia
-  * Google Maps
+  * Google Maps, OpenStreetMap
   * Trello, Slack
 * ▢ REST API Client
   * cURL or HTTPie
@@ -25,19 +25,21 @@
 
 ---
 
-## Restful APIs
+# Restful APIs
 
-### What is an API
+## What is an API
 
 Application Programming Interface (API) is a term for describing how a programs communicate and exchange data in certain format.
 
-### What is REST
+* [REST API Tutorial - What is a REST API? - YouTube](https://www.youtube.com/watch?v=BRdcRFvuqsE&list=PL4cUxeGkcC9jBcybHMTIia56aV21o2cZ8)
+
+## What is REST
 
 REpresentational State Transfer (REST) is a one of many architectural style of an API. A RESTful API is an application program interface (API) that uses HTTP requests (HTTP verbs) to GET, PUT, POST and DELETE data.
 
 ![REST API](./assets/restful.png)
 
-### HTTP verbs
+## HTTP verbs
 
 HTTP defines a set of request methods to indicate the desired action to be performed for a given resource.
 
@@ -51,13 +53,13 @@ HTTP defines a set of request methods to indicate the desired action to be perfo
 * `OPTIONS` = The `OPTIONS` method is used to describe the communication options for the target resource.
 * `HEAD` = The `HEAD` method asks for a response identical to that of a `GET` request, but without the response body.
 
-### HTTP header
+## HTTP header
 
 HTTP headers allow the client and the server to pass additional information with the request or the response. A request header consists of its case-insensitive name followed by a colon ':', then by its value (without line breaks). You can see it through you browser by using developer tools (Network tab).
 
 ![Inspect HTTP Request](./assets/inspectHTTPRequests.png)
 
-### Example of RESTful API designs
+## Example of RESTful API designs
 
 | Route                     | HTTP Verb | Description                  |
 | ------------------------- | --------- | ---------------------------- |
@@ -76,6 +78,16 @@ HTTP headers allow the client and the server to pass additional information with
 | api.github.com/users/muhammadhaekal           | `GET`     | Get a single user       |
 | api.github.com/users/muhammadhaekal/followers | `GET`     | Get user followers      |
 | api.github.com/users/muhammadhaekal/following | `GET`     | Get following users     |
+
+## REST API Client
+
+CLI:
+
+cURL or HTTPie
+
+GUI:
+
+Postman or Insomnia
 
 ## Fetching data from API
 
@@ -103,8 +115,6 @@ Use GitHub API to get all info of your follower list, then log the list (in Obje
 
 ![ExpectedOutput](./assets/API-project-1.png)
 
----
-
 ## References
 
 * [Understanding And Using REST APIs — Smashing Magazine](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api)
@@ -117,3 +127,24 @@ Use GitHub API to get all info of your follower list, then log the list (in Obje
 * [HTTP API Design Guide](https://geemus.gitbooks.io/http-api-design/content/en)
 * [`lambda2/rapis`: A specification proposal for API's](https://github.com/lambda2/rapis)
 * [GraphQL vs. REST – Apollo GraphQL](https://dev-blog.apollodata.com/graphql-vs-rest-5d425123e34b)
+
+---
+
+# Web Services
+
+* Mailchimp, Google Forms
+* Twitter, Facebook, Instagram, Wikipedia
+* Google Maps, OpenStreetMap
+* Trello, Slack
+
+---
+
+# Internet Trivia
+
+FTP, telnet
+
+Real-time protocols:
+
+* WebSocket
+* Socket.io
+* WebRTC
