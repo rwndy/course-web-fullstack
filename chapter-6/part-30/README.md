@@ -33,7 +33,7 @@ The easiest way to get started with SSR is to use premade framework for it such 
 
 # React Native
 
-React Native is one of the most popular mobile app development library to build Android or iOS app.
+React Native (RN) is one of the most popular mobile app development library to build Android or iOS app.
 
 It lets you build mobile apps using only JavaScript. It uses the same design as React, letting you compose a rich mobile UI from declarative components.
 
@@ -80,6 +80,8 @@ npm run android
 npm run ios
 ```
 
+We can also use NativeBase, an ssential cross-platform UI components for React Native. It's like Bootstrap, for RN.
+
 ---
 
 ## References
@@ -95,7 +97,12 @@ npm run ios
 * [React Navigation](https://reactnavigation.org)
 * [Building a Simple ToDo App With React Native and Firebase](https://youtube.com/watch?v=3ab0K6viEp0)
 * [An iOS Developer on React Native](https://medium.com/ios-os-x-development/an-ios-developer-on-react-native-1f24786c29f0)
+
+### Libraries
+
 * [NativeBase - Essential cross-platform UI components for React Native](https://nativebase.io)
+  * [Components · NativeBase](https://docs.nativebase.io/Components.html)
+* [react-native-vector-icons directory](https://oblador.github.io/react-native-vector-icons)
 * [Native Directory is a curated list of React Native libraries to help you build your projects](https://www.native.directory)
 
 ### Alternatives
