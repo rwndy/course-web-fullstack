@@ -63,6 +63,8 @@
 * [HTTP authentication - HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication)
 * [JSON Web Tokens - jwt.io](https://jwt.io)
 * [Auth0 - Single Sign On & Token Based Authentication](https://auth0.com)
+  * [Auth0 JavaScript SDK Quickstarts](https://auth0.com/docs/quickstart/spa/vanillajs)
+  * [Auth0 React SDK Quickstarts](https://auth0.com/docs/quickstart/spa/react)
 * [Passport.js - Simple, unobtrusive authentication for Node.js](http://www.passportjs.org)
 * GitHub
   * [Basics of Authentication | GitHub Developer Guide](https://developer.github.com/v3/guides/basics-of-authentication/)

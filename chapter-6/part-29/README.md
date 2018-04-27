@@ -87,6 +87,8 @@ We can also use them with other testing libraries.
 
 ---
 
+# State Management Solution
+
 # Redux
 
 Redux is a predictable state container for JavaScript apps.
@@ -106,9 +108,10 @@ React has its own solution to manage complex state, called `Context`.
 Context provides a way to pass data through the component tree without having to pass props down manually at every level.
 
 * [Context - React](https://reactjs.org/docs/context.html)
-* [React’s ⚛️ new Context API – DailyJS – Medium](https://medium.com/dailyjs/reacts-%EF%B8%8F-new-context-api-70c9fe01596b)
+* [Pass Data through a Component Tree using Context Providers and Consumers in React 16.3 - egghead.io](https://egghead.io/lessons/react-pass-data-through-a-component-tree-using-context-providers-and-consumers-in-react-16-3)
 * [Here's how React's New Context API Works - YouTube](https://www.youtube.com/watch?v=XLJN4JfniH4)
   * [`wesbos/React-Context` - Quick demo of how to use React's new Context API](https://github.com/wesbos/React-Context)
+* [React’s ⚛️ new Context API – DailyJS – Medium](https://medium.com/dailyjs/reacts-%EF%B8%8F-new-context-api-70c9fe01596b)
 * [Exploring the React Context API with Provider and Consumer - RWieruch](https://www.robinwieruch.de/react-context-api)
 
 ## React & Redux

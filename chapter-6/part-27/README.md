@@ -5,11 +5,13 @@
 * ▢ React Styling
   * Inline styling, CSS in JS
   * `styled-components`
-* ▢ React Router
-  * `Router`, `Route`, `Link`
-  * Use `Link` to change URL
 * ▢ React UI Library
   * Reactstrap
+* React-Wrapper Libraries
+  * Google Maps
+* ▢ React Router
+  * `BrowserRouter` as `Router`, `Switch`, `Route`, `Link`
+  * Use `Link` to change URL
 
 ---
 
@@ -70,24 +72,32 @@ const App = styled.section`
 
 ---
 
-## React UI Library
+# React UI Library
 
 There are various integrated UI library with most the most popular Bootstrap such as [Reactstrap](https://reactstrap.github.io).
 
 Some alternatives are available as well.
 
-### References
+## References
 
-#### UI
+### UI
 
 * [reactstrap - React Bootstrap 4 components](https://reactstrap.github.io)
 * [Semantic UI React - The official Semantic-UI-React integration](https://react.semantic-ui.com)
 * [Bloomer - A set of React Stateless Components](https://bloomer.js.org)
 * [React + Foundation · Foundation as React components](https://react.foundation)
 
-#### Icons
+### Icons
 
 * [React Icons - Include popular icons in your React projects easily. Font Awesome, Material ,Typicons, Octicons, Ionicons](https://gorangajic.github.io/react-icons)
+
+---
+
+# React-Wrapper Library
+
+Google Maps
+
+* [`react-google-maps` - React Google Maps Style Guide](https://tomchentw.github.io/react-google-maps)
 
 ---
 

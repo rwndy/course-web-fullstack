@@ -30,3 +30,15 @@ Networking with many communities and fellow developers outside.
 Evaluation with your self skills: technical (hard) and communication (soft).
 
 Do some mock or exercise interviews with friends or mentors.
+
+## References
+
+* [Soft Skills: The 11 Essential Career Soft Skills | Udemy](https://www.udemy.com/soft-skills-the-11-essential-career-soft-skills/?couponCode=HELLENWILLS)
+
+---
+
+# SEO (Search Engine Optimization)
+
+* SEO, crawling, indexing, page rank
+* Metadata with Facebook OpenGraph, Twitter
+* Google Analytics, Segment, Hotjar
