@@ -11,6 +11,11 @@
 * ECMAScript
 * LiveScript
 * JavaScript
+* ES5, ES6, ES7, ES+, ES Next
+
+Other Programming Languages:
+
+Python, Ruby, PHP, Java, Perl, Go, PHP, hyperpolyglot.org
 
 ---
 

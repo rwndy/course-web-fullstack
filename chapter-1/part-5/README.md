@@ -6,3 +6,5 @@
 * [Setup 3](../../modules/setup-3/README.md)
 * [Git 1](../../modules/git-1/README.md)
 * [Deployment 1](../../modules/deployment-1/README.md)
+* [Deployment 2](../../modules/deployment-2/README.md)
+* [Professional 1](../../modules/professional-1/README.md)

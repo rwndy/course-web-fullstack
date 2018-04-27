@@ -2,10 +2,16 @@
 
 ---
 
+* ▢ Apps Inspiration
+  * Product Hunt
+  * Webappalyzer
 * ▢ Preparation
   * Ideation
   * List of Features
   * Assign Roles and Responsibilities
+* ▢ Public Speaking
+  * Vocal warmups
+  * Slide or pitch deck
 * ▢ Visualization
   * Create UI Design
   * Create Data Structure
