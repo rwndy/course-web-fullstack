@@ -79,11 +79,24 @@ The followings are getting started step to use GitHub.
 5.  Be invited to existing organization
 6.  Explore Open Source world on GitHub
 
-You can also install GitHub mobile apps.
+Or better yet, there's [GitHub Learning Lab](https://lab.github.com):
 
-* [PocketHub](https://play.google.com/store/apps/details?id=com.github.pockethub.android)
-* [GitPoint](https://play.google.com/store/apps/details?id=com.gitpoint)
-* [FastHub](https://play.google.com/store/apps/details?id=com.fastaccess.github)
+Get the skills you need without leaving GitHub. GitHub Learning Lab takes you through a series of fun and practical projects, sharing helpful feedback along the way.
+
+* [GitHub Learning Lab - YouTube](https://www.youtube.com/watch?v=9S0p8YMQzsM)
+  * [GitHub Learning Lab: Introduction to GitHub Walkthrough](https://www.youtube.com/watch?v=sz6zfrQpCQg&list=PLg7s6cbtAD147DXcVp899Fk6SegoLY9gL)
+* [GitHub Learning Lab Courses](https://lab.github.com/courses)
+
+You can also install GitHub mobile apps:
+
+* Android
+  * [PocketHub](https://play.google.com/store/apps/details?id=com.github.pockethub.android)
+  * [GitPoint](https://play.google.com/store/apps/details?id=com.gitpoint)
+  * [FastHub](https://play.google.com/store/apps/details?id=com.fastaccess.github)
+* iOS
+  * [Working Copy - Powerful Git client](https://itunes.apple.com/us/app/working-copy/id896694807)
+  * [GitPoint for GitHub - A complete GitHub client](https://itunes.apple.com/us/app/gitpoint-for-github/id1251245162)
+  * [CodeHub - A Client for GitHub](https://itunes.apple.com/us/app/codehub-a-client-for-github/id707173885)
 
 ## Syncing Repo with GitHub
 
