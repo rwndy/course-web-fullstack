@@ -2,6 +2,13 @@
 
 ---
 
+* ▢ API Database
+  * Contentful, Prismic
+* ▢ Database Trivia
+  * Backup as dump
+  * Master slave
+  * Replica set
+  * Clustering
 * ▢ Classic Algorithms
   * Search
     * linear, binary tree

@@ -7,4 +7,3 @@
 * [Part 3](./part-3/README.md)
 * [Part 4](./part-4/README.md)
 * [Part 5](./part-5/README.md)
-* [Part +](./part-plus/README.md)

@@ -13,7 +13,7 @@
 
 # Server Side Rendering
 
-Server Side Rendering (SSR) is a way to pack up your frontend and served from the backend. Without having the browser render them all initially. So, it can be a huge performance boost.
+Server Side Rendering (SSR) is a way to pack up your frontend and served from the backend. Without having the browser render them all initially. So, it can be a huge performance boost. Sometimes it's called universal/isomorphic React rendering.
 
 The easiest way to get started with SSR is to use premade framework for it such as React's Next.js or GatsbyJS, or Vue's Nuxt.js.
 
