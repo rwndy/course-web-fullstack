@@ -134,6 +134,10 @@ askMom();
 
 ---
 
+# Async Await (async/await)
+
+* [dotJS 2017 - Wes Bos - Async + Await](https://www.youtube.com/watch?v=9YkUCxvaLEk)
+
 ## Async
 
 Async is a modification of `Promise` syntax, you can write `Promise` with `async` syntax easier.

@@ -80,7 +80,7 @@ npm run android
 npm run ios
 ```
 
-We can also use NativeBase, an ssential cross-platform UI components for React Native. It's like Bootstrap, for RN.
+We can also use NativeBase or React Native Elements, an ssential cross-platform UI components for React Native. It's like Bootstrap, for RN.
 
 ---
 
@@ -100,6 +100,7 @@ We can also use NativeBase, an ssential cross-platform UI components for React N
 
 ### Libraries
 
+* [React Native Elements - Cross Platform React Native UI Toolkit](https://react-native-training.github.io/react-native-elements)
 * [NativeBase - Essential cross-platform UI components for React Native](https://nativebase.io)
   * [Components · NativeBase](https://docs.nativebase.io/Components.html)
 * [react-native-vector-icons directory](https://oblador.github.io/react-native-vector-icons)

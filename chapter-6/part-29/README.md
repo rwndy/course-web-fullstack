@@ -7,8 +7,8 @@
   * vs PropTypes, TypeScript
 * ▢ React Testing
   * Jest, Enzyme
-* ▢ Redux
-  * Better state management
+* ▢ State Management
+  * Redux
   * Component state vs Redux state
   * vs Flux vs Redux vs MobX
   * Browser Extensions: Redux DevTools
@@ -108,9 +108,10 @@ React has its own solution to manage complex state, called `Context`.
 Context provides a way to pass data through the component tree without having to pass props down manually at every level.
 
 * [Context - React](https://reactjs.org/docs/context.html)
-* [Pass Data through a Component Tree using Context Providers and Consumers in React 16.3 - egghead.io](https://egghead.io/lessons/react-pass-data-through-a-component-tree-using-context-providers-and-consumers-in-react-16-3)
 * [Here's how React's New Context API Works - YouTube](https://www.youtube.com/watch?v=XLJN4JfniH4)
   * [`wesbos/React-Context` - Quick demo of how to use React's new Context API](https://github.com/wesbos/React-Context)
+* [Pass Data through a Component Tree using Context Providers and Consumers in React 16.3 - egghead.io](https://egghead.io/lessons/react-pass-data-through-a-component-tree-using-context-providers-and-consumers-in-react-16-3)
+* [Use React Context to Manage Application State Through Routes from @avanslaars on @eggheadio](https://egghead.io/lessons/react-use-react-context-to-manage-application-state-through-routes)
 * [React’s ⚛️ new Context API – DailyJS – Medium](https://medium.com/dailyjs/reacts-%EF%B8%8F-new-context-api-70c9fe01596b)
 * [Exploring the React Context API with Provider and Consumer - RWieruch](https://www.robinwieruch.de/react-context-api)
 
