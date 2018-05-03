@@ -2,6 +2,13 @@
 
 ---
 
+* ▢ Deployment
+  * Early Deployment
+  * Connect server, DNS, and domain
+* ▢ SEO (Search Engine Optimization)
+  * SEO, crawling, indexing, page rank
+  * Metadata with Facebook OpenGraph, Twitter
+  * Google Analytics, Segment, Hotjar
 * ▢ Profile
   * Create a fit resume/CV, profile, portfolio, and website
   * Complete your professional profile (Website, CV, Resume, LinkedIn)
@@ -9,10 +16,6 @@
   * Networking
   * Evaluation
   * Mock Interview
-* ▢ SEO (Search Engine Optimization)
-  * SEO, crawling, indexing, page rank
-  * Metadata with Facebook OpenGraph, Twitter
-  * Google Analytics, Segment, Hotjar
 
 ---
 

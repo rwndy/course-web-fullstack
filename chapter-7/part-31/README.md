@@ -15,12 +15,6 @@
 * ▢ Visualization
   * Create UI Design
   * Create Data Structure
-* ▢ Implementation
-  * Implement Frontend
-  * Implement Backend
-* ▢ Deployment
-  * Early Deployment
-  * Connect server, DNS, and domain
 * ▢ Progress Evaluation
 
 ---
