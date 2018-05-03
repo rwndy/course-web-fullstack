@@ -5,6 +5,9 @@
 * ▢ Agile Principles
   * Scrum Framework
   * Kanban Methodology
+* ▢ Implementation
+  * Implement Frontend
+  * Implement Backend
 
 ---
 
