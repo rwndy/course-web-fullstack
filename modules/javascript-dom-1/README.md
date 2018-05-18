@@ -43,9 +43,9 @@ For example, these are the representation of the HTML:
   </head>
   <body>
     <h1>My home page</h1>
-    <p>Hello, I am Marijn and this is my home page.</p>
-    <p>I also wrote a book! Read it
-      <a href="http://eloquentjavascript.net">here</a>.</p>
+    Hello, I am Marijn and this is my home page.
+    I also wrote a book! Read it
+      <a href="http://eloquentjavascript.net">here</a>.
   </body>
 </html>
 ```

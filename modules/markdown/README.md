@@ -2,11 +2,15 @@
 
 ---
 
-Markdown is one of the best way to create a notes or documentation about anything. Yes, anything!
+What is markdown ? Markdown is a lightweight markup language with plain text formatting syntax.
+
+Why use markdown ? Markdown is one of the best way to create a notes or documentation about anything. Yes, anything!
 
 It's a text format that usually has `.md` or `.markdown` file extension.
 
-For example, we can type in:
+---
+
+Heading Example
 
 ```md
 # Heading 1
@@ -16,7 +20,7 @@ For example, we can type in:
 ### Heading 3
 ```
 
-to create this:
+Output
 
 # Heading 1
 
@@ -24,17 +28,21 @@ to create this:
 
 ## Heading 3
 
-Some common tricks is to bold or italic some text:
+---
+
+Text styling example
 
 ```md
 **bold** and _italic_
 ```
 
-like so:
+Output:
 
 **bold** and _italic_
 
-There's even a way to automatically create some bullet lists:
+---
+
+Create list example
 
 ```md
 * First
@@ -48,7 +56,7 @@ or
 3.  Three
 ```
 
-like so:
+Output:
 
 * First
 * Second
@@ -60,13 +68,15 @@ or
 2.  Two
 3.  Three
 
-Links also work:
+---
+
+Create link example
 
 ```md
 [Google](https://google.com)
 ```
 
-like so:
+Output:
 
 [Google](https://google.com)
 
@@ -117,3 +127,20 @@ You can [access it here live](https://impactodo.netlify.com).
 ## License
 
 See [LICENSE](./LICENSE.md)
+
+---
+
+# Challange
+
+Create file README.md that contain project documentation including:
+
+* Application Name
+* Application Description
+* Application Features
+* Application Design Scrennshot (Image)
+* Application Tech Stacks (List)
+* Developer Team Members (Table)
+
+[Example-1](https://github.com/impactbyte-network/impactodo-api).
+
+[Example-2](https://github.com/impactbyte-network/impactodo-web).

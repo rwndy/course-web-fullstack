@@ -2,7 +2,7 @@
 
 <p style="text-align:center;">
   <img src="assets/impactbyte-logo.png">
-</p>
+
 
 Hello World! Welcome to the main course of Impact Byte, full stack web development.
 

@@ -16,6 +16,18 @@ That's why CSS can only works when we have HTML.
 
 ---
 
+```css
+/* A CSS syntax */
+selector{ property: value;}
+```
+
+* selector: defines targeted html element/elements
+* property: defines property to alter
+* value: defines value of css property
+
+
+---
+
 ## HTML + CSS
 
 There are three ways to use CSS into HTML.
@@ -141,7 +153,7 @@ with `class`:
 ```html
 <p class="gray">
   App description and story.
-</p>
+
 ```
 
 ```css

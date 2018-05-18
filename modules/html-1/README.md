@@ -14,9 +14,9 @@ That's why later we will need CSS and JavaScript.
 
 ### Tag
 
-An HTML tag is declared like:
+An HTML `tag`/`element` is declared like:
 
-```
+```html
 <tag>text</tag>
 ```
 
@@ -70,7 +70,7 @@ To create an HTML page, create an `index.html` or `hello.html` file in your edit
 
     <!-- Main content -->
     <main>
-      <p>Hi, I'm coding with HTML.</p>
+      Hi, I'm coding with HTML.
     </main>
 
     <!-- Footer part -->
@@ -99,6 +99,24 @@ Visi [this Google's style guide](https://google.github.io/styleguide/htmlcssguid
 
 ---
 
+## HTML Attribute
+
+HTML attribute provide additional information about an element and specified in the start tag.
+
+![html-attribute](./assets/html-attribute.jpg)
+
+example :
+
+```html
+<img src="./impact-byte.png" alt="impact Byte Logo" height="150" width="150" >
+```
+
+output :
+
+![html-image](./assets/html-image.png)
+
+---
+
 ## ID and Class in HTML Tags
 
 Each HTML tag can be assigned with `id` or `class`.
@@ -109,7 +127,7 @@ Each HTML tag can be assigned with `id` or `class`.
 
 `id` only:
 
-```
+```html
 <h1 id="title">
   Website Title
 </h1>
@@ -117,7 +135,7 @@ Each HTML tag can be assigned with `id` or `class`.
 
 `class` only:
 
-```
+```html
 <h1 class="blue">
   Website Title
 </h1>
@@ -125,7 +143,7 @@ Each HTML tag can be assigned with `id` or `class`.
 
 multiple `class`:
 
-```
+```html
 <h1 class="cool blue">
   Website Title
 </h1>
@@ -133,126 +151,154 @@ multiple `class`:
 
 combined:
 
-```
+```html
 <h1 id="title" class="cool blue">
   Website Title
 </h1>
 ```
 
 ---
+
 ## Block Vs Inline Elements
 
-* Block Elements: `<p>`, `<ul>`, `<ol>`, `<h1> - <h6>`, `<div>`, `<article>`
-* Inline Elements:  `<1>`, `<em>`, `<strong>`
+* Block Elements: ``, `<ul>`, `<ol>`, `<h1> - <h6>`, `<div>`, `<article>`
+* Inline Elements: `<1>`, `<em>`, `<strong>`
 
 Block elements are meant to structure the main parts of your page, by dividing your content in coherent blocks.
 
 Inline elements are meant to differentiate part of a text, to give it a particular function or meaning. Inline elements usually comprise a single or few words.
 
-```
+```html
 <article>
   <h1>Famous football quotes</h1>
-  <p>
+
     Sir <strong>Alex Ferguson</strong> once said about Filipo Inzaghi:<q>That lad must have been born offside</q>.
-  </p>
-  <p>
+
+
     When criticized by John Carew, <strong>Zlatan Ibrahimovic</strong> replied: <q>What Carew does with a football, I can do with an orange</q>.
-  </p>
-  <p>
+
+
     <strong>George Best</strong> said <q>"I spent a lot of money on booze, birds and fast cars. The rest I just squandered."</q> when asked about his lifestyle.
-  </p>
+
 </article>
 ```
+![paragraph-example](./assets/paragraph-example.png)
 ---
+
 ## HTML table
 
 * Start with `<table>`
 * Add rows with `<tr>`
 * Add regular cells with `<td>` or heading cells with `<th>`
 
-```
+```html
 <table>
   <tr>
-    <td>Row 1 - Col 1</td>
-    <td>Row 1 - Col 2</td>
+    <td>First Name</td>
+    <td>Last Name</td>
   </tr>
   <tr>
-    <td>Row 2 - Col 1</td>
-    <td>Row 2 - Col 2</td>
+    <td>John</td>
+    <td>Doe</td>
   </tr>
   <tr>
-    <td>Row 3 - Col 1</td>
-    <td>Row 3 - Col 2</td>
+    <td>Bunga</td>
+    <td>Mawar</td>
   </tr>
 </table>
 ```
 
+![simple-html-table](./assets/simple-html-table.png)
+
+
 * Using `<thead>`, `<tfoot>` and `<tbody>`
 
-```
+```html
 <table>
   <thead>
     <tr>
-      <th>thead1</th>
-      <th>thead2</th>
+      <th>First Name</th>
+      <th>Last Name</th>
     </tr>
   </thead>
   <tfoot>
     <tr>
-      <th>tfoot1</th>
-      <th>tfoot2</th>
+      <th>First Name</th>
+      <th>Last Name</th>
     </tr>
   </tfoot>
   <tbody>
     <tr>
-      <td>Row1-Col1</td>
-      <td>Row1-Col2</td>
+      <td>John</td>
+      <td>Doe</td>
     </tr>
     <tr>
-      <td>Row2-Col1</td>
-      <td>Row2-Col2</td>
+      <td>Bunga</td>
+      <td>Mawar</td>
     </tr>
     <tr>
-      <td>Row3-Col1</td>
-      <td>Row3-Col2</td>
+      <td>Bunga</td>
+      <td>Melati</td>
     </tr>
   </tbody>
 </table>
 ```
+![using-thead-tfoot-tbody](./assets/using-thead-tfoot-tbody.png)
+
+
 ---
+
 ## HTML forms
 
 * Start with `<form>`
 * Put all form controls tag inside `<form>` tag : `<input>`, `<label>`, `<button>`, `<option>`, `<select>`, `<textarea>`, etc ..
+* All user input will be stored in the `value` attribute
 
-```
+```html
 <form>
   <label for="email">email</label>
   <input id="email" type="email">
 
   <label for="password">Password</label>
-  <input id="password" type="password" value="password">
+  <input id="password" type="password">
 </form>
 ```
 
-* `<input>` tag type attributes : `type="text"`, `type="password"`, `type="email"`, `type="file"`, `type="number"`, `type="range"`, `type="url"`, etc ...
+![email-password](./assets/email-password.png)
+
+### HTML input tag
+
+* html input tag has no end tag
+* html input tag has many type attribute options like `button`,`checkbox`, `color`, `email`, `password`, `text`, `radio`, `date`, `time`
+* always specify `name attribute` at every input element
+
+
+```html
+<input type="text" name="text" value="text"><br><br>
+<input type="email" name="email" value="email@yourweb.com"><br><br>
+<input type="password" name="password" value="password"><br><br>
+<input type="checkbox" name="checkbox"> Checkbox <br><br>
+<input type="radio" name="radio"> Radio <br><br>
+<input type="button" name="button" value="Sign Up"><br><br>
+<input type="date" name="date"><br><br>
+<input type="color" name="color"><br><br>
 
 ```
-<input id="first_name" type="text" >
-```
+![html-image](./assets/input-tag-example.png)
+
 ---
+
 ## File path
 
-| Path                            | Description                                                                |
-|---------------------------------|-:-:------------------------------------------------------------------------|
+| Path                              | Description                                                                |
+| --------------------------------- | :------------------------------------------------------------------------- |
 | `<img src="picture.jpg">`         | picture.jpg is located in the same folder as the current page              |
 | `<img src="images/picture.jpg">`  | picture.jpg is located in the images folder in the current folder          |
 | `<img src="/images/picture.jpg">` | picture.jpg is located in the images folder at the root of the current web |
 | `<img src="../picture.jpg">`      | picture.jpg is located in the folder one level up from the current folder  |
 
-
-
 ---
+
 ## Complete Example
 
 **Source Code:**
@@ -277,3 +323,4 @@ Inline elements are meant to differentiate part of a text, to give it a particul
 
 * https://marksheet.io/html-basics.html
 * https://learn.shayhowe.com/html-css/getting-to-know-htm
+* https://www.w3schools.com/tags/tag_form.asp
