@@ -16,6 +16,8 @@ That's why CSS can only works when we have HTML.
 
 ---
 
+## CSS Syntax
+
 ```css
 /* A CSS syntax */
 selector{ property: value;}
@@ -25,8 +27,23 @@ selector{ property: value;}
 * property: defines property to alter
 * value: defines value of css property
 
+Example :
+
+```html
+<h1>To Do list</h1>
+
+```
+
+```css
+h1 {
+  color: red;
+}
+```
 
 ---
+
+
+
 
 ## HTML + CSS
 
