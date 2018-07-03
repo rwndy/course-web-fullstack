@@ -8,7 +8,7 @@ Then will build the final project with the team (about 4-5 people) in 2 weeks to
 
 ## Main Application Idea
 
-[Impact Todo](http://impactbyte-learn.gitbooks.io/code-impactodo): Simple todo app with social interaction.
+[Todo App](http://impactodo-web.netlify.com): A simple todo app.
 
 ## Learning Process
 
