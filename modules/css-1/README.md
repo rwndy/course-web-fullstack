@@ -2,35 +2,52 @@
 
 ---
 
-## CSS (Cascading Style Sheet)
+## What is CSS (Cascading Style Sheet)
 
-CSS is a way to style HTML page.
+_**Imagine that if HTML is skeleton of the Website, then the CSS is a skin of the Website.**_
 
-Usually have `.css` file extension.
-
-It only structures the style, not the content or functionality.
-
-That's why CSS can only works when we have HTML.
-
-![](./assets/impactodo-css.png)
+CSS is a way to style HTML page. Usually have `.css` file extension. It only structures the style, not the content or functionality. That's why CSS can only works when we have HTML.
 
 ---
 
+## CSS Syntax
+
 ```css
 /* A CSS syntax */
-selector{ property: value;}
+selector {
+  property: value;
+}
 ```
 
-* selector: defines targeted html element/elements
-* property: defines property to alter
-* value: defines value of css property
+- selector: defines targeted html element/elements
+- property: defines property to alter
+- value: defines value of css property
 
+Example :
+
+```html
+<h1>To Do list</h1>
+```
+
+```css
+h1 {
+  color: red;
+}
+```
 
 ---
 
 ## HTML + CSS
 
-There are three ways to use CSS into HTML.
+There are four ways to use CSS into HTML.
+
+### Inside HTML tag (Not Recomended!)
+
+```html
+<head>
+  <title style="color:blue;">Website</title>
+</head>
+```
 
 ### `style` HTML tag
 
@@ -77,117 +94,116 @@ CSS:
 
 ---
 
-## CSS Identification/Class
+## CSS Selectors
 
-A CSS declared like:
+CSS selectors define which HTML elements we want our styling to be applied to. There are many ways of targeting HTML elements using CSS selector.
+
+**1. Using Tag Selector**
 
 ```css
-selector {
-  property: value;
+a {
+  /* Links */
+}
+p {
+  /* Paragraphs */
+}
+ul {
+  /* Unordered lists */
+}
+li {
+  /* List items */
 }
 ```
 
-or like
-
-```css
-who {
-  what: how;
-}
-```
-
-* who the element is
-* what characteristic we want to change
-* how the change is defined
-
-Usually we choose an HTML element to be styled.
-
-```css
-h1 {
-  color: blue;
-}
-```
-
-We can also specify it further if there's an element inside an element.
-
-```css
-h1 span {
-  color: darkblue;
-}
-```
-
-We can have some comments in CSS as well:
-
-```css
-/* This is a CSS comment */
-selector {
-  property: value;
-}
-```
-
-There's also a selector called pseudoclass like `:hover` and `:focus` to control the style when there's a particular condition with the HTML element.
-
-```css
-h1:hover {
-  color: green;
-}
-```
-
-To style the HTML with `id` and `class`, we use `#` symbol and a `.` (dot).
-
-with `id`:
+**2. Using Classes**
 
 ```html
-<header id="title">
-  App Title
-</header>
+<p class="date">
+  Saturday Feb 21
+</p>
 ```
 
 ```css
-#title {
-  font-size: 20px;
+.date {
+  /* Elements with date class */
 }
 ```
 
-with `class`:
+**3. Using IDs**
 
 ```html
-<p class="gray">
-  App description and story.
-
+<h1 id="tagline">This heading will be orange.</h1>
 ```
 
 ```css
-.gray {
-  color: gray;
+#tagline {
+  /* Elements with tagline id */
+}
+```
+
+**4. Multiple elements**
+
+```css
+p,
+a,
+.date {
+  /* Paragraphs ,Links and date Class */
+}
+```
+
+**5. Child Element**
+
+```css
+p a {
+  /* Links inside Paragraph*/
 }
 ```
 
 ---
 
-## CSS Colors
+## CSS Web Safe Fonts
+
+The font-family property should hold several font names as a "fallback" system, to ensure maximum compatibility between browsers/operating systems. **If the browser does not support the first font, it tries the next font**.
+
+Start with the font you want, and end with a generic family, to let the **browser pick a similar font in the generic family**, **if no other fonts are available**
+
+```CSS
+p  {
+  font-family: "Lucida Console", monaco, monospace;
+}
+```
+
+Example:
+
+![web-safe-fonts](./assets/web-safe-fonts.png)
+
+---
+
+## CSS Color Units
 
 Color in CSS can be in various format like its name, hex code, RGB, and HSL.
 
 ```css
 .class {
-  color: white;
-  color: #ffffff;
-  color: #fff;
-  color: rgb(255, 255, 255)
-  color: hsl(0, 0%, 100%);
+  color: white; /* name */
+  color: #ffffff; /* hex */
+  color: #fff; /* hex */
+  color: rgb(255, 255, 255); /* rgb */
+  color: hsl(0, 0%, 100%); /* hsl */
 }
 ```
 
 ---
 
-## CSS Sizing
+## CSS Size Units
 
-We can specify the `width` and `height` of the element dileberately.
+We can specify the `width` and `height` of the element using various format like pixel, percetage, or em.
 
 ```css
 .class {
   width: 200px;
-  height: 100px;
+  height: 20%;
+  margin: 2em;
 }
 ```
 
@@ -195,74 +211,237 @@ We can specify the `width` and `height` of the element dileberately.
 
 ## CSS Box Model
 
-### Properties
+All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout.
 
-Every HTML elements can have a box model properties:
+![](./assets/css-box-model.png)
 
-* `content`
-* `padding`
-* `border`
-* `margin`
+- Content - The content of the box, where text, images, or **another element**
+- Padding - Clears an area around the content. The padding is transparent
+- Border - A border that goes around the padding and content
+- Margin - Clears an area outside the border. The margin is transparent
 
-For example, this "Add" button:
+### CSS Background
 
-![](./assets/box-button.png)
-
-has those properties and can be seen with Chrome Dev Tools when we're selecting it:
-
-![](./assets/box-button-inspect.png)
-
-We can change them in CSS like so:
+The background of an HTML element is what appears behind the text. We can set an image or a color to be a background of the HTML element.
 
 ```css
-.button {
-  padding: 1px 6px;
-  border: 4px solid green;
-  margin: 10px;
+#example {
+  background-color: blue;
+  background-image: url(./images/impactbyte.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left bottom;
 }
 ```
 
-### Display Layout
+### CSS Display
 
-Commonly the default layout that is owned by an element is either `inline`, `inline-block`, or `block`, or other types.
+CSS display properties can change display type of the HTML element. For example `<p>` element display default type is block and `<span>` display default type is inline. With display properties we can change `<span>` default type to be block.
 
-* `block`: will take up the whole width available
-* `inline`: will act as plain text, cant have a width or a height.
-* `inline-block`: a combination of block and inline behavior, like inline elements but they can have a width and a height.
+Each display options have specific rendering behaviors:
+
+- **block** : Will take up the whole width available.
+- **inline** : Will take up the width just as text width (will ignore `width`, top/bottom `margin`,and top/bottom `padding`).
+- **inline-block** : Simmilar to inline but we can set `width` , top/bottom `margin`,and top/bottom `padding`.
 
 ```css
-selector {
+#example1 {
   display: block;
 }
-```
 
-### Position
+#example2 {
+  display: inline;
+}
 
-Each element also can be positioned based on their position with other element or the whole web page.
-
-**position**
-
-* `absolute`
-* `relative`
-* `fixed`
-
-**float**
-
-* `float`: `left`, `right`, `top`, `bottom`
-
-```css
-selector {
-  position: absolute;
-  left: 0;
-  bottom: 0;
+#example3 {
+  display: inline-block;
 }
 ```
 
+### CSS Height and Width
+
+With height and width properties we can set the height and width of an element.
+
 ```css
-selector {
-  float: left;
+#example {
+  width: 50%;
+  height: 200px;
 }
 ```
+
+And if the content inside the element larger than element itself, we can use CSS overflow
+
+```css
+#example {
+  overflow: hidden; /* auto | scroll */
+}
+```
+
+### CSS Border
+
+HTML element rendered as rectangle. So it has 4 possible sides:
+
+- `border-top`
+- `border-bottom`
+- `border-left`
+- `border-right`
+
+and has many properties :
+
+- `border-color` : defined by using a color unit
+- `border-style` : can be solid, dashed, dotted…
+- `border-width` : defined by using a size unit
+
+```css
+#example1 {
+  border-color: blue; /* Color Units */
+  border-style: solid; /* none | dotted | dashed | groove | etc ... */
+  border-width: 3px; /* Size Units */
+  border-radius 50%; /* rounded element */
+}
+
+/* Custom specific side of border*/
+#example2 {
+  border-bottom-color: blue; /* Color Units */
+  border-bottom-style: solid; /* none | dotted | dashed | groove | etc ... */
+  border-bottom-width: 3px; /* Size Units */
+}
+```
+
+---
+
+## CSS Margin & Padding
+
+Padding is space between content and border and Margin is space between border and another element. And because all html elements redered as rectagle, both Padding and Margin has 4 possible sides (top,bottom,left,right).
+
+```css
+/* set all sides of margin and padding */
+#example1 {
+  padding: 20px;
+  margin: 20px;
+}
+
+/* set specific side */
+#example2 {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-top: 100px;
+}
+```
+
+---
+
+## CSS Size Shorthand Wheel
+
+There is another way to specify Padding and Margin.
+
+```css
+#example1 {
+  padding: 20px 0 10px 5px; /* the order is top,right,bottom, and left*/
+}
+
+#example {
+  padding: 20px 0; /* Padding top and bottom 20px, Padding left and right 0 */
+}
+```
+
+---
+
+## CSS Position
+
+With CSS `position` we can alter an element position. It has 4 possible value:
+
+- Static : Default value of position properties, They aren’t affected by any left, right, top or bottom value.
+- Relative : Move element according to current position, without affecting another element.
+- Absolute : When the position is set to absolute, an element can move according to the first positioned ancestor.
+- Fixed : Move element according to browser window.
+
+With 4 coordinates properties:
+
+- Left
+- Right
+- Top
+- Bottom
+
+```css
+/* Position relative example */
+#relative-example {
+  position: relative;
+  border-color: red;
+  left: 20px;
+  top: 10px;
+}
+
+/* Position absolute example */
+#relative-div {
+  background: gold;
+  height: 200px;
+  padding: 10px;
+  position: relative; /* This turns the #relative-div into a point of reference for the #absolute-div */
+}
+
+#absolute-div {
+  background: limegreen;
+  color: white;
+  padding: 10px;
+  position: absolute; /* This makes the #absolute-div freely movable */
+  bottom: 10px; /* 10px from the bottom */
+  left: 20px; /* 20px from the left */
+}
+
+/* Position fixed example*/
+#fixed-example {
+  position: fixed;
+  left: 100px;
+  top: 150px;
+}
+```
+
+---
+
+## CSS Pseudo Classes
+
+Pseudo Classes is attached to selector. The pseudo-class will only define a particular state of that selector.
+
+Some of popular Pseudo Classes are:
+
+- :hover
+- :visited
+
+example:
+
+```css
+/* :hover example */
+#example1 {
+  color: blue;
+}
+
+#example1:hover {
+  color: red;
+}
+
+/* :visited example */
+a {
+  color: blue;
+}
+a:visited {
+  color: red;
+}
+
+/* :focus example */
+.form-input {
+  border: 2px solid grey;
+  padding: 5px;
+}
+.form-input:focus {
+  background: lightyellow;
+  border-color: blue;
+  outline: none;
+}
+```
+---
+
+## CSS Responsiveness
 
 ---
 
@@ -274,6 +453,7 @@ To assure our CSS quality, we can use a free tool called [csslint](http://csslin
 
 ## References
 
-* https://marksheet.io/css-basics.html
-* https://learn.shayhowe.com/html-css/getting-to-know-css
-* https://css-tricks.com
+- https://marksheet.io/css-basics.html
+- https://learn.shayhowe.com/html-css/getting-to-know-css
+- https://css-tricks.co
+- https://www.w3schools.com/css/default.asp
