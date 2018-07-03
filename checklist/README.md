@@ -36,7 +36,9 @@ Even the participant is not attending the class, they can still follow the modul
 
 # Chapter 1
 
-## Part 1: `personality`, `design`, `ui`, `mockup`, `setup`
+## Part 1
+
+`personality`, `design`, `ui`, `mockup`, `setup`
 
 * ▢ Introduce Ourselves
   * Who are you?
@@ -71,7 +73,9 @@ Even the participant is not attending the class, they can still follow the modul
 * ▢ Access to Data
   * Airtable: Participants & Network
 
-## Part 2: `markdown`, `website`, `html`, `editor`, `html-style-guide`
+## Part 2
+
+`markdown`, `website`, `html`, `editor`, `html-style-guide`
 
 * ▢ Markdown
   * File extension: `.md` / `.markdown`
@@ -101,7 +105,48 @@ Even the participant is not attending the class, they can still follow the modul
   * indentation, capitalization, white space
   * Google HTML & CSS Style Guide: `https://google.github.io/styleguide/htmlcssguide.html`
 
-## Part 3: `terminal`, `cli`, `git`, `github`, `hosting`, `deploy`
+## Part 3
+
+`css`, `html-css`, `css-box-model`, `css-style-guide`
+
+* ▢ HTML & CSS
+  * `style`, `link`, `@import`
+* ▢ CSS Basic
+  * `color`, `background`, `name`/`hex`/`rgb`/`hsl`
+  * `width`, `height`
+* ▢ CSS Identification/Class
+  * `selector`, `property`, `value`
+  * `#id`, `.class`
+  * `:hover`, `:focus`
+* ▢ CSS Box Model
+  * `content`, `padding`, `border`, `margin`
+  * `inline`, `block`, `float`, `absolute`, `relative`, `fixed`, `float`
+* ▢ CSS Style Guide
+  * `csslint`
+
+## Part 4
+
+`rwd`, `amp`, `pwa`, `bootstrap`, `css-flexbox`, `css-grid`, `css-animation`
+
+* ▢ Responsive/Adaptive Web Design
+  * Accelerated Mobile Pages (AMP)
+  * Progressive Web AppS (PWA)
+* ▢ CSS Flexbox
+  * `container`, `items`
+  * `flex-direction`: `flex-start`, `flex-end`, `center`, `space-between`, `space-around`, `space-evenly`
+  * `align-items`: `flex-start`, `flex-end`, `center`
+* ▢ CSS Grid
+* ▢ CSS Library/Framework
+  * Bootstrap
+  * `buttons`, `images`, `navbar`, `labels`
+  * `grid`, `row`, `column`
+  * `@media` query
+* ▢ CSS Animation
+  * Animate.css
+
+## Part 5
+
+`terminal`, `cli`, `git`, `github`, `hosting`, `deploy`
 
 * ▢ Terminal/CLI (Command Line Interface)
   * name, directory, file, extension, home
@@ -129,42 +174,9 @@ Even the participant is not attending the class, they can still follow the modul
   * GitHub Pages
   * Netlify
 
-## Part 4: `css`, `html-css`, `css-box-model`, `css-style-guide`
+## Part +:
 
-* ▢ HTML & CSS
-  * `style`, `link`, `@import`
-* ▢ CSS Basic
-  * `color`, `background`, `name`/`hex`/`rgb`/`hsl`
-  * `width`, `height`
-* ▢ CSS Identification/Class
-  * `selector`, `property`, `value`
-  * `#id`, `.class`
-  * `:hover`, `:focus`
-* ▢ CSS Box Model
-  * `content`, `padding`, `border`, `margin`
-  * `inline`, `block`, `float`, `absolute`, `relative`, `fixed`, `float`
-* ▢ CSS Style Guide
-  * `csslint`
-
-## Part 5: `rwd`, `amp`, `pwa`, `bootstrap`, `css-flexbox`, `css-grid`, `css-animation`
-
-* ▢ Responsive/Adaptive Web Design
-  * Accelerated Mobile Pages (AMP)
-  * Progressive Web AppS (PWA)
-* ▢ CSS Flexbox
-  * `container`, `items`
-  * `flex-direction`: `flex-start`, `flex-end`, `center`, `space-between`, `space-around`, `space-evenly`
-  * `align-items`: `flex-start`, `flex-end`, `center`
-* ▢ CSS Grid
-* ▢ CSS Library/Framework
-  * Bootstrap
-  * `buttons`, `images`, `navbar`, `labels`
-  * `grid`, `row`, `column`
-  * `@media` query
-* ▢ CSS Animation
-  * Animate.css
-
-## Part +: `mindset`, `professional`, `profile`, `cv`, `resume`, `domain`, `dns`
+`mindset`, `professional`, `profile`, `cv`, `resume`, `domain`, `dns`
 
 * ▢ Developer Mindset
 * ▢ Professional Principles
@@ -191,7 +203,9 @@ Even the participant is not attending the class, they can still follow the modul
 
 # Chapter 2
 
-## Part 6: `logic`, `design`, `flowchart`, `pseudocode`, `algorithm`, `terminal`, `tools`, `feature`
+## Part 6:
+
+`logic`, `design`, `flowchart`, `pseudocode`, `algorithm`, `terminal`, `tools`, `feature`
 
 * ▢ Logic Flow
   * How would you do things?
@@ -213,7 +227,9 @@ Even the participant is not attending the class, they can still follow the modul
   * Refactoring
   * Clean Code
 
-## Part 7: `javascript`, `html-js`, `js-data`, `js-variable`, `js-symbols`, `js-trivia`
+## Part 7:
+
+`javascript`, `html-js`, `js-data`, `js-variable`, `js-symbols`, `js-trivia`
 
 * ▢ JavaScript Intro
   * History
@@ -243,7 +259,9 @@ Even the participant is not attending the class, they can still follow the modul
 * ▢ Laptop Setup
   * JSON Viewer
 
-## Part 8: `logic`, `block`, `conditional`, `loop`
+## Part 8:
+
+`logic`, `block`, `conditional`, `loop`
 
 * ▢ JavaScript Block
   * `( )`
@@ -259,7 +277,9 @@ Even the participant is not attending the class, they can still follow the modul
   * Don't Repeat Yourself (DRY)
   * Single Responsibility Principle (SRP)
 
-## Part 9: `function`, `recursion`, `timing`
+## Part 9:
+
+`function`, `recursion`, `timing`
 
 * ▢ JavaScript Built-In Functions
   * String method: `charAt`, `charCodeAt`, `toUpperCase`, `toLowerCase`, `split`, `replace`, `substr`
@@ -277,7 +297,9 @@ Even the participant is not attending the class, they can still follow the modul
 * ▢ Timing
   * `setTimeout`, `setInterval`
 
-## Part 10: `bom`, `dom`, `javascript-dom`, `dom-events`
+## Part 10:
+
+`bom`, `dom`, `javascript-dom`, `dom-events`
 
 * ▢ Document Object Model (DOM)
   * `window` & `document` object
@@ -289,7 +311,9 @@ Even the participant is not attending the class, they can still follow the modul
 
 # Chapter 3
 
-## Part 11: `css-preprocessing`, `performance`
+## Part 11:
+
+`css-preprocessing`, `performance`
 
 * ▢ Performance Test
   * PageSpeed, WebPageTest, WebSpeedTest
@@ -298,7 +322,9 @@ Even the participant is not attending the class, they can still follow the modul
   * Sass, Less, Stylus
   * Variables, nesting, chaining
 
-## Part 12: `computing`, `form`, `storage`, `regex`
+## Part 12:
+
+`computing`, `form`, `storage`, `regex`
 
 * ▢ Data Size
   * bit, byte
@@ -323,7 +349,9 @@ Even the participant is not attending the class, they can still follow the modul
 * ▢ GitHub
   * Collaboration: pull/merge request
 
-## Part 13: `js-library`
+## Part 13:
+
+`js-library`
 
 * ▢ JavaScript Library
   * jQuery
@@ -334,7 +362,9 @@ Even the participant is not attending the class, they can still follow the modul
 * ▢ JavaScript Trivia
   * Immediately Invoked Function Expression (IIFE)
 
-## Part 14: `paradigm`, `architecture`, `mvc`, `oop`
+## Part 14:
+
+`paradigm`, `architecture`, `mvc`, `oop`
 
 * ▢ Programming Paradigms
   * Imperative vs declarative
@@ -343,7 +373,9 @@ Even the participant is not attending the class, they can still follow the modul
 * ▢ Object-Oriented Programming (OOP)
   * `class`, `extends`, `constructor`
 
-## Part 15: `project-management`, `functional`
+## Part 15:
+
+`project-management`, `functional`
 
 * ▢ Project/Product Management
   * Key Steps: ideation, wireframe/mockup, data modeling, list of backlog or user stories
@@ -357,7 +389,9 @@ Even the participant is not attending the class, they can still follow the modul
   * Closures
   * Higher Order Component (HOC)
 
-## Part +: `apps`
+## Part +:
+
+`apps`
 
 * ▢ Apps Inspiration
   * Product Hunt
@@ -367,7 +401,9 @@ Even the participant is not attending the class, they can still follow the modul
 
 # Chapter 4
 
-## Part 16: `http-api`, `rest-api`, `web-services`, `internet`
+## Part 16:
+
+`http-api`, `rest-api`, `web-services`, `internet`
 
 * ▢ HTTP API & Protocol
   * HTTP/HTTPS
@@ -390,7 +426,9 @@ Even the participant is not attending the class, they can still follow the modul
   * FTP, telnet
   * Real-time protocols: WebSocket, WebRTC, Socket.io
 
-## Part 17: `nodejs`, `package-manager`
+## Part 17:
+
+`nodejs`, `package-manager`
 
 * ▢ Node.js
   * Installation: `nvm`
@@ -401,7 +439,9 @@ Even the participant is not attending the class, they can still follow the modul
   * `nodemon`, `node-dev`
   * Environment: `process.env`, `development`, `production`
 
-## Part 18: `nodejs-api`, `transpilation`, `babeljs`, `nodejs-library`, `expressjs`
+## Part 18:
+
+`nodejs-api`, `transpilation`, `babeljs`, `nodejs-library`, `expressjs`
 
 * ▢ Node.js, Browser, & REST API
   * `fetch`, `axios`
@@ -427,7 +467,9 @@ Even the participant is not attending the class, they can still follow the modul
   * `body`, `params`, `query`
 * ▢ Express Plugin/Middleware
 
-## Part 19: `js-rest-api`, `auth`, `nodejs-deployment`
+## Part 19:
+
+`js-rest-api`, `auth`, `nodejs-deployment`
 
 * ▢ JavaScript & REST API
   * CORS (Cross-Origin Resource Sharing (CORS)
@@ -445,7 +487,9 @@ Even the participant is not attending the class, they can still follow the modul
 * ▢ Node.js Trivia
   * Documentaion/Generators: Swagger, API Blueprint, Stoplight
 
-## Part 20: `testing`, `tdd`, `bdd`, `atdd`
+## Part 20:
+
+`testing`, `tdd`, `bdd`, `atdd`
 
 * ▢ Testing Methodologies
   * Unit
@@ -478,7 +522,9 @@ Even the participant is not attending the class, they can still follow the modul
 
 # Chapter 5
 
-## Part 21: `database-sql`, `dbms`
+## Part 21:
+
+`database-sql`, `dbms`
 
 * ▢ Database SQL (Structured Query Language)
   * Relational
@@ -506,13 +552,17 @@ Even the participant is not attending the class, they can still follow the modul
   * Extract, Transform, Load (ETL)
   * Indexing
 
-## Part 22: `database-orm`
+## Part 22:
+
+`database-orm`
 
 * ▢ Database SQL & ORM (Object Relational Mapper)
   * Knex.js, Sequelize
   * Migration
 
-## Part 23: `database-nosql`
+## Part 23:
+
+`database-nosql`
 
 * ▢ Database NoSQL
   * MongoDB
@@ -523,12 +573,16 @@ Even the participant is not attending the class, they can still follow the modul
 * ▢ NoSQL Hosted
   * mLab, MongoDB Atlas
 
-## Part 24: `database-odm`
+## Part 24:
+
+`database-odm`
 
 * ▢ Database NoSQL & ODM (Object Document Mapper)
   * Mongoose, Mongorito
 
-## Part 25: `classic-algorithm`, `classic-data-structure`
+## Part 25:
+
+`classic-algorithm`, `classic-data-structure`
 
 * ▢ Classic Algorithms
   * Search
@@ -558,7 +612,9 @@ Even the participant is not attending the class, they can still follow the modul
 
 # Chapter 6
 
-## Part 26: `component`, `react`, `react-dom`, `render`, `state`, `props`
+## Part 26:
+
+`component`, `react`, `react-dom`, `render`, `state`, `props`
 
 * ▢ Website Structure
   * Think in component
@@ -604,7 +660,9 @@ Even the participant is not attending the class, they can still follow the modul
   * Build system with Webpack
   * Transpilation with Babel
 
-## Part 27: `react-router`
+## Part 27:
+
+`react-router`
 
 * ▢ React Styling
   * Inline styling, CSS in JS
@@ -615,7 +673,9 @@ Even the participant is not attending the class, they can still follow the modul
 * ▢ React UI Library
   * Reactstrap
 
-## Part 28: `react-data`, `react-form`
+## Part 28:
+
+`react-data`, `react-form`
 
 * ▢ React Environment
   * `.env` via `REACT_APP_VARIABLE` and `process.env.REACT_APP_VARIABLE`
@@ -625,7 +685,9 @@ Even the participant is not attending the class, they can still follow the modul
 * ▢ React & REST API
   * HTTP request via `axios` & REST API
 
-## Part 29: `react-redux`, `redux`
+## Part 29:
+
+`react-redux`, `redux`
 
 * ▢ React & REST API
   * Methods in component
@@ -646,13 +708,17 @@ Even the participant is not attending the class, they can still follow the modul
 * ▢ React Testing
   * Jest, Enzyme
 
-## Part 30: `react-native`
+## Part 30:
+
+`react-native`
 
 * ▢ React Native
   * Mobile App Development
   * vs Ionic, PhoneGap, Cordova
 
-## Part +: `final-team`
+## Part +:
+
+`final-team`
 
 * ▢ Final Team
   * Assemble your team members
@@ -675,7 +741,9 @@ Even the participant is not attending the class, they can still follow the modul
 
 # Chapter 7
 
-## Part 31-35: `final-app`
+## Part 31-35:
+
+`final-app`
 
 * ▢ Preparation
   * Ideation
@@ -718,7 +786,9 @@ Even the participant is not attending the class, they can still follow the modul
 
 # Chapter 8
 
-## Part 36-39: `final-app`
+## Part 36-39:
+
+`final-app`
 
 * ▢ Continuation
   * Public Deployment
@@ -726,7 +796,9 @@ Even the participant is not attending the class, they can still follow the modul
 * ▢ Progress Evaluation
 * ▢ Presentation Rehearsal
 
-## Part 40: `final-presentation`
+## Part 40:
+
+`final-presentation`
 
 * ▢ Product Launch
 * ▢ Presentation
