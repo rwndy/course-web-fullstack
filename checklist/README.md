@@ -74,14 +74,14 @@ Even the participant is not attending the class, they can still follow the modul
 ## Part 2: `markdown`, `website`, `html`, `editor`, `html-style-guide`
 
 * ▢ Markdown
-  * `.md`, `.markdown`
-  * `#`, `*`, `_`, `-`, `>`
+  * File extension: `.md` / `.markdown`
+  * Editing & Symbols: `#`, `*`, `_`, `-`, `>`
 * ▢ Laptop Setup
   * Browser: Chrome
-  * Editor: Codepen, Atom
+  * Editor: Visual Studio Code, Codepen
   * Editor Features: command palette, split view
-  * Editor Packages: `beautify`, `emmet`, `ternjs`, `indent-guide-improved`, `color-picker`, `file-icons`, `floobits`, `merge-conflicts`
-  * Browser Extensions: adblock pro, markdown preview plus
+  * Editor Packages & Customization: `prettier`, `emmet`, themes, fonts
+  * Browser Extensions: adblock, markdown preview plus
 * ▢ Website Structure
   * Navigation
   * Header
@@ -93,13 +93,13 @@ Even the participant is not attending the class, they can still follow the modul
   * Text: `h1`-`h7`, `p`, `a`, `span`, `b`, `i`, `strong`, `em`
   * Visual: `img`, `button`
   * Division: `div`, `main`, `section`, `article`, `aside`, `header`, `footer`, `nav`
-  * List: `ul, ol, dl, li`
-  * Table: `table thead tbody tr td`
+  * List: `ul`, `ol`, `dl`, `li`
+  * Table: `table`, `thead`, `tbody`, `tr`, `td`
   * Multimedia: `video`, `audio`, `iframe`
   * Form: `form`, `label`, `input`, `fieldset`, `textarea`, `required`, `autofocus`, `contenteditable`
 * ▢ HTML Style Guide
   * indentation, capitalization, white space
-  * `google.github.io/styleguide/htmlcssguide.html`
+  * Google HTML & CSS Style Guide: `https://google.github.io/styleguide/htmlcssguide.html`
 
 ## Part 3: `terminal`, `cli`, `git`, `github`, `hosting`, `deploy`
 

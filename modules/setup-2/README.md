@@ -8,8 +8,8 @@ It's best to use [Google Chrome](https://google.com/chrome) throughout our class
 
 We will use some helpful browser extensions like:
 
-* [Adblock Pro](https://chrome.google.com/webstore/detail/adblock-pro/ocifcklkibdehekfnmflempfgjhbedch): to block ads, obviously
-* [Markdown Preview Plus](https://chrome.google.com/webstore/detail/markdown-preview-plus/febilkbfcbhebfnokafefeacimjdckgl): to read markdown file in the browser
+* [Adblock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom): to block ads, obviously
+* [Markdown Preview Plus](https://chrome.google.com/webstore/detail/markdown-preview-plus/febilkbfcbhebfnokafefeacimjdckgl): to later read markdown file in the browser
 
 ---
 
@@ -19,16 +19,16 @@ We will use some helpful browser extensions like:
 
 We can use two kinds of editor.
 
-For offline or local use, we recommend [Atom](https://atom.io)
+For offline or local use, we recommend [Visual Studio Code](https://code.visualstudio.com) or [Atom](https://atom.io)
 
 For online, we recommend [Codepen](https://codepen.io)
 
-Atom features helpful actions like:
+Both VS Code & Atom features helpful actions like:
 
 * command palette: press `ctrl+shift+p` on Linux or `cmd+shift+p` on Mac to activate the ultimate command palette window
 * split view: drag another window to the other side (horizontal or vertical) of current window
 
 There are even some helpful packages too:
 
-* [`atom-beautify`](https://atom.io/packages/atom-beautify): automatically beautify our code syntax
-* [`file-icons`](https://atom.io/packages/file-icons): give the sidebar cooler icons
+- [Prettier · Opinionated Code Formatter](https://prettier.io)
+- [Emmet — the essential toolkit for web-developers](https://emmet.io)
