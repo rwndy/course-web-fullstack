@@ -7,7 +7,7 @@
 
 ## Essential tools
 
-sudo apt install zsh vim git tig tree wget curl httpie imagemagick vlc
+sudo apt install zsh vim git git-lfs tig tree wget curl httpie imagemagick vlc
 
 git lfs install
 git lfs install system
