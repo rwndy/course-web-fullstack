@@ -319,6 +319,14 @@ Inline elements are meant to differentiate part of a text, to give it a particul
 
 ---
 
+## Deployment / Upload to the Internet
+
+Use [Netlify](https://netlify.com) to upload your built website for free and fast.
+
+You will get a free customizable subdomain like <https://yourname-project.netlify.com>
+
+---
+
 ## References
 
 * https://marksheet.io/html-basics.html

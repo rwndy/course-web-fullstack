@@ -441,7 +441,24 @@ a:visited {
 ```
 ---
 
-## CSS Responsiveness
+## CSS Responsiveness with Media Query
+
+Media queries are useful when you want to modify your site or app depending on a device's general type (such as print vs. screen) or specific characteristics and parameters (such as screen resolution or browser viewport width).
+
+Media queries are used for the following:
+
+- To conditionally apply styles with the CSS `@media` and `@import` at-rules.
+- To target specific media for the `<link>`, `<source>`, and other HTML elements.
+
+```
+@media (hover: hover) { ... }
+```
+
+```
+@media (max-width: 12450px) { ... }
+```
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
 
 ---
 
@@ -453,7 +470,7 @@ To assure our CSS quality, we can use a free tool called [csslint](http://csslin
 
 ## References
 
+- https://codecademy.com/learn/learn-css
 - https://marksheet.io/css-basics.html
 - https://learn.shayhowe.com/html-css/getting-to-know-css
-- https://css-tricks.co
-- https://www.w3schools.com/css/default.asp
+- https://w3schools.com/css/default.asp
