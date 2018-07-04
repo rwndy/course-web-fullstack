@@ -443,6 +443,8 @@ a:visited {
 
 ## CSS Responsiveness with Media Query
 
+See this [responsive web design, animated](https://media.giphy.com/media/b2CD0Qrq2ulwY/giphy.gif).
+
 Media queries are useful when you want to modify your site or app depending on a device's general type (such as print vs. screen) or specific characteristics and parameters (such as screen resolution or browser viewport width).
 
 Media queries are used for the following:
