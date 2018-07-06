@@ -20,21 +20,18 @@
 * English all the way
 * Growth mindset
 * Read Read Read Work Work Work
-* Have fun while doing it!
-
----
-
-## Professional Principles
+* Enjoy while working on it!
 
 ---
 
 ## Online Profiles
 
 * Website
-* CV/Resume
-* GitHub
-* LinkedIn
-* Facebook
+* CV or Resume
+* [GitHub](https://github.com)
+* [GitLab](https://gitlab.com)
+* [LinkedIn](https://linkedin.com)
+* [Facebook](https://facebook.com)
 
 ---
 
