@@ -319,7 +319,7 @@ Inline elements are meant to differentiate part of a text, to give it a particul
 
 ---
 
-## Deployment / Upload to the Internet
+## Deployment or Upload to the Internet
 
 Use [Netlify](https://netlify.com) to upload your built website for free and fast.
 

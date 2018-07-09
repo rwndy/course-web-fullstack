@@ -31,4 +31,4 @@ For your reference, you can access our data of participants and partners network
 
 ## Personal Evaluation
 
-Before we go home, let's have some private 1-on-1 conversation to evaluate your progress. We're recommending this talk once a week.
+Before we go home, let's have some 1-by-1 conversation or presentation to evaluate your progress. We're recommending this talk every day.

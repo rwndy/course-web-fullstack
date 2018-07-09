@@ -42,8 +42,18 @@ Commonly, we can illustrate the flow of an algorithm using flowchart & pseudocod
 
 ---
 
-## 
+## Action
 
 Let's try to create an algorithm with flowchart & pseudocode!
 
 We can implement the algorithm using programming language later on with JavaScript.
+
+---
+
+## References
+
+- [Intro to Algorithms: Crash Course Computer Science #13 on YouTube](https://www.youtube.com/watch?v=rL8X2mlNHPM)
+- [Algorithm : Pseudocode and Flowchart](https://www.youtube.com/watch?v=67AKFObATxQ)
+- [What is Algorithm, Flowchart, and Pseudocode in planning programs before writing? - Quora](https://www.quora.com/What-is-Algorithm-Flowchart-and-Pseudocode-in-planning-programs-before-writing)
+- [Algorithms in plain English: time complexity and Big-O notation](https://medium.freecodecamp.org/time-is-complex-but-priceless-f0abd015063c)
+- [Hard Coding Concepts Explained with Simple Real-life Analogies](https://medium.freecodecamp.org/hard-coding-concepts-explained-with-simple-real-life-analogies-280635e98e37)

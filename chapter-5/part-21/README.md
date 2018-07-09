@@ -298,7 +298,9 @@ When a node is removed from the system, the system continues to operate and upho
 * Data Flow Diagram (DFD)
 * Extract, Transform, Load (ETL)
 
-## References
+---
+
+# References
 
 * [What is a database index?](http://www.vertabelo.com/blog/technical-articles/what-is-a-database-index)
 * [Database Indexes Explained - Essential SQL](https://www.essentialsql.com/what-is-a-database-index)
