@@ -17,7 +17,10 @@ A `.gitignore` file specifies intentionally untracked files that Git should igno
 
 ## `checkout`
 
+Git `checkout`  can switch branches or restore working tree files.
 
+- https://www.atlassian.com/git/tutorials/using-branches/git-checkout
+- https://git-scm.com/docs/git-checkout
 
 ---
 
@@ -78,6 +81,7 @@ Git `revert` can revert some existing commits. It always create a new commit.
 
 ## References
 
+- [Git - PetaniKode](https://www.petanikode.com/tutorial/git)
 - [Git Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows)
 - [GitHub Workflow](https://guides.github.com/introduction/flow)
 - [Git Book](https://git-scm.com/book/en/v2)
