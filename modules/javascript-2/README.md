@@ -42,7 +42,7 @@ Examples:
 // String
 let a = "this is a string";
 let b = "another string";
-let c = `${a} and this is ${b}`; // result: this is a string and this is another string
+let c = `${a} and ${b}`; // result: this is a string and another string
 
 // Number
 var d = 2;
@@ -54,7 +54,11 @@ var d = 1 + 2 / 4; // result: 1.5
 let e = true;
 
 // Array
-let o = ["a", 1, true, undefined, null];
+let f = ["a", 1, true, undefined, null];
+f[0] // result: "a"
+f[1] // result: 1
+f[4] // result: null
+f.length // result: 5
 
 // Object
 let p = {
@@ -67,6 +71,11 @@ let p = {
 };
 
 // This is a comment line
+
+/*
+This is a
+multiple comment line
+*/
 ```
 
 ---
