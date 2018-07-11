@@ -1,79 +1,68 @@
 # JavaScript 5
 
-## JavaScript Trivia
+## Built-in JavaScript Array Iteration Methods
 
-### Don't Repeat Yourself (DRY)
+Some of javascript array methods to do array operation or manipulation
 
-Bad:
+| Array Method      | Description                                                                      |
+| ----------------- | -------------------------------------------------------------------------------- |
+| `filter`          | Creates a new array with every element in an array that pass a test              |
+| `map`             | Creates a new array with the result of calling a function for each array element |
+| `find`            | Returns the value of the first element in an array that pass a test              |
+| `forEach`         | Calls a function for each array element                                          |
+| and many more ... | <https://goo.gl/cZL2ra>                                                          |
 
-```js
-let position = 0;
-
-position += 1;
-position += 1;
-position += 1;
-position += 1;
-position += 1;
-
-console.log(position);
-// 5
-```
-
-Good:
+### `filter`
 
 ```js
-let position = 0;
+const words = [
+  "spray",
+  "limit",
+  "elite",
+  "exuberant",
+  "destruction",
+  "present",
+  "happy"
+];
 
-function walk(distance) {
-  position += distance;
-}
+let longWords = words.filter(word => word.length > 6);
 
-walk(1);
-walk(1);
-walk(1);
-walk(1);
-walk(1);
-
-console.log(position);
-// 5
+// longWords: ["exuberant", "destruction", "present"]
 ```
 
-### Single Responsibility Principle (SRP)
-
-Bad:
+### `map`
 
 ```js
-let latitude = 0;
-let longitude = 0;
+var array1 = [1, 4, 9, 16];
 
-function move(distance) {
-  latitude += distance;
-  longitude += distance;
-}
+// pass a function to map
+const map1 = array1.map(x => x * 2);
 
-move(20);
-
-console.log(latitude); // 20
-console.log(longitude); // 20
+// map1: Array [2, 8, 18, 32]
 ```
 
-Good:
+### `find`
 
 ```js
-let latitude = 0;
-let longitude = 0;
+var array1 = [5, 12, 8, 130, 44];
 
-function moveLatitude(distance) {
-  latitude += distance;
-}
+var found = array1.find(function(element) {
+  return element > 10;
+});
 
-function moveLongitude(distance) {
-  longitude += distance;
-}
-
-moveLatitude(10);
-moveLongitude(20);
-
-console.log(latitude); // 10
-console.log(longitude); // 20
+// found: 12
 ```
+
+### `forEach`
+
+```js
+var array1 = ["a", "b", "c"];
+var text = "";
+
+array1.forEach(function(element) {
+  text += element + ",";
+});
+
+// text: a,b,c,
+```
+
