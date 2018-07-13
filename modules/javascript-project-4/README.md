@@ -140,7 +140,7 @@ Error: input is not a number
 
 ## Level 4
 
-The JavaScript promise is asynchronous so if we `console.log()` after promise, there is a high possibility that the promise executed after `console.log()`.
+The JavaScript promise is asynchronous so if we `console.log()` after promise, there is a high possibility that the `console.log()` command is executed first while the promise is still pending.
 
 Current code (using `numberValidation` promise from level 3):
 
