@@ -307,4 +307,5 @@ For more DOM related capabilities, it's best to refer to the documentation again
   * [HTML/JS: Making webpages interactive - Khan Academy](https://www.khanacademy.org/computing/computer-programming/html-css-js)
   * [JavaScript Vs DOM Vs BOM, relationship explained - Rajakvk's Blog](https://vkanakaraj.wordpress.com/2009/12/18/javascript-vs-dom-vs-bom-relationship-explained)
 * Documentation
+  * http://devdocs.io
   * http://devdocs.io/dom
