@@ -60,7 +60,7 @@ The DOM tree:
 
 While the relationship or links between those nodes:
 
-![](./assets/html-links.svg)
+![](./assets/html-links.png)
 
 ---
 
