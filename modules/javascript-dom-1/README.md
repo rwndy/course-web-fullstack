@@ -52,11 +52,11 @@ For example, these are the representation of the HTML:
 
 The page structure:
 
-![](./assets/html-boxes.svg)
+![](./assets/html-boxes.png)
 
 The DOM tree:
 
-![](./assets/html-tree.svg)
+![](./assets/html-tree.png)
 
 While the relationship or links between those nodes:
 
