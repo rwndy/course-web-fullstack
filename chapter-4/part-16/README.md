@@ -107,14 +107,6 @@ fetch("https://api.github.com/users/username")
   });
 ```
 
-## API Project 1
-
-Use GitHub API to get all info of your follower list, then log the list (in Object) using console log on browser console.
-
-## API Project 2
-
-![ExpectedOutput](./assets/API-project-1.png)
-
 ## References
 
 * [Understanding And Using REST APIs — Smashing Magazine](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api)
@@ -148,3 +140,9 @@ Real-time protocols:
 * WebSocket
 * Socket.io
 * WebRTC
+
+---
+
+# API Project 1
+
+* [API Project 1](../../modules/api-project-1/README.md)
