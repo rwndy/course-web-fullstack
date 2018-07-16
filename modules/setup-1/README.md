@@ -14,9 +14,9 @@ If you already have Apple Macintosh (Macbook), you can just use it right away.
 
 ## Installation Script
 
-Use this [INSTALL.sh](./INSTALL.sh) script as a help for installing various softwares and tools into your computer.
+We will help you to install various softwares and tools into your computer later on as the day goes on.
 
-Get some help by our mentors, because using this script needs some experience.
+Get some help by our mentors, because using the installation commands and script needs some good experience.
 
 ---
 
