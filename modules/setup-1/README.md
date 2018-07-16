@@ -22,13 +22,10 @@ Get some help by our mentors, because using this script needs some experience.
 
 ## Airtable Data
 
-For your reference, you can access our data of participants and partners network. Check out our alumni, your participants data, and network partners.
-
-* [Impact Byte Participants](https://airtable.com/shrO1kjqx7fJFyIja)
-* [Impact Byte Network](https://airtable.com/shrlDLf6d8leCcXg4)
+For your reference, you can access our data of participants and partners network. Check out our alumni, your participants data, and network partners. You will be invited by the mentors.
 
 ---
 
 ## Personal Evaluation
 
-Before we go home, let's have some 1-by-1 conversation or presentation to evaluate your progress. We're recommending this talk every day.
+Before we go home, let's have some 1-by-1 discussion, conversation, or presentation to evaluate your progress. We're recommending this talk every day before closing the class.
