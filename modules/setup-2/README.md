@@ -30,5 +30,6 @@ Both VS Code & Atom features helpful actions like:
 
 There are even some helpful packages too:
 
+- [Beautify - Beautify code in place for VS Code](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
 - [Prettier · Opinionated Code Formatter](https://prettier.io)
 - [Emmet — the essential toolkit for web-developers](https://emmet.io)
