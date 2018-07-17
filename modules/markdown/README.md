@@ -130,9 +130,9 @@ See [LICENSE](./LICENSE.md)
 
 ---
 
-# Challange
+# Project
 
-Create file README.md that contain project documentation including:
+Create `README.md` file that contains documentation:
 
 * Application Name
 * Application Description
@@ -141,6 +141,6 @@ Create file README.md that contain project documentation including:
 * Application Tech Stacks (List)
 * Developer Team Members (Table)
 
-[Example-1](https://github.com/impactbyte-network/impactodo-api).
+* [Example of Todo Web Documentation](https://github.com/impactbyte-network/impactodo-web).
+* [Example of Todo API Documentation](https://github.com/impactbyte-network/impactodo-api).
 
-[Example-2](https://github.com/impactbyte-network/impactodo-web).
