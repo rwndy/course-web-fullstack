@@ -105,7 +105,7 @@ HTML attribute provide additional information about an element and specified in 
 
 ![html-attribute](./assets/html-attribute.jpg)
 
-example :
+Example:
 
 ```html
 <img src="./impact-byte.png" alt="impact Byte Logo" height="150" width="150" >
@@ -161,7 +161,7 @@ combined:
 
 ## Block Vs Inline Elements
 
-* Block Elements: ``, `<ul>`, `<ol>`, `<h1> - <h6>`, `<div>`, `<article>`
+* Block Elements: `<ul>`, `<ol>`, `<h1> - <h6>`, `<div>`, `<article>`
 * Inline Elements: `<1>`, `<em>`, `<strong>`
 
 Block elements are meant to structure the main parts of your page, by dividing your content in coherent blocks.
@@ -182,7 +182,9 @@ Inline elements are meant to differentiate part of a text, to give it a particul
 
 </article>
 ```
+
 ![paragraph-example](./assets/paragraph-example.png)
+
 ---
 
 ## HTML table
@@ -243,8 +245,8 @@ Inline elements are meant to differentiate part of a text, to give it a particul
   </tbody>
 </table>
 ```
-![using-thead-tfoot-tbody](./assets/using-thead-tfoot-tbody.png)
 
+![using-thead-tfoot-tbody](./assets/using-thead-tfoot-tbody.png)
 
 ---
 
@@ -274,16 +276,16 @@ Inline elements are meant to differentiate part of a text, to give it a particul
 
 
 ```html
-<input type="text" name="text" value="text"><br><br>
-<input type="email" name="email" value="email@yourweb.com"><br><br>
-<input type="password" name="password" value="password"><br><br>
-<input type="checkbox" name="checkbox"> Checkbox <br><br>
-<input type="radio" name="radio"> Radio <br><br>
-<input type="button" name="button" value="Sign Up"><br><br>
-<input type="date" name="date"><br><br>
-<input type="color" name="color"><br><br>
-
+<input type="text" name="text" value="text">
+<input type="email" name="email" value="email@yourweb.com">
+<input type="password" name="password" value="password">
+<input type="checkbox" name="checkbox"> Checkbox 
+<input type="radio" name="radio"> Radio 
+<input type="button" name="button" value="Sign Up">
+<input type="date" name="date">
+<input type="color" name="color">
 ```
+
 ![html-image](./assets/input-tag-example.png)
 
 ---
@@ -299,7 +301,7 @@ Inline elements are meant to differentiate part of a text, to give it a particul
 
 ---
 
-## Complete Example
+## Example
 
 **Source Code:**
 
@@ -329,6 +331,5 @@ You will get a free customizable subdomain like <https://yourname-project.netlif
 
 ## References
 
-* https://marksheet.io/html-basics.html
-* https://learn.shayhowe.com/html-css/getting-to-know-htm
-* https://www.w3schools.com/tags/tag_form.asp
+* [HTML Basics - Free tutorial to learn HTML and CSS](https://marksheet.io/html-basics.html)
+* [Getting to Know HTML - Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/getting-to-know-html)

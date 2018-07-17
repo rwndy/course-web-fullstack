@@ -130,7 +130,15 @@ See [LICENSE](./LICENSE.md)
 
 ---
 
-# Project
+## Tips
+
+To make your Markdown file better, use this [Remark extension](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-remark).
+
+
+
+---
+
+## Project
 
 Create `README.md` file that contains documentation:
 
