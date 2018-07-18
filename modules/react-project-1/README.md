@@ -1,6 +1,6 @@
 # ReactJS Project 1
 
-![alt text](./images/layout-project.png)
+![alt text](./images/layout.png)
 
 ## Requirements
 
