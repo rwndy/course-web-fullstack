@@ -102,3 +102,9 @@ Login or signin for an existing account:
   * [JWT Inspector - Decode and Debug JSON Web Tokens](https://jwtinspector.io)
   * [JWT Analyzer & Inspector Chrome Extension](https://chrome.google.com/webstore/detail/jwt-analyzer-inspector/henclmbnehmcpbjgipaajbggekefngob?hl=en)
   * [JWT Debugger Chrome Extension](https://chrome.google.com/webstore/detail/jwt-debugger/ppmmlchacdbknfphdeafcbmklcghghmd?hl=en)
+
+---
+
+# API Project 3
+
+* [API Project 3](../../modules/api-project-3/README.md)

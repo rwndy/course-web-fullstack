@@ -308,3 +308,9 @@ When a node is removed from the system, the system continues to operate and upho
 * [Entity Relationship Diagram - Everything You Need to Know About ER Diagrams](https://www.smartdraw.com/entity-relationship-diagram)
 * [What is a Data Flow Diagram | Lucidchart](https://www.lucidchart.com/pages/data-flow-diagram)
 * [ETL Process](http://datawarehouse4u.info/ETL-process.html)
+
+---
+
+# SQL Project 1
+
+* [SQL Project 1](../../modules/sql-project-1/README.md)
