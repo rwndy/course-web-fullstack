@@ -2,14 +2,9 @@
 
 ---
 
-## Requirements
-
-TBD
----
-
 ## Level 0
 
-1. Create database named employees_demo.
+1. Create database named `employees_demo`.
 1. `Create table` named `employees` with the specified table schema below.
 1. Fill `employees` table with specified table content below.
 
