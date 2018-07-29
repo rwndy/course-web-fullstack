@@ -112,3 +112,7 @@ API Documentaion and Generators
 * [World's Most Popular API Framework | Swagger](https://swagger.io)
 * [API Blueprint | API Documentation with powerful tooling](https://apiblueprint.org)
 * [StopLight - The Modular API Toolkit](https://stoplight.io)
+
+# Auth Project 1
+
+* [Auth Project 1](../../modules/auth-project-1/README.md)
