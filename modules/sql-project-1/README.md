@@ -67,7 +67,7 @@
 
 ## Level 2
 
-1. Use `alter table` statement to add new column named `to_date` with default value '9999-01-01'.
+1. Use `alter table` statement to add new column named `to_date` inside `titles` table default value '9999-01-01'.
 1. Use `alter table` statement to add `to_date` column as primary key.
 
 
@@ -201,7 +201,7 @@ Perform a query to get current active male/female employee based on departement 
 
 ## Level 9
 
-Add total in the and of the query result table.
+Add total at the and of the query result table.
 
 ```sh
 # Query result:
