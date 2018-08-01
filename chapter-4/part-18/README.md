@@ -196,3 +196,9 @@ An Express application can use the following types of middleware:
 
 * [NW.js](https://nwjs.io)
 * [Electron - Build cross platform desktop apps with JavaScript, HTML, and CSS](https://electronjs.org)
+
+---
+
+# API Project 2
+
+* [API Project 2](../../modules/api-project-2/README.md)

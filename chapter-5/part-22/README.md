@@ -2,103 +2,98 @@
 
 ---
 
-# ORM (Object Relational Mapper)
-
-ORM (Object Relational Mapper) is a programming technique for converting data between incompatible type systems using object-oriented programming languages.
-
-Commonly used in database with relational table settings --such as RDBMS or SQL databases-- like MySQL, MariaDB, PostgreSQL, etc.
-
-This way in JavaScript, we can change between table format and object format, easily.
-
-**Table:**
-
-```sh
-| id | name
-|----|-----
-| 1  | "Alpha"
-| 2  | "Beta"
-```
-
-**Object:**
-
-```js
-[
-  {
-    id: 1
-    name: "Alpha"
-  },
-  {
-    id: 2
-    name: "Beta"
-  }
-]
-```
-
-## Libraries
-
-There are various ORM libraries in Node.js ecosystem like Sequelize, TypeORM, waterline, Knex, Bookshelf, etc. Some platforms don't require ORM if there's a suitable SDK (Software Development Kit).
-
-## Architecture
-
-Usually when using an ORM, an API project will cover:
-
-* Model that contains data schema and access the actual database
-* Controller that access the model to CRUD the data
-* Routes or View that access the controller
-
-This approach is most often called MVC (Model-View-Controller).
-
-## References
-
-* [Sequelize - The node.js ORM for PostgreSQL, MySQL, SQLite and MSSQL](http://docs.sequelizejs.com)
-  * [Migrations](http://docs.sequelizejs.com/manual/tutorial/migrations.html)
-* [TypeORM - Amazing ORM for TypeScript and JavaScript (ES7, ES6, ES5). Supports MySQL, PostgreSQL, MariaDB, SQLite, MS SQL Server, Oracle, WebSQL databases. Works in NodeJS, Browser, Ionic, Cordova, and Electron platforms](http://typeorm.io)
-* [waterline - an adapter-based ORM for node.js](http://waterlinejs.org)
-* [Knex.js - A SQL Query Builder for Javascript](http://knexjs.org)
-* [Bookshelf is a JavaScript ORM for Node.js, built on the Knex SQL query builder](http://bookshelfjs.org)
+* ▢ Testing Methodologies
+  * Unit
+  * Functional
+  * Integration/API
+  * E2E
+* ▢ Testing Tools
+  * Mocha, Chai, Jasmine, Karma, Selenium, Nightmare, CucumberJS
+* ▢ Testing Techniques
+  * TDD (Test Driven Development)
+  * BDD (Behavior Driven Development)
+  * ATDD (Automated Test Driven Development)
+  * HDD (Hypothesis Driven Development)
+  * Continuous Integration (CI): Jenkins, Travis
+  * Continuous Deployment (CD)
 
 ---
 
-# Database Auth
+# Testing Methodologies
 
-Encrypt user's credentials such as password with bcrypt.
+![](./assets/test-pyramid.png)
 
-## Authentication Flow
-
-Register or signup for a new account:
-
-1.  Encrypt the password body with bcrypt hash
-2.  Create the user in the database
-3.  Create the token with JWT sign
-4.  Response with a token and user data (without password)
-
-Login or signin for an existing account:
-
-1.  Find the requested user email or username
-    * If error, tell user is not found
-2.  Validate the password with bcrypt compare
-    * If error, tell password is invalid
-3.  Create the token with JWT sign
-4.  Response with a token and user data
-
----
+* Unit
+* Functional
+* Integration/API
+* End-to-End (E2E)
 
 ## References
 
-### Repositories
+* [TestPyramid](https://martinfowler.com/bliki/TestPyramid.html)
+* [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
+* [The Testing Pyramid](http://www.agilenutshell.com/episodes/41-testing-pyramid)
 
-* TypeORM samples: https://github.com/impactbyte-learn/code-typeorm
-* [Official Samples](http://typeorm.io/#/undefined/samples)
-  * [Example how to use TypeORM with TypeScript](https://github.com/typeorm/typescript-example)
-  * [Example how to use TypeORM with JavaScript](https://github.com/typeorm/javascript-example)
-  * [Example how to use Express and TypeORM](https://github.com/typeorm/typescript-express-example)
+---
 
-### Documentations
+# Testing Tools
 
-* [`bcrypt`](https://npm.im/bcrypt)
-* [`jsonwebtoken`](https://npm.im/jsonwebtoken)
-* [JSON Web Tokens - jwt.io](https://jwt.io)
-  * [JSON Web Token Introduction - jwt.io](https://jwt.io/introduction)
-  * [JWT Inspector - Decode and Debug JSON Web Tokens](https://jwtinspector.io)
-  * [JWT Analyzer & Inspector Chrome Extension](https://chrome.google.com/webstore/detail/jwt-analyzer-inspector/henclmbnehmcpbjgipaajbggekefngob?hl=en)
-  * [JWT Debugger Chrome Extension](https://chrome.google.com/webstore/detail/jwt-debugger/ppmmlchacdbknfphdeafcbmklcghghmd?hl=en)
+* Jest
+* Mocha
+* Chai
+* Jasmine
+* Karma
+* Selenium
+* Nightmare
+* CucumberJS
+* PhantomJS
+
+One of the best choice for testing is Jest, a complete JavaScript testing solution. Jest is used by Facebook, Oculus, Instagram, Twitter, Pinterest, The New York Times, and more.
+
+## References
+
+* [Jest 🃏 Delightful JavaScript Testing](https://facebook.github.io/jest)
+* [Mocha - the fun, simple, flexible JavaScript test framework](https://mochajs.org)
+* [Chai is a BDD / TDD assertion library for node and the browser](http://www.chaijs.com)
+* [`chai-http` - Chai HTTP integration testing with Chai assertions](https://npm.im/chai-http)
+* [Jasmine - Behavior-Driven JavaScript](https://jasmine.github.io)
+* [Karma - Spectacular Test Runner for Javascript](https://karma-runner.github.io)
+* [Selenium - Web Browser Automation](https://www.seleniumhq.org)
+* [Nightmare - A high-level browser automation library](http://www.nightmarejs.org)
+* [Cucumber - Simple, human collaboration](https://cucumber.io)
+* [PhantomJS](http://phantomjs.org)
+* [CasperJS, a navigation scripting and testing utility for PhantomJS and SlimerJS](http://casperjs.org)
+* [SlimerJS - A scriptable browser for Web developers](https://slimerjs.org)
+* [Puppeteer is a Node library which provides a high-level API to control headless Chrome or Chromium over the DevTools Protocol](https://developers.google.com/web/tools/puppeteer)
+
+---
+
+# Testing Techniques
+
+* TDD (Test Driven Development)
+* BDD (Behavior Driven Development)
+* ATDD (Automated Test Driven Development)
+* HDD (Hypothesis Driven Development)
+
+## References
+
+* [Why TDD – Built to Adapt](https://builttoadapt.io/why-tdd-489fdcdda05e)
+* [Introduction to TDD and BDD·Cucumber](https://cucumber.io/blog/2017/05/15/intro-to-bdd-and-tdd)
+* [What is BDD? What is Behavior Driven Development?](https://www.youtube.com/watch?v=VS6EEUVZGLE) (VIDEO)
+* [Hypothesis-Driven Development - The Hacker Chick Blog](https://hackerchick.com/hypothesis-driven-development)
+* [How to Implement Hypothesis-Driven Development | ThoughtWorks](https://www.thoughtworks.com/insights/blog/how-implement-hypothesis-driven-development)
+
+---
+
+# Continuous Integration (CI) & Continuous Deployment (CD)
+
+* Jenkins
+* Travis
+* Codeship
+
+## References
+
+* [Jenkins CI](https://jenkins.io)
+* [Travis CI.org - Test and Deploy Your Code with Confidence](https://travis-ci.org)
+* [Travis CI.com - Test and Deploy with Confidence](https://travis-ci.com)
+* [Codeship](https://codeship.com)
