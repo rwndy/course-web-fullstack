@@ -56,7 +56,7 @@ Always start at `0.1.0` and before `1.0.0` is only the development phase.
 
 ## References
 
-* [JavaScript & Node 101](http://bit.ly/js-node-101)
-* [`module-nodejs`](https://github.com/impactbyte-learn/module-nodejs)
-* [Node.js Tutorial - TutorialspOINT](https://www.tutorialspoint.com/nodejs)
+* [Slide: JavaScript & Node 101](http://bit.ly/js-node-101)
+* [Repo: `module-nodejs`](https://github.com/impactbyte-learn/module-nodejs)
+* [Node.js Tutorial - TutorialsPoint](https://www.tutorialspoint.com/nodejs)
 * [Semantic Versioning: Why You Should Be Using it — SitePoint](https://www.sitepoint.com/semantic-versioning-why-you-should-using)
