@@ -1,118 +1,106 @@
-# Part 21
+# Part 23
 
 ---
 
-# JavaScript & REST API
+# Non-Relational Database
 
-* CORS (Cross-Origin Resource Sharing (CORS)
+## NoSQL
 
-# Authentication/Authorization
+NoSQL (not only SQL) database provides a mechanism for storage and retrieval of data that is modeled in other than using relational way.
 
-* Basic password
-* JSON Web Token (JWT)
-* Auth0, Passport
-* Social OAuth: GitHub, Facebook, Twitter, Google
-* Passwordless: Email, SMS, voice
+Data manipulation is often done through object-oriented functions or APIs. There's no specific query language like SQL.
 
-# Node.js Deployment
+![](./assets/nosql.png)
 
-* PaaS: Heroku, Now.sh
-* IaaS/VPS: Digital Ocean, Amazon Lightsail, Linode
-* Server: Nginx, Apache
-* Process management: `pm2`
-* Cloud Services: Amazon Web Services, Google Cloud Platform, Microsoft Azure
-* Container: `docker`
+## NoSQL Database Types
 
-# Node.js Trivia
+**Document databases:** pair each key with a complex data structure known as a document. Documents can contain many different key-value pairs, or key-array pairs, or even nested documents.
 
-* Documentaion/Generators: Swagger, API Blueprint, Stoplight
+**Graph stores:** are used to store information about networks of data, such as social connections. Graph stores include Neo4J and Giraph.
 
----
+**Key-value stores:** are the simplest NoSQL databases. Every single item in the database is stored as an attribute name (or 'key'), together with its value. Examples of key-value stores are Riak and Berkeley DB. Some key-value stores, such as Redis, allow each value to have a type, such as 'integer', which adds functionality.
 
-# JavaScript & REST API
+**Wide-column stores:** such as Cassandra and HBase are optimized for queries over large datasets, and store columns of data together, instead of rows.
 
-* Cross-Origin Resource Sharing (CORS)
+![](./assets/mongodb.png)
+
+## Examples
+
+There more than 220 NoSQL databases exist. Some of the populars based on their categories are:
+
+- Document
+  - MongoDB
+  - Firebase
+  - ArangoDB
+  - CouchDB
+  - PouchDB
+  - NeDB
+- Key/Value
+  - Redis
+  - DynamoDB
+  - Cassandra
+- Search
+  - Elastic Search
+- Big Data
+  - Apache Hadoop
+  - Apache Ignite
+- Graph-based
+  - Neo4j
+  - Dgraph
+  - Neptune
+- Analytical
+  - Druid
+- Time Series
+  - Influx
+  - Timescale
+
+## Installation and Usage
+
+For detailed guidance, refer to needed documentation on each database.
 
 ## References
 
-* [Cross-Origin Resource Sharing (CORS) - HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
-* [enable cross-origin resource sharing](https://enable-cors.org)
-* [Understanding CORS](https://spring.io/understanding/CORS)
-* [`cors`](https://npm.im/cors)
+- [NoSQL Databases Explained | MongoDB](https://www.mongodb.com/nosql-explained)
+- [NoSQL Databases](http://nosql-database.org)
+- [MongoDB for GIANT Ideas](https://www.mongodb.com)
+  - [MongoDB University](https://university.mongodb.com)
+  - [mongo Shell Quick Reference — MongoDB Manual](https://docs.mongodb.com/manual/reference/mongo-shell)
+  - [MongoDB Tutorial](https://www.tutorialspoint.com/mongodb/index.htm)
+- [Firebase](https://firebase.google.com)
+- [PouchDB, the JavaScript Database that Syncs](https://pouchdb.com)
+  - [PouchDB Tutorial](https://www.tutorialspoint.com/pouchdb/index.htm)
+- [Apache CouchDB](http://couchdb.apache.org)
+  - [CouchDB: The Definitive Guide](http://guide.couchdb.org)
+  - [Apache CouchDB Documentation](http://docs.couchdb.org)
+  - [CouchDB Tutorial](https://www.tutorialspoint.com/couchdb/index.htm)
+- [Couchbase: NoSQL Engagement Database](https://www.couchbase.com)
+- [Redis](https://redis.io)
+- [ArangoDB - highly available multi-model NoSQL database](https://www.arangodb.com)
+- [Aerospike - High Performance NoSQL Database](https://www.aerospike.com)
+- [Apache Cassandra](https://cassandra.apache.org)
+- [Apache™ Hadoop® / HBase](http://hadoop.apache.org)
+- [Neo4j](https://neo4j.com)
 
 ---
 
-# Authentication/Authorization
+# NoSQL Tools
 
-* Basic password
-* JSON Web Token (JWT)
-* Auth0
-* Passport
-* Social OAuth
-  * GitHub
-  * Facebook
-  * Twitter
-  * Google
-* Passwordless
-  * Email
-  * SMS
-  * Voice
+MongoDB management tool or admin UIs are Robo 3T / Studio 3T (formerly Robomongo) and MongoDB Compass.
 
 ## References
 
-* [HTTP authentication - HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication)
-* [JSON Web Tokens - jwt.io](https://jwt.io)
-* [Auth0 - Single Sign On & Token Based Authentication](https://auth0.com)
-  * [Auth0 JavaScript SDK Quickstarts](https://auth0.com/docs/quickstart/spa/vanillajs)
-  * [Auth0 React SDK Quickstarts](https://auth0.com/docs/quickstart/spa/react)
-* [Passport.js - Simple, unobtrusive authentication for Node.js](http://www.passportjs.org)
-* GitHub
-  * [Basics of Authentication | GitHub Developer Guide](https://developer.github.com/v3/guides/basics-of-authentication/)
-  * [Building OAuth Apps | GitHub Developer Guide](https://developer.github.com/apps/building-oauth-apps/)
-* [Facebook Login for the Web with the JavaScript SDK](https://developers.facebook.com/docs/facebook-login/web)
-* [Oauth with the Twitter API — Twitter Developers](https://developer.twitter.com/en/docs/basics/authentication/overview/oauth)
-* [Using OAuth 2.0 to Access Google APIs  |  Google Identity Platform  |  Google Developers](https://developers.google.com/identity/protocols/OAuth2)
+- [Robo 3T / Studio 3T / Robomongo](https://robomongo.org)
+- [MongoDB Compass](https://www.mongodb.com/products/compass)
 
 ---
 
-# Node.js Deployment
+# NoSQL Hosted
 
-* PaaS: Heroku, Now.sh
-* IaaS/VPS: Digital Ocean, Amazon Lightsail, Linode
-* Server: Nginx, Apache
-* Process management: `pm2`
-* Cloud Services: Amazon Web Services, Google Cloud Platform, Microsoft Azure
-* Container: Docker
+Hosted solutions for MongoDB are mLab or MongoDB Atlas.
+
+Meanwhile, Firebase is hosted on its own.
 
 ## References
 
-* [Cloud Application Platform | Heroku](https://www.heroku.com)
-* [Now – Realtime Global Deployments](https://zeit.co/now)
-* [DigitalOcean | SSD Cloud Server, VPS Server, Simple Cloud Hosting](https://www.digitalocean.com)
-* [Lightsail - Amazon AWS](https://aws.amazon.com/lightsail)
-* [nginx](http://nginx.org)
-* [PM2 - Advanced Node.js process manager](http://pm2.keymetrics.io)
-* [Amazon Web Services (AWS) - Cloud Computing Services](https://aws.amazon.com)
-* [Google Cloud Platform | Google Cloud Computing, Hosting Services & Cloud Support](https://cloud.google.com)
-* [Microsoft Azure Cloud Computing Platform & Services](https://azure.microsoft.com/en-us)
-* [Docker - Build, Ship, and Run Any App, Anywhere](https://www.docker.com)
-
----
-
-# Node.js Trivia
-
-API Documentaion and Generators
-
-* Swagger
-* API Blueprint
-* Stoplight
-
-## References
-
-* [World's Most Popular API Framework | Swagger](https://swagger.io)
-* [API Blueprint | API Documentation with powerful tooling](https://apiblueprint.org)
-* [StopLight - The Modular API Toolkit](https://stoplight.io)
-
-# Auth Project 1
-
-* [Auth Project 1](../../modules/auth-project-1/README.md)
+- [mLab MongoDB Hosting: Database-as-a-Service](https://mlab.com)
+- [MongoDB Atlas - Fully Managed MongoDB, hosted on AWS, Azure, and GCP](https://www.mongodb.com/cloud/atlas)
