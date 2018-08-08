@@ -372,7 +372,7 @@ Create search API route to do data filtering with this following specification:
 
 ```js
 // --------------------------------------------------------------------------------
-// 1. API request : DELETE yourapidomain.com/employees/search?gender=M
+// 1. API request : GET yourapidomain.com/employees/search?gender=M
 // expected output :
 {
     "filter": {
@@ -402,7 +402,7 @@ Create search API route to do data filtering with this following specification:
     ]
 }
 // --------------------------------------------------------------------------------
-// 2. API request : DELETE yourapidomain.com/employees/search?gender=M&first_name=Georgi
+// 2. API request : GET yourapidomain.com/employees/search?gender=M&first_name=Georgi
 // expected output :
 {
     "filter": {
