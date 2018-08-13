@@ -111,3 +111,5 @@ document.cookie = "expires=" + d.toGMTString();
 You can delete a cookie by simply updating its expiration time to zero.
 
 ## IndexedDB
+
+IndexedDB is a transactional database system, like an SQL-based RDBMS. However, unlike SQL-based RDBMSes, which use fixed-column tables, IndexedDB is a JavaScript-based object-oriented database. 
