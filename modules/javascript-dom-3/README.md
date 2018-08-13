@@ -13,6 +13,15 @@
 
 You can store data locally inside user's browser with web storage
 
+|                        	| Cookie             	| Local Storage 	| Session Storage 	|
+|------------------------	|--------------------	|---------------	|-----------------	|
+| **Capacity**           	| 4kb                	| 10mb          	| 5mb             	|
+| **Browsers**           	| HTML4 / HTML5      	| HTML5         	| HTML5           	|
+| **Accessible From**    	| Any Window         	| Any Window    	| Same Tab        	|
+| **Expires**            	| Manually set       	| Never         	| On Tab Close    	|
+| **Storage Location**   	| Browser and Server 	| Browser       	| Browser         	|
+| **Sent with Requests** 	| Yes                	| No            	| No              	|
+
 ### Web storage methods
 
 1.  window.localStorage : store data locally without expiration date
