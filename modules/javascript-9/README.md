@@ -145,7 +145,7 @@ var person2 = {
 person1.fullName.call(person2); 
 ```
 
-### Object Bindung Using bind()
+### Object Binding Using bind()
 
 ```js
 var person1 = {
@@ -158,8 +158,7 @@ var person2 = {
     lastName: "Doe",
 }
 
-person1.bind(person2)
-var x = person1.fullName(); 
+person1.fullName.bind(person2)()
 ```
 
 ---
