@@ -127,7 +127,7 @@ var person = {
 };
 ```
 
-### Function Bindung Using call() and apply()
+### Function Binding Using call() and apply()
 
 The call() and apply() methods are predefined JavaScript methods.
 They can both be used to call an object method with another object as argument.
