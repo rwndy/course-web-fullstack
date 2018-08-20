@@ -2,7 +2,7 @@
 
 ---
 
-* ▢ HTTP API & Protocol
+<!-- * ▢ HTTP API & Protocol
   * HTTP/HTTPS
   * HTTP Request and Response
   * TCP/IP, OSI layer, network address
@@ -21,25 +21,43 @@
   * Postman or Insomnia
 * ▢ Internet Trivia
   * FTP, telnet
-  * Real-time protocols: WebSocket, WebRTC, Socket.io
+  * Real-time protocols: WebSocket, WebRTC, Socket.io -->
+
 
 ---
 
-# Restful APIs
+## HTTP 
 
-## What is an API
+HTTP is a protocol which allows the fetching of resources, such as HTML documents. It is the foundation of any data exchange on the Web and a client-server protocol, which means requests are initiated by the recipient, usually the Web browser.
 
-Application Programming Interface (API) is a term for describing how a programs communicate and exchange data in certain format.
+### HTTP Communication Process
 
-* [REST API Tutorial - What is a REST API? - YouTube](https://www.youtube.com/watch?v=BRdcRFvuqsE&list=PL4cUxeGkcC9jBcybHMTIia56aV21o2cZ8)
+![HTTP-request-response](./assets/http-request-response.png)
 
-## What is REST
+### HTTP Request Structure
 
-REpresentational State Transfer (REST) is a one of many architectural style of an API. A RESTful API is an application program interface (API) that uses HTTP requests (HTTP verbs) to GET, PUT, POST and DELETE data.
+* Request line: First line of HTTP Request, consist of HTTP Verb, URI, and HTTP version number.
+* Header: Describe specific property of a request.
+* Body: Additiaonal information about request.
 
-![REST API](./assets/restful.png)
+![HTTP-request-example](./assets/http-request-example.png)
 
-## HTTP verbs
+### HTTP Response Structure
+
+* Status line: First line of HTTP Response, consist of HTTP version, status code, and reason parse.
+* Header : Optional response header.
+* Body : Requested resource
+
+![HTTP-response-example](./assets/http-response-example.png)
+
+### HTTP header
+
+HTTP headers allow the client and the server to pass additional information with the request or the response. A request header consists of its case-insensitive name followed by a colon ':', then by its value (without line breaks). You can see it through you browser by using developer tools (Network tab).
+
+![Inspect HTTP Request](./assets/inspectHTTPRequests.png)
+
+
+### HTTP verbs
 
 HTTP defines a set of request methods to indicate the desired action to be performed for a given resource.
 
@@ -53,11 +71,30 @@ HTTP defines a set of request methods to indicate the desired action to be perfo
 * `OPTIONS` = The `OPTIONS` method is used to describe the communication options for the target resource.
 * `HEAD` = The `HEAD` method asks for a response identical to that of a `GET` request, but without the response body.
 
-## HTTP header
+---
 
-HTTP headers allow the client and the server to pass additional information with the request or the response. A request header consists of its case-insensitive name followed by a colon ':', then by its value (without line breaks). You can see it through you browser by using developer tools (Network tab).
+## Restful APIs
 
-![Inspect HTTP Request](./assets/inspectHTTPRequests.png)
+### What is an API
+
+Application Programming Interface (API) is a term for describing how a programs communicate and exchange data in certain format.
+
+* [REST API Tutorial - What is a REST API? - YouTube](https://www.youtube.com/watch?v=BRdcRFvuqsE&list=PL4cUxeGkcC9jBcybHMTIia56aV21o2cZ8)
+
+### What is REST
+
+REpresentational State Transfer (REST) is a one of many architectural style of an API. A RESTful API is an application program interface (API) that uses HTTP requests (HTTP verbs) to GET, PUT, POST and DELETE data.
+
+![REST API](./assets/restful.png)
+
+### Another API Architecture
+
+* SOAP
+* GraphQL
+* gRPC
+
+
+---
 
 ## Example of RESTful API designs
 
@@ -107,6 +144,12 @@ fetch("https://api.github.com/users/username")
   });
 ```
 
+---
+
+### Websocket
+
+WebSockets are an advanced technology that makes it possible to open an interactive communication session between the user's browser and a server. With this API, you can send messages to a server and receive event-driven responses without having to poll the server for a reply.
+
 ## References
 
 * [Understanding And Using REST APIs — Smashing Magazine](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api)
@@ -119,6 +162,8 @@ fetch("https://api.github.com/users/username")
 * [HTTP API Design Guide](https://geemus.gitbooks.io/http-api-design/content/en)
 * [`lambda2/rapis`: A specification proposal for API's](https://github.com/lambda2/rapis)
 * [GraphQL vs. REST – Apollo GraphQL](https://dev-blog.apollodata.com/graphql-vs-rest-5d425123e34b)
+* [Parts of HTTP Request - Udemy](https://www.youtube.com/watch?v=pHFWGN-upGM)
+* [Websocket - Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 
 ---
 
