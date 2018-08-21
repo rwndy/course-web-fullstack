@@ -41,8 +41,6 @@ Addresses
 
 **Schema View**
 
-![](./assets/relational.png)
-
 - Field = Every table is broken up into smaller entities called fields. The fields in the `Users` table consist of `id`, `name`, `email`.
 - Record/Row = A record is also called as a row of data is each individual entry that exists in a table.
 - Column = A column is a vertical entity in a table that contains all information associated with a specific field in a table.
@@ -142,6 +140,8 @@ There are various hosting solutions for SQL database that available for free. Bu
 ---
 
 # Entity Relations/Associations
+
+![](./assets/relational.png)
 
 In relational database design, entities or tables are representing the overview of the data.
 
