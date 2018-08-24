@@ -176,69 +176,259 @@ These syntaxes can be classified into the following groups based on their nature
 
 ## DDL - Data Definition Language
 
-- `CREATE` = Creates a new table, a view of a table, or other object in the database.
-- `ALTER` = Modifies an existing database object, such as a table.
-- `DROP` = Deletes an entire table, a view of a table or other objects in the database.
+### **Create Table**
+
+
+Syntax :
+```sql
+CREATE TABLE table_name (
+    column1 datatype,
+    column2 datatype,
+    column3 datatype,
+   ....
+);
+```
+
+Example :
+```sql
+CREATE TABLE customers (
+    id INT NOT NULL AUTO_INCREMENT,
+    firstName VARCHAR(50),
+    lastName VARCHAR(50),
+    address VARCHAR(200),
+    age INT(5)
+);
+```
+
+### **Data Types**
+
+
+| **Data Type**    	| **Description**                                                                                                                                                                                                                                    	|
+|------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| INT(size)        	| -2147483648 to 2147483647 normal. 0 to 4294967295 UNSIGNED*. The maximum number of digits may be specified in parenthesis                                                                                                                          	|
+| DOUBLE(size,d)   	| A large number with a floating decimal point. The maximum number of digits may be specified in the size parameter. The maximum number of digits to the right of the decimal point is specified in the d parameter                                  	|
+| VARCHAR(size)    	| Holds a variable length string (can contain letters, numbers, and special characters). The maximum size is specified in parenthesis. Can store up to 255 characters. Note: If you put a greater value than 255 it will be converted to a TEXT type 	|
+| DATE()           	| A date. Format: YYYY-MM-DD                                                                                                                                                                                                                         	|
+| TEXT             	| Holds a string with a maximum length of 65,535 characters                                                                                                                                                                                          	|
+| BLOB             	| For BLOBs (Binary Large OBjects). Holds up to 65,535 bytes of data                                                                                                                                                                                 	|
+| ENUM(x,y,z,etc.) 	| Let you enter a list of possible values. You can list up to 65535 values in an ENUM list. If a value is inserted that is not in the list, a blank value will be inserted.                                                                          	|
+| TIMESTAMP()      	| A timestamp. TIMESTAMP values are stored as the number of seconds since the Unix epoch ('1970-01-01 00:00:00' UTC). Format: YYYY-MM-DD HH:MI:SS                                                                                                    	|
+
+### **Primary key**
+
+
+The Primary Key constraint uniquely identifies each record in a database table.
+
+Example :
+```sql
+CREATE TABLE customers (
+    id INT NOT NULL AUTO_INCREMENT,
+    firstName VARCHAR(50),
+    lastName VARCHAR(50),
+    address VARCHAR(200),
+    age INT(5),
+    PRIMARY KEY (id)
+);
+```
+
+or :
+```sql
+CREATE TABLE customers (
+    id INT NOT NULL AUTO_INCREMENT,
+    firstName VARCHAR(50),
+    lastName VARCHAR(50),
+    address VARCHAR(200),
+    age INT(5)
+);
+ALTER TABLE customers
+ADD PRIMARY KEY (ID);
+```
+
+### **Foreign key**
+
+
+A Foreign Key is a field (or collection of fields) in one table that refers to the Foreign Key in another table.
+
+```sql
+CREATE TABLE products (
+	  id int not null auto_increment,
+    name varchar(255),
+    price int,
+    primary key(id)
+);
+
+CREATE TABLE orders (
+	  id int not null auto_increment,
+    orderNumber int,
+    productId int,
+    customerId int,
+    orderDate datetime default current_timestamp,
+    primary key(id),
+    foreign key(customerId) references customers(id),
+    foreign key(productId) references products(id)
+);
+```
+
+### **Alter Table**
+
+The ALTER TABLE statement is used to add, delete, or modify columns in an existing table.
+
+Syntax :
+```sql
+/* Alter Table - Add Column */
+ALTER TABLE table_name
+ADD column_name datatype;
+
+/* Alter Table - Drop Column */
+ALTER TABLE table_name
+DROP COLUMN column_name;
+
+/* Alter Table - Modify Column */
+ALTER TABLE table_name
+MODIFY COLUMN column_name datatype;
+```
+
+Example :
+```sql
+ALTER TABLE customers ADD newCol varchar(255);
+ALTER TABLE customers MODIFY COLUMN newCol INT(11);
+ALTER TABLE customers DROP COLUMN newCol;
+```
+
+### **Drop Table**
+
+
+The DROP TABLE statement is used to drop an existing table in a database.
+
+Syntax :
+```sql
+DROP TABLE table_name;
+```
+
+Example : 
+```sql
+DROP TABLE customers
+```
 
 ## DML - Data Manipulation Language
 
-- `SELECT` = Retrieves certain records from one or more tables.
-- `INSERT` = Creates a record.
-- `UPDATE` = Modifies records.
-- `DELETE` = Deletes records.
+### **Insert**
+
+The INSERT INTO statement is used to insert new records in a table.
+
+Syntax :
+
+```sql
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+```
+Example :
+
+```sql
+insert into customers (firstName,lastName,email,address,city,state,zipcode,age) values
+("John", "Doe","johndoe@gmail.com","55 Main st","Boston","Massachusetts","01221",23);
+
+insert into customers (firstName,lastName,email,address,city,state,zipcode,age) values
+("Kathy", "Morris","kmorris@gmail.com","40 Willow st","Haverhill","Massachusetts","01860",45),
+("Steven Samson", "Morris","ssamson@gmail.com","12 Gills Rd","Exeter","New Hampshire","01284",20),
+("Lilian", "Davidson","liliand@gmail.com","7 Whittier st","Brooklyn","New York","34833",33);
+```
+
+### **Select**
+
+The SELECT statement is used to select data from a database.
+
+Syntax :
+
+```sql
+SELECT column1, column2, ...
+FROM table_name;
+```
+
+Example :
+
+```sql
+SELECT * FROM customers;
+SELECT firstName,lastName FROM customers;
+```
+
+### **Where, And, Or, Not**
+
+Syntax :
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 AND condition2 OR condition3 NOT condition4 ...;
+```
+
+```sql
+SELECT * FROM customers WHERE age > 30;	
+SELECT * FROM customers WHERE firstname = "John";
+SELECT * FROM customers WHERE city = "Haverhill" AND age > 30;
+```
+
+### **Like**
+
+The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
+
+Syntax :
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE columnN LIKE pattern;
+```
+
+Example :
+```sql
+SELECT * FROM customers WHERE city LIKE "%on";
+SELECT * FROM customers WHERE city LIKE "n%";
+SELECT * FROM customers WHERE city NOT LIKE "%n%";
+```
+
+### **Update**
+
+The UPDATE statement is used to modify the existing records in a table.
+
+Syntax :
+```sql
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+```
+
+Example :
+```sql
+UPDATE customers 
+SET 
+    email = 'newemail@gmail.com'
+WHERE
+    id = 6;
+```
+
+### **Delete**
+
+The DELETE statement is used to delete existing records in a table.
+
+Syntax :
+```sql
+DELETE FROM table_name
+WHERE condition;
+```
+
+Example :
+```sql
+DELETE FROM customers 
+WHERE id = 6;
+```
+
+
+
 
 ## DCL - Data Control Language
 
 - `GRANT` = Gives a privilege to user.
 - `REVOKE` = Takes back privileges granted from user.
 
-## Statement Examples
-
-Show existing databases.
-
-```sql
-SHOW DATABASES;
-```
-
-Create a new database.
-
-```sql
-CREATE DATABASE database_name;
-```
-
-Use a created database.
-
-```sql
-USE database_name;
-```
-
-Create a new table with various fields.
-
-```sql
-CREATE TABLE table_name(
-column1 datatype,
-column2 datatype,
-column3 datatype,
-.....
-columnN datatype,
-PRIMARY KEY( one or more columns )
-);
-```
-
-Get selected fields from selected table.
-
-```sql
-SELECT column1, column2....columnN
-FROM   table_name;
-```
-
-Get selected fields from selected table with a condition.
-
-```sql
-SELECT column1, column2....columnN
-FROM   table_name
-WHERE  CONDITION;
-```
 
 ---
 
@@ -258,7 +448,65 @@ There are different types of joins available in SQL:
 - SELF JOIN − is used to join a table to itself as if the table were two tables, temporarily renaming at least one table in the SQL statement.
 - CARTESIAN JOIN − returns the Cartesian product of the sets of records from the two or more joined tables.
 
-![](./assets/sql-join.png)
+Example : 
+
+```sql
+/* ----------------------------------------------------------------------------------- */
+/* SELECT FROM MULTIPLE TABLE  */
+SELECT 
+    c.firstName, c.lastName, o.id, o.orderNumber
+FROM
+    customers c,
+    orders o
+WHERE
+    c.id = o.customerId;
+
+/* ----------------------------------------------------------------------------------- */
+/* SELECT FROM MULTIPLE TABLE (INNER JOIN) */
+
+SELECT 
+    c.firstName, c.lastName, o.id, o.orderNumber
+FROM
+    customers c
+        LEFT JOIN
+    orders o ON c.id = o.customerId
+ORDER BY c.lastName;
+
+/* ----------------------------------------------------------------------------------- */
+/* SELECT FROM MULTIPLE TABLE (LEFT JOIN) */
+
+SELECT 
+    c.firstName, c.lastName, o.id, o.orderNumber, o.orderDate
+FROM
+    customers c
+        LEFT JOIN
+    orders o ON c.id = o.customerId
+ORDER BY c.lastName;
+
+/* ----------------------------------------------------------------------------------- */
+/* SELECT FROM MULTIPLE TABLE (RIGHT JOIN) */
+
+SELECT 
+    c.firstName, c.lastName, o.id, o.orderNumber, o.orderDate
+FROM
+    customers c
+        RIGHT JOIN
+    orders o ON c.id = o.customerId
+ORDER BY c.lastName;
+```
+
+More Example (Using Aliases):
+```sql
+SELECT 
+    o.orderNumber as "Order Number", c.firstName "First name", c.lastName "Last Name", p.name "Product Name"
+FROM
+    orders o
+        INNER JOIN
+    products p ON o.productId = p.id
+        INNER JOIN
+    customers c ON o.customerId = c.id
+ORDER BY o.orderNumber;
+```
 
 ## References
 
