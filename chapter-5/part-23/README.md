@@ -6,14 +6,6 @@
 
 - CORS (Cross-Origin Resource Sharing (CORS)
 
-# Authentication/Authorization
-
-- Basic password
-- JSON Web Token (JWT)
-- Auth0, Passport
-- Social OAuth: GitHub, Facebook, Twitter, Google
-- Passwordless: Email, SMS, voice
-
 # Node.js Deployment
 
 - PaaS: Heroku, Now.sh
@@ -42,21 +34,7 @@
 
 ---
 
-# Authentication/Authorization
 
-- Basic password
-- JSON Web Token (JWT)
-- Auth0
-- Passport
-- Social OAuth
-  - GitHub
-  - Facebook
-  - Twitter
-  - Google
-- Passwordless
-  - Email
-  - SMS
-  - Voice
 
 ## References
 
@@ -112,6 +90,76 @@ API Documentaion and Generators
 - [World's Most Popular API Framework | Swagger](https://swagger.io)
 - [API Blueprint | API Documentation with powerful tooling](https://apiblueprint.org)
 - [StopLight - The Modular API Toolkit](https://stoplight.io)
+
+---
+
+# Authentication / Authorization
+
+Authentication is a mechanism to recognize the user`s identity. Authorization determines whether you are authorized to access the resources. There are so many authentication mechanisms such as:
+
+- Basic password
+- JSON Web Token (JWT)
+- Auth0
+- Passport
+- Social OAuth
+  - GitHub
+  - Facebook
+  - Twitter
+  - Google
+- Passwordless
+  - Email
+  - SMS
+  - Voice
+
+# JSON Web Token (JWT)
+
+* **Hashing** : Hashing is the application of a function to a variable sized input to produce a constant sized output. A hash is also a one-way function which means that there isn't a function to reverse or undo a hash.
+* **Salting** : Add random data to the input of a hashing function that makes each password hash unique. 
+* **Bcrypt** : Bcrypt is an adaptive hash function that using **a work factor** (also known as security factor), which allows you to determine how expensive the hash function will be.
+
+![json-web-token](./assets/json-web-token.png)
+
+### What does a JWT *Look* Like?
+
+Tokens are a string of "url safe" characters which *encode* information.
+Tokens have **three components** (separated by periods)
+(shown here on multiple lines for *readability* but used as a single string of text)
+
+```js
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9           // header
+.eyJrZXkiOiJ2YWwiLCJpYXQiOjE0MjI2MDU0NDV9      // payload
+.eUiabuiKv-8PYk2AkGY4Fb5KMZeorYBLw261JPQD5lM   // signature
+```
+
+#### 1. Header
+
+The first part of a JWT is an encoded string representation
+of a simple JavaScript object which describes the token along with the hashing algorithm used.
+
+#### 2. Payload
+
+The second part of the JWT forms the core of the token.
+Payload length is proportional to the amount of data you store in the JWT.
+General rule of thumb is: store the bare minimum in the JWT.
+
+
+#### 3. Signature
+
+The third, and final, part of the JWT is a signature generated
+based on the header (part one) and the body (part two) and will be used
+to *verify* that the JWT is valid.
+
+### What are "Claims"?
+
+Claims are the predefined **keys** and their **values**:
+
++ **iss**: issuer of the token
++ **exp**: the expiration timestamp (reject tokens which have expired). Note: as defined in the spec, this must be in seconds.
++ **iat**: The time the JWT was issued. Can be used to determine the age of the JWT
++ **nbf**: "not before" is a future time when the token will become active.
++ **jti**: unique identifier for the JWT. Used to prevent the JWT from being re-used or replayed.
++ **sub**: subject of the token (rarely used)
++ **aud**: audience of the token (also rarely used)
 
 # Auth Project 1
 
