@@ -149,6 +149,6 @@ Create `README.md` file that contains documentation:
 * Application Tech Stacks (List)
 * Developer Team Members (Table)
 
-* [Example of Todo Web Documentation](https://github.com/impactbyte-network/impactodo-web).
-* [Example of Todo API Documentation](https://github.com/impactbyte-network/impactodo-api).
+* [Example of Todo Web Documentation](https://github.com/impactbyte-learn/impactodo-web).
+* [Example of Todo API Documentation](https://github.com/impactbyte-learn/impactodo-api).
 
