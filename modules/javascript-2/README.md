@@ -2,6 +2,10 @@
 
 ---
 
+## How to use javascript
+
+There 2 of ways to use JavaScript in your web app, You can embed it to your HTML, or import from another file
+
 ## HTML + JavaScript
 
 `script` only:
@@ -16,10 +20,12 @@
 with `script src`:
 
 ```html
-<script src="./index.js" charset="utf-8"></script>
+<!-- index.html -->
+<script src="./script.js"></script>
 ```
 
 ```js
+// script.js
 console.log("JavaScript");
 ```
 
@@ -29,12 +35,12 @@ console.log("JavaScript");
 
 In JavaScript, there are several data types:
 
-* `String`: is a text or set of characters
-* `Number`: is a numeric types, in another programming language, they divided numeric type into different variables like Integers, Floats, Doubles, or Bignums.
-* `Boolean`: is a data types that represents one or two value: true or false.
-* `Array`: is a data type that used to store multiple values in a single variable.
-* `Object` with `key` & `value`: is a data type that used to store a information of multiple values like a real life object
-* `JSON`: is a is a lightweight data-interchange format. Using JavaScript `Object` Notation format
+- `String`: is a text or set of characters
+- `Number`: is a numeric types, in another programming language, they divided numeric type into different variables like Integers, Floats, Doubles, or Bignums.
+- `Boolean`: is a data types that represents one or two value: true or false.
+- `Array`: is a data type that used to store multiple values in a single variable.
+- `Object` with `key` & `value`: is a data type that used to store a information of multiple values like a real life object
+- `JSON`: is a is a lightweight data-interchange format. Using JavaScript `Object` Notation format
 
 Examples:
 
@@ -55,10 +61,10 @@ let e = true;
 
 // Array
 let f = ["a", 1, true, undefined, null];
-f[0] // result: "a"
-f[1] // result: 1
-f[4] // result: null
-f.length // result: 5
+f[0]; // result: "a"
+f[1]; // result: 1
+f[4]; // result: null
+f.length; // result: 5
 
 // Object
 let p = {
@@ -170,6 +176,8 @@ var result = undefined || "string"// result: String
 
 ## JavaScript Built-In Objects & Methods
 
+JavaScript has **built in** methods to manipulate object in variables, here is the example...
+
 Examples:
 
 ```js
@@ -201,6 +209,8 @@ var result = alphabet.pop(); // result: e, with alphabet being ["a", "b", "c", "
 ```
 
 ## JavaScript Date Methods
+
+In JavaScript, Date object is a bit special. It has built in methods to manipulate Date object, and here is the example...
 
 | Method            | Description                                       |
 | ----------------- | :------------------------------------------------ |
