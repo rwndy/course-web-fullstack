@@ -6,15 +6,6 @@
 
 - CORS (Cross-Origin Resource Sharing (CORS)
 
-# Node.js Deployment
-
-- PaaS: Heroku, Now.sh
-- IaaS/VPS: Digital Ocean, Amazon Lightsail, Linode
-- Server: Nginx, Apache
-- Process management: `pm2`
-- Cloud Services: Amazon Web Services, Google Cloud Platform, Microsoft Azure
-- Container: `docker`
-
 # Node.js Trivia
 
 - Documentaion/Generators: Swagger, API Blueprint, Stoplight
@@ -34,8 +25,6 @@
 
 ---
 
-
-
 ## References
 
 - [HTTP authentication - HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication)
@@ -54,6 +43,8 @@
 ---
 
 # Node.js Deployment
+
+![deployment](./assets/deployment.jpeg)
 
 - PaaS: Heroku, Now.sh
 - IaaS/VPS: Digital Ocean, Amazon Lightsail, Linode
@@ -95,6 +86,8 @@ API Documentaion and Generators
 
 # Authentication / Authorization
 
+![password-hashing](./assets/password-hashing.jpg)
+
 Authentication is a mechanism to recognize the user`s identity. Authorization determines whether you are authorized to access the resources. There are so many authentication mechanisms such as:
 
 - Basic password
@@ -113,17 +106,17 @@ Authentication is a mechanism to recognize the user`s identity. Authorization de
 
 # JSON Web Token (JWT)
 
-* **Hashing** : Hashing is the application of a function to a variable sized input to produce a constant sized output. A hash is also a one-way function which means that there isn't a function to reverse or undo a hash.
-* **Salting** : Add random data to the input of a hashing function that makes each password hash unique. 
-* **Bcrypt** : Bcrypt is an adaptive hash function that using **a work factor** (also known as security factor), which allows you to determine how expensive the hash function will be.
+- **Hashing** : Hashing is the application of a function to a variable sized input to produce a constant sized output. A hash is also a one-way function which means that there isn't a function to reverse or undo a hash.
+- **Salting** : Add random data to the input of a hashing function that makes each password hash unique.
+- **Bcrypt** : Bcrypt is an adaptive hash function that using **a work factor** (also known as security factor), which allows you to determine how expensive the hash function will be.
 
 ![json-web-token](./assets/json-web-token.png)
 
-### What does a JWT *Look* Like?
+### What does a JWT _Look_ Like?
 
-Tokens are a string of "url safe" characters which *encode* information.
+Tokens are a string of "url safe" characters which _encode_ information.
 Tokens have **three components** (separated by periods)
-(shown here on multiple lines for *readability* but used as a single string of text)
+(shown here on multiple lines for _readability_ but used as a single string of text)
 
 ```js
 eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9           // header
@@ -142,24 +135,23 @@ The second part of the JWT forms the core of the token.
 Payload length is proportional to the amount of data you store in the JWT.
 General rule of thumb is: store the bare minimum in the JWT.
 
-
 #### 3. Signature
 
 The third, and final, part of the JWT is a signature generated
 based on the header (part one) and the body (part two) and will be used
-to *verify* that the JWT is valid.
+to _verify_ that the JWT is valid.
 
 ### What are "Claims"?
 
 Claims are the predefined **keys** and their **values**:
 
-+ **iss**: issuer of the token
-+ **exp**: the expiration timestamp (reject tokens which have expired). Note: as defined in the spec, this must be in seconds.
-+ **iat**: The time the JWT was issued. Can be used to determine the age of the JWT
-+ **nbf**: "not before" is a future time when the token will become active.
-+ **jti**: unique identifier for the JWT. Used to prevent the JWT from being re-used or replayed.
-+ **sub**: subject of the token (rarely used)
-+ **aud**: audience of the token (also rarely used)
+- **iss**: issuer of the token
+- **exp**: the expiration timestamp (reject tokens which have expired). Note: as defined in the spec, this must be in seconds.
+- **iat**: The time the JWT was issued. Can be used to determine the age of the JWT
+- **nbf**: "not before" is a future time when the token will become active.
+- **jti**: unique identifier for the JWT. Used to prevent the JWT from being re-used or replayed.
+- **sub**: subject of the token (rarely used)
+- **aud**: audience of the token (also rarely used)
 
 # Auth Project 1
 
