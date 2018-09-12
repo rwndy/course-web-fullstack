@@ -46,6 +46,8 @@
 
 ![deployment](./assets/deployment.jpeg)
 
+There are several approach to deploy your Node.js app. If, your app just for learning purpose, You may want do deploy it to **Heroku / Now.sh**. Heroku / Now.sh is **Platform as a service**, to deploy your web app easily. But, if your app is production ready, that's a different story. You need to use **Docker & Nginx** and deploy it to **DigitalOcean** or **AWS**.
+
 - PaaS: Heroku, Now.sh
 - IaaS/VPS: Digital Ocean, Amazon Lightsail, Linode
 - Server: Nginx, Apache
