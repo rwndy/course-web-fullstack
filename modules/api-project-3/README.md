@@ -16,11 +16,10 @@ Create sequelizeJs model named employees, based on employees table.
 
 Create API route to read employee data with this following specification:
 
-
 ```js
 // --------------------------------------------------------------------------------
-// 1. API request : GET yourapidomain.com/employees 
-// Expected Response : 
+// 1. API request : GET yourapidomain.com/employees
+// Expected Response :
 {
     "data": [
         {
@@ -45,7 +44,7 @@ Create API route to read employee data with this following specification:
 
 // --------------------------------------------------------------------------------
 // 2. API request : GET yourapidomain.com/employees/10001
-// Expected Response : 
+// Expected Response :
 
 {
     "data": {
@@ -63,7 +62,7 @@ Create API route to read employee data with this following specification:
 // --------------------------------------------------------------------------------
 
 {
-    "message": "data not fund"
+    "message": "data not found"
 }
 ```
 
@@ -76,8 +75,8 @@ Create API route to create employee data with this following specification:
 ```js
 // --------------------------------------------------------------------------------
 // 1. API request : POST yourapidomain.com/employees
-// req.body : 
-{	
+// req.body :
+{
 	"emp_no" : 500001,
 	"birth_date": "2004-09-02",
     "first_name": "Joshua",
@@ -108,7 +107,7 @@ Create API route to update employee data with this following specification:
 ```js
 // --------------------------------------------------------------------------------
 // 1. API request : PUT yourapidomain.com/employees/500001
-// req.body : 
+// req.body :
 {
 	"last_name": "ghozali"
 }
@@ -126,7 +125,7 @@ Create API route to update employee data with this following specification:
 }
 // --------------------------------------------------------------------------------
 // 2. API request : PUT yourapidomain.com/employees/500001
-// req.body : 
+// req.body :
 {
 	"last_name": "ghozaliiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
 }
@@ -163,7 +162,7 @@ Create API route to delete employee data with this following specification:
 ```js
 // --------------------------------------------------------------------------------
 // 1. API request : DELETE yourapidomain.com/employees/500001
-// Expected Output : 
+// Expected Output :
 {
     "message": "delete data success",
     "data": {
@@ -177,7 +176,7 @@ Create API route to delete employee data with this following specification:
 }
 // --------------------------------------------------------------------------------
 // 1. API request : DELETE yourapidomain.com/employees/999999
-// Expected Output : 
+// Expected Output :
 {
     "message": "data not found"
 }
@@ -192,7 +191,7 @@ Create search API route to do specify offset and limit of data with this followi
 ```js
 // --------------------------------------------------------------------------------
 // 1. API request : GET yourapidomain.com/employees/search?limit=3
-// Expected Output : 
+// Expected Output :
 {
     "filter": {
         "limit": 3
@@ -226,7 +225,7 @@ Create search API route to do specify offset and limit of data with this followi
 }
 // --------------------------------------------------------------------------------
 // 2. API request : GET yourapidomain.com/employees/search?offset=3&limit=3
-// Expected Output : 
+// Expected Output :
 {
     "filter": {
         "limit": 3,
@@ -293,7 +292,6 @@ Create search API route to do specify offset and limit of data with this followi
 ## Level 6
 
 Create search API route to do data sorting with this following specification:
-
 
 ```js
 // --------------------------------------------------------------------------------
@@ -438,7 +436,7 @@ Create search API route to do data filtering with this following specification:
 
 ## Level 8
 
-Make sure that you can combine filter,sort,limit, and offset inside search endpoint alltogether. 
+Make sure that you can combine filter,sort,limit, and offset inside search endpoint alltogether.
 
 ```js
 // --------------------------------------------------------------------------------
@@ -479,13 +477,10 @@ Make sure that you can combine filter,sort,limit, and offset inside search endpo
         // etc ...
     ]
 }
-
 ```
-
 
 ---
 
 ## Level 9
 
 Use [sequelize-auto](https://github.com/sequelize/sequelize-auto) to generate all model based on all table on [employees](https://github.com/datacharmer/test_db) database.
-
