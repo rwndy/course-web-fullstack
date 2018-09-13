@@ -219,7 +219,7 @@ app.get("/", (req, res) => {
   res.send("My API");
 });
 
-// Handle GET / request
+// Handle GET /profile request
 app.get("/profile", (req, res) => {
   // Send JSON object
   res.send({
