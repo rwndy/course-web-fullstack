@@ -2,6 +2,10 @@
 
 ---
 
+## Testing
+
+In software development, **Bugs** is a common problem for every developer. Therefore we need to test our software to run as we expected. There are several approach to test our software. Check the list down below.
+
 - ▢ Testing Methodologies
   - Unit
   - Functional
@@ -86,6 +90,8 @@ One of the best choice for testing is Jest, a complete JavaScript testing soluti
 ---
 
 # Continuous Integration (CI) & Continuous Deployment (CD)
+
+![](./assets/continuous-integration.png)
 
 - Jenkins
 - Travis
