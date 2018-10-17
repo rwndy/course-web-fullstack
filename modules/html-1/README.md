@@ -28,7 +28,7 @@ There are various HTML elements based on our intention or usage on the web page:
 
 * For segmenting the web page: `doctype`, `html`, `head`, `body`
 * For meta data: `title`, `meta`
-* For text: `h1`-`h7`, `p`, `a`, `span`, `b`, `i`, `strong`, `em`
+* For text: `h1`-`h6`, `p`, `a`, `span`, `b`, `i`, `strong`, `em`
 * For visualizing: `img`, `button`
 * For dividing content: `div`, `main`, `section`, `article`, `aside`, `header`, `footer`, `nav`
 * For listing things: `ul`, `ol`, `dl`, `li`
@@ -279,8 +279,8 @@ Inline elements are meant to differentiate part of a text, to give it a particul
 <input type="text" name="text" value="text">
 <input type="email" name="email" value="email@yourweb.com">
 <input type="password" name="password" value="password">
-<input type="checkbox" name="checkbox"> Checkbox 
-<input type="radio" name="radio"> Radio 
+<input type="checkbox" name="checkbox"> Checkbox
+<input type="radio" name="radio"> Radio
 <input type="button" name="button" value="Sign Up">
 <input type="date" name="date">
 <input type="color" name="color">

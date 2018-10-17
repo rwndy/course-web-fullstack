@@ -10,9 +10,9 @@ Syntax:
 
 ```js
 function myFunction(total_price, name) {
-  total_tax = total_price * 0.1;
+  let total_tax = total_price * 0.1;
+  let detail_tax = `name: ${name}, tax:${total_tax}`;
 
-  detail_tax = `name: ${name}, tax:${total_tax}`;
   return detail_tax;
 }
 ```
@@ -25,9 +25,9 @@ Syntax:
 
 ```js
 const myFunction = function(total_price, name) {
-  total_tax = total_price * 0.1;
+  let total_tax = total_price * 0.1;
 
-  detail_tax = `name: ${name}, tax:${total_tax}`;
+  let detail_tax = `name: ${name}, tax:${total_tax}`;
   return detail_tax;
 };
 ```
@@ -45,9 +45,9 @@ var names = ["Budi", "Joni", "Tono", "Jaka"];
 var modified_name = names.map(name => "Mr." + name);
 
 // with function inside var
-var funct = name => "Mr." + name;
+var func = name => "Mr." + name;
 
-var modified_name = names.map(funct);
+var modified_name = names.map(func);
 ```
 
 ### Function arguments and default parameters
@@ -57,10 +57,10 @@ Syntax:
 `function (input = "default") {}`
 
 ```js
-function myFunction(total_price, name) {
-  total_tax = total_price * 0.1;
+function myFunction(total_price, name = "Anonymous") {
+  let total_tax = total_price * 0.1;
 
-  detail_tax = `name: ${name}, tax:${name}`;
+  let detail_tax = `name: ${name}, tax:${name}`;
   return detail_tax; // The function returns the product of p1 and p2
 }
 ```
@@ -116,7 +116,7 @@ var greeter = "say hello"; // error: greater is not defined
 
 ### **let**
 
-Can be updated but not redeclared.
+Can be updated but not redeclare.
 
 ```js
 let greeting = "say Hi";
@@ -126,7 +126,6 @@ greeting = "say Hello instead";
 Block scoped.
 
 ```js
-let greeting = "say Hi";
 let times = 4;
 
 if (times > 3) {

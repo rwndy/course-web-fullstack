@@ -16,7 +16,7 @@ Javascript's string has various built-in function like`charAt`,`length`,`toUpper
 ```javascript
 //charAt Example
 var string = "Impact Byte";
-var result = string.charAt(0); //result:I["Impact", "Byte"]
+var result = string.charAt(0); //result:I
 result = string.charAt(1); //result:m
 result = string.charAt(6); //result:" "(space)
 
@@ -26,25 +26,25 @@ var result = string.length; //result:I
 
 //toUpperCase example
 var string = "Impact Byte";
-var result = string.toUpperCase(); //result:IMPACT BYTE`random`,
+var result = string.toUpperCase(); //result:IMPACT BYTE
 
 //toLowerCase example
 var string = "Impact Byte";
-var result = string.toLowerCase(); //result:impactbyte
+var result = string.toLowerCase(); //result:impact byte
 
 //split example
-var split = "Impact Byte Charizard";
+var string = "Impact Byte Charizard";
 var result = string.split(" "); //result:["Impact", "Byte", "Charizard"]
 var result = string.split(" ", 2); //result:["Impact", "Byte"]
 
 //replace example
-var split = "Impact Byte Charizard";
-var result = str.replace("Charizard", "Bahamut"); //result:Impact Byte Bahamut
+var string = "Impact Byte Charizard";
+var result = string.replace("Charizard", "Bahamut"); //result:Impact Byte Bahamut
 
 //substr example
-var split = "Impact Byte Charizard";
-var result = str.substr(0, 5); //result:Impact
-var result = str.substr(0, 3); //result:Impa
+var string = "Impact Byte Charizard";
+var result = string.substr(0, 5); //result:Impact
+var result = string.substr(0, 3); //result:Impa
 ```
 
 ## Array Methids
@@ -112,7 +112,7 @@ var object1 = { fname: "John" };
 var object2 = { lname: "Doe" };
 var object3 = { age: 30 };
 
-var object4 = Object.assign(object1, object1, object1);
+var object4 = Object.assign(object1, object2, object3);
 /*
 object4:{
   fname: "John",
@@ -131,7 +131,8 @@ var object1 = {
   lname: "Doe",
   age: 30
 };
-var result = Object.keys(object1); //result:["fname","lname","age"]
+var keys = Object.keys(object1); //result:["fname","lname","age"]
+var values = Object.values(object1); //result:["John", "Doe", 30]
 ```
 
 ## Timing Methods
@@ -146,7 +147,7 @@ function firstFunction() {
 firstFunction();
 
 function secondFunction() {
-  setInterval(function() {
+  setTimeout(function() {
     alert("Hello");
   }, 3000);
 }
