@@ -47,7 +47,7 @@ var result = str.substr(0, 5); //result:Impact
 var result = str.substr(0, 3); //result:Impa
 ```
 
-## Array Methids
+## Array Methods
 
 javascript's array has various built-in function like `length`, `random`, `indexOf`, `push`, `pop`, `join`, `slice`, `splice`, `sort`, `reverse`
 
