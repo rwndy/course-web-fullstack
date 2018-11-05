@@ -4,28 +4,28 @@
 
 ## Part 16
 
-- [API 1](../modules/api-1/README.md)
+- [React 1](../modules/react-1/README.md)
 
 ---
 
 ## Part 17
 
-- [Node.js 1](../modules/nodejs-1/README.md)
+- [React 2](../modules/react-2/README.md)
 
 ---
 
 ## Part 18
 
-- [Express.js 1](../modules/expressjs-1/README.md)
+- [React 3](../modules/react-3/README.md)
 
 ---
 
 ## Part 19
 
-- [Database 1](../modules/database-1/README.md)
+- [React 4](../modules/react-4/README.md)
 
 ---
 
 ## Part 20
 
-- [Database ORM 1](../modules/database-orm-1/README.md)
+- [React 5](../modules/react-5/README.md)
