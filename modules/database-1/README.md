@@ -588,4 +588,4 @@ When a node is removed from the system, the system continues to operate and upho
 
 # SQL Project 1
 
-- [SQL Project 1](../../modules/sql-project-1/README.md)
+- [SQL Project 1](../sql-project-1/README.md)

@@ -157,4 +157,4 @@ Claims are the predefined **keys** and their **values**:
 
 # Auth Project 1
 
-- [Auth Project 1](../../modules/auth-project-1/README.md)
+- [Auth Project 1](../auth-project-1/README.md)

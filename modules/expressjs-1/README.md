@@ -115,7 +115,6 @@
 ### Java & Spring
 
 - [Java](https://java.com/en)
-- [Java Resources for Students, Hobbyists and More | go.Java | Oracle](https://go.java/index.htm)
 - [Spring](https://spring.io)
 
 ### Go
@@ -262,4 +261,4 @@ result:
 
 # API Project 2
 
-- [API Project 2](../modules/api-project-2/README.md)
+- [API Project 2](../api-project-2/README.md)

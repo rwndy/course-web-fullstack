@@ -382,7 +382,6 @@ With parameter, we call the function directly so we need to wrap it inside a fun
 - [Cabin: Thoroughly Learn React and Redux with this example app](http://cabin.getstream.io)
 - [8 Key React Component Decisions – freeCodeCamp](https://medium.com/@housecor/8-key-react-component-decisions-cc965db11594)
 - [React For Beginners - Learn with Video Tutorials](https://reactforbeginners.com)
-- [React Untuk Pemula](https://kandar.id/20-reactjs-untuk-pemula)
 - [Stop Using React for EVERYTHING!](https://medium.com/@zackargyle/stop-using-react-for-everything-c8297ac1a644)
 - [React Tinkerer Manual](https://github.com/adhywiranata/react-tinkering-manual)
 - [React HMR with `create-react-app`](https://daveceddia.com/hot-reloading-create-react-app)

@@ -198,7 +198,6 @@ Login or signin for an existing account:
 - [`jsonwebtoken`](https://npm.im/jsonwebtoken)
 - [JSON Web Tokens - jwt.io](https://jwt.io)
   - [JSON Web Token Introduction - jwt.io](https://jwt.io/introduction)
-  - [JWT Inspector - Decode and Debug JSON Web Tokens](https://jwtinspector.io)
   - [JWT Analyzer & Inspector Chrome Extension](https://chrome.google.com/webstore/detail/jwt-analyzer-inspector/henclmbnehmcpbjgipaajbggekefngob?hl=en)
   - [JWT Debugger Chrome Extension](https://chrome.google.com/webstore/detail/jwt-debugger/ppmmlchacdbknfphdeafcbmklcghghmd?hl=en)
 

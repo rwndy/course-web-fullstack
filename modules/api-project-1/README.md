@@ -4,8 +4,7 @@
 
 ## Requirements
 
-Write a simple website to get and manipulate data from Star Wars API. (https://swapi.co/api/).
-
+Write a simple website to get and manipulate data from Star Wars API. (https://swapi.co).
 
 ### Process
 
@@ -15,7 +14,7 @@ Use `fetch` to get data from the API and display it to your browser.
 
 ## Level 0
 
-Based on documentation (https://swapi.co/documentation), perform a request to endpoint for getting all people resource. After that, log the response into the browser's console.
+Based on documentation, perform a request to endpoint for getting all people resource. After that, log the response into the browser's console.
 
 Expected browser's console output:
 
