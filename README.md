@@ -50,6 +50,13 @@ Typical agenda that will run through in our onsite class.
   - Impact Todo Web: https://github.com/impactbyte-learn/impactodo-web
   - Impact Todo API: https://github.com/impactbyte-learn/impactodo-api
 
+### Documentation
+
+- [MarkSheet: a free HTML and CSS tutorial - Free tutorial to learn HTML and CSS](https://marksheet.io)
+- [JavaScript.info - The Modern Javascript Tutorial](https://javascript.info)
+- [DevDocs API Documentation](https://devdocs.io)
+- [MDN Web Docs](https://developer.mozilla.org)
+
 ### Guide
 
 - [Getting Real: The smarter, faster, easier way to build a successful web application](https://basecamp.com/books/getting-real) :star:
