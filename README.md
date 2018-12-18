@@ -46,11 +46,13 @@ Typical agenda that will run through in our onsite class.
 
 ### Repositories
 
-- Impact Todo Web: https://github.com/impactbyte-learn/impactodo-web
-- Impact Todo API: https://github.com/impactbyte-learn/impactodo-api
+- Impact Byte Learn: https://github.com/impactbyte-learn :star:
+  - Impact Todo Web: https://github.com/impactbyte-learn/impactodo-web
+  - Impact Todo API: https://github.com/impactbyte-learn/impactodo-api
 
 ### Guide
 
+- [Getting Real: The smarter, faster, easier way to build a successful web application](https://basecamp.com/books/getting-real) :star:
 - [Roadmap to becoming a web developer in 2018](https://github.com/kamranahmedse/developer-roadmap)
 - [Front-End Developer Handbook 2018](https://frontendmasters.com/books/front-end-handbook/2018)
 - [Front-End Developer Handbook 2017](https://frontendmasters.com/books/front-end-handbook/2017)
@@ -62,7 +64,11 @@ Typical agenda that will run through in our onsite class.
 
 ### Directory
 
-- [Product Hunt](http://producthunt.com)
+- [Product Hunt](http://producthunt.com) :star:
 - [Siftery - Share products you use at work, explore what others are using](https://siftery.com)
 - [StackShare - Software and technology stacks used by top companies](https://stackshare.io)
 - [LibHunt - Find The Software You Need](https://www.libhunt.com)
+
+### Special
+
+[![Impact Byte Technologies](./assets/impactbyte-technologies.png)](https://www.figma.com/file/VKc6cojaHlOoYBErXSNj8aQs/Impact-Byte-Platform?node-id=184%3A0)
