@@ -110,7 +110,7 @@ We can also use NativeBase or React Native Elements, an ssential cross-platform 
 
 - [NativeScript - Cross-Platform Native Development with JavaScript](https://nativescript.org)
 - [Apache Weex](https://weex.apache.org)
-- [Flutter](Flutter - Beautiful native apps in record time)
+- [Flutter - Beautiful native apps in record time](https://flutter.io)
 - [Ionic - Build Amazing Native Apps and Progressive Web Apps with Ionic Framework and Angular](https://ionicframework.com)
 - [PhoneGap - Build amazing mobile apps powered by open web tech](https://phonegap.com)
 - [Apache Cordova - Mobile apps with HTML, CSS, & JS](https://cordova.apache.org)
