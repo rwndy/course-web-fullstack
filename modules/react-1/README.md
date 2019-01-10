@@ -264,11 +264,6 @@ If we want to use a parameter in the method, don't call it directly.
 
 ## React Toolkit
 
-Editor Packages:
-
-- atom `react`
-- atom `jsx`
-
 Browser Extensions:
 
 - [React Developer Tools](https://github.com/facebook/react-devtools)

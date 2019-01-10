@@ -8,8 +8,8 @@ It's best to use [Google Chrome](https://google.com/chrome) throughout our class
 
 We will use some helpful browser extensions like:
 
-* [Adblock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom): to block ads, obviously
-* [Markdown Preview Plus](https://chrome.google.com/webstore/detail/markdown-preview-plus/febilkbfcbhebfnokafefeacimjdckgl): to later read markdown file in the browser
+- [Adblock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom): to block ads, obviously
+- [Markdown Preview Plus](https://chrome.google.com/webstore/detail/markdown-preview-plus/febilkbfcbhebfnokafefeacimjdckgl): to later read markdown file in the browser
 
 ---
 
@@ -25,8 +25,8 @@ For online, we recommend [Codepen](https://codepen.io)
 
 Both VS Code & Atom features helpful actions like:
 
-* command palette: press `ctrl+shift+p` on Linux or `cmd+shift+p` on Mac to activate the ultimate command palette window
-* split view: drag another window to the other side (horizontal or vertical) of current window
+- command palette: press `ctrl+shift+p` on Linux or `cmd+shift+p` on Mac to activate the ultimate command palette window
+- split view: drag another window to the other side (horizontal or vertical) of current window
 
 There are even some helpful packages too:
 

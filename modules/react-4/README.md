@@ -46,19 +46,13 @@ square("2")
 
 Usually in React, we can also use PropTypes, the built-in typechecking abilities. But PropTypes usually only support props, so it's not as powerful as Flow or TypeScript. Therefore, Flow is useful when you don't use TypeScript.
 
-To use Flow with Atom, use recommended packages:
-
-```sh
-apm install atom-ide-ui ide-flowtype autocomplete-flow linter-flow
-```
-
 ## References
 
 - [Flow - A Static Type Checker for JavaScript](https://flow.org)
   - [Installation](https://flow.org/en/docs/install)
   - [Learn how to setup React with Flow](https://flow.org/en/docs/react)
   - [Learn how to use Flow with Create React App](https://flow.org/en/docs/tools/create-react-app)
-  - [Flow integration for the Atom editor](https://flow.org/en/docs/editors/atom)
+  - [Flow integration for the Visual Studio Code editor](https://flow.org/en/docs/editors/vscode)
 - [TypeScript - JavaScript that scales](https://www.typescriptlang.org)
 - [Typechecking With PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
 - [Validating Props easily with React PropTypes](https://codeburst.io/validating-props-easily-with-react-proptypes-96e80208207)
