@@ -84,6 +84,50 @@ Should we always React? Depends. If our application has some complexity, it's re
 
 ---
 
+## React JSX
+
+JSX commonly looks like this. It looks like combining HTML inside JavaScript. But in reality, they're just an alternative way to write JavaScript functions.
+
+in JSX:
+
+```js
+return (
+  <div>
+    <h1 className="app-title">App Name</h1>
+    <p>{todoList}</p>
+  </div>
+)
+```
+
+in plain JavaScript:
+
+```js
+return React.createElement(
+  "div",
+  null,
+  React.createElement("h1", { className: "app-title" }, "App Name"),
+  React.createElement("p", null, todoList)
+)
+```
+
+To configure Emmet so it will work with JSX, you have to add these to your User Settings (in VS Code).
+
+```js
+{
+  // ...
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  //...
+}
+```
+
+---
+
 ## React Installation
 
 To quickly learn React, we can use `create-react-app` installer.
