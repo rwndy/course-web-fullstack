@@ -95,39 +95,41 @@ REpresentational State Transfer (REST) is a one of many architectural style of a
 
 ## Example of RESTful API designs
 
-| Route                     | HTTP Verb | Description                  |
-| ------------------------- | --------- | ---------------------------- |
-| example.com/api/items     | `GET`     | Get all the items            |
-| example.com/api/items/:id | `GET`     | Get a single item            |
-| example.com/api/items     | `POST`    | Save an item                 |
-| example.com/api/items     | `DELETE`  | Remove all the items         |
-| example.com/api/items/:id | `DELETE`  | Remove an item               |
-| example.com/api/items/:id | `PUT`     | Update an item with new info |
+| Route                       | HTTP Verb | Description                  |
+| --------------------------- | --------- | ---------------------------- |
+| `example.com/api/items`     | `GET`     | Get all the items            |
+| `example.com/api/items/:id` | `GET`     | Get a single item            |
+| `example.com/api/items`     | `POST`    | Save an item                 |
+| `example.com/api/items`     | `DELETE`  | Remove all the items         |
+| `example.com/api/items/:id` | `DELETE`  | Remove an item               |
+| `example.com/api/items/:id` | `PUT`     | Update an item with new info |
 
 ## Example of Github RESTful API
 
-| Route                                         | HTTP Verb | Description             |
-| --------------------------------------------- | --------- | ----------------------- |
-| api.github.com/users                          | `GET`     | Get all users (limited) |
-| api.github.com/users/muhammadhaekal           | `GET`     | Get a single user       |
-| api.github.com/users/muhammadhaekal/followers | `GET`     | Get user followers      |
-| api.github.com/users/muhammadhaekal/following | `GET`     | Get following users     |
+| Route                                     | HTTP Verb | Description             |
+| ----------------------------------------- | --------- | ----------------------- |
+| `api.github.com/users`                    | `GET`     | Get all users (limited) |
+| `api.github.com/users/username`           | `GET`     | Get a single user       |
+| `api.github.com/users/username/followers` | `GET`     | Get user followers      |
+| `api.github.com/users/username/following` | `GET`     | Get following users     |
 
 ## REST API Client
 
 CLI:
 
-cURL or HTTPie
+- [cURL](https://curl.haxx.se/)
+- [HTTPie](https://httpie.org)
 
 GUI:
 
-Postman or Insomnia
+- [Postman](https://www.getpostman.com)
+- [Insomnia](https://insomnia.rest)
 
 ## Fetching data from API
 
-The `fetch()` API provides a JavaScript interface for accessing and manipulating parts of the HTTP pipeline, such as requests and responses.
+The `fetch()` browser API provides a JavaScript interface for accessing and manipulating parts of the HTTP pipeline, such as requests and responses. Keep in mind that `fetch` is natively only available on the browser, not server side.
 
-A request to api will return as a javascript response object. We can use `.json()` built in method to returns a promise that resolves with the result of parsing the body text as JSON.
+A request to API will return as a javascript response object. We can use `.json()` built in method to returns a promise that resolves with the result of parsing the body text as JSON.
 
 example:
 
@@ -166,19 +168,21 @@ WebSockets are an advanced technology that makes it possible to open an interact
 
 # Web Services
 
+There are various web API services we can use and connect with.
+
+- GitHub, Twitter, Facebook, Instagram, Wikipedia
 - Mailchimp, Google Forms
-- Twitter, Facebook, Instagram, Wikipedia
 - Google Maps, OpenStreetMap
-- Trello, Slack
+- Trello, Slack, etc
 
 ---
 
 # Internet Trivia
 
-FTP, telnet
+There are varouus web protocols:
 
-Real-time protocols:
-
+- FTP
+- Telnet
 - WebSocket
 - Socket.io
 - WebRTC
