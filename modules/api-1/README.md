@@ -67,6 +67,8 @@ HTTP defines a set of request methods to indicate the desired action to be perfo
 Application Programming Interface (API) is a term for describing how a programs communicate and exchange data in certain format.
 
 - [REST API Tutorial - What is a REST API? - YouTube](https://www.youtube.com/watch?v=BRdcRFvuqsE&list=PL4cUxeGkcC9jBcybHMTIia56aV21o2cZ8)
+- [REST API #1 APA ITU API?](https://www.youtube.com/watch?v=vQJJ_K1JbEA)
+- [REST API #2 REST dan HTTP](https://www.youtube.com/watch?v=dtpm5wwXEIY)
 
 ### What is REST
 
