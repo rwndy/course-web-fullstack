@@ -179,13 +179,15 @@ There are various web API services we can use and connect with.
 
 # Internet Trivia
 
-There are varouus web protocols:
+There are various web protocols available today:
 
 - FTP
 - Telnet
 - WebSocket
 - Socket.io
 - WebRTC
+
+The last three are used for real-time functionality.
 
 ---
 
