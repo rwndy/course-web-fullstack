@@ -48,19 +48,19 @@ Open a pull request, from that `branch` to `master`
 
 To the right of the Branch menu, click New pull request.
 
-![](./assets/select-branch.png)
+![](./assets/github-select-branch.png)
 
 Use the base branch dropdown menu to select the branch you'd like to merge your changes into, then use the compare branch drop-down menu to choose the topic branch you made your changes in.
 
-![](./assets/select-branch-2.png)
+![](./assets/github-select-branch-2.png)
 
 Type a title and description for your pull request.
 
-![](./assets/add-title-and-description.png)
+![](./assets/github-add-title-and-description.png)
 
 Click Create pull request.
 
-![](./assets/create-pull-request-button.png)
+![](./assets/github-create-pull-request-button.png)
 
 Discuss and review your code with peers.
 
@@ -105,27 +105,27 @@ Open a pull request, from forked `master` to original `master`
 
 Go to GitHub original source repo (not forked repo), click New pull request.
 
-![](./assets/new-pull-request-master.png)
+![](./assets/github-new-pull-request-master.png)
 
 Confirm that the base fork is the repository you'd like to merge changes into. Use the base branch drop-down menu to select the branch of the upstream repository you'd like to merge changes into.
 
 Use the head fork drop-down menu to select your fork, then use the compare branch drop-down menu to select the branch you made your changes in.
 
-![](./assets/select-base-and-head-fork.png)
+![](./assets/github-select-base-and-head-fork.png)
 
 Type a title and description for your pull request.
 
-![](./assets/add-title-and-description.png)
+![](./assets/github-add-title-and-description.png)
 
 Click "Create pull request".
 
-![](./assets/create-pull-request-button.png)
+![](./assets/github-create-pull-request-button.png)
 
 After these, you can:
 
-* Discuss and review your code with peers
-* Deploy the fork for testing purpose
-* Merge the fork into the original repo
+- Discuss and review your code with peers
+- Deploy the fork for testing purpose
+- Merge the fork into the original repo
 
 Keep in mind that in this way, you will have at least two remotes. The fork is now the `origin`, and the original is the `upstream`.
 
@@ -142,7 +142,7 @@ upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
 
 ## References
 
-* [Understanding the GitHub Flow - GitHub Guides](https://guides.github.com/introduction/flow)
-* [About pull requests - GitHub User Documentation](https://help.github.com/articles/about-pull-requests)
-* [Forking Projects - GitHub Guides](https://guides.github.com/activities/forking)
-* [Fork A Repo - GitHub User Documentation](https://help.github.com/articles/fork-a-repo)
+- [Understanding the GitHub Flow - GitHub Guides](https://guides.github.com/introduction/flow)
+- [About pull requests - GitHub User Documentation](https://help.github.com/articles/about-pull-requests)
+- [Forking Projects - GitHub Guides](https://guides.github.com/activities/forking)
+- [Fork A Repo - GitHub User Documentation](https://help.github.com/articles/fork-a-repo)
