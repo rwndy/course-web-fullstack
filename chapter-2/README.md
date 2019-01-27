@@ -4,13 +4,13 @@
 
 ## Part 6
 
-- [Logic 1](../modules/logic-1/README.md)
 - [Git 2](../modules/git-2/README.md)
 
 ---
 
 ## Part 7
 
+- [Logic 1](../modules/logic-1/README.md)
 - [JavaScript 1](../modules/javascript-1/README.md)
 - [JavaScript 2](../modules/javascript-2/README.md)
 - [JavaScript 3](../modules/javascript-3/README.md)
