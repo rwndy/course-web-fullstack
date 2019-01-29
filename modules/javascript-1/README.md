@@ -1,6 +1,6 @@
 # JavaScript 1
 
-## What's is JavaScript
+## What is JavaScript
 
 Javascript is a popular programming language that usually used to build web application rapidly.
 
@@ -13,7 +13,9 @@ Javascript is a popular programming language that usually used to build web appl
 
 Other Programming Languages:
 
-Python, Ruby, PHP, Java, Perl, Go, PHP, hyperpolyglot.org
+Python, Ruby, PHP, Java, Perl, Go
+
+You can find more in https://hyperpolyglot.org
 
 ---
 
