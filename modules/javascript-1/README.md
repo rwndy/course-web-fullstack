@@ -15,7 +15,7 @@ Other Programming Languages:
 
 Python, Ruby, PHP, Java, Perl, Go
 
-You can find more in https://hyperpolyglot.org
+You can find more in http://hyperpolyglot.org
 
 ---
 
