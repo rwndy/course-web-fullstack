@@ -1,4 +1,4 @@
-# GitHub 2
+# GitHub 2 - Pull Request
 
 ---
 

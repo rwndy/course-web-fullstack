@@ -4,22 +4,23 @@
 
 ## Part 11
 
-- [JavaScript DOM 3](../modules/javascript-dom-3/README.md)
+- [JavaScript DOM 3 - Form and Storage](../modules/javascript-dom-3/README.md)
 - [CSS Preprocessing 1](../modules/css-preprocessing-1/README.md)
 
 ---
 
 ## Part 12
 
-- [JavaScript 8](../modules/javascript-8/README.md)
-- [GitHub 2](../modules/github-2/README.md)
+- [JavaScript 8 - Pattern Matching](../modules/javascript-8/README.md)
+- [GitHub 2 - Pull Request](../modules/github-2/README.md)
 
 ---
 
 ## Part 13
 
-- [JavaScript 9](../modules/javascript-9/README.md)
+- [JavaScript 9 - Strict Mode](../modules/javascript-9/README.md)
 - [jQuery 1](../modules/jquery-1/README.md)
+- [Node.js 1](../modules/nodejs-1/README.md)
 
 ---
 
@@ -28,7 +29,6 @@
 - [Paradigm 1](../modules/paradigm-1/README.md)
 - [Paradigm 2](../modules/paradigm-2/README.md)
 - [Architecture 1](../modules/architecture-1/README.md)
-- [Node.js 1](../modules/nodejs-1/README.md)
 
 ---
 

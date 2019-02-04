@@ -1,4 +1,4 @@
-# JavaScript 9
+# JavaScript 9 - Strict Mode
 
 ---
 

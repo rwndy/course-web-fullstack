@@ -1,4 +1,4 @@
-# JavaScript 8
+# JavaScript 8 - Pattern Matching
 
 ---
 

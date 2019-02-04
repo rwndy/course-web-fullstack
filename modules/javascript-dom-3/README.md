@@ -1,4 +1,4 @@
-# JavaScript DOM 3
+# JavaScript DOM 3 - Form and Storage
 
 ---
 
