@@ -1,12 +1,12 @@
-# Paradigm 3
+# Paradigm 3 - FP
 
 ---
 
 ## Functional Programming (FP)
 
-* Pure first-class functions
-* Data immutability, no dynamic variables, but constants
-* No manual loop, recursion is preferred
-* Pure function/component
-* Closures
-* Higher Order Component (HOC)
+Some popular concepts in functional programming are:
+
+- Pure first-class functions. Using functions that avoid accessing or mutating outer variables.
+- Data immutability. There is no dynamic variables, but only constants.
+- No manual loop anymore, array methods or recursion are preferred.
+- Higher Order Component (HOC). A function that takes a function/component and returns a new function/component.
