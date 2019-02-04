@@ -1,226 +1,223 @@
-# JavaScript 9 - Strict Mode
+# JavaScript 10
 
 ---
 
-## Strict mode: `use strict`
+## Synchronous vs Asynchronous
 
-`use strict` Defines that JavaScript code should be executed in "strict mode".
+In a **synchronous** programming model, things happen one at a time. When you call a function that performs a long-running action, it returns only when the action has finished and it can return the result. This stops your program for the time the action takes.
 
-After use strict code is executed, you can not do these things:
+An **asynchronous** model allows multiple things to happen at the same time. When you start an action, your program continues to run. When the action finishes, the program is informed and gets access to the result (for example, the data read from disk).
 
-Using a variable, without declaring it.
+In other term, asynchronous programming is a means of parallel programming in which a unit of work runs separately from the main application thread and notifies the calling thread of its completion, failure, or progress.
 
-```js
-'use strict'
-x = 3.14
-```
+Most PHP programs are synchronous, while most Node.js programs are asynchronous.
 
-Deleting variable/object/function, without declaring it.
-
-```js
-var x = 3.14
-delete x
-```
-
-Duplicating parameter.
-
-```js
-"use strict";
-function x(p1, p1) {};
-```
-
-Declaring numeric literal variable.
-
-```js
-"use strict";
-const x = 010;
-```
-
-If you declare use strict inside a function, only the code inside the function is in strict mode.
-
-```js
-x = 3.14 // This will not cause an error
-myFunction()
-
-function myFunction() {
-  'use strict'
-  y = 3.14 // This will cause an error
-}
-```
-
-Using reserved keyword for future JavaScript version.
-
-- implements
-- interface
-- let
-- package
-- private
-- protected
-- public
-- static
-- yield
+![PHP vs Node.js](./assets/php-vs-nodejs.jpg)
 
 ---
 
-## scope & `this` keyword
+## Callback Functions
 
-### In JavaScript there are two types of scope:
+In JavaScript, we can pass a function as an argument to another function. Then, the argument function can do a action as a callback function.
 
-- Local scope
-- Global scope
-
-Local scope example:
-
-```js
-// code here can NOT use carName
-
-function myFunction() {
-  var carName = 'Volvo'
-
-  // code here CAN use carName
-}
-```
-
-Global scole example:
-
-```js
-var carName = 'Volvo'
-
-// code here can use carName
-
-function myFunction() {
-  // code here can also use carName
-}
-```
-
-If you assign a value to a variable that has not been declared, it will automatically become a GLOBAL variable:
-
-```js
-myFunction()
-
-// code here can use carName
-
-function myFunction() {
-  carName = 'Volvo'
-}
-```
-
-### This keyword in JavaScript
-
-In a function definition, this refers to the "owner" of the function.
-
-If we run this code inside browser, this refer to window Object.
-
-```js
-function myFunction() {
-  return this
-}
-```
-
-In this example this refer to a person object.
-
-```js
-var person = {
-  firstName: 'John',
-  lastName: 'Doe',
-  id: 5566,
-  fullName: function() {
-    return this.firstName + ' ' + this.lastName
-  }
-}
-```
-
-### Function Binding Using call() and apply()
-
-The call() and apply() methods are predefined JavaScript methods.
-They can both be used to call an object method with another object as argument.
-
-```js
-var person1 = {
-  fullName: function() {
-    return this.firstName + ' ' + this.lastName
-  }
-}
-var person2 = {
-  firstName: 'John',
-  lastName: 'Doe'
-}
-person1.fullName.call(person2)
-```
-
-### Object Binding Using bind()
-
-```js
-var person1 = {
-  fullName: function() {
-    return this.firstName + ' ' + this.lastName
-  }
-}
-var person2 = {
-  firstName: 'John',
-  lastName: 'Doe'
+```javascript
+//callback function example
+function logName(name) {
+  console.log(`My Name is ${name}`)
 }
 
-person1.fullName.bind(person2)()
+function insertCustomName(callback) {
+  var name = 'Haidar'
+  callback(name)
+}
+
+insertCustomName(logName)
 ```
 
 ---
 
-## Pass by value and reference
+## Promise
 
-Pass by value copies the value into two separate spots in memory effectively making them entirely separate entities despite one initially being set equal to the other.
+Promise is an alternative way of using callback.
 
-![pass-by-value](./images/pass-by-value.png)
+A promise has 3 states:
 
-Pass by value example:
+1. `pending`: initial state, neither fulfilled nor rejected.
+2. `fulfilled`: meaning that the operation completed successfully.
+3. `rejected`: meaning that the operation failed.
+
+### Creating promises
+
+We can create new promise using `Promise` built in object.
+If the promise is fulfilled, use `resolve()` to pass your success value. If the promise is rejected, use `reject()` to pass your fail value.
+
+After a proise is fulfilled/rejected, the success/faill falue will be handled by `.then` or `.catch`.
+
+syntax:
 
 ```js
-let a = 5
-let b = a
+//creating promise
+var newPromise = new Promise(function(resolve, reject) {
+  // put your code here
+  //
+  //   resolve(someValue); // use resolve if promise is fulfilled
+  // or
+  //   reject("failure reason"); // use reject is promise is rejected
+})
 
-console.log(a) // => 5
-console.log(b) // => 5
-
-a = 1
-
-console.log(a) // => 1
-console.log(b) // => 5
+//using promise
+newPromise
+  .then(sucessValue => {
+    //do something with sucessValue
+  })
+  .catch(error => {
+    //do something with error
+  })
 ```
 
-All objects interact by reference in JavaScript so when setting equal to each other or passing to a function they all point to the same location so when you change one object you change them all.
+### Basic Example
 
-![pass-by-refference](./images/pass-by-refference.png)
+Don't forget to use `Error` built-in object because `.catch` will catch an error from reject.
 
 ```js
+//try it yourself, and change the condition to true/false
+const condition = false
 
-let a = {language: "JavaScript"}
-let b = a
+let myFirstPromise = new Promise((resolve, reject) => {
+  if (condition) {
+    resolve('fulfilled!')
+  } else {
+    const reason = new Error('rejected!')
+    reject(reason)
+  }
+})
 
-console.log(a) // => {language: "JavaScript"}
-console.log(b) => {language: "JavaScript"}
-
-a.language = "Ruby"
-
-console.log(a) // => {language: "Ruby"}
-console.log(b) // => {language: "Ruby"}
+myFirstPromise
+  .then(successMessage => {
+    console.log('.then >>> ' + successMessage)
+  })
+  .catch(error => console.log('.catch >>> ' + error.message))
+//console output: .catch >>> rejected!
 ```
 
-## Object Constructor
-
-Sometimes we need a "blueprint" for creating many objects of the same "type".
-The way to create an "object type", is to use an object constructor function.
+### Advanced Example
 
 ```js
-function Person(first, last, age, eyecolor) {
-  this.firstName = first
-  this.lastName = last
-  this.age = age
-  this.eyeColor = eyecolor
+//promise example from scotch.io (Jecelyn Yeen)
+const isMomHappy = false
+
+// Promise
+const willIGetNewPhone = new Promise((resolve, reject) => {
+  // fat arrow
+  if (isMomHappy) {
+    const phone = {
+      brand: 'Samsung',
+      color: 'black'
+    }
+    resolve(phone)
+  } else {
+    const reason = new Error('mom is not happy')
+    reject(reason)
+  }
+})
+
+const showOff = function(phone) {
+  const message =
+    'Hey friend, I have a new ' + phone.color + ' ' + phone.brand + ' phone'
+  return Promise.resolve(message)
 }
-var myFather = new Person('John', 'Doe', 50, 'blue')
-var myMother = new Person('Sally', 'Rally', 48, 'green')
+
+// call our promise
+const askMom = function() {
+  willIGetNewPhone
+    .then(showOff)
+    .then(fulfilled => console.log(fulfilled)) // fat arrow
+    .catch(error => console.log(error.message)) // fat arrow
+}
+
+askMom()
 ```
 
-<!-- All JavaScript objects inherit properties and methods from a prototype. -->
+---
 
-<!-- * Exception and error handling: `try catch`, `.then`/`.catch` -->
+# Async Await (async/await)
+
+- [dotJS 2017 - Wes Bos - Async + Await](https://www.youtube.com/watch?v=9YkUCxvaLEk)
+
+## Async
+
+Async is a modification of `Promise` syntax, you can write `Promise` with `async` syntax easier.
+
+The return value of an async function is recognized as a promise `resolve()`
+
+example:
+
+```js
+//this async
+async function myAsyncFunction() {
+  return 'theValue'
+}
+
+//is equal to
+function myAsyncFunction() {
+  return Promise.resolve('theValue')
+}
+
+//so you can call it like this
+myAsyncFunction().then(returnedVal => console.log(returnedVal))
+//console output: theValue
+```
+
+And the throw of an async function is recognized as a promise `reject()`
+
+```js
+//this
+async function my2ndAsyncFunction() {
+  throw 'error'
+}
+
+//is equal to
+function my2ndAsyncFunction() {
+  return Promise.reject('error')
+}
+
+//so you can call it like this
+my2ndAsyncFunction().catch(err => console.log(err))
+//console output: error
+```
+
+## Await
+
+Await is only used with an async function. The await keyword is used in an async function to ensure that all promises returned in the async function are synchronized.
+
+```js
+async function myDate() {
+  try {
+    let dateDetails = await date
+    let message = await orderUber(dateDetails)
+    console.log(message)
+  } catch (error) {
+    console.log(error.message)
+  }
+}
+```
+
+---
+
+## References
+
+- https://scotch.io/tutorials/javascript-promises-for-dummies
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+- https://scotch.io/courses/10-need-to-know-javascript-concepts/callbacks-promises-and-async#async-and-await
+
+<!-- ## `apply`, `call`, `bind` -->
+
+<!--
+* Prevent regression
+* Abstraction
+* Decomposition
+* Method chaining
+* Data parsing and serialization
+* Hoisting, Closures, Prototypes
+* Function inside function, return object with function
+-->
