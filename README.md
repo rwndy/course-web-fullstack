@@ -53,7 +53,7 @@ Typical agenda that will run through in our onsite class.
 ### Documentation
 
 - [MarkSheet: a free HTML and CSS tutorial - Free tutorial to learn HTML and CSS](https://marksheet.io)
-- [JavaScript.info - The Modern Javascript Tutorial](https://javascript.info)
+- [JavaScript.info - The Modern JavaScript Tutorial](https://javascript.info)
 - [DevDocs API Documentation](https://devdocs.io)
 - [MDN Web Docs](https://developer.mozilla.org)
 
@@ -64,7 +64,7 @@ Typical agenda that will run through in our onsite class.
 - [Front-End Developer Handbook 2018](https://frontendmasters.com/books/front-end-handbook/2018)
 - [Front-End Developer Handbook 2017](https://frontendmasters.com/books/front-end-handbook/2017)
 - [Front-End Developer Handbook 2016](https://www.frontendhandbook.com)
-- [The Modern Javascript Tutorial on JavaScript.info](https://javascript.info)
+- [The Modern JavaScript Tutorial on JavaScript.info](https://javascript.info)
 - [freeCodeCamp](https://www.freecodecamp.org)
 - [Hard Coding Concepts Explained with Simple Real-life Analogies](https://medium.freecodecamp.org/hard-coding-concepts-explained-with-simple-real-life-analogies-280635e98e37)
 - [Super Full Stack Web Developer in Modern Expectation](https://mhaidarhanif.com/expectation)

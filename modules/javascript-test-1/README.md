@@ -61,7 +61,7 @@ One of the best choice for testing is Jest, a complete JavaScript testing soluti
 - [Chai is a BDD / TDD assertion library for node and the browser](http://www.chaijs.com)
 - [`chai-http` - Chai HTTP integration testing with Chai assertions](https://npm.im/chai-http)
 - [Jasmine - Behavior-Driven JavaScript](https://jasmine.github.io)
-- [Karma - Spectacular Test Runner for Javascript](https://karma-runner.github.io)
+- [Karma - Spectacular Test Runner for JavaScript](https://karma-runner.github.io)
 - [Selenium - Web Browser Automation](https://www.seleniumhq.org)
 - [Nightmare - A high-level browser automation library](http://www.nightmarejs.org)
 - [Cucumber - Simple, human collaboration](https://cucumber.io)

@@ -20,7 +20,7 @@ An IIFE (Immediately Invoked Function Expression) is a JavaScript function that 
 
 ### Callback Functions
 
-In Javascript, we can pass a function as an argument to another function. Then, the argument function can do a action as a callback function.
+In JavaScript, we can pass a function as an argument to another function. Then, the argument function can do a action as a callback function.
 
 ```javascript
 //callback function example

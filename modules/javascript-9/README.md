@@ -183,18 +183,18 @@ console.log(a) // => 1
 console.log(b) // => 5
 ```
 
-All objects interact by reference in Javascript so when setting equal to each other or passing to a function they all point to the same location so when you change one object you change them all.
+All objects interact by reference in JavaScript so when setting equal to each other or passing to a function they all point to the same location so when you change one object you change them all.
 
 ![pass-by-refference](./images/pass-by-refference.png)
 
 
 ```js
 
-let a = {language: "Javascript"}
+let a = {language: "JavaScript"}
 let b = a
 
-console.log(a) // => {language: "Javascript"}
-console.log(b) => {language: "Javascript"}
+console.log(a) // => {language: "JavaScript"}
+console.log(b) => {language: "JavaScript"}
 
 a.language = "Ruby"
 

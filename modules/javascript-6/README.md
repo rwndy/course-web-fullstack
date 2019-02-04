@@ -1,4 +1,4 @@
-# Javascript 6
+# JavaScript 6
 
 ## Built-In Functions
 
@@ -11,7 +11,7 @@
 
 ## String Built-In Functions
 
-Javascript's string has various built-in function like`charAt`,`length`,`toUpperCase`,`toLowerCase`,`split`,`replace`,`substr`
+JavaScript's string has various built-in function like`charAt`,`length`,`toUpperCase`,`toLowerCase`,`split`,`replace`,`substr`
 
 ```javascript
 //charAt Example

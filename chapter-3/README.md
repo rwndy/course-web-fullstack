@@ -6,7 +6,6 @@
 
 - [JavaScript DOM 3](../modules/javascript-dom-3/README.md)
 - [CSS Preprocessing 1](../modules/css-preprocessing-1/README.md)
-- [Web 4](../modules/web-4/README.md)
 
 ---
 
@@ -40,3 +39,9 @@
 - [JavaScript 10](../modules/javascript-10/README.md)
 - [Paradigm 3](../modules/paradigm-3/README.md)
 - [JavasScript Project 4](../modules/javascript-project-4/README.md)
+
+---
+
+## Part Extra
+
+- [Web 4](../modules/web-4/README.md)

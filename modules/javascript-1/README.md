@@ -2,7 +2,7 @@
 
 ## What is JavaScript
 
-Javascript is a popular programming language that usually used to build web application rapidly.
+JavaScript is a popular programming language that usually used to build web application rapidly.
 
 ## History
 
@@ -49,7 +49,7 @@ Console is javascript feature that allows us to debug our javascript apps, there
 
 - Guide
   - [JavaScript in 14 minutes](https://jgthms.com/javascript-in-14-minutes)
-  - [The Modern Javascript Tutorial on JavaScript.info](https://javascript.info)
+  - [The Modern JavaScript Tutorial on JavaScript.info](https://javascript.info)
   - [JavaScript Enlightenment](http://javascriptenlightenment.com)
   - [Eloquent JavaScript](https://eloquentjavascript.net)
   - [freeCodeCamp](https://www.freecodecamp.org)
@@ -59,8 +59,8 @@ Console is javascript feature that allows us to debug our javascript apps, there
 - Documentation
   - [JavaScript documentation on DevDocs](http://devdocs.io/javascript)
   - [JavaScript on MDN](https://developer.mozilla.org/bm/docs/Web/JavaScript)
-  - [Javascript Tutorial on TutorialsPoint](https://www.tutorialspoint.com/javascript/index.htm)
-  - [Javascript Tutorial on W3Schools](https://www.w3schools.com/js/default.asp)
+  - [JavaScript Tutorial on TutorialsPoint](https://www.tutorialspoint.com/javascript/index.htm)
+  - [JavaScript Tutorial on W3Schools](https://www.w3schools.com/js/default.asp)
 - Style Guide
   - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
   - [13 Noteworthy Points from Google’s JavaScript Style Guide](https://medium.freecodecamp.org/google-publishes-a-javascript-style-guide-here-are-some-key-lessons-1810b8ad050b)
