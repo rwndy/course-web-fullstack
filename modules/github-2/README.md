@@ -2,7 +2,7 @@
 
 ---
 
-## Collaboration: pull/merge request
+## Collaboration: Pull or Merge Request
 
 Pull requests (in GitHub) or merge request (in GitLab), created in Git to ask an assigned person to merge two different or same branches. In GitHub, collaboration is often done by these flows that involve pull request.
 
@@ -14,8 +14,8 @@ Pull requests let you tell others about changes you've pushed to a repository on
 
 There are 2 main workflow when dealing with pull requests:
 
-1.  Pull request from branch within a repository.
-1.  Pull request from a forked repository.
+1. Pull request from branch within a repository.
+2. Pull request from a forked repository.
 
 ---
 
@@ -28,20 +28,20 @@ There are 2 main workflow when dealing with pull requests:
 Clone the repo, then create a `branch`
 
 ```
-git checkout -b pull-request-demo
+git checkout -b your-branch-name
 ```
 
 Add commits to that created `branch`
 
 ```
-git add
+git add .
 git commit -m "[commit message]"
 ```
 
 Push the `branch` from `local` to `remote`
 
 ```
-git push origin pull-request-demo
+git push origin your-branch-name
 ```
 
 Open a pull request, from that `branch` to `master`
@@ -62,7 +62,7 @@ Click Create pull request.
 
 ![](./assets/github-create-pull-request-button.png)
 
-Discuss and review your code with peers.
+Discuss and review your code with your peers.
 
 Deploy the `branch` for testing purpose.
 
@@ -103,7 +103,7 @@ git push origin master
 
 Open a pull request, from forked `master` to original `master`
 
-Go to GitHub original source repo (not forked repo), click New pull request.
+Go to GitHub original source repo (not the forked repo), click New pull request.
 
 ![](./assets/github-new-pull-request-master.png)
 
