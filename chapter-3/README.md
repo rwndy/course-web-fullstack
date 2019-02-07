@@ -20,13 +20,13 @@
 
 - [jQuery](../modules/jquery-1/README.md)
 - [Node.js](../modules/nodejs-1/README.md)
-- [JavaScript 9 - Async](../modules/javascript-9/README.md)
 
 ---
 
 ## Part 14
 
 - [JavaScript 10 - Strict and Scope](../modules/javascript-10/README.md)
+- [JavaScript 9 - Async](../modules/javascript-9/README.md)
 - [Architecture](../modules/architecture-1/README.md)
 - [Management](../modules/management-1/README.md)
 
