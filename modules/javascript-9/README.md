@@ -1,4 +1,4 @@
-# JavaScript 10
+# JavaScript Async
 
 ---
 
@@ -20,14 +20,14 @@ Most PHP programs are synchronous, while most Node.js programs are asynchronous.
 
 In JavaScript, we can pass a function as an argument to another function. Then, the argument function can do a action as a callback function.
 
-```javascript
-//callback function example
-function logName(name) {
+```js
+// callback function example
+const logName = name => {
   console.log(`My Name is ${name}`)
 }
 
-function insertCustomName(callback) {
-  var name = 'Haidar'
+const insertCustomName = callback => {
+  const name = 'Haidar'
   callback(name)
 }
 
@@ -56,22 +56,20 @@ After a proise is fulfilled/rejected, the success/faill falue will be handled by
 syntax:
 
 ```js
-//creating promise
+// creating promise
 var newPromise = new Promise(function(resolve, reject) {
-  // put your code here
-  //
-  //   resolve(someValue); // use resolve if promise is fulfilled
+  // resolve(someValue); // use resolve if promise is fulfilled
   // or
-  //   reject("failure reason"); // use reject is promise is rejected
+  // reject("failure reason"); // use reject is promise is rejected
 })
 
-//using promise
+// using promise
 newPromise
   .then(sucessValue => {
-    //do something with sucessValue
+    // do something with sucessValue
   })
   .catch(error => {
-    //do something with error
+    // do something with error
   })
 ```
 
@@ -80,69 +78,61 @@ newPromise
 Don't forget to use `Error` built-in object because `.catch` will catch an error from reject.
 
 ```js
-//try it yourself, and change the condition to true/false
+// try to change the condition to true or false
 const condition = false
 
-let myFirstPromise = new Promise((resolve, reject) => {
+const myFirstPromise = new Promise((resolve, reject) => {
   if (condition) {
-    resolve('fulfilled!')
+    resolve('Fulfilled!')
   } else {
-    const reason = new Error('rejected!')
-    reject(reason)
+    reject(new Error('Rejected!'))
   }
 })
 
 myFirstPromise
   .then(successMessage => {
-    console.log('.then >>> ' + successMessage)
+    console.log(successMessage)
   })
-  .catch(error => console.log('.catch >>> ' + error.message))
-//console output: .catch >>> rejected!
+  .catch(error => {
+    console.log(error.message)
+  })
 ```
 
 ### Advanced Example
 
 ```js
-//promise example from scotch.io (Jecelyn Yeen)
-const isMomHappy = false
+const isHappy = false
 
 // Promise
-const willIGetNewPhone = new Promise((resolve, reject) => {
+const getPhone = new Promise((resolve, reject) => {
   // fat arrow
-  if (isMomHappy) {
+  if (isHappy) {
     const phone = {
-      brand: 'Samsung',
-      color: 'black'
+      brand: 'iPhone',
+      color: 'white'
     }
     resolve(phone)
   } else {
-    const reason = new Error('mom is not happy')
+    const reason = new Error('I am not happy')
     reject(reason)
   }
 })
 
-const showOff = function(phone) {
-  const message =
-    'Hey friend, I have a new ' + phone.color + ' ' + phone.brand + ' phone'
+const showPhone = function(phone) {
+  const message = `I have a new ${phone.color} ${phone.brand} phone.`
   return Promise.resolve(message)
 }
 
 // call our promise
-const askMom = function() {
-  willIGetNewPhone
-    .then(showOff)
-    .then(fulfilled => console.log(fulfilled)) // fat arrow
-    .catch(error => console.log(error.message)) // fat arrow
-}
-
-askMom()
+getPhone
+  .then(showPhone)
+  .then(fulfilled => console.log(fulfilled))
+  .catch(error => console.log(error.message))
 ```
 
 ---
 
 # Async Await (async/await)
-
-- [dotJS 2017 - Wes Bos - Async + Await](https://www.youtube.com/watch?v=9YkUCxvaLEk)
 
 ## Async
 
@@ -153,37 +143,35 @@ The return value of an async function is recognized as a promise `resolve()`
 example:
 
 ```js
-//this async
+// async function
 async function myAsyncFunction() {
   return 'theValue'
 }
 
-//is equal to
+// is equal to
 function myAsyncFunction() {
   return Promise.resolve('theValue')
 }
 
-//so you can call it like this
+// so you can call it like this
 myAsyncFunction().then(returnedVal => console.log(returnedVal))
-//console output: theValue
 ```
 
-And the throw of an async function is recognized as a promise `reject()`
+And the throw of an async function is recognized as a promise `reject()`.
 
 ```js
-//this
+// async function
 async function my2ndAsyncFunction() {
   throw 'error'
 }
 
-//is equal to
+// is equal to
 function my2ndAsyncFunction() {
   return Promise.reject('error')
 }
 
-//so you can call it like this
-my2ndAsyncFunction().catch(err => console.log(err))
-//console output: error
+// so you can call it like this
+my2ndAsyncFunction().catch(error => console.log(error))
 ```
 
 ## Await
@@ -191,15 +179,24 @@ my2ndAsyncFunction().catch(err => console.log(err))
 Await is only used with an async function. The await keyword is used in an async function to ensure that all promises returned in the async function are synchronized.
 
 ```js
-async function myDate() {
+async function orderTaxiWithSchedule() {
   try {
-    let dateDetails = await date
-    let message = await orderUber(dateDetails)
-    console.log(message)
+    const dateDetails = await date
+    const message = await orderTaxi(dateDetails)
+    // only continue after orderTaxi() is finished
+    return message
   } catch (error) {
-    console.log(error.message)
+    return error
   }
 }
+
+orderTaxiWithSchedule
+  .then(message => {
+    console.log(message)
+  })
+  .catch(error => {
+    console.error(error)
+  })
 ```
 
 ---
@@ -209,8 +206,7 @@ async function myDate() {
 - https://scotch.io/tutorials/javascript-promises-for-dummies
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 - https://scotch.io/courses/10-need-to-know-javascript-concepts/callbacks-promises-and-async#async-and-await
-
-<!-- ## `apply`, `call`, `bind` -->
+- [dotJS 2017 - Wes Bos - Async + Await](https://www.youtube.com/watch?v=9YkUCxvaLEk)
 
 <!--
 * Prevent regression
