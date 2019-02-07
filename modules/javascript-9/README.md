@@ -57,7 +57,7 @@ syntax:
 
 ```js
 // creating promise
-var newPromise = new Promise(function(resolve, reject) {
+const newPromise = new Promise((resolve, reject) => {
   // resolve(someValue); // use resolve if promise is fulfilled
   // or
   // reject("failure reason"); // use reject is promise is rejected
