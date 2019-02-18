@@ -122,23 +122,39 @@ The `fetch()` browser API provides a JavaScript interface for accessing and mani
 
 A request to API will return as a javascript response object. We can use `.json()` built in method to returns a promise that resolves with the result of parsing the body text as JSON.
 
-example:
-
 ```js
 fetch('https://api.github.com/users/username')
   .then(response => {
+    // We have to convert the response manually
     return response.json()
   })
   .then(data => {
     console.log(data)
   })
+  .catch(error => {
+    console.log(error)
+  })
+```
+
+We can also use packages like [`axios`](https://www.npmjs.com/package/axios) to handle it better.
+
+```js
+axios
+  .get('https://api.github.com/users/username')
+  .then(response => {
+    // Response is already in JSON format
+    console.log(response)
+  })
+  .catch(error => {
+    console.log(error)
+  })
 ```
 
 ---
 
-### Websocket
+### WebSocket
 
-WebSockets are an advanced technology that makes it possible to open an interactive communication session between the user's browser and a server. With this API, you can send messages to a server and receive event-driven responses without having to poll the server for a reply.
+WebSocket is an advanced technology that makes it possible to open an interactive communication session between the user's browser and a server. With this API, you can send messages to a server and receive event-driven responses without having to poll the server for a reply.
 
 ## References
 
