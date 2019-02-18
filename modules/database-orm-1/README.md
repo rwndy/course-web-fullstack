@@ -1,4 +1,4 @@
-# Database ORM 1
+# Database SQL ORM
 
 ---
 
@@ -60,16 +60,16 @@ npm install --save sequelize
 
 ```js
 // Require sequelize
-const Sequelize = require("sequelize")
+const Sequelize = require('sequelize')
 
 // Create database connection
 const sequelize = new Sequelize(
-  "DB_NAME", // Database Name
-  "DB_USER", // Database Username
-  "DB_PASSWORD", // Database Password
+  'DB_NAME', // Database Name
+  'DB_USER', // Database Username
+  'DB_PASSWORD', // Database Password
   {
-    host: "localhost", // Database host
-    dialect: "mysql" // Database type
+    host: 'localhost', // Database host
+    dialect: 'mysql' // Database type
   }
 )
 ```
@@ -78,7 +78,7 @@ const sequelize = new Sequelize(
 
 ```js
 // Create User model
-const User = sequelize.define("user", {
+const User = sequelize.define('user', {
   username: Sequelize.STRING,
   age: Sequelize.INTEGER
 })
@@ -88,7 +88,7 @@ const User = sequelize.define("user", {
 
 ```js
 User.create({
-  username: "janedoe",
+  username: 'janedoe',
   birthday: 25
 }).then(data => {
   console.log(data) // Will return user object
@@ -107,25 +107,25 @@ User.findAll().then(data => {
 ### Example with express
 
 ```js
-const express = require("express")
-const Sequelize = require("sequelize")
+const express = require('express')
+const Sequelize = require('sequelize')
 
 // Initialize express
 const app = express()
 
 // Create connection
 const sequelize = new Sequelize(
-  "DB_NAME", // Database Name
-  "DB_USER", // Database Username
-  "DB_PASSWORD", // Database Password
+  'DB_NAME', // Database Name
+  'DB_USER', // Database Username
+  'DB_PASSWORD', // Database Password
   {
-    host: "localhost", // Database host
-    dialect: "mysql" // Database type
+    host: 'localhost', // Database host
+    dialect: 'mysql' // Database type
   }
 )
 
 // Create user model
-const User = sequelize.define("user", {
+const User = sequelize.define('user', {
   username: Sequelize.STRING,
   age: Sequelize.INTEGER
 })
@@ -133,7 +133,7 @@ const User = sequelize.define("user", {
 // Synchronize database
 sequelize.sync().then(() => {
   // Handle GET /users request
-  app.get("/users", (req, res) => {
+  app.get('/users', (req, res) => {
     // Get all users
     User.findAll().then(data => {
       res.send(data)

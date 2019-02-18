@@ -4,28 +4,33 @@
 
 ## Part 21
 
-- [API 1](../modules/api-1/README.md)
+- [REST API](../modules/api-1/README.md)
 
 ---
 
 ## Part 22
 
-- [Node.js 1](../modules/nodejs-1/README.md)
+- [Node.js](../modules/nodejs-1/README.md)
+- [Express.js](../modules/expressjs-1/README.md)
 
 ---
 
 ## Part 23
 
-- [Express.js 1](../modules/expressjs-1/README.md)
+- [Database SQL](../modules/database-1/README.md)
+- [Database SQL ORM](../modules/database-orm-1/README.md)
 
 ---
 
 ## Part 24
 
-- [Database 1](../modules/database-1/README.md)
+- [Database NoSQL](../modules/database-2/README.md)
+- [Database NoSQL ODM](../modules/database-orm-2/README.md)
 
 ---
 
 ## Part 25
 
-- [Database ORM 1](../modules/database-orm-1/README.md)
+- [JavaScript Authentication/Authorization](../modules/javascript-auth-1/README.md)
+- [JavaScript Testing](../modules/javascript-test-1/README.md)
+- [Computer Science](../modules/computer-science-1/README.md)

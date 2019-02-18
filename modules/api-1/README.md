@@ -125,7 +125,7 @@ A request to API will return as a javascript response object. We can use `.json(
 example:
 
 ```js
-fetch("https://api.github.com/users/username")
+fetch('https://api.github.com/users/username')
   .then(response => {
     return response.json()
   })
@@ -179,6 +179,13 @@ There are various web protocols available today:
 - WebRTC
 
 The last three are used for real-time functionality.
+
+---
+
+# API-based Database
+
+- Contentful
+- Prismic
 
 ---
 

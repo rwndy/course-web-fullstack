@@ -1,4 +1,4 @@
-# JavaScript Auth 1
+# JavaScript Authentication/Authorization
 
 ---
 

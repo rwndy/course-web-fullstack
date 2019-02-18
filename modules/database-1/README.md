@@ -1,4 +1,4 @@
-# Database 1
+# Database SQL
 
 ---
 
@@ -566,12 +566,16 @@ When a node is removed from the system, the system continues to operate and upho
 
 ---
 
-# Database Trivia
+# Database Trivia Terminologies
 
 - Database Indexing
 - Entity Relationship Diagram (ERD)
 - Data Flow Diagram (DFD)
 - Extract, Transform, Load (ETL)
+- Backup as Dump
+- Master Slave
+- Replica Set
+- Clustering
 
 ---
 

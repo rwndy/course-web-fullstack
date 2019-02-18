@@ -1,4 +1,4 @@
-# JavaScript Test 1
+# JavaScript Testing
 
 ---
 

@@ -1,4 +1,4 @@
-# Database 2
+# Database NoSQL
 
 ---
 
