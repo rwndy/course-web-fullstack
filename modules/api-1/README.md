@@ -139,15 +139,12 @@ fetch('https://api.github.com/users/username')
 We can also use packages like [`axios`](https://www.npmjs.com/package/axios) to handle it better.
 
 ```js
+const axios = require('axios')
+
 axios
-  .get('https://api.github.com/users/username')
-  .then(response => {
-    // Response is already in JSON format
-    console.log(response)
-  })
-  .catch(error => {
-    console.log(error)
-  })
+  .get('https://api.github.com/users/yourusername')
+  .then(response => console.log(response.data))
+  .catch(error => console.log(error))
 ```
 
 ---
