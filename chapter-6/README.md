@@ -4,4 +4,4 @@
 
 ## Part 26-30
 
-- Let's build our full stack project with mentor
+Let's build or clone a full stack project with mentor

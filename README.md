@@ -35,8 +35,8 @@ Typical agenda that will run through in our onsite class.
 - [Chapter 2](chapter-2/README.md): Logic, Algorithm, JavaScript, DOM
 - [Chapter 3](chapter-3/README.md): jQuery, Paradigms, Architecture
 - [Chapter 4](chapter-4/README.md): React, Redux, React Native
-- [Chapter 5](chapter-5/README.md): REST API, Node.js, Express.js, Auth, Testing
-- [Chapter 6](chapter-6/README.md): Database, Auth, Test, Computer Science
+- [Chapter 5](chapter-5/README.md): REST API, Node.js, Express.js, Database, Auth, Testing
+- [Chapter 6](chapter-6/README.md): Project Clone
 - [Chapter 7](chapter-7/README.md): Final Team Project
 - [Chapter 8](chapter-8/README.md): Final Team Project
 
